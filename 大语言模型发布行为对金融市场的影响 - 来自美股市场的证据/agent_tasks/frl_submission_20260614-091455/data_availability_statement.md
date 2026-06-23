@@ -1,0 +1,3 @@
+# Data Availability Statement
+
+The event list, firm-event panel, abnormal-return measures, and replication code are being organized for release with the paper. Public inputs include stock returns, firm characteristics, model-release information, Artificial Analysis benchmark data, and news text used to construct FinBERT sentiment measures. Some raw commercial or platform-restricted inputs may not be redistributed. Where redistribution is not allowed, the replication package will provide source descriptions, collection dates, variable definitions, and scripts that rebuild the analysis from locally supplied raw inputs.

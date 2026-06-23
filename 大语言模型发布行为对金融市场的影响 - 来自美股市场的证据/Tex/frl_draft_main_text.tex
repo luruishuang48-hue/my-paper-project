@@ -1,0 +1,503 @@
+\documentclass[12pt]{article}
+
+% ── Packages ────────────────────────────────────────────────────────────────
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{microtype}
+
+% ── Title ───────────────────────────────────────────────────────────────────
+\title{\textbf{Appropriability and the Market Pricing of AI Model Capability}%
+\thanks{We thank [ACKNOWLEDGMENTS]. All errors are our own.}}
+\author{Zhuo Chen \and Ruishuang Lu \\[0.5em]
+\small [Shandong University]}
+\date{\small This version: June 2026}
+
+% ────────────────────────────────────────────────────────────────────────────
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+% ── Abstract ────────────────────────────────────────────────────────────────
+\begin{abstract}
+\noindent
+Do financial markets price the capability of large language models (LLMs), or do
+they merely react to AI hype? We study 60 major LLM release events from 2024 to
+early 2026, constructing a firm-event panel of 86 AI-related listed companies. We
+measure model capability using the Artificial Analysis Intelligence Index and
+estimate cumulative abnormal returns over a 20-trading-day window. Closed-source
+model releases drive a positive capability-pricing effect: a one-standard-deviation
+increase in intelligence is associated with a 3.0 percentage point higher
+CAR$[0,{+}20]$ ($\hat{\beta} = 0.0023$, $p = 0.008$ under wild cluster bootstrap).
+This effect is absent for open-source releases, where the capability slope is
+attenuated and reverses sign in point estimates. Media sentiment, measured by
+FinBERT, is negatively associated with post-release returns---consistent with
+narrative-driven pre-pricing that is distinct from technological capability.
+Markets appear to price AI capability primarily when it can be appropriated.
+\end{abstract}
+
+\medskip
+\noindent\textit{JEL codes:} G14, O30, L86\\
+\noindent\textit{Keywords:} large language models, event study, appropriability, abnormal returns, media sentiment
+
+\newpage
+
+% ── 1. Introduction ─────────────────────────────────────────────────────────
+\section{Introduction}
+\label{sec:intro}
+
+Large language model releases have become routine technology shocks---roughly 30
+major releases per year in 2024--2025---attracting widespread investor attention.
+Less clear is whether markets price the \emph{capability} embedded in these
+releases or merely the \emph{narrative} surrounding them. This distinction matters
+for understanding how financial markets process technological information and for
+valuing firms whose competitive positions depend on appropriable AI performance.
+
+Appropriability theory predicts that the market value of a technological advance
+should depend on whether the innovating firm can capture the rents it generates
+\citep{Teece1986}. Closed-source LLM deployments create proprietary
+barriers---API lock-in, ecosystem advantages, and pricing power over model
+access. Open-source releases, by contrast, diffuse capability broadly and may
+commoditize inference services, eroding the competitive rents that would otherwise
+be capitalized into stock prices. If appropriability determines market pricing,
+the coefficient on model capability should be positive for closed-source releases
+and weaker---or reversed---for open-source releases.
+
+We test this prediction using a firm-event panel spanning 60 major LLM releases
+from January 2024 through early 2026. We measure capability with the Artificial
+Analysis (AA) Intelligence Index, a composite benchmark score that aggregates
+performance across standardized reasoning and knowledge tasks. Our main outcome
+is the market-model cumulative abnormal return over $[0,{+}20]$ trading days,
+estimated separately for each firm-event pair and then regressed on the AA
+Intelligence Index, conditioning on firm-level controls (size, book-to-market,
+volatility, momentum) and year fixed effects. We cluster standard errors by event
+and report results under both CR2 (Bell-McCaffrey small-cluster correction) and a
+manually implemented Rademacher wild cluster bootstrap.
+
+Three findings emerge. First, among closed-source releases, capability is
+positively priced with strong statistical support: $\hat{\beta} = 0.0023$, CR2
+$p = 0.007$, wild bootstrap $p = 0.008$, over 36 event clusters. A
+one-standard-deviation increase in the Intelligence Index is associated with a
+3.0 percentage-point higher 20-day abnormal return. Second, when we interact
+capability with an open-source indicator, the slope for open-source releases is
+substantially attenuated in point estimates (implied slope $= -0.0015$), though
+the interaction term is only marginally significant under the most conservative
+inference (CR2 $p = 0.048$, wild bootstrap $p = 0.086$); results should be read
+as suggestive. Third, media sentiment measured by FinBERT is \emph{negatively}
+associated with CAR$[0,{+}20]$ ($\hat{\beta} = -0.081$, CR2 $p = 0.003$), and
+intelligence remains positively predictive after controlling for sentiment,
+suggesting the capability effect reflects technological information rather than
+narrative heat.
+
+This paper connects to three bodies of work. Event studies on technology shocks
+document positive abnormal returns around IT capability announcements
+\citep[CITATION]{}), but they cannot separate capability from attention because
+both co-move with the event. \citet{HallJaffeTrajtenberg2005} show that patent
+citations---a proxy for technological appropriability---predict firm market value,
+establishing that rent-capture moderates the value of innovation.
+\citet{Tetlock2007} and \citet{EngelbergParsons2011} document that media sentiment
+moves short-run prices; however, they do not test whether fundamental capability
+survives sentiment controls or examine the direction of long-run returns. No study
+we are aware of isolates \emph{which dimension} of AI model performance drives
+post-release stock returns or whether the capability-to-value link depends on the
+appropriability of the release. We provide this evidence, using direct capability
+scores rather than proxies, and decompose LLM event returns into a
+fundamental-capability component and a narrative component that move in opposite
+directions.
+
+The remainder of this paper proceeds as follows. Section~\ref{sec:data} describes
+the data and variable construction. Section~\ref{sec:hyp} develops two testable
+hypotheses. Section~\ref{sec:results} presents the main results.
+Section~\ref{sec:robust} reports robustness checks. Section~\ref{sec:conclusion}
+concludes.
+
+% ── 2. Data ─────────────────────────────────────────────────────────────────
+\section{Data and Variable Construction}
+\label{sec:data}
+
+\paragraph{Event sample.}
+We compile 60 major LLM release events from January 2024 through March 2026,
+drawing on model release announcements documented in AI benchmarking databases
+and verified against official developer communications. Events are aggregated to
+the model-family level when a developer releases multiple variants simultaneously;
+a release event is included only if it corresponds to a meaningfully new
+capability level rather than a minor update. The result is one observation per
+release, with a confirmed public announcement date.
+
+\paragraph{Firm-event panel.}
+For each event we include up to 86 AI-related listed firms whose business
+activities are plausibly connected to LLM development or deployment. Connection
+types include direct model development (owner), equity investment in the developer
+(investor), cloud infrastructure provision (cloud), upstream hardware supply,
+downstream software integration, and direct competition. We identify these
+relationships through public filings, investment records, and product
+documentation, and we code them as binary pre-event indicators. We control for
+firm-model exposure using these pre-event relationship indicators; full variable
+definitions are in Appendix~A. The full panel has 5,161 firm-event observations;
+the regression sample with non-missing Intelligence Index and controls contains
+3,780 observations across 47 event clusters.
+
+\paragraph{Cumulative abnormal returns.}
+We estimate daily abnormal returns using a market model with parameters estimated
+over a $[-200, -21]$ pre-event window \citep{MacKinlay1997}. We then accumulate
+abnormal returns over post-announcement windows, with the primary window
+$[0,{+}20]$ (twenty trading days). The event date is the verified public
+announcement date.
+
+\paragraph{Model capability.}
+The AA Intelligence Index is a composite score produced by Artificial Analysis
+that aggregates performance across mathematics, reasoning, and general knowledge
+benchmarks. It has a mean of 26.6 and a standard deviation of 13.1 in our
+regression sample. We center the index at its sample mean ($\textit{intel\_c}$)
+so that main effects of binary moderators are interpretable at average capability
+levels.
+
+\paragraph{Open-source indicator.}
+We code $\textit{is\_open\_weight} = 1$ if the model is released under an
+open-weight or fully open-source license permitting free redistribution and
+inference, and 0 otherwise. Among the 60 events, 11 are open-source (881
+firm-event observations) and 36 have non-missing intelligence data under a
+closed-source designation (2,902 observations).
+
+\paragraph{Media sentiment.}
+For each event we compute the mean FinBERT-based sentiment score of news articles
+published in a $\pm 5$-day window around the announcement date. The sentiment
+variable has a mean of 0.18 and a standard deviation of 0.16, indicating that AI
+model releases attract generally positive coverage. We center sentiment at its
+sample mean ($\textit{sent\_c5}$).
+
+\paragraph{Controls.}
+Firm-level controls are the log of total assets, the book-to-market ratio,
+realized return volatility over the prior quarter, and momentum (prior
+12-minus-1-month return). Year fixed effects absorb aggregate time trends. All
+controls are measured as of the quarter preceding the event.
+
+% ── 3. Hypotheses ───────────────────────────────────────────────────────────
+\section{Hypothesis Development}
+\label{sec:hyp}
+
+Appropriability theory \citep{Teece1986} holds that a technological advance
+creates stock market value only to the extent that the innovating firm---or firms
+positioned to benefit---can appropriate the rents it generates. Applied to LLM
+releases, this logic yields two testable predictions.
+
+\medskip
+\noindent\textbf{H1} (Closed-source capability pricing). \textit{Model capability
+is positively associated with post-release cumulative abnormal returns when the
+model is closed-source.} A higher-capability closed-source model raises the
+prospect of expanded API revenue, stronger customer lock-in, and a wider
+competitive moat.
+
+\medskip
+\noindent\textbf{H2} (Open-source attenuation). \textit{The capability-pricing
+slope is weaker for open-source releases than for closed-source releases.}
+Open-weight models allow unrestricted use and redistribution, eroding proprietary
+barriers. Note that the prediction concerns \emph{relative slopes}, not the
+unconditional average return.
+
+\medskip
+We additionally examine whether media sentiment explains the capability result.
+If intelligence merely reflects AI hype, controlling for sentiment should absorb
+the intelligence coefficient. The alternative---that intelligence reflects
+technological information beyond sentiment---implies that both retain independent
+predictive power.
+
+% ── 4. Results ──────────────────────────────────────────────────────────────
+\section{Results}
+\label{sec:results}
+
+\subsection{Baseline capability pricing}
+
+Table~\ref{tab:baseline} presents the baseline results. Among closed-source
+releases, capability is strongly and precisely priced: $\hat{\beta} = 0.0023$
+(SE $= 0.0006$), CR2 $p = 0.007$, wild bootstrap $p = 0.008$, over 36 event
+clusters. \textbf{A one-standard-deviation increase in the AA Intelligence Index
+(13.1 points) is associated with a 3.0-percentage-point higher 20-day abnormal
+return for firms exposed to a closed-source release.} The result survives year
+fixed effects and the full set of firm-level controls, consistent with H1.
+
+The full-sample estimate is positive but weaker: $\hat{\beta} = 0.0015$
+(SE $= 0.0007$), CR0 $p = 0.027$, CR2 $p = 0.054$, wild bootstrap $p = 0.053$.
+The full-sample coefficient falls short of conventional thresholds once
+small-cluster corrections are applied---a natural consequence of pooling events
+where the capability channel is active (closed-source) with those where it is
+attenuated (open-source).
+
+The contrast with open-source releases supports H1: the appropriable capability
+channel operates specifically in settings where proprietary access is maintained.
+
+\subsection{Open-source attenuation}
+
+Table~\ref{tab:interaction} examines whether open-source status moderates
+capability pricing by estimating:
+\begin{equation}
+\label{eq:interaction}
+\text{CAR}[0,{+}20]_{it} = \beta_1\,\textit{intel\_c}_{e}
+  + \beta_2\,\textit{open}_{e}
+  + \beta_3\,(\textit{intel\_c}_{e} \times \textit{open}_{e})
+  + \mathbf{X}_{it}'\boldsymbol{\gamma}
+  + \alpha_t + \varepsilon_{it}
+\end{equation}
+where $e$ indexes event, $i$ firm, $t$ year, and $\mathbf{X}_{it}$ contains
+firm-level controls.
+
+The baseline (closed-source) slope $\hat{\beta}_1 = +0.0023$ (CR2 $p = 0.005$).
+The interaction coefficient $\hat{\beta}_3 = -0.0037$ (SE $= 0.0012$), implying
+a substantially attenuated open-source slope of $-0.0015$. The interaction is
+significant under CR0 ($p = 0.003$) and marginally so under CR2 ($p = 0.048$);
+under the wild cluster bootstrap, however, $p = 0.086$, short of the conventional
+5\% threshold.
+
+We interpret this evidence cautiously. The point estimates are consistent with
+H2---open-source status attenuates and in point estimates reverses the
+capability-pricing slope---but only 11 open-source events identify the interaction,
+and the wild bootstrap signals fragile inference at this cluster count. We treat
+this as suggestive evidence consistent with the appropriability mechanism, rather
+than a robust finding.
+
+The open-source main effect at average intelligence ($\hat{\beta}_2 = -0.013$) is
+not statistically significant, consistent with the interaction story: open-source
+releases do not unconditionally yield lower returns; they yield lower
+\emph{marginal returns to additional capability}.
+
+\subsection{Media sentiment and the hype alternative}
+
+Table~\ref{tab:sentiment} addresses whether the capability effect is confounded
+with media hype. Column~(1) shows that sentiment alone strongly and
+\emph{negatively} predicts CAR$[0,{+}20]$: $\hat{\beta} = -0.081$,
+CR2 $p = 0.003$. More positive media coverage in the event window is associated
+with \emph{lower} subsequent 20-day returns. One interpretation is that events
+generating strong positive narratives have already experienced anticipatory price
+appreciation, so the $[0,{+}20]$ abnormal return is depressed by a prior run-up
+that our pre-event estimation window partially misses. We cannot identify the
+precise mechanism with the current data.
+
+Columns~(2)--(3) show the joint model. Intelligence and sentiment both retain
+their sign and significance under CR0; under CR2, the intelligence coefficient is
+marginal ($p = 0.087$) and sentiment is marginal ($p = 0.057$). Crucially,
+controlling for sentiment does not eliminate the intelligence coefficient---the
+two variables are orthogonal at the event level (event-level regression of
+sentiment on intelligence: $p = 0.317$), confirming they capture distinct
+information. The interaction between intelligence and sentiment is not significant
+($\hat{\beta} = +0.002$, $p = 0.555$), so sentiment neither amplifies nor dampens
+the capability channel.
+
+% ── 5. Robustness ───────────────────────────────────────────────────────────
+\section{Robustness}
+\label{sec:robust}
+
+\paragraph{Alternative windows.}
+Appendix Table~A1 repeats the closed-source regression across windows from
+CAR$[0,{+}1]$ to CAR$[0,{+}20]$. The coefficient is largest and most precisely
+estimated at the long window; the immediate $[0,{+}1]$ response is positive but
+not significant, suggesting capability information takes time to be fully
+processed. This pattern is consistent with fundamental revaluation rather than
+noise trading around announcements.
+
+\paragraph{Fama-French three-factor model.}
+Replacing the market model with the Fama-French three-factor model leaves the
+main coefficients unchanged (Appendix Table~A1).
+
+\paragraph{Industry and Mag7 checks.}
+Internet infrastructure, software, and semiconductor firms show the strongest
+positive response (CR2 $p \leq 0.015$ for the internet infrastructure subgroup).
+Results are not driven by the Magnificent Seven---the interaction between
+intelligence and a Mag7 indicator is not significant ($p = 0.633$), and the
+capability slope is nearly identical for Mag7 and non-Mag7 firms (Appendix
+Table~A2).
+
+\paragraph{Owner short-window effects.}
+Firms that are direct owners of the releasing model show a negative short-window
+abnormal return (CAR$[0,{+}1]$: $\hat{\beta} = -0.0018$ for the
+$\textit{intel\_c} \times \textit{owner}$ interaction, wild $p = 0.034$). This
+pattern---in which the releasing firm's equity does not benefit immediately---may
+reflect profit-taking or uncertainty about commercial adoption timelines. We treat
+this as suggestive and report full details in Appendix Table~A3.
+
+% ── 6. Conclusion ────────────────────────────────────────────────────────────
+\section{Conclusion}
+\label{sec:conclusion}
+
+Financial markets price AI model capability selectively. Among closed-source
+releases, a one-standard-deviation increase in the Artificial Analysis
+Intelligence Index is associated with a 3.0-percentage-point higher 20-day
+cumulative abnormal return---a result that is robust to conservative small-cluster
+inference. Among open-source releases, the capability slope is attenuated and
+reverses sign in point estimates, though this interaction rests on only 11
+open-source event clusters and should be treated as exploratory.
+
+Media sentiment is negatively associated with post-release returns and operates
+independently of the capability channel, consistent with a mechanism in which
+positive narratives bring forward price gains that subsequently dissipate.
+Intelligence and sentiment are jointly significant in the full model, providing a
+rough decomposition of LLM event returns into a fundamental-capability component
+and a narrative component that move in opposite directions.
+
+Financial markets appear to price the \emph{economic ownership} of AI performance,
+not AI performance itself. As open-source LLMs mature and inference costs fall,
+the appropriability channel we identify may weaken, compressing the abnormal
+returns to AI capability improvements among affected firms.
+
+% ── References ───────────────────────────────────────────────────────────────
+\newpage
+\bibliographystyle{aer}
+\begin{thebibliography}{9}
+
+\bibitem[Engelberg and Parsons(2011)]{EngelbergParsons2011}
+Engelberg, Joseph~E., and Christopher~A. Parsons. 2011.
+``The Causal Impact of Media in Financial Markets.''
+\textit{Journal of Finance} 66(1): 67--97.
+
+\bibitem[Hall, Jaffe, and Trajtenberg(2005)]{HallJaffeTrajtenberg2005}
+Hall, Bronwyn~H., Adam Jaffe, and Manuel Trajtenberg. 2005.
+``Market Value and Patent Citations.''
+\textit{RAND Journal of Economics} 36(1): 16--38.
+
+\bibitem[MacKinlay(1997)]{MacKinlay1997}
+MacKinlay, A.~Craig. 1997.
+``Event Studies in Economics and Finance.''
+\textit{Journal of Economic Literature} 35(1): 13--39.
+
+\bibitem[Teece(1986)]{Teece1986}
+Teece, David~J. 1986.
+``Profiting from Technological Innovation: Implications for Integration,
+Collaboration, Licensing and Public Policy.''
+\textit{Research Policy} 15(6): 285--305.
+
+\bibitem[Tetlock(2007)]{Tetlock2007}
+Tetlock, Paul~C. 2007.
+``Giving Content to Investor Sentiment: The Role of Media in the Stock Market.''
+\textit{Journal of Finance} 62(3): 1139--1168.
+
+% [CITATION: technology shocks and asset pricing — add appropriate reference]
+% [CITATION: AI/LLM event studies — add concurrent working papers when available]
+% [CITATION: biotech parallel for owner effect — add appropriate reference]
+
+\end{thebibliography}
+
+% ── Tables ────────────────────────────────────────────────────────────────────
+\newpage
+\section*{Tables}
+
+% ─ Table 1 ─
+\begin{table}[htbp]
+\centering
+\caption{Baseline Effect of AI Model Capability on Cumulative Abnormal Returns}
+\label{tab:baseline}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & Full sample & Closed-source & Full sample & Closed-source \\
+\midrule
+AA Intelligence Index (centered) & 0.00152* & 0.00232*** & 0.00152 & 0.00232** \\
+ & (0.00067) & (0.00062) & & \\[4pt]
+CR0 $p$-value & 0.027 & 0.001 & & \\
+CR2 $p$-value & & & 0.054 & 0.007 \\
+Wild bootstrap $p$-value & & & 0.053 & 0.008 \\[6pt]
+\midrule
+Year FE & Yes & Yes & Yes & Yes \\
+Firm controls & Yes & Yes & Yes & Yes \\
+Observations & 3,780 & 2,899 & 3,780 & 2,899 \\
+Event clusters & 47 & 36 & 47 & 36 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Dependent variable is the market-model CAR$[0,{+}20]$.
+\textit{intel\_c} is the AA Intelligence Index centered at its sample mean (26.6).
+Columns (1)--(2) report CR0 clustered standard errors in parentheses;
+Columns (3)--(4) add CR2 and wild bootstrap $p$-values.
+Firm controls are log total assets, book-to-market, prior-quarter volatility, and
+12-minus-1-month momentum.
+Wild bootstrap uses $B = 4{,}999$ Rademacher draws with the impose-null approach.
+$+\,p<0.10$; $^{*}\,p<0.05$; $^{**}\,p<0.01$; $^{***}\,p<0.001$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+% ─ Table 2 ─
+\begin{table}[htbp]
+\centering
+\caption{The Role of Appropriability: Open-Source Interaction}
+\label{tab:interaction}
+\begin{threeparttable}
+\begin{tabular}{lcc}
+\toprule
+ & (1) CR0 & (2) CR2 \\
+\midrule
+\textit{intel\_c} (closed-source slope) & 0.00226*** & 0.00226** \\
+ & (0.00060) & \\[2pt]
+CR0 $p$ & 0.001 & \\
+CR2 $p$ & & 0.005 \\[6pt]
+\textit{is\_open\_weight} (at mean intelligence) & $-$0.013 & $-$0.013 \\
+ & (0.012) & \\[6pt]
+\textit{intel\_c} $\times$ \textit{is\_open\_weight} & $-$0.00373** & $-$0.00373* \\
+ & (0.00120) & \\[2pt]
+CR0 $p$ & 0.003 & \\
+CR2 $p$ & & 0.048 \\
+Wild bootstrap $p$ & 0.086 & 0.086 \\[6pt]
+\textit{Implied open-source slope} ($\hat{\beta}_1 + \hat{\beta}_3$) & $-$0.00148 & $-$0.00148 \\[4pt]
+\midrule
+Year FE & Yes & Yes \\
+Firm controls & Yes & Yes \\
+Observations & 3,780 & 3,780 \\
+Event clusters & 47 & 47 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Dependent variable is CAR$[0,{+}20]$. Estimation equation is
+(\ref{eq:interaction}). CR0 standard errors in parentheses for Column (1).
+The interaction term is significant under CR0 and marginally so under CR2;
+the wild bootstrap $p$-value exceeds 0.05 and this result should be interpreted
+with caution. Other notes as in Table~\ref{tab:baseline}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+% ─ Table 3 ─
+\begin{table}[htbp]
+\centering
+\caption{Media Sentiment, Model Capability, and CAR$[0,{+}20]$}
+\label{tab:sentiment}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & Sent. only & Intel. only & Joint & Joint (CR2) \\
+\midrule
+\textit{sent\_c5} (centered FinBERT) & $-$0.081*** & & $-$0.061* & $-$0.061+ \\
+ & (0.020) & & (0.026) & \\[2pt]
+CR2 $p$ (sent) & 0.003 & & & 0.057 \\[6pt]
+\textit{intel\_c} & & 0.00152* & 0.00158* & 0.00158+ \\
+ & & (0.00067) & (0.00072) & \\[2pt]
+CR2 $p$ (intel) & & 0.054 & & 0.087 \\[6pt]
+\midrule
+Year FE & Yes & Yes & Yes & Yes \\
+Firm controls & Yes & Yes & Yes & Yes \\
+Observations & 3,068 & 3,780 & 3,068 & 3,068 \\
+Event clusters & 47 & 47 & 47 & 47 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{sent\_c5} is the FinBERT mean sentiment over a $\pm 5$-day event
+window, centered at its sample mean (0.18). Sentiment is available for
+approximately 3,068 observations. Column (4) reports CR2 $p$-values for both
+predictors; CR0 standard errors are in parentheses for Columns (1)--(3).
+The event-level correlation between \textit{intel\_c} and \textit{sent\_c5}
+is not statistically significant ($p = 0.317$), confirming orthogonality.
+Other notes as in Table~\ref{tab:baseline}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\end{document}

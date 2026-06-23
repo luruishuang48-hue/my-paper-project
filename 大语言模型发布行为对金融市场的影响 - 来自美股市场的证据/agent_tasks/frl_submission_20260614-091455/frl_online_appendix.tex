@@ -1,0 +1,482 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage{microtype}
+\renewcommand{\thetable}{A\arabic{table}}
+
+\title{\textbf{Online Appendix}\\
+\large The Market Pricing of Proprietary AI Model Capability}
+\author{\begin{tabular}{c}
+Zhuo Chen\textsuperscript{a}\quad Ruishuang Lu\textsuperscript{a}\\[0.5em]
+{\footnotesize \textsuperscript{a} Center of Economic Research, Shandong University}
+\end{tabular}}
+\date{\small This version: June 2026}
+
+\begin{document}
+\maketitle
+
+\section{Sample Construction}
+\label{app:sample}
+
+The starting point is a set of 60 major AI model release events between January
+2024 and March 2026. The event screen requires an official model or model-family
+release, a confirmed public release date, public access or benchmark visibility,
+and an economic link to at least one AI-related listed firm. The clean
+firm-event panel has 5,160 observations and 86 firms. The main capability sample
+has 47 releases with nonmissing Artificial Analysis (AA) Intelligence Index
+scores and 3,780 complete firm-event observations. The closed-source sample has
+36 events and 2,899 observations. The open-weight sample has 11 events and 881
+observations.
+
+\begin{table}[htbp]
+\centering
+\caption{Sample summary}
+\label{tab:a_sample}
+\begin{threeparttable}
+\begin{tabular}{lrr}
+\toprule
+Sample component & Observations & Events \\
+\midrule
+Clean firm-event panel & 5,160 & 60 \\
+Main capability sample & 3,780 & 47 \\
+Closed-source capability sample & 2,899 & 36 \\
+Open-weight capability sample & 881 & 11 \\
+Pre-event CAR sample & 3,762 & 47 \\
+FF3 CAR sample & 3,782 & 47 \\
+US-traded ticker screen & 2,857 & 47 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The main capability sample requires nonmissing AA Intelligence Index,
+CAR$[0,{+}20]$, firm controls, year, event identifier, and firm identifier.
+The US-traded ticker screen uses a rule-based ticker filter and should be read as
+a robustness check rather than a formal exchange-country classification.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Variable Definitions}
+\label{app:variables}
+
+The dependent variable is a cumulative abnormal return. The market-model CAR uses
+a firm-level market model fitted before the release date. The FF3 CAR uses the
+Fama-French three-factor model. The main window is $[0,{+}20]$ trading days. The
+pre-event CAR uses the pre-release window available in the cleaned panel. The main
+capability measure is the AA Intelligence Index. The open-weight indicator equals
+one when the model is released under an open-weight or open-source regime.
+
+Firm-event relationship variables are binary indicators. They include owner,
+investor, cloud, business upstream, real upstream, business downstream, real
+downstream, and competitor. The relationship variables were merged into the
+cleaned panel using event and firm identifiers. They are used for heterogeneity
+and appendix checks, not for the baseline result.
+
+\section{Main Results with Small-Cluster Inference}
+\label{app:smallcluster}
+
+Table~\ref{tab:a_core} reports the core estimates with CR0, CR2, and wild cluster
+bootstrap inference. The closed-source CAR$[0,{+}20]$ result is the most stable
+estimate. The full-sample slope and open-weight interaction are weaker under the
+most conservative inference and should be read as supporting evidence.
+
+\begin{table}[htbp]
+\centering
+\caption{Core estimates with event-cluster inference}
+\label{tab:a_core}
+\begin{threeparttable}
+\begin{tabular}{lrrrrrr}
+\toprule
+Specification & N & Events & Coef. & SE & CR2 $p$ & Wild $p$ \\
+\midrule
+Full sample, CAR$[0,{+}20]$ & 3,780 & 47 & 0.00152 & 0.00067 & 0.054 & 0.053 \\
+Closed-source, CAR$[0,{+}20]$ & 2,899 & 36 & 0.00232 & 0.00062 & 0.007 & 0.008 \\
+Interaction, closed-source slope & 3,780 & 47 & 0.00226 & 0.00060 & 0.005 & 0.008 \\
+Interaction, open-weight term & 3,780 & 47 & -0.00373 & 0.00120 & 0.048 & 0.086 \\
+Investor interaction & 3,780 & 47 & -0.00272 & 0.00098 & 0.050 & 0.126 \\
+Cloud interaction & 3,780 & 47 & -0.00213 & 0.00104 & 0.100 & 0.137 \\
+Owner interaction, CAR$[0,{+}1]$ & 3,763 & 47 & -0.00178 & 0.00072 & 0.059 & 0.034 \\
+Owner interaction, CAR$[0,{+}2]$ & 3,768 & 47 & -0.00177 & 0.00070 & 0.052 & 0.046 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The coefficient is on the AA Intelligence Index or the stated interaction.
+Wild $p$-values use 4,999 Rademacher draws clustered by event. The investor,
+cloud, and owner rows are exploratory relationship checks.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Firm Fixed Effects, Alternative Returns, and Pre-Event CARs}
+\label{app:robust}
+
+Table~\ref{tab:a_robust} reports robustness checks that address firm composition,
+alternative abnormal-return models, pre-event pricing, and the exchange-country
+mix in the firm panel. The closed-source coefficient remains positive in all
+post-event specifications. The pre-event coefficient is not statistically
+significant.
+
+\begin{table}[htbp]
+\centering
+\caption{Robustness checks for the capability slope}
+\label{tab:a_robust}
+\begin{threeparttable}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Specification & N & Events & Coef. & SE & $p$ \\
+\midrule
+All, firm fixed effects, event cluster & 3,780 & 47 & 0.00154 & 0.00067 & 0.026 \\
+All, firm fixed effects, two-way cluster & 3,780 & 47 & 0.00154 & 0.00077 & 0.052 \\
+Closed-source, firm fixed effects, event cluster & 2,899 & 36 & 0.00226 & 0.00063 & 0.001 \\
+Closed-source, firm fixed effects, two-way cluster & 2,899 & 36 & 0.00226 & 0.00087 & 0.014 \\
+All, FF3 CAR$[0,{+}20]$ & 3,782 & 47 & 0.00102 & 0.00044 & 0.025 \\
+Closed-source, FF3 CAR$[0,{+}20]$ & 2,901 & 36 & 0.00118 & 0.00051 & 0.027 \\
+All, pre-event CAR & 3,762 & 47 & 0.00016 & 0.00028 & 0.576 \\
+Closed-source, pre-event CAR & 2,884 & 36 & 0.00047 & 0.00030 & 0.119 \\
+All, US-traded ticker screen & 2,857 & 47 & 0.00193 & 0.00080 & 0.019 \\
+Closed-source, US-traded ticker screen & 2,191 & 36 & 0.00271 & 0.00072 & 0.001 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The table reports the coefficient on the AA Intelligence Index. Two-way
+clustering clusters by event and firm. The US-traded ticker screen is based on
+ticker format and is used only as a robustness check.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Event-Level Aggregation}
+\label{app:eventlevel}
+
+The main panel repeats the event-level capability score across firms. Table
+\ref{tab:a_eventlevel} collapses the data to the event level by averaging CARs
+within each release. The closed-source result survives when all firms are used in
+the equal-weighted event mean. The result is weaker when only firms with explicit
+relationship indicators are averaged.
+
+\begin{table}[htbp]
+\centering
+\caption{Event-level aggregation}
+\label{tab:a_eventlevel}
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+Event-level outcome & Events & Coef. & SE & $p$ \\
+\midrule
+All firms, all releases & 47 & 0.00099 & 0.00062 & 0.120 \\
+All firms, closed-source releases & 36 & 0.00172 & 0.00067 & 0.016 \\
+Relationship firms, all releases & 47 & 0.00061 & 0.00078 & 0.437 \\
+Relationship firms, closed-source releases & 36 & 0.00142 & 0.00103 & 0.178 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Each row estimates an event-level regression in which the dependent
+variable is an equal-weighted mean CAR$[0,{+}20]$ within the release event.
+Relationship firms are firm-event pairs with at least one explicit relationship
+indicator.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Leave-One-Creator-Out}
+\label{app:loo}
+
+Table~\ref{tab:a_loo} excludes major model creators one at a time. The
+closed-source coefficient remains positive and statistically significant in each
+reported exclusion.
+
+\begin{table}[htbp]
+\centering
+\caption{Leave-one-creator-out, closed-source releases}
+\label{tab:a_loo}
+\begin{threeparttable}
+\begin{tabular}{lrrrrr}
+\toprule
+Excluded creator & N & Events & Coef. & SE & $p$ \\
+\midrule
+Google & 1,927 & 24 & 0.00204 & 0.00077 & 0.015 \\
+OpenAI & 2,010 & 25 & 0.00426 & 0.00069 & 0.000 \\
+Anthropic & 2,272 & 28 & 0.00198 & 0.00062 & 0.004 \\
+Alibaba & 2,820 & 35 & 0.00215 & 0.00061 & 0.001 \\
+Meta & 2,816 & 35 & 0.00235 & 0.00061 & 0.001 \\
+xAI & 2,733 & 34 & 0.00225 & 0.00066 & 0.002 \\
+Microsoft & 2,816 & 35 & 0.00207 & 0.00070 & 0.006 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The table reports the closed-source coefficient on the AA Intelligence
+Index after excluding all events from the listed creator.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Specification-Curve Evidence}
+\label{app:specr}
+
+Table~\ref{tab:a_specr_metrics} compares alternative capability measures across
+reasonable specifications. The AA Intelligence Index has the strongest overall
+pattern among the LLM capability measures. The AA Media Elo measure behaves
+differently and is concentrated in short-window responses.
+
+\begin{table}[htbp]
+\centering
+\caption{Specification-curve summary by capability measure}
+\label{tab:a_specr_metrics}
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+Capability measure & Specifications & 5\% significant & Positive & Median coefficient \\
+\midrule
+AA Intelligence Index & 252 & 23.8\% & 66.3\% & 0.00020 \\
+AA Media Elo & 231 & 20.3\% & 62.3\% & 0.00002 \\
+AA Coding Index & 252 & 11.5\% & 51.6\% & 0.00001 \\
+AA Math Index & 231 & 5.6\% & 26.8\% & -0.00009 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The specification curve varies the event window, control set, subsample,
+and year fixed effects. The table reports the share of estimates significant at
+5 percent using the corresponding clustered standard error in each specification.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{AA Intelligence Index across event windows}
+\label{tab:a_windows}
+\begin{tabular}{lrr}
+\toprule
+Window & 5\% significant & Median coefficient \\
+\midrule
+CAR$[0,{+}1]$ & 30.6\% & 0.000124 \\
+CAR$[0,{+}2]$ & 25.0\% & 0.000091 \\
+CAR$[0,{+}3]$ & 22.2\% & 0.000080 \\
+CAR$[0,{+}5]$ & 2.8\% & -0.000014 \\
+CAR$[0,{+}10]$ & 13.9\% & -0.000247 \\
+CAR$[0,{+}15]$ & 25.0\% & 0.000507 \\
+CAR$[0,{+}20]$ & 47.2\% & 0.000848 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Additional Heterogeneity}
+\label{app:heterogeneity}
+
+\subsection{Open-Weight and Closed-Source Specification Patterns}
+
+The long-window open-weight estimates are negative in point estimates, while the
+closed-source specifications are positive. Because the open-weight group has only
+11 events, the main text treats the interaction result as suggestive mechanism
+evidence.
+
+\begin{table}[htbp]
+\centering
+\caption{Open-weight and closed-source patterns}
+\label{tab:a_open_closed}
+\begin{tabular}{lrrr}
+\toprule
+Subsample & 5\% significant & Positive & Median coefficient \\
+\midrule
+Open-weight releases & 38.1\% & 7.1\% & -0.000599 \\
+Closed-source releases & 26.2\% & 88.1\% & 0.000512 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Owner Firms}
+
+Owner firms display a short-window negative response that dissipates by 10 to 20
+trading days. This is an exploratory result because the owner sample is small.
+
+\begin{table}[htbp]
+\centering
+\caption{Owner-firm short-window response}
+\label{tab:a_owner}
+\begin{tabular}{lrrr}
+\toprule
+Window & Coef. & SE & $p$ \\
+\midrule
+CAR$[0,{+}1]$ & -0.00232 & 0.00068 & 0.003 \\
+CAR$[0,{+}2]$ & -0.00287 & 0.00063 & 0.000 \\
+CAR$[0,{+}3]$ & -0.00270 & 0.00077 & 0.002 \\
+CAR$[0,{+}5]$ & -0.00205 & 0.00102 & 0.057 \\
+CAR$[0,{+}10]$ & -0.00080 & 0.00201 & 0.695 \\
+CAR$[0,{+}20]$ & 0.00047 & 0.00285 & 0.871 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Event Tier}
+
+Tier 2 events show a larger capability slope than Tier 1 events. The interaction
+between intelligence and Tier 1 is not statistically significant, so we treat
+this as a descriptive split.
+
+\begin{table}[htbp]
+\centering
+\caption{Capability slope by event tier}
+\label{tab:a_tier}
+\begin{tabular}{lrrrr}
+\toprule
+Tier & N & Events & CAR$[0,{+}20]$ coefficient & $p$ \\
+\midrule
+Tier 1 & 1,438 & 18 & 0.00153 & 0.045 \\
+Tier 2 & 2,159 & 27 & 0.00374 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Calendar Year}
+
+The capability slope is not significant in 2024 and turns positive in 2025.
+The 2026 estimate is large but imprecise because the sample is small.
+
+\begin{table}[htbp]
+\centering
+\caption{Capability slope by release year}
+\label{tab:a_year}
+\begin{tabular}{lrrrr}
+\toprule
+Year & N & Coef. & SE & $p$ \\
+\midrule
+2024 & 1,291 & -0.00044 & 0.00060 & 0.474 \\
+2025 & 2,183 & 0.00206 & 0.00087 & 0.026 \\
+2026 & 306 & 0.01860 & 0.01157 & 0.206 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Industry}
+
+The strongest industry-level result appears in internet services and
+infrastructure. Software and semiconductors show positive but more marginal
+patterns.
+
+\begin{table}[htbp]
+\centering
+\caption{Industry-level capability slopes}
+\label{tab:a_industry}
+\begin{tabular}{lrrrr}
+\toprule
+Industry & N & Coef. & CR0 $p$ & CR2 $p$ \\
+\midrule
+Internet services and infrastructure & 235 & 0.00190 & 0.005 & 0.015 \\
+Software & 1,330 & 0.00295 & 0.045 & 0.078 \\
+Semiconductors and semiconductor equipment & 606 & 0.00212 & 0.032 & 0.060 \\
+Technology hardware, storage, and peripherals & 348 & -0.00083 & 0.177 & 0.210 \\
+IT services & 325 & 0.00047 & 0.533 & 0.561 \\
+Internet retail & 184 & -0.00004 & 0.947 & 0.950 \\
+Other or non-IT & 752 & 0.00027 & 0.567 & 0.600 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Mag7 and Non-Mag7 Firms}
+
+The Mag7 and non-Mag7 slopes are similar. The interaction between intelligence
+and the Mag7 indicator is not statistically significant.
+
+\begin{table}[htbp]
+\centering
+\caption{Mag7 and non-Mag7 slopes}
+\label{tab:a_mag7}
+\begin{tabular}{lrrrr}
+\toprule
+Group & N & Coef. & CR0 $p$ & CR2 $p$ \\
+\midrule
+Mag7 & 328 & 0.00170 & 0.045 & 0.081 \\
+Non-Mag7 & 3,452 & 0.00147 & 0.037 & 0.068 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Media Sentiment}
+\label{app:sentiment}
+
+FinBERT sentiment is negatively related to CAR$[0,{+}20]$. In joint models, the
+sentiment and capability coefficients retain their signs but are marginal under
+CR2. The sentiment-capability interaction is not statistically significant.
+
+\begin{table}[htbp]
+\centering
+\caption{Media sentiment and CAR$[0,{+}20]$}
+\label{tab:a_sentiment}
+\begin{tabular}{lrrr}
+\toprule
+Specification & Coef. & CR0 $p$ & CR2 $p$ \\
+\midrule
+FinBERT sentiment, $\pm 5$ days & -0.081 & 0.000 & 0.003 \\
+FinBERT sentiment, $\pm 20$ days & -0.096 & 0.003 & 0.015 \\
+Sentiment in joint model & -0.061 & 0.024 & 0.057 \\
+Intelligence in joint model & 0.00158 & 0.035 & 0.087 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Event-Window Overlap}
+\label{app:overlap}
+
+AI model releases are clustered in calendar time. Among the 47 intelligence
+events, only four have no other intelligence event within 20 calendar days.
+The median event has three other events within that window. Because a strict
+non-overlap sample would be too small, the main paper keeps the full capability
+sample and reports this diagnostic.
+
+\begin{table}[htbp]
+\centering
+\caption{Overlap within 20 calendar days}
+\label{tab:a_overlap}
+\begin{tabular}{lr}
+\toprule
+Statistic & Other intelligence events within 20 days \\
+\midrule
+Minimum & 0 \\
+25th percentile & 2 \\
+Median & 3 \\
+Mean & 2.68 \\
+75th percentile & 4 \\
+Maximum & 6 \\
+Events with no overlap & 4 of 47 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Null and Exploratory Results}
+\label{app:null}
+
+Several results are informative but should not be interpreted as main findings.
+The competitor subsample has a small and statistically insignificant capability
+slope. Real downstream firms have a larger point estimate but too few
+observations for a precise estimate. Investor and cloud interactions are negative
+but do not survive the most conservative inference.
+
+\begin{table}[htbp]
+\centering
+\caption{Exploratory and null relationship results}
+\label{tab:a_exploratory}
+\begin{tabular}{lrrrr}
+\toprule
+Result & N & Events & Coef. & $p$ \\
+\midrule
+Competitor subsample & 366 & 47 & 0.00052 & 0.352 \\
+Real downstream subsample & 62 & 20 & 0.00200 & 0.235 \\
+Investor interaction, wild bootstrap & 3,780 & 47 & -0.00272 & 0.126 \\
+Cloud interaction, wild bootstrap & 3,780 & 47 & -0.00213 & 0.137 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

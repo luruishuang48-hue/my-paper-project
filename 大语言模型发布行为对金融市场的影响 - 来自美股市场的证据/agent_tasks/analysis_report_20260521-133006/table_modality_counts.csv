@@ -1,0 +1,8 @@
+﻿model_modality,n
+text_llm,1806
+reasoning_llm,1462
+image_generation,516
+video_generation,516
+multimodal_llm,430
+coding_llm,344
+image_editing,86

@@ -1,0 +1,2 @@
+﻿event_id,model_name,true_model_creator,event_month,official_release_date,official_release_date_confidence,date_conflict_with_aitimeline_month,official_release_date_source_title,official_release_date_source_url,manual_review_reason,manual_confirmed_release_date,manual_notes
+MMR-0001,Midjourney v1,Midjourney,2022-02,,manual_confirmed_month_only,0,Midjourney model versions,https://en.wikipedia.org/wiki/Midjourney,manual_confirmed_month_only,,

@@ -1,0 +1,14 @@
+metric,value
+raw_rows_specr_rel,5160
+rows_after_blank_filter,5160
+events_after_blank_filter,60
+firms_after_blank_filter,86
+main_regression_rows,3780
+main_regression_events,47
+closed_rows,2899
+closed_events,36
+open_rows,881
+open_events,11
+us_like_main_rows,2857
+us_like_main_firms,64
+intel_mean_for_centering,26.627513227513237

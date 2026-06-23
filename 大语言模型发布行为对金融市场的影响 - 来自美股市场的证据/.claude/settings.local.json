@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "mcp__ide__executeCode",
+      "Bash(Rscript quarter_pricing_regime.R)",
+      "Bash(R -e 'install.packages\\(\"car\", repos=\"https://cloud.r-project.org\"\\)')",
+      "Bash(R -e 'install.packages\\(c\\(\"sandwich\",\"car\"\\), repos=\"https://cloud.r-project.org\"\\)')",
+      "Bash(xelatex -interaction=nonstopmode \"llm_pricing_regime_full.tex\")",
+      "Bash(mv main_regression.R main_regression_rel.R specr_analysis.R specr_run.R specr_rel_run.R specr_install.R extended_analysis.R core_table.R heterogeneity_analysis.R interaction_se_analysis.R quarter_pricing_regime.R scripts/analysis/)",
+      "Bash(mv clean_event_panel.py specr_prep.py specr_rel_prep.py scripts/prep/)",
+      "Bash(mv clean_event_firm_panel.csv specr_input_clean.csv specr_rel_clean.csv output/data/)",
+      "Bash(mv cleaning_report.md quarter_pricing_regime_summary.md specr_report.md reports/)",
+      "Bash(mv 事件集数据.csv 事件集数据-new.csv task/)",
+      "Bash(awk -F, ' *)",
+      "Bash(sort -t',' -k1,1 -k2,2)",
+      "Bash(pandoc --version)",
+      "Bash(pandoc *)"
+    ]
+  }
+}

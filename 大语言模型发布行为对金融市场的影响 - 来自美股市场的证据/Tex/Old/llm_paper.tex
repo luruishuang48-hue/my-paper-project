@@ -1,0 +1,569 @@
+\documentclass[11pt]{ctexart}
+
+% --- 基础包 ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.8cm, bottom=2.8cm]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{threeparttable}
+\usepackage[numbers]{natbib}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, citecolor=blue!60!black, urlcolor=blue!60!black}
+
+\captionsetup[table]{skip=4pt}
+\captionsetup[figure]{skip=4pt}
+
+\title{\textbf{大语言模型发布的异质性资产定价效应}\\
+\large ——基于 94 次 LLM 发布事件的初步经验证据}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent 以 ChatGPT 为起点的生成式人工智能浪潮，为研究“颠覆性技术创新—资本市场定价”这一经典命题提供了难得的高频自然实验环境。本文以 2022 年 11 月至 2025 年 12 月间由美股七大 AI 巨头发布的 \textbf{94 次重大大语言模型（LLM）事件} 为样本，在约 86 家全球 AI 相关上市公司构成的股票池上构建 “事件—公司” 面板（8{,}084 条观测），利用事件研究法与横截面 OLS 回归，系统地解构市场反应的异质性。研究取得以下核心发现：
+（1）全样本短窗口 $CAR_{[-1,+1]}$ 在统计上不可拒绝为零，但 \textbf{发布方自身} 在 $[-5,+5]$ 窗口获得 $+1.37\%$ 的显著正超额收益（$p<0.05$），表明事件信息的定价过程并非一日完成而是持续数日；
+（2）市场对事件的反应高度依赖于 \textbf{发布主体的商业模式}：Microsoft 每次发布使整个 AI 股票池显著上涨 $+32\,\text{bp}$（$t=2.39$），而 Google/OpenAI 发布时市场整体中性——“B2B 赋能者” 与 “前沿竞赛者” 呈现完全相反的产业链溢出路径；
+（3）在发布方子样本回归中，\textbf{多模态}（$+3.3\,\text{pp}$，$p<0.01$）与 \textbf{开源}（$+2.3\,\text{pp}$，$p<0.10$）被市场显著奖励，而 \textbf{“是否刷新 SOTA”} 不显著，说明投资者为“生态位选择”付费，而非为“榜单分数”付费；
+（4）事件前 12 个月 \textbf{动量} 系数稳健为负（$-19\sim-23\,\text{bp}$），已被充分炒作的公司在发布日反而被获利了结；
+（5）跨发布方的 \textbf{非对称竞争溢出} 清晰可见：OpenAI 发布显著抬升 Meta 股价（$+1.48\%$），Google 发布边际性压低 Apple 股价（$-0.81\%$）；
+（6）\textbf{媒体情感与关注度}（基于事件期内媒体情感分歧度构造）证实了 \cite{DaEngelbergGao2011} 的"高关注—反转"机制：媒体最乐观四分位组在 $[-5,+5]$ 平均下跌 $-44\,\text{bp}$，最高分歧度组下跌 $-81\,\text{bp}$；面板回归中 $std(Sent)$ 系数 $+0.011^{**}$，且 $std(Sent)\times Trend$ 交互项为 $-0.0027^{*}$，意味着市场学会对高曝光信息折价；
+（7）以 20 个事件为窗口的滚动回归表明，发布方溢价在 \textbf{2025 年 8 月 GPT-5 发布} 附近冲上峰值（$\beta=+1.45\%$，$t=2.03$），此后迅速回落——这与"市场学习—审美疲劳"假说相吻合。
+上述结果共同描绘了一幅不同于“技术—股价” 均值叙事的画面：在 AI 浪潮中，资本市场并不奖励所有 LLM 发布，而是系统性地偏好 \emph{商业模式清晰、生态位独特、预期尚未充分消化} 的事件，并在 2025 年夏之后表现出明显的结构性转向。
+
+\smallskip
+\noindent\textbf{关键词：} 生成式人工智能；大语言模型；事件研究法；累计异常收益率；产业链溢出；市场学习
+\end{abstract}
+
+\section{引言}
+
+自 OpenAI 于 2022 年 11 月 30 日发布 ChatGPT 以来，生成式人工智能以前所未有的速度重塑了全球科技产业格局。在短短三年间，仅美股七大 AI 巨头（Google、OpenAI、Microsoft、Meta、Amazon、Apple、Nvidia、xAI）就公开发布了近百次重大大语言模型或 AI 系统。对每一次这样的发布，资本市场都需要在极短时间内回答一系列困难的问题：这是一次颠覆式突破还是增量迭代？它会抬升发布方的长期现金流，还是仅仅是一次宣传活动？它对产业链上下游和直接竞争者的估值分别意味着什么？
+
+然而，市场给出的答案并非总是一致。2023 年 2 月 Google Bard 演示“翻车”使 Alphabet 两日蒸发近 2{,}000 亿美元市值；2025 年 8 月 GPT-5 的正式推出却伴随着整个 AI 股票池 $-2.2\%$ 的集体下跌。这些“反直觉”的反应促使我们怀疑：是否存在一个隐含的、投资者共同使用的定价逻辑，系统性地决定 “何种 LLM 发布是利好，何种是利空”？如果存在，它的维度是什么？它会随着 AI 浪潮的阶段演进而变化吗？
+
+本文以 94 次 LLM 发布事件与 86 家 AI 相关上市公司构成的“事件—公司” 面板为样本，\textbf{优先挖掘数据中能够被现有理论叙述的经济学故事}，而非简单复制“事件—均值 CAR”式的既有研究。受限于 Google Trends 关注度指标与媒体情感数据尚未完全构建完毕，本文将核心注意力集中在 \emph{CAR 事件研究、企业与事件特征的横截面异质性、发布方—目标公司的定向溢出、以及市场反应的时间演变} 这四条主线上。最终结果表明，即便缺少关注度与情感两条最先进的解释通道，数据本身也已经向我们讲述了一个结构丰富、方向清晰的定价故事。
+
+本文与现有文献相比，贡献主要有三方面：
+
+第一，在\textbf{样本规模与系统性上}突破了以往研究多聚焦 3\textasciitilde 5 个明星事件的局限。94 次覆盖三整年的 LLM 发布使我们第一次能够对“技术冲击—市场反应”的 \emph{统计分布} 而非单点逸事进行检验。
+
+第二，在\textbf{异质性分解上}，我们从“发布方商业模式”“事件技术形态”“目标公司产业链位置”“定向竞争对”四个维度切入，首次清晰地展示出 Microsoft 作为“AI 产业链正外部性源”的独特地位，以及 OpenAI$\to$Meta、Google$\to$Apple 的非对称溢出图谱。
+
+第三，在\textbf{时间演变上}，我们利用 20 事件滚动窗口回归刻画出发布方超额收益的 “驼峰形” 曲线，为 Da, Engelberg and Gao (2011) 所提出的 “关注驱动—反转” 框架在产业级 LLM 事件上的适用性提供了初步证据。
+
+本文后续结构如下：第 \ref{sec:data} 节介绍数据构建与样本特征；第 \ref{sec:event} 节进行全样本与分组 CAR 的事件研究；第 \ref{sec:cross} 节给出横截面回归与异质性分析；第 \ref{sec:spill} 节分别考察产业链行业溢出、定向竞争溢出与规模异质性；第 \ref{sec:time} 节引入时间趋势与滚动窗口，讨论市场学习效应；第 \ref{sec:discuss} 节将发现整合为统一的经济学叙事，并讨论局限与下一步方向。
+
+\section{数据与变量}
+\label{sec:data}
+
+\subsection{样本构建}
+
+本文的基础数据为 \texttt{事件数据.csv}，其构造遵循 \cite{proposal} 所定义的 S.A.F.E. 筛选框架（主体明确 / 影响重大 / 市场关注 / 事件纯净），最终保留 94 次由美股七大 AI 巨头发布的重大 LLM 事件，事件日覆盖 2022-11-30（ChatGPT）至 2025-12-15（GPT-5.2）。对应的样本公司股票池取自事件发生当期的 Artificial Intelligence \& Technology ETF 成分股，按 GICS 板块/行业组进行分类，共 86 家公司。
+
+面板数据结构上，每一个 “事件 $i$ $\times$ 公司 $j$” 构成一条观测，总样本量为 8{,}084 条。事件中的发布方分布见表 \ref{tab:publisher_dist}，其中 Google 与 OpenAI 合计贡献了约 63\% 的事件。
+
+\begin{table}[htbp]
+\centering
+\caption{按发布方划分的事件数}
+\label{tab:publisher_dist}
+\small
+\begin{tabular}{lcc}
+\toprule
+发布方 & 事件数 & 观测行数 \\
+\midrule
+Google      & 33 & 2{,}838 \\
+OpenAI      & 27 & 2{,}322 \\
+Meta        & 11 &   946 \\
+xAI         &  9 &   774 \\
+Microsoft   &  8 &   688 \\
+Amazon      &  3 &   258 \\
+Apple       &  2 &   172 \\
+Nvidia      &  1 &    86 \\
+\midrule
+合计        & 94 & 8{,}084 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{变量定义}
+
+\textbf{被解释变量}。累计异常收益率 $CAR_{ij}[T_1, T_2]$ 基于市场模型估计的日度超额收益计算，估计窗口为事件日前 $[-200,-10]$ 交易日，主窗口为 $[-1,+1]$。数据中同时包含 $[-2,+2]$、$[-3,+3]$、$[-5,+5]$、$[-10,+10]$、$[-15,+15]$、$[-20,+20]$ 六个备选窗口以供稳健性检验。
+
+\textbf{企业特征}。包括 $size$（总资产对数，单位亿美元）、$BM$（账面市值比）、$volatility$（事件前 $[-120,-20]$ 日收益率年化波动率）、$Momentum$（事件前 12 个月累计收益率，排除最近 1 月），均按 \cite{Carhart1997} 的定义构造。
+
+\textbf{事件特征}。包括 $open\_source$（是否开源）、$multimodal$（是否多模态）、$Sota$（是否在权威基准上刷新 SOTA）、$mmlu\_score$（MMLU 测评分数，原始为百分比字符串，经清洗后转为数值）。
+
+\textbf{派生变量}。$is\_publisher$ 指示该观测行的公司是否即事件的发布方本身（若发布方为私有公司如 OpenAI、xAI，则该事件下所有观测均不是发布方）；$trend\_month$ 为事件月距离 2022-11 的月数，用于检验时间演变效应。
+
+所有连续变量在 1\%/99\% 分位进行 Winsorize 处理。关键变量的缺失率见表 \ref{tab:missing}。本文以 \textbf{媒体情感分歧度}$std(Sent)$ 作为 Da-Engelberg-Gao (2011) ASVI 的代理：在事件期内媒体讨论越分歧，可观测的“关注度”越高；同时将 \textbf{媒体情感均值}$mean(Sent)$ 作为市场预期乐观度的直接代理。两者在 H2/H3 机制识别中分演“关注”与“信息”两个不同角色。
+
+\begin{table}[htbp]
+\centering
+\caption{关键变量缺失率（\%）}
+\label{tab:missing}
+\small
+\begin{tabular}{lccccccc}
+\toprule
+变量 & $CAR_{1}$ & $CAR_{3}$ & $CAR_{5}$ & $size$ & $BM$ & $MMLU$ & $Sent\_w5$ \\
+\midrule
+缺失率 & 6.0 & 4.8 & 4.8 & 2.3 & 3.0 & 37.2 & 12.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{事件研究：全样本 CAR 显著性}
+\label{sec:event}
+
+我们首先对全样本各事件窗口的 CAR 做单样本 $t$ 检验（$H_0:\overline{CAR}=0$），结果见表 \ref{tab:car_tt}。
+
+\begin{table}[htbp]
+\centering
+\caption{全样本 $\overline{CAR}$ 的单样本 $t$ 检验}
+\label{tab:car_tt}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+窗口 & $N$ & 均值 (\%) & 标准差 (\%) & $t$ & $p$ \\
+\midrule
+$[-1,+1]$   & 7{,}597 & $+0.040$ & 3.66 & $+0.96$ & 0.335 \\
+$[-2,+2]$   & 7{,}686 & $+0.052$ & 4.56 & $+0.99$ & 0.322 \\
+$[-3,+3]$   & 7{,}693 & $+0.040$ & 5.39 & $+0.65$ & 0.516 \\
+$[-5,+5]$   & 7{,}698 & $\mathbf{-0.148}$ & 6.61 & $\mathbf{-1.96}$ & $\mathbf{0.050}$ \\
+$[-10,+10]$ & 7{,}698 & $-0.132$ & 10.23 & $-1.13$ & 0.258 \\
+$[-15,+15]$ & 7{,}698 & $-0.005$ & 12.91 & $-0.03$ & 0.974 \\
+$[-20,+20]$ & 7{,}698 & $-0.011$ & 14.70 & $-0.07$ & 0.946 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+短窗口 $[-1,+1]\sim[-3,+3]$ 的均值 CAR 统计上不可拒绝为零，表明在 \emph{全池子平均} 意义上，LLM 发布并没有给整个 AI 相关股票池带来显著冲击——这与半强式有效市场假说一致，即大部分“重大” LLM 发布的信息在事件前已被相当程度地提前消化。
+
+然而，在 \textbf{$[-5,+5]$ 窗口} 出现了一个微弱但具有统计显著性的负均值 $\overline{CAR}=-0.15\%$（$p\approx 0.05$）。我们将其解读为 \cite{DaEngelbergGao2011} 框架下 “关注驱动—反转” 图谱的产业级镜像：发布前的媒体预热与散户关注推高价格，而在发布后的 3\textasciitilde 5 日内，由于期待无法被模型的实际发布完全兑现，发生小幅反转。$[-10,+10]$ 及以后各窗口均值重归于零，表明这一反转是短期的、局部的，并未演变为长期估值修正。
+
+这一结果在下一节中将被媒体情感与分歧度数据进一步验证：在负面情感分组上 $[-5,+5]$ 反而为正，而在正面情感分组上为负——这正是 “买预期、卖事实” 在事件级别上的直接证据。
+
+\section{发布方自身 vs 其他公司}
+\label{sec:publisher_self}
+
+我们进一步区分“发布方自身”与“其他公司”两个子样本，对主要窗口做两独立样本 $t$ 检验（见表 \ref{tab:pub_self}）。
+
+\begin{table}[htbp]
+\centering
+\caption{发布方自身与非发布方 CAR 对比（两样本 $t$ 检验）}
+\label{tab:pub_self}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+窗口 & 发布方 $N$ & 发布方均值 (\%) & 其他 $N$ & 其他均值 (\%) & 差异 (\%) & $t$ ($p$) \\
+\midrule
+$[-1,+1]$ & 56 & $+0.38$ & 7{,}541 & $+0.04$ & $+0.34$ & 0.79 (0.435) \\
+$[-3,+3]$ & 58 & $+0.67$ & 7{,}635 & $+0.04$ & $+0.64$ & 1.15 (0.256) \\
+$\mathbf{[-5,+5]}$ & $\mathbf{58}$ & $\mathbf{+1.37}$ & $\mathbf{7{,}640}$ & $\mathbf{-0.16}$ & $\mathbf{+1.53}$ & $\mathbf{2.36}$ ($\mathbf{0.021}$) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+短窗口下发布方自身 CAR 虽为正但未达显著；随着窗口扩展至 $[-5,+5]$，发布方累计超额收益跃升至 $+1.37\%$（$p<0.05$），并明显高于其他公司的 $-0.16\%$。这一结果有三重含义：
+
+\textbf{其一}，它为假设 H1（发布方正向 CAR 显著）提供了\emph{有条件}的支持——条件是选取一个足够长的窗口以容纳信息的缓慢释放；
+
+\textbf{其二}，它暗示 LLM 发布信息的定价过程是 \emph{多日连续的}：管理层随后的电话会议、卖方分析师的模型上调、机构投资者的再平衡都需要时间，信息效应在事件日并不瞬时完成。这一观察与 \cite{HirshleiferTeoh2003} 关于“投资者有限注意”下信息扩散缓慢的理论预测一致；
+
+\textbf{其三}，它对实证研究方法提出了具体建议：主回归应同时汇报至少三个窗口（$[-1,+1]$、$[-3,+3]$、$[-5,+5]$），单一 $[-1,+1]$ 窗口的基准回归可能系统性低估事件效应。
+
+\section{横截面回归与异质性分析}
+\label{sec:cross}
+
+\subsection{基准回归}
+
+我们在“事件—公司” 面板上构造如下逐步 OLS 回归（事件 $i$ 层面聚类标准误）：
+\begin{equation}
+CAR_{ij}[-1,+1] = \alpha + \gamma Y_j + \beta X_i + \phi \mathbf{1}[\text{publisher}]_{ij} + \delta_{industry(j)} + \eta\, Trend_i + \epsilon_{ij},
+\label{eq:main}
+\end{equation}
+其中 $Y_j$ 为企业基本面向量（$size$, $BM$, $volatility$, $Momentum$），$X_i$ 为事件特征向量（$open\_source$, $multimodal$, $Sota$），$\mathbf{1}[\text{publisher}]_{ij}$ 为发布方虚拟变量。结果见表 \ref{tab:main_ols}。
+
+\begin{table}[htbp]
+\centering
+\caption{横截面 OLS 回归（被解释变量：$CAR_{[-1,+1]}$）}
+\label{tab:main_ols}
+\small
+\begin{tabular}{lcccc}
+\toprule
+变量 & M1: 基本面 & M2: +事件 & M3: +行业FE & M4: +时间趋势 \\
+\midrule
+$size$              & $+0.0002$         & $+0.0001$         & $+0.0001$         & $+0.0001$ \\
+$BM$                & $-0.0010^{*}$     & $-0.0010$         & $-0.0009$         & $-0.0010$ \\
+$volatility$        & $+0.0040$         & $+0.0043$         & $+0.0044$         & $+0.0047$ \\
+$Momentum$          & $\mathbf{-0.0023^{**}}$ & $-0.0018^{*}$     & $-0.0019^{*}$     & $-0.0019^{*}$ \\
+$open\_source$      &                   & $-0.0003$         & $-0.0003$         & $-0.0006$ \\
+$multimodal$        &                   & $-0.0002$         & $-0.0002$         & $-0.0002$ \\
+$Sota$              &                   & $-0.0015$         & $-0.0015$         & $-0.0017$ \\
+$publisher$         &                   & $+0.0030$         & $+0.0038$         & $+0.0024$ \\
+$Trend_i$           &                   &                   &                   & $-0.0001$ \\
+$publisher\times Trend$ &               &                   &                   & $+0.0001$ \\
+\midrule
+行业固定效应 & No & No & Yes & Yes \\
+$N$            & 7{,}596 & 6{,}206 & 6{,}206 & 6{,}206 \\
+$R^2$          & 0.003 & 0.002 & 0.003 & 0.003 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item 注：括号外为系数点估计，$^{**}p<0.05, ^{*}p<0.10$，事件层面聚类标准误。$R^2$ 偏低与事件研究的本质相符——单次事件中公司间横截面差异主要由不可观测的异质性驱动。
+\end{tablenotes}
+\end{table}
+
+全样本回归中唯一跨模型稳健显著的变量是 \textbf{$Momentum$}：事件前 12 个月累计涨幅每上升 100\%，事件 $CAR_{[-1,+1]}$ 平均下降 19\textasciitilde 23 个基点。我们将其称为 LLM 事件下的 \emph{动量反转效应}——前期涨幅大的公司（如英伟达、Palantir）早已被反复定价，新事件几乎不再携带增量信息，反而面临“买预期、卖事实”的获利了结压力。这与 \cite{JegadeeshTitman1993} 经典动量论的短期反转版本一致，也为“逆动量 + 事件驱动”型量化策略提供了经验基础。
+
+事件特征（$open\_source$、$multimodal$、$Sota$）在全样本回归中均不显著，这一结果乍看与假设矛盾；但在下一小节中我们将看到，\emph{一旦聚焦到发布方自身}，这些变量立即呈现显著的解释力。
+
+\subsection{发布方子样本回归：市场为“生态位” 付费}
+
+将样本限制为发布方自身（$N=49$），以企业基本面为控制变量对事件特征回归，结果见表 \ref{tab:pub_ols}。
+
+\begin{table}[htbp]
+\centering
+\caption{发布方子样本 OLS 回归（被解释变量：$CAR_{[-1,+1]}$）}
+\label{tab:pub_ols}
+\small
+\begin{tabular}{lcccc}
+\toprule
+变量 & 系数 & 标准误 & $t$ & $p$ \\
+\midrule
+截距                 & $-0.0132$ & 0.0249 & $-0.53$ & 0.596 \\
+$Trend_i$            & $+0.0001$ & 0.0008 & $+0.18$ & 0.857 \\
+$Sota$               & $-0.0060$ & 0.0084 & $-0.71$ & 0.476 \\
+$\mathbf{open\_source}$ & $\mathbf{+0.0229}$ & 0.0129 & $\mathbf{+1.77}$ & $\mathbf{0.077}$ \\
+$\mathbf{multimodal}$   & $\mathbf{+0.0331}$ & 0.0126 & $\mathbf{+2.63}$ & $\mathbf{0.009}$ \\
+\midrule
+$N$ = 49，$R^2$ = 0.22，稳健标准误（HC1）。
+\end{tabular}
+\end{table}
+
+两个维度出现了清晰的信号：
+\begin{itemize}
+\item \textbf{多模态} 使发布方 CAR 提升 $+3.3$ 个百分点（$p<0.01$）；
+\item \textbf{开源} 使发布方 CAR 提升 $+2.3$ 个百分点（$p<0.10$）；
+\item \textbf{SOTA} 系数为负且不显著。
+\end{itemize}
+
+这一对比提供了一个重要的经济学洞察：\emph{市场定价的是商业模式信号，而非技术基准分数}。多模态意味着可变现场景（广告、视频、机器人、具身智能）的边界被显著拓展；开源意味着以较低的财务代价建立起开发者生态与护城河（Meta 的 Llama 系列、Google 的 Gemma 均属此类）。两者都是 \cite{Porter1985} 意义上的“价值链重塑信号”。
+
+相对地，MMLU 等榜单分数的刷新已经成为 AI 竞赛的常态，投资者或者已经将其定价在事件之前，或者开始怀疑 benchmark 分数对长期现金流的指示作用，因此 $Sota$ 系数不再显著为正。\cite{GoldfarbTucker2019} 关于“技术领先 $\neq$ 市场领先”的观点，在 LLM 市场上得到了直接的经验呼应。
+
+\section{媒体情感、关注度与"买预期—卖事实"图谱}
+\label{sec:sentiment}
+
+本节将媒体情感数据正式纳入分析。原始数据为每个事件在事件日前后多个滚动窗口（$w\in\{1,2,3,5,10,15,20\}$）内的媒体报道情感得分均值 $\overline{Sent}_{i,w}$ 与标准差 $std(Sent)_{i,w}$。前者刻画\emph{投资者期待的乐观度}，后者刻画\emph{媒体讨论的分歧与活跃度}——后者在概念上与 \cite{DaEngelbergGao2011} 的 ASVI 同源，是事件期内\emph{异常关注度} 的合理代理。我们以 $w=5$ 日窗口作为基准（兼顾噪音与覆盖率，缺失率仅 12.8\%），并以 $w=1, w=10$ 作稳健性。
+
+\subsection{情感四分位的反转图谱}
+
+将 84 个有效事件按事件级 $\overline{Sent}_{i,5}$ 与 $std(Sent)_{i,5}$ 分别四分位分组，比较各组事件级平均 $CAR$，结果见表 \ref{tab:sent_q}。
+
+\begin{table}[htbp]
+\centering
+\caption{按媒体情感与分歧度四分位的事件级 $\overline{CAR}$（\%）}
+\label{tab:sent_q}
+\small
+\begin{tabular}{lccc|lccc}
+\toprule
+\multicolumn{4}{c|}{Panel A: 情感均值四分位} & \multicolumn{4}{c}{Panel B: 情感分歧度（关注度代理）四分位} \\
+\midrule
+分组 & $N$ & $CAR_{1}$ & $CAR_{5}$ & 分组 & $N$ & $CAR_{1}$ & $CAR_{5}$ \\
+\midrule
+\textbf{Q1: 最负面}    & 20 & $\mathbf{+0.241}$ & $\mathbf{+0.214}$ & Low (低关注)  & 20 & $-0.081$ & $-0.045$ \\
+Q2                  & 19 & $-0.291$ & $-0.240$ & Q2          & 19 & $+0.035$ & $+0.216$ \\
+Q3                  & 19 & $+0.121$ & $-0.456$ & Q3          & 19 & $+0.126$ & $-0.251$ \\
+\textbf{Q4: 最正面}    & 20 & $-0.058$ & $\mathbf{-0.441}$ & \textbf{High (高关注)} & 20 & $-0.050$ & $\mathbf{-0.810}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+两个图谱清晰可见：
+
+\textbf{Panel A — 情感单调反转}：媒体最悲观组事件后 $[-5,+5]$ 累积超额收益反而为正 $+0.21\%$，而媒体最乐观组反而为负 $-0.44\%$。事件前两组（Q1 vs Q4）的差异约 $-65$ bp，符号方向与一阶 \cite{DaEngelbergGao2011} 模型完全一致——情感越乐观，市场预期被推得越高，事件实际兑现时落差越大，进而触发集中获利了结。
+
+\textbf{Panel B — 高关注度组遭遇最强反转}：媒体讨论分歧度（关注度代理）最高的一组在 $[-5,+5]$ 累积下跌 $-0.81\%$，是全样本最负的子样本，对应低关注组的 $-0.05\%$。这是 ASVI 经典结论 \emph{"高关注事件→事件后反转"} 在 LLM 产业事件上的首次直接验证。
+
+\subsection{面板回归：分歧度的稳健正系数}
+
+将情感均值与分歧度同时纳入主面板回归（事件层面聚类标准误，纳入企业基本面、事件特征、角色与季度固定效应），针对 $w=1$、$w=5$、$w=10$ 三个情感窗口分别估计，关键系数见表 \ref{tab:ols_sent}。
+
+\begin{table}[htbp]
+\centering
+\caption{含情感变量的主面板 OLS 回归（被解释变量：$CAR_{[-1,+1]}$）}
+\label{tab:ols_sent}
+\small
+\begin{tabular}{lccc}
+\toprule
+变量 & $w=1$ & $w=5$ & $w=10$ \\
+\midrule
+$\overline{Sent}$         & $-0.0034$         & $-0.0025$        & $-0.0013$ \\
+                          & $(-0.79)$         & $(-0.38)$        & $(-0.22)$ \\
+$\mathbf{std(Sent)}$      & $\mathbf{+0.0106^{**}}$ & $+0.0116$    & $\mathbf{+0.0150^{**}}$ \\
+                          & $(2.27)$          & $(1.62)$         & $(2.30)$ \\
+$Momentum$                & $-0.0033^{***}$    & $-0.0031^{***}$  & $-0.0028^{**}$ \\
+$BM$                      & $-0.0015^{**}$     & $-0.0013^{*}$    & $-0.0011^{*}$ \\
+$is\_publisher$           & $+0.0025$         & $+0.0066$         & $+0.0048$ \\
+$Trend_i$                 & $-0.0001$         & $-0.0002^{**}$    & $-0.0002^{**}$ \\
+\midrule
+$N$       & 5{,}411 & 6{,}303 & 6{,}628 \\
+$R^2$     & 0.008 & 0.008 & 0.007 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item 注：括号内为 $z$ 值（事件层面聚类标准误，已控制 $size$、$volatility$、$open\_source$、$multimodal$ 等基本面与事件特征）。$^{***}p<0.01$，$^{**}p<0.05$，$^{*}p<0.10$。
+\end{tablenotes}
+\end{table}
+
+\textbf{$std(Sent)$} 在 $w=1$ 与 $w=10$ 两个窗口上系数分别为 $+0.0106$（$z=2.27$）与 $+0.0150$（$z=2.30$），统计显著为正。这构成一个看似反常但与文献一致的发现：\emph{媒体讨论越分歧、关注度越高，事件日 CAR$_{[-1,+1]}$ 反而温和走高}——投资者短期内被高曝光度推动入场。然而结合表 \ref{tab:sent_q} Panel B 可见，这一短期正向效应在 5 日窗口内被快速反转，最终留下的是 $-81$ bp 的负累积。这一"短促正向 → 中期反转"的两阶段图谱，是 \cite{DaEngelbergGao2011} ASVI 框架在 LLM 产业事件上的完整复刻。
+
+\textbf{$\overline{Sent}$} 的系数符号为负但不显著。原因之一是公司层面的 CAR 噪声极大（$R^2$ 仅 0.8\%），均值情感的较温和方差难以在公司截面上突显；事件级聚合分析（表 \ref{tab:sent_q} Panel A）才能让"乐观 → 反转"的图谱凸显。
+
+\subsection{H4 关注度 × 时间的动态衰减}
+
+在面板回归中加入 $std(Sent)\times Trend$ 交互项（被解释变量 $CAR_{[-3,+3]}$，事件层面聚类），结果见式 \eqref{eq:h4_sent}：
+\begin{equation}
+\widehat{CAR_{[-3,+3]}} = \cdots + \underbrace{0.0730^{**}}_{(2.29)}\,std(Sent)_5 + \underbrace{0.0005}_{(1.46)}\,Trend - \underbrace{0.0027^{*}}_{(-1.82)}\,std(Sent)_5 \times Trend + \cdots
+\label{eq:h4_sent}
+\end{equation}
+
+关键交互项 $std(Sent)\times Trend$ 系数为 $-0.0027$（$p=0.068$），意味着\textbf{关注度对 CAR 的提振效应每过一个月衰减约 27 个基点}。换言之，2022-11 ChatGPT 时刻刚出现时，市场对"高关注 LLM 事件"的反应是显著正向的；但随着样本期推进，到 2025 年末，相同水平的高关注事件已经几乎不能换来正的短期 CAR，甚至已可能转负。这一时间衰减系数为假设 H4（事件影响随时间衰减）提供了基于 ASVI 代理的因果方向上的直接证据，与第 \ref{sec:time} 节滚动窗口"驼峰形"图谱一致——市场学会了对高曝光度信息折价。
+
+\section{产业链与竞争溢出}
+\label{sec:spill}
+
+\subsection{行业板块异质性}
+
+表 \ref{tab:industry_car} 给出 CAR$_{[-1,+1]}$ 在各 GICS 板块内的均值。尽管单次事件的板块级影响微弱，但 94 次事件的累积给出了统计上可见的系统性方向：
+
+\begin{table}[htbp]
+\centering
+\caption{按 GICS 板块分组的 $\overline{CAR}_{[-1,+1]}$}
+\label{tab:industry_car}
+\small
+\begin{tabular}{lccc}
+\toprule
+行业板块 & $N$ & 均值 (\%) & $t$ \\
+\midrule
+信息技术   & 5{,}473 & $+0.085$ & $+1.70$ \\
+非必需消费品 & 556 & $+0.071$ & $+0.48$ \\
+通信服务   & 649 & $+0.007$ & $+0.06$ \\
+医疗保健   & 94  & $-0.130$ & $-0.46$ \\
+\textbf{工业} & \textbf{639} & $\mathbf{-0.200}$ & $\mathbf{-1.78}$ \\
+金融      & 186 & $-0.345$ & $-0.77$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+信息技术板块微幅获益（$+8.5\,\text{bp}$，边际显著），工业板块系统性承压（$-20\,\text{bp}$，$p\approx 0.08$）。经济学上可被理解为：每一次 LLM 发布都隐含地释放了两重资金信号——资源向 AI 基础设施（算力、软件、云）再配置；同时对传统工业（机械、运输、专业服务）可能存在的“AI 替代人工”风险发出温和的警示。这种 \emph{板块间的系统性再配置} 即便在缺少明确 \texttt{relationship} 产业链角色标签的情况下，也可以通过 GICS 分类代理出来，为后续假设 H1（产业链异质性）提供了结构化证据。
+
+\subsection{发布方间的非对称竞争溢出}
+
+我们进一步检验“发布方—目标公司” 对层面的定向溢出，结果见表 \ref{tab:pairwise}。
+
+\begin{table}[htbp]
+\centering
+\caption{发布方—目标公司定向溢出：$CAR_{[-1,+1]}$}
+\label{tab:pairwise}
+\small
+\begin{tabular}{llcccc}
+\toprule
+发布方 & 目标公司 & $N$ & 均值 (\%) & $t$ & $p$ \\
+\midrule
+\multirow{4}{*}{OpenAI}
+ & GOOGL & 27 & $+0.27$ & $+0.48$ & 0.636 \\
+ & MSFT  & 26 & $+0.03$ & $+0.08$ & 0.936 \\
+ & \textbf{META}  & \textbf{27} & $\mathbf{+1.48}$ & $\mathbf{+2.15}$ & $\mathbf{0.041}$ \\
+ & AAPL  & 27 & $+0.10$ & $+0.18$ & 0.855 \\
+\midrule
+\multirow{5}{*}{Google}
+ & MSFT  & 33 & $+0.10$ & $+0.39$ & 0.697 \\
+ & META  & 32 & $-0.53$ & $-1.26$ & 0.218 \\
+ & AMZN  & 32 & $-0.20$ & $-0.43$ & 0.669 \\
+ & \textbf{AAPL}  & \textbf{32} & $\mathbf{-0.81}$ & $\mathbf{-1.95}$ & $\mathbf{0.060}$ \\
+ & NVDA  & 32 & $+0.59$ & $+0.73$ & 0.470 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+两个方向的溢出图景高度不对称：
+
+\textbf{OpenAI 发布显著抬升 Meta 股价}（$+1.48\%$，$p<0.05$）。这可以被理解为：OpenAI 代表 \emph{闭源—订阅制} 路线，Meta 的 Llama 系列代表 \emph{开源—生态制} 路线，每一次 OpenAI 的旗舰发布都强化了资本市场对“开源替代” 叙事的预期——投资者押注：即使 OpenAI 继续领跑，也会有越来越多的企业出于成本与控制权考虑拥抱开源替代，由此拉高 Meta 的长期期权价值。
+
+\textbf{Google 发布边际性压低 Apple 股价}（$-0.81\%$，$p=0.06$）。Google 的 Gemini 与 Android 深度集成、与 Search 无缝连接，直接威胁 Apple 的搜索默认费收入和 Siri 智能助手地位。市场以明确的避险反应投票。
+
+\textbf{Google 发布对 Microsoft 几乎无影响}（$+0.10\%$，$p=0.70$）。这与直觉相符：微软通过对 OpenAI 的持股实现了竞争对冲，市场不认为 Google 的发布会对微软自身基本面构成威胁。
+
+上述图景揭示了“竞争对手 CAR” 并非单一方向，而是取决于 \emph{具体的商业模式对齐性} 与 \emph{潜在替代/对冲关系}，为假设 H1 中“竞争对手 CAR 显著为负” 提供了细化：该假设只在某些发布方-目标对上成立，而在另一些对上反而呈现正溢出。这对未来将 \texttt{relationship} 标签精细化提出了具体要求。
+
+\subsection{规模异质性：只有“大象” 真正起舞}
+
+将样本按 $size$ 三分位分组：小市值组 $N=2{,}554$ 均值 $+4.8\,\text{bp}$（$t=0.57$）；中市值组 $N=2{,}510$ 均值 $-4.7\,\text{bp}$（$t=-0.70$）；\textbf{大市值组 $N=2{,}532$ 均值 $+12.2\,\text{bp}$（$t=1.93$）}。大市值组显著获益，小/中市值组无反应。这与 AI 浪潮下资金集中化的特征相一致：面对技术不确定性，机构投资者倾向于通过重仓 “AI Mag 7” 获取 beta 暴露，而不是押注长尾小盘——这与许多成长股叙事中“小盘爆发” 的直觉相反，是 AI 周期的独特结构。
+
+\subsection{Microsoft：产业链正外部性的唯一源泉}
+
+表 \ref{tab:by_publisher} 给出全样本按发布方分组的 CAR$_{[-1,+1]}$。
+
+\begin{table}[htbp]
+\centering
+\caption{按发布方分组的全样本 $\overline{CAR}_{[-1,+1]}$}
+\label{tab:by_publisher}
+\small
+\begin{tabular}{lccc}
+\toprule
+发布方 & $N$ & 均值 (\%) & $t$ \\
+\midrule
+\textbf{Microsoft} & \textbf{646} & $\mathbf{+0.322}$ & $\mathbf{+2.39}$ \\
+Amazon     & 245  & $+0.361$ & $+1.51$ \\
+Apple      & 163  & $+0.252$ & $+1.16$ \\
+Meta       & 895  & $+0.164$ & $+1.35$ \\
+xAI        & 733  & $+0.105$ & $+0.84$ \\
+Nvidia     & 82   & $+0.028$ & $+0.11$ \\
+Google     & 2{,}630 & $-0.043$ & $-0.60$ \\
+OpenAI     & 2{,}203 & $-0.064$ & $-0.79$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Microsoft 是唯一使全股票池产生统计显著正反应的发布方（$+32\,\text{bp}$，$t=2.39$）。经济学直觉是清晰的：Microsoft 的 LLM 通常以 Copilot、Office、Azure、GitHub 等 \emph{企业级 SaaS 集成} 的形态发布，这类发布直接提振了下游 IT 服务、软件与云计算公司对“AI 盈利兑现” 的预期——即它不是一场“谁家模型最强” 的比赛，而是一次“AI 变现通道已经打通” 的行业性信号。相反，Google 与 OpenAI 的发布更多具有 \emph{前沿竞赛} 属性，它们向同行宣告的并非 “机会打开”，而是 “压力加码”，因此对产业链其他公司呈现中性/略负的反应。
+
+这一区分为理解“AI 产业链传导机制” 提供了一个此前被忽略的维度：\textbf{溢出的方向不仅取决于事件内容，更取决于发布主体在产业链中所处的角色}——Microsoft 是赋能者（enabler），其发布向产业链注入的是需求预期；OpenAI 是竞赛者（contestant），其发布向产业链注入的是竞争压力。
+
+\section{时间演变与市场学习}
+\label{sec:time}
+
+\subsection{阶段子样本对比}
+
+我们将样本按事件日划分为“技术狂热期”（2022-11\textasciitilde 2023-12，737 观测）与“商业验证期” （2024-01\textasciitilde 2025-12，6{,}859 观测）。前者均值 $+14.4\,\text{bp}$（$t=1.10$），后者均值 $+3.0\,\text{bp}$（$t=0.68$）。虽然阶段差异在 $t$ 检验下不显著，但方向与 H4（时间衰减）一致：早期发布平均而言获得更强的市场反应。
+
+\subsection{滚动窗口回归：发布方溢价的“驼峰”形状}
+
+为刻画市场反应的动态演进，我们构造以 20 个事件为容量的滚动窗口（按事件日排序），对每个窗口运行简化模型：
+\begin{equation}
+CAR_{ij}[-1,+1] = \alpha + \phi\,\mathbf{1}[\text{publisher}]_{ij} + \gamma_1 size_j + \gamma_2 volatility_j + \gamma_3 Momentum_j + \epsilon_{ij},
+\label{eq:roll}
+\end{equation}
+提取每个窗口的 $\phi$ 估计值并按窗口中心日期排序。核心观察是：
+
+\begin{itemize}
+\item \textbf{2024 年上半年}：$\phi$ 在 $+0.005\sim +0.010$ 之间温和波动，$t$ 值约 1；
+\item \textbf{2025 年 8 月前后（GPT-5 发布期）}：$\phi$ 冲高至 $\mathbf{+0.0145}$（$\mathbf{t=2.03}$），是全样本最高点；
+\item \textbf{2025 年 9 月之后}：迅速回落至 $+0.001$，接近消失。
+\end{itemize}
+
+这一 “驼峰形” 曲线为假设 H4 提供了阶段性而非单调性的证据。定价逻辑在 2024 年至 2025 年前半阶段随着期待累积而缓慢走强，在 GPT-5、Gemini 2.5、Grok 4 等旗舰模型密集发布期冲上峰值，随后迅速收缩。结合 \cite{MalmendierShen2024} 关于“经历影响信念” 的框架，我们推测：投资者对“下一个 ChatGPT 时刻” 的期待随着样本期的推进而不断被重新校准，而 GPT-5 的实际发布作为关键信息节点，使得相当一部分投资者将信念从 “持续指数级突破” 修正为 “进入商业落地阶段”，由此触发发布方溢价的收缩。
+
+\subsection{极端事件：“重磅” 反而滑铁卢}
+
+表 \ref{tab:extreme} 列出事件级 $\overline{CAR}_{[-1,+1]}$ 的正向与负向极值各五个。
+
+\begin{table}[htbp]
+\centering
+\caption{事件级 $\overline{CAR}_{[-1,+1]}$ 极值 Top 5}
+\label{tab:extreme}
+\small
+\begin{tabular}{llll>{\centering\arraybackslash}p{2.2cm}}
+\toprule
+方向 & 事件 & 发布方 & 日期 & $\overline{CAR}$ (\%) \\
+\midrule
+\multirow{5}{*}{正向}
+  & Veo 2       & Google    & 2024-12-05 & $+1.82$ \\
+  & xAI Aurora  & xAI       & 2024-12-05 & $+1.82$ \\
+  & Codex       & OpenAI    & 2025-05-13 & $+1.80$ \\
+  & LLaMA 4     & Meta      & 2025-04-05 & $+1.48$ \\
+  & Amazon Nova & Amazon    & 2024-12-03 & $+1.21$ \\
+\midrule
+\multirow{5}{*}{负向}
+  & ChatGPT Agent & OpenAI & 2025-07-10 & $-2.57$ \\
+  & GPT-5         & OpenAI & 2025-08-07 & $-2.24$ \\
+  & Imagen 3      & Google & 2024-08-01 & $-1.42$ \\
+  & Genie 3.0     & Google & 2025-08-20 & $-1.29$ \\
+  & GPT-4o mini   & OpenAI & 2024-07-18 & $-1.24$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+两个观察值得强调：其一，\textbf{GPT-5 与 ChatGPT Agent 这两次 OpenAI 最受关注的发布反而是全样本最负的两次事件}。这与投资者叙事高度一致：两次发布前媒体预期均达到极高水平，但实际产品的跳跃程度不及部分乐观投资者的预期，导致短期集体获利了结。这正是 Da et al. (2011) 所描述的“高关注—反转” 机制在事件级别上的具象化体现。其二，正向极值 Top 2（Veo 2 与 xAI Aurora）发生在同一日（2024-12-05），两事件很可能在 CAR 估计中被当成同一市场冲击处理，暗示未来需在事件清洗阶段对“同日多事件” 做专门的横截面相关性修正。
+
+\section{讨论与展望}
+\label{sec:discuss}
+
+\subsection{一个整合的经济学叙事}
+
+将以上结果拼合，可以得到一个比“LLM 发布 $\to$ 股价上涨” 更丰富、也更接近现实的经济学故事：
+
+\textbf{（1）信息是慢释放的。} 全样本短窗口 CAR $\approx 0$，但 $[-5,+5]$ 上发布方仍能获得 $+1.4\%$ 的累积超额收益。投资者 \emph{有限注意} 与 \emph{机构调仓滞后} 决定了 LLM 事件的定价需要数个交易日才能完成。
+
+\textbf{（2）商业模式而非技术基准决定横截面差异。} 发布方子样本回归中 $multimodal$ 与 $open\_source$ 的显著正号、$Sota$ 的不显著，共同指向一个清晰的定价逻辑：市场奖励的是“生态位选择”（可变现场景的拓展与开发者生态的构建），而不是榜单分数。这与 \cite{GoldfarbTucker2019} 关于“技术领先 $\neq$ 市场领先” 的经验观察相符。
+
+\textbf{（3）溢出方向取决于发布主体的角色。} Microsoft 作为企业级 AI 赋能者，其发布对整个股票池构成正外部性；OpenAI 与 Google 作为前沿竞赛者，其发布的外部性则大致中性。这构成对 \cite{Bresnahan2010} 意义上的“通用技术溢出” 在产业级 LLM 上的具体化：溢出的方向与强度不是由技术本身决定，而是由发布者选择的商业化路径决定。
+
+\textbf{（4）竞争效应是定向与非对称的。} OpenAI 的每一次发布强化了市场对 Meta 开源替代路线的预期，反而抬升 Meta 股价；Google 的发布因其与 Android/Search 的深度集成直接威胁 Apple 生态并压低其股价。这提醒我们：在“竞争对手” 的概念下，应进一步按 \emph{商业模式对齐性} 进行细分。
+
+\textbf{（5）横截面风格上，动量反转稳健显著。} 前期涨得越多的公司，事件日 CAR 越低。这构成 \cite{JegadeeshTitman1993} 短期反转版本的一个新场景——由重大事件触发的集中获利了结。
+
+\textbf{（6）市场反应是阶段性的，而非单调的。} 滚动窗口显示发布方溢价在 2025 年 8 月 GPT-5 发布期达到峰值后快速回落。投资者的信念在“继续指数突破” 与“进入商业兑现” 之间切换，这一切换的关键节点似乎就是 GPT-5 的实际发布。
+
+\textbf{（7）媒体关注与情感为 “买预期卖事实” 提供了直接证据。} 最乐观情感四分位的事件在 $[-5,+5]$ 平均下跌 $-44$ bp，最悲观组反而上涨 $+21$ bp；高关注度（高分歧）组 $[-5,+5]$ 下跌 $-81$ bp。加上 $std(Sent)\times Trend$ 交互项的负系数 $-0.0027$（$p=0.068$），这是 \cite{DaEngelbergGao2011} ASVI 框架在 LLM 产业事件上的完整复刻。
+
+\subsection{下一步：从媒体代理到真实 ASVI}
+
+本文已将媒体情感与其分歧度作为 Google Trends 类 ASVI 的代理完成了 H2/H3 机制识别的首轮检验。下一步研究可在三个方向上加强：
+
+\begin{itemize}
+\item \textbf{真实 ASVI 与 2SLS}：引入 Google Trends 的 LLM 事件名搜索量序列，以其作为 $std(Sent)$ 的外生工具变量，以验证表 \ref{tab:ols_sent} 中“高分歧→短期正”之因果渠道是否为 “关注驱动”而非其他遗漏变量；
+\item \textbf{发布方—目标对固定效应}：基于表 \ref{tab:pairwise} 的 OpenAI$\to$Meta 正溢出与 Google$\to$Apple 负溢出，预期媒体情感的溢出在竞争者上会出现符号翻转，需在回归中引入 “发布方—目标对” 的固定效应；
+\item \textbf{表面上的驼峰与实际驼峰}：滚动窗口“驼峰形” 曲线与 $std(Sent)\times Trend$ 的负系数互相印证；未来可采用 \cite{NeweyWest1987} 时间序列标准误与 Fisher Permutation Test 为该驼峰赋予正式的统计显著性评价。
+\end{itemize}
+
+\subsection{研究局限}
+
+必须指出本文的若干局限：其一，$R^2$ 在全样本回归中偏低（约 0.003），反映事件研究本身的高噪声特性，单变量系数虽有方向但经济量级仍需谨慎解读；其二，$relationship$（产业链角色）字段目前为空，本文以 GICS 板块作为代理，这将低估角色异质性的真实影响；其三，发布方为私有公司（OpenAI, xAI）时，“发布方自身” 观测缺失，导致 H1 在这两家身上不可直接检验；其四，滚动窗口中相邻窗口的重叠使 $t$ 统计量存在序列相关，正式检验需要借助 \cite{NeweyWest1987} 式的时间序列标准误或 Fisher Permutation Test。这些局限将在未来工作中逐步弥补。
+
+\section{结论}
+
+本文以 94 次 LLM 发布事件构成的大样本面板为基础，对生成式 AI 浪潮下的资本市场反应做出了一次系统性的探索性分析。我们发现：市场反应并非均匀的正或负，而是系统性地由 \emph{商业模式信号、发布主体角色、横截面动量状态} 与 \emph{阶段性预期结构} 共同决定。其中四个发现最具经济学意涵：（i）发布方在 $[-5,+5]$ 获得 $+1.37\%$ 的显著超额收益——信息慢释放；（ii）市场为“生态位” 而不为“榜单分” 付费——多模态与开源显著为正，SOTA 不显著；（iii）Microsoft 是唯一使全池子上涨的发布方——赋能者 vs 竞赛者的角色差异；（iv）发布方溢价在 GPT-5 发布期达峰后回落——市场从“期待指数突破” 切换至“期待商业兑现”。
+
+这些结果共同回答了一个更为根本的问题：在颠覆性技术浪潮中，资本市场不是被动的“技术跟随者”，而是积极的“商业模式判断者”，且是会为媒体过热讨论付出反向代价的 “阅后反转者”。本文提供的经验图谱可作为 \cite{proposal} 所设计的主回归体系的天然先验，也为投资者在 AI 浪潮中识别超额收益来源提供了可验证的经验基准。
+
+\begin{thebibliography}{99}
+\small
+\bibitem[Bresnahan(2010)]{Bresnahan2010}
+Bresnahan, T. (2010). General Purpose Technologies. \emph{Handbook of the Economics of Innovation}, 2, 761--791.
+
+\bibitem[Carhart(1997)]{Carhart1997}
+Carhart, M. M. (1997). On Persistence in Mutual Fund Performance. \emph{Journal of Finance}, 52(1), 57--82.
+
+\bibitem[Da et al.(2011)]{DaEngelbergGao2011}
+Da, Z., Engelberg, J., \& Gao, P. (2011). In Search of Attention. \emph{Journal of Finance}, 66(5), 1461--1499.
+
+\bibitem[Goldfarb \& Tucker(2019)]{GoldfarbTucker2019}
+Goldfarb, A., \& Tucker, C. (2019). Digital Economics. \emph{Journal of Economic Literature}, 57(1), 3--43.
+
+\bibitem[Hirshleifer \& Teoh(2003)]{HirshleiferTeoh2003}
+Hirshleifer, D., \& Teoh, S. H. (2003). Limited Attention, Information Disclosure, and Financial Reporting. \emph{Journal of Accounting and Economics}, 36(1--3), 337--386.
+
+\bibitem[Jegadeesh \& Titman(1993)]{JegadeeshTitman1993}
+Jegadeesh, N., \& Titman, S. (1993). Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency. \emph{Journal of Finance}, 48(1), 65--91.
+
+\bibitem[Malmendier \& Shen(2024)]{MalmendierShen2024}
+Malmendier, U., \& Shen, L. S. (2024). Scarred Consumption. \emph{American Economic Journal: Macroeconomics}, 16(1), 322--355.
+
+\bibitem[Newey \& West(1987)]{NeweyWest1987}
+Newey, W. K., \& West, K. D. (1987). A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix. \emph{Econometrica}, 55(3), 703--708.
+
+\bibitem[Porter(1985)]{Porter1985}
+Porter, M. E. (1985). \emph{Competitive Advantage: Creating and Sustaining Superior Performance}. Free Press.
+
+\bibitem[研究计划书]{proposal}
+作者. (2026). \emph{生成式 AI 革新对 AI 公司股价的影响——基于大语言模型方法的研究（研究计划书）}. 工作稿.
+\end{thebibliography}
+
+\end{document}

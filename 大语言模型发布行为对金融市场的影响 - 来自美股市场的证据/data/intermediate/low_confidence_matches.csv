@@ -1,0 +1,28 @@
+﻿source_row_number,release_date,event_name,creator,event_type,aa_match_status,needs_manual_review,aa_model_id,aa_model_name,aa_creator,match_score,match_method
+6,2024-12-03,Amazon Nova,Amazon,模型,matched_low_confidence,1,344c6718-c573-41d4-9556-10287a3fa1fc,Nova Micro,Amazon,0.6733,fuzzy_name+creator
+12,2025-07-10,ChatGPT Agent,OpenAI,模型,matched_low_confidence,1,eab1492c-b853-4852-aa71-06b0ec2481c1,GPT-5 (ChatGPT),OpenAI,0.6068,fuzzy_name+creator
+19,2024-02-15,Gemini 1.5,Google,模型,matched_low_confidence,1,94229066-9381-4ee1-bf70-a16d63756a6e,Gemini 1.5 Flash-8B,Google,0.6989,fuzzy_name+creator
+21,2025-03-12,Gemini 2.0 Flash Experimental,Google,模型,matched_low_confidence,1,bcca0e70-7e80-4c07-b1fa-b33bcfb19e51,Gemini 2.0 Flash (Feb '25),Google,0.84,ambiguous_base_name+creator
+23,2025-08-26,Gemini 2.5 Flash Image (Nano Banana),Google,模型,matched_low_confidence,1,6afbfb62-27e4-435e-9c85-d9fe1b92519e,Gemini 2.5 Flash (Non-reasoning),Google,0.7219,fuzzy_name+creator
+27,2025-07-20,Gemini Deep Think,Google,模型,matched_low_confidence,1,a5092ece-d5a7-461f-b036-3faef262423f,Gemini 3 Deep Think,Google,0.8268,fuzzy_name+creator
+29,2024-05-14,Gemini Flash 1.5,Google,模型,matched_low_confidence,1,94229066-9381-4ee1-bf70-a16d63756a6e,Gemini 1.5 Flash-8B,Google,0.84,ambiguous_fuzzy_match
+31,2024-02-15,Gemini Pro,Google,模型,matched_low_confidence,1,8ddacd41-bf43-411b-aa30-43ebf0567dd8,Gemini 1.0 Pro,Google,0.708,fuzzy_name+creator
+34,2025-03-12,Gemma 3,Google,模型,matched_low_confidence,1,04781a0e-40f0-4e2a-a4e5-18e389364a79,Gemma 3 270M,Google,0.7567,fuzzy_name+creator
+35,2025-05-18,Gemma 3n,Google,模型,matched_low_confidence,1,a8c67863-9d66-44dd-8d27-f58654ecde03,Gemma 3n E2B Instruct,Google,0.6032,fuzzy_name+creator
+42,2025-11-15,GPT 5.1,OpenAI,模型,matched_low_confidence,1,d0b3d47e-aec6-425e-9de7-168dcc6d1e28,GPT-5.1 (Non-reasoning),OpenAI,0.84,ambiguous_base_name+creator
+51,2024-08-06,GPT-4o 0806,OpenAI,模型,matched_low_confidence,1,8c1be908-67b6-4cf4-ba08-83ddbe44fde3,GPT-4o (Aug '24),OpenAI,0.662,fuzzy_name+creator
+55,2025-12-15,GPT-5.2,OpenAI,模型,matched_low_confidence,1,498862c3-f9ac-49d2-852f-16a02bb0c38f,GPT-5.2 (xhigh),OpenAI,0.84,ambiguous_base_name+creator
+56,2025-08-01,gpt-oss-120b,OpenAI,模型,matched_low_confidence,1,f0083258-8646-45b8-8082-7aaf6c2ea82a,gpt-oss-120B (high),OpenAI,0.84,ambiguous_base_name+creator
+57,2024-03-28,Grok 1.5,xAI,模型,matched_low_confidence,1,4c111fbc-d13a-42b4-858c-1dc17fe3c1d1,Grok-1,xAI,0.7212,fuzzy_name+creator
+58,2024-04-12,Grok 1.5v,xAI,模型,matched_low_confidence,1,4c111fbc-d13a-42b4-858c-1dc17fe3c1d1,Grok-1,xAI,0.6367,fuzzy_name+creator
+62,2025-11-17,Grok 4.1,xAI,模型,matched_low_confidence,1,23149f9b-c904-43e2-9ec4-afa2bf843941,Grok 4.1 Fast (Reasoning),xAI,0.6796,fuzzy_name+creator
+67,2023-02-24,LLaMA,Meta,模型,matched_low_confidence,1,fe11ab6c-a4dd-4c28-9fef-07da76d5ed14,Llama 65B,Meta,0.7138,fuzzy_name+creator
+68,2023-07-18,LLaMA 2,Meta,模型,matched_low_confidence,1,ffd65ef7-fbdb-4145-98ae-b5d01cda770b,Llama 2 Chat 7B,Meta,0.75,fuzzy_name+creator
+69,2024-04-18,LLaMA 3,Meta,模型,matched_low_confidence,1,82879bb8-89fb-4adc-b519-315b8ef30b77,Llama 3 Instruct 8B,Meta,0.6627,fuzzy_name+creator
+70,2024-07-23,llama 3.1,Meta,模型,matched_low_confidence,1,739684ba-0f63-4e2a-b4ee-30741c9e9320,Llama 3.1 Instruct 8B,Meta,0.73,fuzzy_name+creator
+71,2024-09-25,Llama 3.2,Meta,模型,matched_low_confidence,1,71e8d48c-1920-4f27-8ea9-1f10becc615a,Llama 3.2 Instruct 3B,Meta,0.73,fuzzy_name+creator
+73,2025-04-05,LLaMA 4,Meta,模型,matched_low_confidence,1,adf9a85e-abc3-4f28-937b-db6655cc5238,Llama 4 Scout,Meta,0.84,ambiguous_fuzzy_match
+80,2025-12-01,Nova 2,Amazon,模型,matched_low_confidence,1,546ec53f-273c-4af7-b13f-b88c41f45905,Nova Pro,Amazon,0.6076,fuzzy_name+creator
+83,2024-12-10,PaliGemma 2,Google,模型,matched_low_confidence,1,515852e7-ba9c-4571-8cf9-82ad6b45f22f,PALM-2,Google,0.6316,fuzzy_name+creator
+86,2025-05-01,Phi 4 reasoning,Microsoft,模型,matched_low_confidence,1,ee708f92-374e-4123-b900-e22d7b2afc19,Phi-4,Microsoft,0.6267,fuzzy_name+creator
+87,2024-04-22,Phi-3-mini,Microsoft,模型,matched_low_confidence,1,ded8d96e-835f-4359-947a-a4c3bb78e983,Phi-3 Mini Instruct 3.8B,Microsoft,0.708,fuzzy_name+creator

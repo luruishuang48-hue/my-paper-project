@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3)",
+      "Bash(python3 agent_tasks/relationship_coding_202606102018/coding_engine.py)",
+      "Bash(python3 agent_tasks/relationship_audit_202606102130/revision_engine.py)",
+      "Bash(python3 agent_tasks/relationship_final_202606102213/finalization_engine.py)",
+      "Bash(python3 -c ' *)",
+      "WebSearch",
+      "Bash(python3 *)"
+    ]
+  }
+}

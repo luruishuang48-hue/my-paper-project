@@ -1,0 +1,8 @@
+file,exists,rows,columns
+data/canonical/event_master_from_panel.csv,True,60,60
+data/canonical/company_master_from_panel.csv,True,86,10
+data/canonical/event_firm_relationship_flags_from_panel.csv,True,5160,7
+data/canonical/event_metric_snapshot_from_panel.csv,True,60,32
+data/canonical/event_official_sources_from_report.csv,True,47,8
+data/panel/clean_event_firm_panel.csv,True,5160,107
+data/manifest.csv,True,66,6

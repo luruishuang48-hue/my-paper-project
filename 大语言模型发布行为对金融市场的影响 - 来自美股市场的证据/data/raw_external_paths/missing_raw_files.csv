@@ -1,0 +1,9 @@
+source,reported_path,status,action
+AI Timeline raw markdown,data/raw/aitimeline/timeline_2026-04-27.md,not_found_in_current_project,recover from previous workspace or refetch from NHLOCAL/AiTimeline
+AA llms_models raw json,/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/Matrix I - Bandit与研发竞赛/llms/data/raw/artificial_analysis/llms_models_2026-04-26.json,not_found_in_filesystem_search,recover from Matrix I workspace or rerun AA API fetch
+AA text_to_image raw json,/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/Matrix I - Bandit与研发竞赛/llms/data/raw/artificial_analysis/text_to_image_2026-04-26.json,not_found_in_filesystem_search,recover or rerun AA API fetch
+AA image_editing raw json,/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/Matrix I - Bandit与研发竞赛/llms/data/raw/artificial_analysis/image_editing_2026-04-26.json,not_found_in_filesystem_search,recover or rerun AA API fetch
+AA text_to_speech raw json,/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/Matrix I - Bandit与研发竞赛/llms/data/raw/artificial_analysis/text_to_speech_2026-04-26.json,not_found_in_filesystem_search,recover or rerun AA API fetch
+AA text_to_video raw json,/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/Matrix I - Bandit与研发竞赛/llms/data/raw/artificial_analysis/text_to_video_2026-04-26.json,not_found_in_filesystem_search,recover or rerun AA API fetch
+AA image_to_video raw json,/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/Matrix I - Bandit与研发竞赛/llms/data/raw/artificial_analysis/image_to_video_2026-04-26.json,not_found_in_filesystem_search,recover or rerun AA API fetch
+Final 60 event sample files,data/final_60_event_sample/main_ai_model_release_events_60.csv,not_found_in_current_project,reconstruct from clean_event_firm_panel.csv and reports

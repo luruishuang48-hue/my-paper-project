@@ -1,0 +1,48 @@
+source_event_id,creator,event_name,official_release_date,date_confidence,source_url,source_type,source_report
+MMR-0003,Google,Gemini Flash 1.5,2024-05-30,official_date_matches_event_month,https://developers.googleblog.com/gemini-15-pro-and-15-flash-now-available/,official,reports/official_release_date_crawl_report.md
+MMR-0004,Google,Imagen 3,2024-05-14,official_date_matches_event_month,https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/,official,reports/official_release_date_crawl_report.md
+MMR-0005,Stability AI,Stable Diffusion 3,2024-06-12,official_date_matches_event_month,https://stability.ai/news-updates/stable-diffusion-3-medium,official,reports/official_release_date_crawl_report.md
+MMR-0006,Google,Gemini 1.5 Pro,2024-04-09,official_date_month_mismatch_needs_review,https://developers.googleblog.com/gemini-15-pro-now-available-in-180-countries-with-native-audio-understanding-system-instructions-json-mode-and-more/,official,reports/official_release_date_crawl_report.md
+MMR-0007,Google,Gemini 1.5 Flash,2024-08-08,official_date_matches_event_month,https://developers.googleblog.com/gemini-15-flash-updates-google-ai-studio-gemini-api/,official,reports/official_release_date_crawl_report.md
+MMR-0008,Google,Gemini 1.5 Flash8B,2024-10-03,official_date_month_mismatch_needs_review,https://developers.googleblog.com/gemini-15-flash-8b-is-now-generally-available-for-use/,official,reports/official_release_date_crawl_report.md
+MMR-0009,Google,Imagen 3,2025-02-06,official_date_month_mismatch_needs_review,https://developers.googleblog.com/imagen-3-arrives-in-the-gemini-api/,official,reports/official_release_date_crawl_report.md
+MMR-0011,Google,Gemini Pro 1.5 002,2024-04-09,official_date_month_mismatch_needs_review,https://developers.googleblog.com/gemini-15-pro-now-available-in-180-countries-with-native-audio-understanding-system-instructions-json-mode-and-more/,official,reports/official_release_date_crawl_report.md
+MMR-0012,Google,Gemini Flash 1.5 002,2024-05-30,official_date_month_mismatch_needs_review,https://developers.googleblog.com/gemini-15-pro-and-15-flash-now-available/,official,reports/official_release_date_crawl_report.md
+MMR-0013,OpenAI,o1 preview,2024-09-12,official_date_matches_event_month,https://openai.com/index/introducing-openai-o1-preview,official,reports/official_release_date_crawl_report.md
+MMR-0014,OpenAI,o1 mini,2024-09-12,official_date_matches_event_month,https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning,official,reports/official_release_date_crawl_report.md
+MMR-0015,Anthropic,Claude 3.5 Sonnet New,2024-06-17,official_date_month_mismatch_needs_review,https://www.anthropic.com/news/claude-3-5-sonnet,official,reports/official_release_date_crawl_report.md
+MMR-0016,Alibaba,Qwen2.5 Coder 32B,2024-11-12,official_date_matches_event_month,https://qwenlm.github.io/blog/qwen2.5-coder-family/,official,reports/official_release_date_crawl_report.md
+MMR-0021,OpenAI,o3 Mini,2025-01-31,official_date_month_mismatch_needs_review,https://openai.com/index/o3-mini-system-card,official,reports/official_release_date_crawl_report.md
+MMR-0022,OpenAI,o1,2024-12-17,official_date_matches_event_month,https://openai.com/index/o1-and-new-tools-for-developers,official,reports/official_release_date_crawl_report.md
+MMR-0024,OpenAI,SORA,2024-12-09,official_date_matches_event_month,https://openai.com/index/sora-system-card,official,reports/official_release_date_crawl_report.md
+MMR-0025,Alibaba,Qwen2.5-Max,2025-01-28,official_date_matches_event_month,https://qwenlm.github.io/blog/qwen2.5-max/,official,reports/official_release_date_crawl_report.md
+MMR-0027,OpenAI,o3 mini,2025-01-31,official_date_matches_event_month,https://openai.com/index/o3-mini-system-card,official,reports/official_release_date_crawl_report.md
+MMR-0028,Anthropic,Claude 3.7,2025-02-18,official_date_matches_event_month,https://www.anthropic.com/news/claude-3-7-sonnet,official,reports/official_release_date_crawl_report.md
+MMR-0029,Google,Gemini 2.0 Flash-Lite Preview,2025-02-25,official_date_matches_event_month,https://developers.googleblog.com/start-building-with-the-gemini-2-0-flash-family/,official,reports/official_release_date_crawl_report.md
+MMR-0038,Google,Veo 2.0,2025-04-15,official_date_matches_event_month,https://developers.googleblog.com/veo-2-video-generation-now-generally-available/,official,reports/official_release_date_crawl_report.md
+MMR-0041,OpenAI,o3 full,2025-04-16,official_date_matches_event_month,https://openai.com/index/introducing-o3-and-o4-mini,official,reports/official_release_date_crawl_report.md
+MMR-0042,OpenAI,o4 mini,2025-04-16,official_date_matches_event_month,https://openai.com/index/introducing-o3-and-o4-mini,official,reports/official_release_date_crawl_report.md
+MMR-0043,Runway,Runway Gen-4,2025-03-31,official_date_month_mismatch_needs_review,https://runwayml.com/research/introducing-runway-gen-4,official,reports/official_release_date_crawl_report.md
+MMR-0045,Anthropic,Claude Sonnet 4,2025-05-21,official_date_matches_event_month,https://www.anthropic.com/news/claude-4,official,reports/official_release_date_crawl_report.md
+MMR-0047,Google,Gemini 2.5 Pro,2025-05-06,official_date_matches_event_month,https://developers.googleblog.com/gemini-2-5-pro-io-improved-coding-performance/,official,reports/official_release_date_crawl_report.md
+MMR-0048,Google,Veo 3,2025-07-17,official_date_month_mismatch_needs_review,https://developers.googleblog.com/veo-3-now-available-gemini-api/,official,reports/official_release_date_crawl_report.md
+MMR-0049,Google,Imagen 4,2025-06-24,official_date_month_mismatch_needs_review,https://developers.googleblog.com/imagen-4-now-available-in-the-gemini-api-and-google-ai-studio/,official,reports/official_release_date_crawl_report.md
+MMR-0050,Google,Gemma 3n,2025-05-20,official_date_matches_event_month,https://developers.googleblog.com/introducing-gemma-3n/,official,reports/official_release_date_crawl_report.md
+MMR-0051,Google,Gemini 2.5 Pro,2025-05-06,official_date_month_mismatch_needs_review,https://developers.googleblog.com/gemini-2-5-pro-io-improved-coding-performance/,official,reports/official_release_date_crawl_report.md
+MMR-0052,Alibaba,Qwen3-Coder,2025-07-22,official_date_matches_event_month,https://qwenlm.github.io/blog/qwen3-coder/,official,reports/official_release_date_crawl_report.md
+MMR-0053,Alibaba,Qwen3-235B-A22B-Instruct-2507,2025-04-29,official_date_month_mismatch_needs_review,https://qwenlm.github.io/blog/qwen3/,official,reports/official_release_date_crawl_report.md
+MMR-0055,Google,Gemini 2.5 Flash Image,2025-08-26,official_date_matches_event_month,https://developers.googleblog.com/introducing-gemini-2-5-flash-image/,official,reports/official_release_date_crawl_report.md
+MMR-0056,OpenAI,gpt-oss-20b,2025-08-05,official_date_matches_event_month,https://openai.com/index/introducing-gpt-oss,official,reports/official_release_date_crawl_report.md
+MMR-0057,OpenAI,gpt-oss-120b,2025-08-05,official_date_matches_event_month,https://openai.com/index/introducing-gpt-oss,official,reports/official_release_date_crawl_report.md
+MMR-0059,Anthropic,Claude Sonnet 4.5,2025-09-25,official_date_matches_event_month,https://www.anthropic.com/news/claude-sonnet-4-5,official,reports/official_release_date_crawl_report.md
+MMR-0060,Anthropic,Claude 4.5 Haiku,2025-10-14,official_date_matches_event_month,https://www.anthropic.com/news/claude-haiku-4-5,official,reports/official_release_date_crawl_report.md
+MMR-0063,Mistral AI,Devstral 2,2025-12-09,official_date_matches_event_month,https://mistral.ai/news/devstral-2-vibe-cli,official,reports/official_release_date_crawl_report.md
+MMR-0064,Mistral AI,Mistral 3,2025-12-02,official_date_matches_event_month,https://mistral.ai/news/mistral-3,official,reports/official_release_date_crawl_report.md
+MMR-0065,OpenAI,GPT-5.2,2025-12-18,official_date_matches_event_month,https://openai.com/index/introducing-gpt-5-2-codex,official,reports/official_release_date_crawl_report.md
+MMR-0066,Anthropic,Claude Opus 4.6,2026-02-05,official_date_matches_event_month,https://www.anthropic.com/news/claude-opus-4-6,official,reports/official_release_date_crawl_report.md
+MMR-0067,Anthropic,Claude Sonnet 4.6,2026-02-16,official_date_matches_event_month,https://www.anthropic.com/news/claude-sonnet-4-6,official,reports/official_release_date_crawl_report.md
+MMR-0068,Google,Nano Banana 2,2026-02-26,official_date_matches_event_month,https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/,official,reports/official_release_date_crawl_report.md
+MMR-0069,OpenAI,GPT-5.3-Codex,2026-02-12,official_date_matches_event_month,https://openai.com/index/introducing-gpt-5-3-codex-spark,official,reports/official_release_date_crawl_report.md
+MMR-0070,OpenAI,GPT-5.4 mini,2026-03-17,official_date_matches_event_month,https://openai.com/index/introducing-gpt-5-4-mini-and-nano,official,reports/official_release_date_crawl_report.md
+MMR-0071,OpenAI,GPT-5.4,2026-03-17,official_date_matches_event_month,https://openai.com/index/introducing-gpt-5-4-mini-and-nano,official,reports/official_release_date_crawl_report.md
+MMR-0072,OpenAI,GPT-5.4 nano,2026-03-17,official_date_matches_event_month,https://openai.com/index/introducing-gpt-5-4-mini-and-nano,official,reports/official_release_date_crawl_report.md

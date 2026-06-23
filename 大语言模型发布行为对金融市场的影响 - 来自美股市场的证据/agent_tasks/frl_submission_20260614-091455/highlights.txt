@@ -1,0 +1,7 @@
+Highlights
+
+- We study 60 AI model releases and 86 AI-related listed firms.
+- Broad AA Intelligence carries the strongest long-window pricing signal.
+- Coding and math benchmarks do not show the same pricing pattern.
+- A one-s.d. capability increase implies about 3.0 percentage points.
+- Open-weight releases show a weaker capability-return relation.
