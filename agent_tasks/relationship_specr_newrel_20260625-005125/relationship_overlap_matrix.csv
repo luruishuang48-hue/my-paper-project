@@ -1,0 +1,12 @@
+variable,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,upstream_any,downstream_any,any_relationship
+upstream_hardware,1200,0,0,0,60,0,0,0,1200,60,1200
+upstream_cloud,0,274,57,0,0,206,31,8,274,57,274
+downstream_integrator,0,57,1797,0,0,57,21,0,57,1797,1797
+downstream_deployer,0,0,0,1140,0,0,0,0,0,1140,1140
+downstream_enabler,60,0,0,0,480,60,0,0,60,480,480
+competitor,0,206,57,0,60,511,31,0,206,117,511
+is_investor,0,31,21,0,0,31,39,0,31,21,39
+is_owner,0,8,0,0,0,0,0,29,8,0,29
+upstream_any,1200,274,57,0,60,206,31,8,1474,117,1474
+downstream_any,60,57,1797,1140,480,117,21,0,117,3417,3417
+any_relationship,1200,274,1797,1140,480,511,39,29,1474,3417,5040

@@ -1,0 +1,14 @@
+family,term,x_var,y_var,controls,estimate,std.error,p.value,stars,n,n_events,treated_n,treated_events
+interaction_intel_by_relation,intel_c:is_investor,is_investor,car_15,firm_year,-0.002529203038982134,5.163111308512384e-4,1.2343353727860471e-5,***,3780,47,38,22
+interaction_intel_by_relation,intel_c:is_investor,is_investor,car_15,none,-0.0032040227058119392,8.129869309208891e-4,2.739050530230421e-4,***,3955,47,38,22
+interaction_intel_by_relation,intel_c:is_investor,is_investor,car_10,firm_year,-0.00250784483200226,6.81984740728614e-4,6.152390121343323e-4,***,3780,47,38,22
+interaction_intel_by_relation,intel_c:is_investor,is_investor,car_10,none,-0.0029080732300278377,8.370347299555374e-4,0.001127753943778975,***,3955,47,38,22
+interaction_intel_by_relation,intel_c:is_investor,is_investor,car_20,firm_year,-0.0026237002948583882,8.932197108214381e-4,0.005157361226979056,***,3780,47,38,22
+interaction_intel_by_relation,intel_c:is_investor,is_investor,car_20,none,-0.003190500419412157,0.001167115933490821,0.008860943636540847,***,3955,47,38,22
+interaction_intel_by_relation,intel_c:competitor,competitor,car_15,none,-0.0010715706810588922,5.783247678333007e-4,0.07031998039326234,*,3955,47,402,47
+interaction_intel_by_relation,intel_c:upstream_hardware,upstream_hardware,car_10,firm_year,0.001063042633298511,5.797701564379546e-4,0.07319436917522106,*,3780,47,940,47
+interaction_intel_by_relation,intel_c:upstream_hardware,upstream_hardware,car_10,none,8.95976242546005e-4,4.99035000646955e-4,0.07915808282225026,*,3955,47,940,47
+interaction_intel_by_relation,intel_c:competitor,competitor,car_15,firm_year,-9.213905468330699e-4,5.210558753911657e-4,0.0836397259927071,*,3780,47,402,47
+interaction_intel_by_relation,intel_c:is_owner,is_owner,car_15,none,0.00381224357050824,0.002159879865667274,0.08419766595244219,*,3955,47,21,21
+interaction_intel_by_relation,intel_c:competitor,competitor,car_20,none,-0.0010887346609353375,6.369242762735766e-4,0.09412287821498572,*,3955,47,402,47
+interaction_intel_by_relation,intel_c:downstream_any,downstream_any,car_10,firm_year,-8.131539926755865e-4,4.780428015090131e-4,0.09569338795963592,*,3780,47,2605,47

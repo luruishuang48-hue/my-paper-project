@@ -1,0 +1,16 @@
+family,term,x_var,y_var,controls,estimate,std.error,p.value,stars,n,n_events,treated_n,treated_events
+capability_slope_in_relation_subsample,aa_intelligence_index,is_investor,car_10,none,-0.0031651665987974978,8.970784364007393e-4,0.001994569110048424,***,38,22,38,22
+capability_slope_in_relation_subsample,aa_intelligence_index,is_investor,car_15,none,-0.00311240569672957,9.815506755448714e-4,0.004603746667584795,***,38,22,38,22
+capability_slope_in_relation_subsample,aa_intelligence_index,appropriable_any,car_20,firm_year,0.0013213793917350553,5.576224409796882e-4,0.022055150707627195,**,2793,47,2834,47
+capability_slope_in_relation_subsample,aa_intelligence_index,any_relationship,car_20,firm_year,0.0011645182916553637,5.103490690870976e-4,0.027175231964463073,**,3729,47,3877,47
+capability_slope_in_relation_subsample,aa_intelligence_index,competitor,car_10,none,-9.108089928070517e-4,4.1709427884072066e-4,0.03412166315001075,**,402,47,402,47
+capability_slope_in_relation_subsample,aa_intelligence_index,is_investor,car_20,none,-0.0027297283722089666,0.0013222390271642353,0.05154254393520311,*,38,22,38,22
+capability_slope_in_relation_subsample,aa_intelligence_index,downstream_any,car_20,firm_year,0.001386828262417509,7.291718009855445e-4,0.06345410952790971,*,2490,47,2605,47
+capability_slope_in_relation_subsample,aa_intelligence_index,competitor,car_15,none,-9.023647683415945e-4,4.8010003239833056e-4,0.0665144820826784,*,402,47,402,47
+capability_slope_in_relation_subsample,aa_intelligence_index,downstream_integrator,car_20,firm_year,0.0018367063788284586,9.809401038325973e-4,0.0675166826396221,*,1373,47,1377,47
+capability_slope_in_relation_subsample,aa_intelligence_index,downstream_enabler,car_10,none,-0.0011043015675691414,5.913905947837317e-4,0.06823993157774622,*,376,47,376,47
+capability_slope_in_relation_subsample,aa_intelligence_index,upstream_hardware,car_15,firm_year,0.0011591768793608249,6.293415323817749e-4,0.07194369889786917,*,907,47,940,47
+capability_slope_in_relation_subsample,aa_intelligence_index,strategic_any,car_15,firm_year,9.365735137012267e-4,5.183093198829204e-4,0.07730883247352416,*,1147,47,1180,47
+capability_slope_in_relation_subsample,aa_intelligence_index,upstream_any,car_15,firm_year,9.482669577787899e-4,5.251068363928946e-4,0.07748681173664031,*,1124,47,1157,47
+capability_slope_in_relation_subsample,aa_intelligence_index,is_owner,car_15,none,0.0038733746000883763,0.0020814959682952405,0.07753059350232266,*,21,21,21,21
+capability_slope_in_relation_subsample,aa_intelligence_index,appropriable_any,car_15,firm_year,8.783438048125499e-4,5.086905944725619e-4,0.09093681125934909,*,2793,47,2834,47
