@@ -1,0 +1,80 @@
+﻿source_row_number,release_date,event_name,creator,event_type,aa_match_status,needs_manual_review,aa_model_id,aa_model_name,aa_creator,match_score,match_method
+3,2025-05-14,AlphaEvolve,Google,模型,unmatched,1,,,,,no_confident_candidate
+4,2024-07-25,AlphaGeometry 2,Google,模型,unmatched,1,,,,,no_confident_candidate
+5,2024-07-25,AlphaProof,Google,模型,unmatched,1,,,,,no_confident_candidate
+6,2024-12-03,Amazon Nova,Amazon,模型,matched_low_confidence,1,344c6718-c573-41d4-9556-10287a3fa1fc,Nova Micro,Amazon,0.6733,fuzzy_name+creator
+12,2025-07-10,ChatGPT Agent,OpenAI,模型,matched_low_confidence,1,eab1492c-b853-4852-aa71-06b0ec2481c1,GPT-5 (ChatGPT),OpenAI,0.6068,fuzzy_name+creator
+13,2025-01-20,ChatGPT Atlas,OpenAI,模型,unmatched,1,,,,,no_confident_candidate
+15,2023-09-20,DALL-E 3,OpenAI,模型,unmatched,1,,,,,no_confident_candidate
+16,2025-11-01,Fara-7B,Microsoft,模型,unmatched,1,,,,,no_confident_candidate
+17,2024-06-21,Florence 2,Microsoft,模型,unmatched,1,,,,,no_confident_candidate
+18,2024-01-15,Fluid,Nvidia,模型,unmatched,1,,,,,no_confident_candidate
+19,2024-02-15,Gemini 1.5,Google,模型,matched_low_confidence,1,94229066-9381-4ee1-bf70-a16d63756a6e,Gemini 1.5 Flash-8B,Google,0.6989,fuzzy_name+creator
+20,2025-02-05,Gemini 2.0 Flash,Google,模型,matched_confirmed,0,bcca0e70-7e80-4c07-b1fa-b33bcfb19e51,Gemini 2.0 Flash (Feb '25),Google,1.0,exact_base_name+creator+release_date
+21,2025-03-12,Gemini 2.0 Flash Experimental,Google,模型,matched_low_confidence,1,bcca0e70-7e80-4c07-b1fa-b33bcfb19e51,Gemini 2.0 Flash (Feb '25),Google,0.84,ambiguous_base_name+creator
+22,2025-04-17,Gemini 2.5 Flash,Google,模型,matched_confirmed,0,68c89ebf-779c-4445-9241-de964cd17355,Gemini 2.5 Flash Preview (Reasoning),Google,1.0,exact_base_name+creator+release_date
+23,2025-08-26,Gemini 2.5 Flash Image (Nano Banana),Google,模型,matched_low_confidence,1,6afbfb62-27e4-435e-9c85-d9fe1b92519e,Gemini 2.5 Flash (Non-reasoning),Google,0.7219,fuzzy_name+creator
+24,2025-03-25,Gemini 2.5 Pro,Google,模型,matched_confirmed,0,62de31e8-a1a3-429c-b634-a2afccfd9363,Gemini 2.5 Pro Preview (Mar' 25),Google,1.0,exact_base_name+creator+release_date
+25,2025-11-15,Gemini 3.0,Google,模型,unmatched,1,,,,,no_confident_candidate
+26,2025-12-10,Gemini 3.0 Flash,Google,模型,unmatched,1,,,,,no_confident_candidate
+27,2025-07-20,Gemini Deep Think,Google,模型,matched_low_confidence,1,a5092ece-d5a7-461f-b036-3faef262423f,Gemini 3 Deep Think,Google,0.8268,fuzzy_name+creator
+28,2025-05-20,Gemini Diffusion,Google,模型,unmatched,1,,,,,no_confident_candidate
+29,2024-05-14,Gemini Flash 1.5,Google,模型,matched_low_confidence,1,94229066-9381-4ee1-bf70-a16d63756a6e,Gemini 1.5 Flash-8B,Google,0.84,ambiguous_fuzzy_match
+30,2025-01-21,Gemini Flash Thinking 0121,Google,模型,unmatched,1,,,,,no_confident_candidate
+31,2024-02-15,Gemini Pro,Google,模型,matched_low_confidence,1,8ddacd41-bf43-411b-aa30-43ebf0567dd8,Gemini 1.0 Pro,Google,0.708,fuzzy_name+creator
+32,2024-11-01,gemini-exp,Google,模型,unmatched,1,,,,,no_confident_candidate
+33,2024-07-30,Gemma 2 2B,Google,模型,unmatched,1,,,,,no_confident_candidate
+34,2025-03-12,Gemma 3,Google,模型,matched_low_confidence,1,04781a0e-40f0-4e2a-a4e5-18e389364a79,Gemma 3 270M,Google,0.7567,fuzzy_name+creator
+35,2025-05-18,Gemma 3n,Google,模型,matched_low_confidence,1,a8c67863-9d66-44dd-8d27-f58654ecde03,Gemma 3n E2B Instruct,Google,0.6032,fuzzy_name+creator
+36,2025-08-20,Genie 3.0,Google,模型,unmatched,1,,,,,no_confident_candidate
+38,2025-01-15,Google Titans,Google,模型,unmatched,1,,,,,no_confident_candidate
+39,2023-03-14,GPT 4,OpenAI,模型,matched_confirmed,0,6a7c0e25-1dcb-4b15-8495-a8536a9da051,GPT-4,OpenAI,0.99,exact_base_name+creator
+40,2025-04-14,GPT 4.1,OpenAI,模型,matched_confirmed,0,3b608b70-6434-4baa-99ad-45d499703c67,GPT-4.1,OpenAI,0.99,exact_base_name+creator
+41,2024-05-13,GPT 4o,OpenAI,模型,matched_confirmed,0,e98e911e-9fb2-4a9a-826e-3d681d0cdca8,GPT-4o (May '24),OpenAI,1.0,exact_base_name+creator+release_date
+42,2025-11-15,GPT 5.1,OpenAI,模型,matched_low_confidence,1,d0b3d47e-aec6-425e-9de7-168dcc6d1e28,GPT-5.1 (Non-reasoning),OpenAI,0.84,ambiguous_base_name+creator
+43,2025-11-18,GPT 5.1 Codex Max,OpenAI,模型,matched_confirmed,0,04d023f3-025c-4d78-9571-53edda3eaf2a,GPT-5.1 Codex (high),OpenAI,0.9027,fuzzy_name+creator
+44,2024-09-12,GPT o1,OpenAI,模型,matched_confirmed,0,5ad2f60f-ee05-49fd-85a0-cef69aa7cb7b,o1,OpenAI,0.99,exact_normalized_name+creator
+45,2024-12-20,GPT o3,OpenAI,模型,matched_confirmed,0,16c5b637-8bce-4252-81f2-1b87a36a4e4c,o3,OpenAI,0.99,exact_normalized_name+creator
+46,2025-01-31,GPT o3 mini,OpenAI,模型,matched_confirmed,0,2dad8957-4c16-4e74-bf2d-8b21514e0ae9,o3-mini,OpenAI,0.99,exact_normalized_name+creator
+47,2025-06-15,GPT o3 pro,OpenAI,模型,matched_confirmed,0,ca04852c-eaae-4881-a208-f9b2ca3b7cd6,o3-pro,OpenAI,0.99,exact_normalized_name+creator
+48,2025-04-16,GPT o4 mini,OpenAI,模型,matched_confirmed,0,84b49308-6b93-47aa-a4f6-776ee1a1e8cd,o4-mini (high),OpenAI,0.9301,fuzzy_name+creator
+50,2025-02-27,GPT-4.5,OpenAI,模型,matched_confirmed,0,5ce30d25-5353-45bb-bef9-6b87480ba3a2,GPT-4.5 (Preview),OpenAI,0.99,exact_base_name+creator
+51,2024-08-06,GPT-4o 0806,OpenAI,模型,matched_low_confidence,1,8c1be908-67b6-4cf4-ba08-83ddbe44fde3,GPT-4o (Aug '24),OpenAI,0.662,fuzzy_name+creator
+53,2024-07-18,GPT-4o mini,OpenAI,模型,matched_confirmed,0,b5c1c91a-7474-4409-9a9c-9c2ac45d9eb6,GPT-4o mini,OpenAI,1.0,exact_base_name+creator+release_date
+54,2025-08-07,GPT-5,OpenAI,模型,matched_confirmed,0,c3738fb0-3408-4430-a699-760ae4b70c93,GPT-5 (minimal),OpenAI,1.0,exact_base_name+creator+release_date
+55,2025-12-15,GPT-5.2,OpenAI,模型,matched_low_confidence,1,498862c3-f9ac-49d2-852f-16a02bb0c38f,GPT-5.2 (xhigh),OpenAI,0.84,ambiguous_base_name+creator
+56,2025-08-01,gpt-oss-120b,OpenAI,模型,matched_low_confidence,1,f0083258-8646-45b8-8082-7aaf6c2ea82a,gpt-oss-120B (high),OpenAI,0.84,ambiguous_base_name+creator
+57,2024-03-28,Grok 1.5,xAI,模型,matched_low_confidence,1,4c111fbc-d13a-42b4-858c-1dc17fe3c1d1,Grok-1,xAI,0.7212,fuzzy_name+creator
+58,2024-04-12,Grok 1.5v,xAI,模型,matched_low_confidence,1,4c111fbc-d13a-42b4-858c-1dc17fe3c1d1,Grok-1,xAI,0.6367,fuzzy_name+creator
+59,2024-08-20,Grok 2,xAI,模型,matched_confirmed,0,291a510a-dcc0-40df-8a80-b3aa31900a6c,Grok 2 (Dec '24),xAI,0.99,exact_base_name+creator
+60,2025-02-17,Grok 3,xAI,模型,matched_confirmed,0,2443ac9e-a3db-423d-accb-8963f6fb0a53,Grok 3,xAI,0.99,exact_base_name+creator
+61,2025-07-09,Grok 4,xAI,模型,matched_confirmed,0,5ea94a4a-55ac-4ea1-8898-2b3971e94af6,Grok 4,xAI,0.99,exact_base_name+creator
+62,2025-11-17,Grok 4.1,xAI,模型,matched_low_confidence,1,23149f9b-c904-43e2-9ec4-afa2bf843941,Grok 4.1 Fast (Reasoning),xAI,0.6796,fuzzy_name+creator
+65,2024-08-01,Imagen 3,Google,模型,unmatched,1,,,,,no_confident_candidate
+66,2025-05-15,Imagen 4,Google,模型,unmatched,1,,,,,no_confident_candidate
+67,2023-02-24,LLaMA,Meta,模型,matched_low_confidence,1,fe11ab6c-a4dd-4c28-9fef-07da76d5ed14,Llama 65B,Meta,0.7138,fuzzy_name+creator
+68,2023-07-18,LLaMA 2,Meta,模型,matched_low_confidence,1,ffd65ef7-fbdb-4145-98ae-b5d01cda770b,Llama 2 Chat 7B,Meta,0.75,fuzzy_name+creator
+69,2024-04-18,LLaMA 3,Meta,模型,matched_low_confidence,1,82879bb8-89fb-4adc-b519-315b8ef30b77,Llama 3 Instruct 8B,Meta,0.6627,fuzzy_name+creator
+70,2024-07-23,llama 3.1,Meta,模型,matched_low_confidence,1,739684ba-0f63-4e2a-b4ee-30741c9e9320,Llama 3.1 Instruct 8B,Meta,0.73,fuzzy_name+creator
+71,2024-09-25,Llama 3.2,Meta,模型,matched_low_confidence,1,71e8d48c-1920-4f27-8ea9-1f10becc615a,Llama 3.2 Instruct 3B,Meta,0.73,fuzzy_name+creator
+72,2024-12-06,Llama 3.3 70B,Meta,模型,matched_confirmed,0,976cc8ad-7904-4056-83c5-960181f47d5f,Llama 3.3 Instruct 70B,Meta,0.9249,fuzzy_name+creator
+73,2025-04-05,LLaMA 4,Meta,模型,matched_low_confidence,1,adf9a85e-abc3-4f28-937b-db6655cc5238,Llama 4 Scout,Meta,0.84,ambiguous_fuzzy_match
+74,2024-12-19,Meta Apollo,Meta,模型,unmatched,1,,,,,no_confident_candidate
+75,2024-05-16,Meta Chameleon,Meta,模型,unmatched,1,,,,,no_confident_candidate
+76,2024-01-18,Meta Spirit LM,Meta,模型,unmatched,1,,,,,no_confident_candidate
+77,2024-10-04,Movie Gen,Meta,模型,unmatched,1,,,,,no_confident_candidate
+78,2025-11-20,Nano Banana Pro,Google,模型,unmatched,1,,,,,no_confident_candidate
+80,2025-12-01,Nova 2,Amazon,模型,matched_low_confidence,1,546ec53f-273c-4af7-b13f-b88c41f45905,Nova Pro,Amazon,0.6076,fuzzy_name+creator
+82,2024-04-22,OpenELM,Apple,模型,unmatched,1,,,,,creator_not_found_in_aa
+83,2024-12-10,PaliGemma 2,Google,模型,matched_low_confidence,1,515852e7-ba9c-4571-8cf9-82ad6b45f22f,PALM-2,Google,0.6316,fuzzy_name+creator
+84,2023-05-10,PaLM 2,Google,模型,matched_confirmed,0,515852e7-ba9c-4571-8cf9-82ad6b45f22f,PALM-2,Google,0.99,exact_base_name+creator
+85,2024-08-20,Phi 3.5,Microsoft,模型,unmatched,1,,,,,no_confident_candidate
+86,2025-05-01,Phi 4 reasoning,Microsoft,模型,matched_low_confidence,1,ee708f92-374e-4123-b900-e22d7b2afc19,Phi-4,Microsoft,0.6267,fuzzy_name+creator
+87,2024-04-22,Phi-3-mini,Microsoft,模型,matched_low_confidence,1,ded8d96e-835f-4359-947a-a4c3bb78e983,Phi-3 Mini Instruct 3.8B,Microsoft,0.708,fuzzy_name+creator
+88,2024-12-12,Phi4,Microsoft,模型,matched_confirmed,0,ee708f92-374e-4123-b900-e22d7b2afc19,Phi-4,Microsoft,0.99,exact_base_name+creator
+89,2025-02-01,Phi4-mini,Microsoft,模型,unmatched,1,,,,,no_confident_candidate
+91,2024-02-15,Sora,OpenAI,模型,unmatched,1,,,,,no_confident_candidate
+92,2025-09-15,Sora 2,OpenAI,模型,unmatched,1,,,,,no_confident_candidate
+93,2024-12-05,Veo 2,Google,模型,unmatched,1,,,,,no_confident_candidate
+94,2025-05-25,Veo 3,Google,模型,unmatched,1,,,,,no_confident_candidate
+95,2024-12-05,xAI Aurora,xAI,模型,unmatched,1,,,,,no_confident_candidate

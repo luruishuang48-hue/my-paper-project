@@ -1,0 +1,281 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+3690 HK,Alibaba,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Anthropic,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,DeepSeek,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Google,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Kuaishou,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Meta,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Microsoft,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Mistral AI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,OpenAI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Runway,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Stability AI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,xAI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Zhipu AI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+4755 JP,Alibaba,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Anthropic,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,DeepSeek,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Google,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Kuaishou,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Meta,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Microsoft,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Mistral AI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,OpenAI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Runway,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Stability AI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,xAI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+700 HK,Alibaba,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Anthropic,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,DeepSeek,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Google,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Kuaishou,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Meta,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Microsoft,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Mistral AI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,OpenAI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Runway,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,ShengShu Technology,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Stability AI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,xAI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Zhipu AI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+AAPL,Alibaba,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Anthropic,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,DeepSeek,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Google,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Kuaishou,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Meta,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Microsoft,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Mistral AI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,OpenAI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Runway,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,ShengShu Technology,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Stability AI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,xAI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Zhipu AI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AMZN,Alibaba,0,0,0,0,0,1,0,0,H,Titan/Nova competes; AWS does not host Alibaba models
+AMZN,Anthropic,0,1,0,0,0,1,1,0,H,AWS Bedrock hosts Anthropic; Titan/Nova competes; $4B investment
+AMZN,DeepSeek,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Google,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Kuaishou,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Meta,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Microsoft,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Mistral AI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,OpenAI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Runway,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,ShengShu Technology,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Stability AI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,xAI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Zhipu AI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+BABA,Alibaba,0,1,0,0,0,0,0,1,H,Alibaba Group is the listed parent; operates Alibaba Cloud
+BABA,Anthropic,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,DeepSeek,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Google,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Kuaishou,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Meta,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Microsoft,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Mistral AI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,OpenAI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Runway,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,ShengShu Technology,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Stability AI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,xAI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Zhipu AI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BIDU,Alibaba,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Anthropic,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,DeepSeek,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Google,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Kuaishou,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Meta,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Microsoft,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Mistral AI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,OpenAI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Runway,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,ShengShu Technology,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Stability AI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,xAI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Zhipu AI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+ERIC,Alibaba,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Anthropic,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,DeepSeek,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Google,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Kuaishou,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Meta,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Microsoft,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Mistral AI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,OpenAI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Runway,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Stability AI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,xAI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Zhipu AI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+GOOGL,Alibaba,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Anthropic,0,1,0,0,0,1,1,0,H,GCP hosts AI workloads; Gemini competes; $2B investment in Anthropic
+GOOGL,DeepSeek,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Google,0,0,0,0,0,0,0,1,H,Alphabet is Google's listed parent
+GOOGL,Kuaishou,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Meta,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Microsoft,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Mistral AI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,OpenAI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Runway,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,ShengShu Technology,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Stability AI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,xAI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Zhipu AI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+HUT,Alibaba,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Anthropic,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,DeepSeek,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Google,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Kuaishou,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Meta,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Microsoft,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Mistral AI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,OpenAI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Runway,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,ShengShu Technology,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Stability AI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,xAI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Zhipu AI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+META,Alibaba,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Anthropic,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,DeepSeek,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Google,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Kuaishou,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Meta,0,0,0,0,0,0,0,1,H,Meta Platforms is the listed entity
+META,Microsoft,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Mistral AI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,OpenAI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Runway,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,ShengShu Technology,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Stability AI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,xAI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Zhipu AI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+MSFT,Alibaba,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Anthropic,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,DeepSeek,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Google,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Kuaishou,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Meta,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Microsoft,0,1,0,0,0,0,0,1,H,Microsoft is the listed entity; operates Azure
+MSFT,Mistral AI,0,1,0,0,0,1,1,0,H,Azure hosts Mistral; Phi competes; EUR15M investment
+MSFT,OpenAI,0,1,1,0,0,1,1,0,H,Azure hosts OpenAI; Copilot integrates GPT; Phi competes; $13B investment
+MSFT,Runway,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,ShengShu Technology,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Stability AI,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,xAI,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Zhipu AI,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+NFLX,Alibaba,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Anthropic,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,DeepSeek,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Google,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Kuaishou,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Meta,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Microsoft,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Mistral AI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,OpenAI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Runway,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Stability AI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,xAI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Zhipu AI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+ORCL,Alibaba,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Anthropic,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,DeepSeek,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Google,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Kuaishou,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Meta,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Microsoft,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Mistral AI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,OpenAI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Runway,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,ShengShu Technology,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Stability AI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,xAI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Zhipu AI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+PONY,Alibaba,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Anthropic,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,DeepSeek,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Google,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Kuaishou,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Meta,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Microsoft,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Mistral AI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,OpenAI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Runway,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,ShengShu Technology,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Stability AI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,xAI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Zhipu AI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+SHOP,Alibaba,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Anthropic,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,DeepSeek,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Google,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Kuaishou,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Meta,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Microsoft,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Mistral AI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,OpenAI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Runway,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,ShengShu Technology,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Stability AI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,xAI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Zhipu AI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SNAP,Alibaba,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Anthropic,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,DeepSeek,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Google,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Kuaishou,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Meta,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Microsoft,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Mistral AI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,OpenAI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Runway,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,ShengShu Technology,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Stability AI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,xAI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Zhipu AI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+STNE,Alibaba,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Anthropic,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,DeepSeek,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Google,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Kuaishou,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Meta,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Microsoft,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Mistral AI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,OpenAI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Runway,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Stability AI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,xAI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Zhipu AI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+TSLA,Alibaba,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Anthropic,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,DeepSeek,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Google,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Kuaishou,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Meta,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Microsoft,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Mistral AI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,OpenAI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Runway,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,ShengShu Technology,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Stability AI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,xAI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Zhipu AI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+UBER,Alibaba,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Anthropic,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,DeepSeek,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Google,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Kuaishou,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Meta,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Microsoft,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Mistral AI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,OpenAI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Runway,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,ShengShu Technology,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Stability AI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,xAI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Zhipu AI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation

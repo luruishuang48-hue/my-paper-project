@@ -1,0 +1,155 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+2353 TT,Alibaba,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Anthropic,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Google,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Meta,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Microsoft,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,OpenAI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Runway,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Stability AI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,xAI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2395 TT,Alibaba,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Anthropic,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Google,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Meta,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Microsoft,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,OpenAI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Runway,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Stability AI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,xAI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+3443 TT,Alibaba,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Anthropic,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Google,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Meta,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Microsoft,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,OpenAI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Runway,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Stability AI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,xAI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+5803 JP,Alibaba,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Anthropic,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,DeepSeek,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Google,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Kuaishou,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Meta,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Microsoft,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Mistral AI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,OpenAI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Runway,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,ShengShu Technology,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Stability AI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Zhipu AI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,xAI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+CSCO,Alibaba,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Anthropic,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,DeepSeek,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Google,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Kuaishou,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Meta,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Microsoft,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Mistral AI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,OpenAI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Runway,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,ShengShu Technology,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Stability AI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Zhipu AI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,xAI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+ERIC,Alibaba,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Anthropic,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,DeepSeek,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Google,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Kuaishou,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Meta,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Microsoft,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Mistral AI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,OpenAI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Runway,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,ShengShu Technology,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Stability AI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Zhipu AI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,xAI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+HUT,Alibaba,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Anthropic,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,DeepSeek,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Google,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Kuaishou,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Meta,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Microsoft,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Mistral AI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,OpenAI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Runway,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,ShengShu Technology,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Stability AI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Zhipu AI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,xAI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+QUBT,Alibaba,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Anthropic,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,DeepSeek,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Google,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Kuaishou,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Meta,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Microsoft,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Mistral AI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,OpenAI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Runway,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,ShengShu Technology,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Stability AI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Zhipu AI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,xAI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+SMCI,Alibaba,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Anthropic,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,DeepSeek,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Google,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Kuaishou,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Meta,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Microsoft,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Mistral AI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,OpenAI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Runway,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,ShengShu Technology,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Stability AI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Zhipu AI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,xAI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+STX,Alibaba,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Anthropic,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,DeepSeek,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Google,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Kuaishou,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Meta,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Microsoft,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Mistral AI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,OpenAI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Runway,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,ShengShu Technology,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Stability AI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Zhipu AI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,xAI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+ZBRA,Alibaba,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Anthropic,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,DeepSeek,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Google,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Kuaishou,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Meta,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Microsoft,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Mistral AI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,OpenAI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Runway,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,ShengShu Technology,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Stability AI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Zhipu AI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,xAI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators

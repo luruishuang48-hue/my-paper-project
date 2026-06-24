@@ -1,0 +1,1205 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+000660 KS,Alibaba,1,0,0,0,0,0,0,0,H,"SK Hynix is a leading HBM and DRAM supplier; AI training clusters require massive HBM capacity, directly supplying infrastructure for Alibaba's Qwen model training"
+000660 KS,Anthropic,1,0,0,0,0,0,0,0,H,SK Hynix supplies HBM memory essential for GPU-based AI training; Anthropic's Claude models trained on GPU clusters with SK Hynix HBM
+000660 KS,DeepSeek,1,0,0,0,0,0,0,0,H,SK Hynix HBM memory is critical for AI accelerator performance; DeepSeek's training infrastructure relies on GPUs with HBM
+000660 KS,Google,1,0,0,0,0,0,0,0,H,SK Hynix supplies HBM for NVIDIA GPUs and potentially for Google TPU memory subsystems; direct AI infrastructure supplier for Gemini training
+000660 KS,Kuaishou,1,0,0,0,0,0,0,0,H,SK Hynix HBM and DRAM used in GPU clusters for training Kuaishou's Kling video generation models
+000660 KS,Meta,1,0,0,0,0,0,0,0,H,SK Hynix is a primary HBM supplier; Meta's massive GPU clusters for Llama training require substantial HBM capacity
+000660 KS,Microsoft,1,0,0,0,0,0,0,0,H,SK Hynix supplies HBM for GPUs in Microsoft Azure AI infrastructure used for Phi model training
+000660 KS,Mistral AI,1,0,0,0,0,0,0,0,H,SK Hynix HBM memory is used in GPU accelerators that Mistral AI relies on for model training
+000660 KS,OpenAI,1,0,0,0,0,0,0,0,H,SK Hynix HBM is critical component in NVIDIA GPUs powering OpenAI's training and inference infrastructure
+000660 KS,Runway,1,0,0,0,0,0,0,0,H,SK Hynix HBM supplies GPU memory for training Runway's Gen-4 video generation models
+000660 KS,ShengShu Technology,1,0,0,0,0,0,0,0,H,SK Hynix HBM and DRAM used in GPU training clusters for ShengShu's Vidu video models
+000660 KS,Stability AI,1,0,0,0,0,0,0,0,H,SK Hynix HBM memory in GPUs used for training Stability AI's Stable Diffusion models
+000660 KS,Zhipu AI,1,0,0,0,0,0,0,0,H,SK Hynix HBM and DRAM supply the memory layer for GPU clusters used to train Zhipu AI's GLM models
+000660 KS,xAI,1,0,0,0,0,0,0,0,H,SK Hynix supplies HBM for the NVIDIA GPUs in xAI's massive Colossus training cluster for Grok models
+005930 KS,Alibaba,1,0,0,0,0,0,0,0,H,"Samsung supplies HBM, DRAM, NAND, and foundry services for AI infrastructure; Alibaba's AI training depends on Samsung memory and storage"
+005930 KS,Anthropic,1,0,0,0,0,0,0,0,H,"Samsung provides HBM, DRAM, and NAND for AI data centers; foundry services for AI chips used in Anthropic's training infrastructure"
+005930 KS,DeepSeek,1,0,0,0,0,0,0,0,H,"Samsung supplies HBM and DRAM for GPUs, plus NAND storage for AI data centers supporting DeepSeek's training"
+005930 KS,Google,1,0,0,0,0,0,0,0,H,"Samsung provides HBM for GPUs, DRAM, NAND storage, and foundry services (fabricating some Google TPU chips) for Gemini training"
+005930 KS,Kuaishou,1,0,0,0,0,0,0,0,H,"Samsung HBM, DRAM, and NAND are foundational components in GPU clusters used for Kuaishou's Kling model training"
+005930 KS,Meta,1,0,0,0,0,0,0,0,H,"Samsung supplies HBM, DRAM, and NAND for Meta's large-scale GPU training clusters for Llama; also foundry for some AI-related chips"
+005930 KS,Microsoft,1,0,0,0,0,0,0,0,H,"Samsung provides HBM, DRAM, NAND, and foundry services for Microsoft Azure AI infrastructure supporting Phi training"
+005930 KS,Mistral AI,1,0,0,0,0,0,0,0,H,Samsung memory (HBM/DRAM) and storage (NAND) components are used in cloud GPU infrastructure for Mistral AI training
+005930 KS,OpenAI,1,0,0,0,0,0,0,0,H,"Samsung supplies HBM, DRAM, and NAND for GPU clusters and data centers powering OpenAI's GPT/o-series training and inference"
+005930 KS,Runway,1,0,0,0,0,0,0,0,H,"Samsung HBM and DRAM in GPUs, plus NAND storage, support infrastructure for Runway's video model training"
+005930 KS,ShengShu Technology,1,0,0,0,0,0,0,0,H,Samsung memory and storage components supply the infrastructure for ShengShu's Vidu model training
+005930 KS,Stability AI,1,0,0,0,0,0,0,0,H,"Samsung HBM, DRAM, and NAND are components in GPU training clusters used for Stable Diffusion models"
+005930 KS,Zhipu AI,1,0,0,0,0,0,0,0,H,Samsung memory (HBM/DRAM) and storage (NAND) supply AI training infrastructure for Zhipu AI's GLM models
+005930 KS,xAI,1,0,0,0,0,0,0,0,H,"Samsung supplies HBM, DRAM, and NAND for xAI's GPU clusters training Grok models"
+AMBA,Alibaba,1,0,0,0,0,0,0,0,L,Ambarella makes edge AI vision processors for automotive/security; marginal connection to Alibaba's cloud-based LLM training infrastructure
+AMBA,Anthropic,1,0,0,0,0,0,0,0,L,Ambarella's edge AI vision chips are not directly used in LLM training; weak upstream connection to Anthropic's Claude infrastructure
+AMBA,DeepSeek,1,0,0,0,0,0,0,0,L,Ambarella's edge AI vision processors have marginal relevance to DeepSeek's LLM training infrastructure
+AMBA,Google,1,0,0,0,0,0,0,0,L,Ambarella's edge AI vision chips are peripheral to Google's cloud-based Gemini training; weak indirect connection through broader AI chip ecosystem
+AMBA,Kuaishou,1,0,0,0,0,0,0,0,L,Ambarella's edge vision processors have marginal connection to Kuaishou's cloud-based Kling video model training
+AMBA,Meta,1,0,0,0,0,0,0,0,L,Ambarella's edge AI vision chips are marginal to Meta's large-scale Llama training infrastructure
+AMBA,Microsoft,1,0,0,0,0,0,0,0,L,Ambarella's edge vision processors have weak connection to Microsoft's cloud-based Phi model training
+AMBA,Mistral AI,1,0,0,0,0,0,0,0,L,Ambarella's edge AI chips are not meaningfully connected to Mistral AI's LLM training infrastructure
+AMBA,OpenAI,1,0,0,0,0,0,0,0,L,Ambarella's edge AI vision processors have marginal connection to OpenAI's cloud-based GPT training
+AMBA,Runway,1,0,0,0,0,0,0,0,L,Ambarella's edge vision chips are peripheral to Runway's cloud-based video generation model training
+AMBA,ShengShu Technology,1,0,0,0,0,0,0,0,L,Ambarella's edge AI chips have weak connection to ShengShu's cloud-based Vidu training
+AMBA,Stability AI,1,0,0,0,0,0,0,0,L,Ambarella's edge vision processors have marginal relevance to Stability AI's cloud-based diffusion model training
+AMBA,Zhipu AI,1,0,0,0,0,0,0,0,L,Ambarella's edge AI vision chips are peripheral to Zhipu AI's LLM training infrastructure
+AMBA,xAI,1,0,0,0,0,0,0,0,L,Ambarella's edge vision processors have weak connection to xAI's large-scale Grok training infrastructure
+AMD,Alibaba,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are direct AI training/inference hardware; Alibaba Cloud uses AMD GPUs for Qwen model workloads
+AMD,Anthropic,1,0,0,0,0,0,0,0,H,AMD MI accelerators are direct competitors to NVIDIA GPUs for AI training; Anthropic may use AMD hardware in its training/inference stack
+AMD,DeepSeek,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are direct AI training hardware; DeepSeek has explored AMD GPU usage for cost-effective training
+AMD,Google,1,0,0,0,0,0,0,0,H,AMD EPYC CPUs power Google Cloud data centers; MI accelerators offer alternative AI training hardware for Gemini-class workloads
+AMD,Kuaishou,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are direct AI training/inference hardware used in data centers supporting Kuaishou's model training
+AMD,Meta,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are directly used in Meta's AI infrastructure; Meta has adopted AMD GPUs alongside NVIDIA for Llama training
+AMD,Microsoft,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs power Azure AI infrastructure; Microsoft uses AMD GPUs for Phi model training and inference
+AMD,Mistral AI,1,0,0,0,0,0,0,0,H,AMD MI accelerators are direct AI training hardware available through cloud providers that Mistral AI uses
+AMD,OpenAI,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are direct AI training/inference hardware; OpenAI's cloud partners deploy AMD in their data centers
+AMD,Runway,1,0,0,0,0,0,0,0,H,AMD MI accelerators are direct AI training hardware available in cloud infrastructure used for Runway's video model training
+AMD,ShengShu Technology,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are direct AI training hardware in data centers supporting ShengShu's model development
+AMD,Stability AI,1,0,0,0,0,0,0,0,H,AMD MI accelerators are direct AI training hardware; Stability AI can leverage AMD GPUs for diffusion model training
+AMD,Zhipu AI,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs supply direct AI training hardware for infrastructure supporting Zhipu AI's GLM models
+AMD,xAI,1,0,0,0,0,0,0,0,H,AMD MI accelerators and EPYC CPUs are direct AI training/inference hardware; xAI's infrastructure may include AMD alongside NVIDIA
+AVGO,Alibaba,1,0,0,0,0,0,0,0,H,"Broadcom provides custom AI accelerators and data-center networking (Memory, SerDes, Ethernet switches) critical for AI training clusters serving Alibaba's Qwen"
+AVGO,Anthropic,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and custom AI silicon supply infrastructure for cloud providers hosting Anthropic's Claude training
+AVGO,DeepSeek,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and custom AI accelerator technology supports infrastructure used by DeepSeek
+AVGO,Google,1,0,0,0,0,0,0,0,H,Broadcom designs Google's TPU custom AI accelerators and provides networking for Google's AI data centers; direct critical supplier for Gemini training
+AVGO,Kuaishou,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and custom AI silicon support cloud infrastructure used for Kuaishou's Kling model training
+AVGO,Meta,1,0,0,0,0,0,0,0,H,Broadcom supplies custom AI accelerators and high-speed networking for Meta's massive AI training clusters for Llama
+AVGO,Microsoft,1,0,0,0,0,0,0,0,H,Broadcom provides custom AI silicon (Maia-related) and networking for Microsoft Azure AI infrastructure supporting Phi training
+AVGO,Mistral AI,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and custom AI accelerators supply cloud infrastructure used by Mistral AI
+AVGO,OpenAI,1,0,0,0,0,0,0,0,H,Broadcom's networking and custom AI accelerators support Azure and other cloud infrastructure powering OpenAI's GPT training
+AVGO,Runway,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and AI silicon supply infrastructure for cloud platforms hosting Runway's training workloads
+AVGO,ShengShu Technology,1,0,0,0,0,0,0,0,H,Broadcom's networking and custom AI silicon support data-center infrastructure used for ShengShu's Vidu training
+AVGO,Stability AI,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and AI accelerators supply infrastructure for cloud platforms hosting Stability AI training
+AVGO,Zhipu AI,1,0,0,0,0,0,0,0,H,Broadcom's networking and custom AI silicon support cloud infrastructure used for Zhipu AI's GLM model training
+AVGO,xAI,1,0,0,0,0,0,0,0,H,Broadcom's data-center networking and custom AI accelerators supply infrastructure for xAI's large-scale Grok training
+IFX GR,Alibaba,1,0,0,0,0,0,0,0,M,Infineon supplies power management ICs for data centers; indirect but meaningful role in managing power for Alibaba's AI training infrastructure
+IFX GR,Anthropic,1,0,0,0,0,0,0,0,M,Infineon's power management ICs support data-center power delivery; indirect but meaningful role in Anthropic's training infrastructure
+IFX GR,DeepSeek,1,0,0,0,0,0,0,0,M,Infineon power management ICs are used in data-center power delivery supporting DeepSeek's AI training
+IFX GR,Google,1,0,0,0,0,0,0,0,M,Infineon supplies power management ICs for data centers; indirect but meaningful role in Google's AI training infrastructure for Gemini
+IFX GR,Kuaishou,1,0,0,0,0,0,0,0,M,Infineon's power management ICs support data-center power delivery for infrastructure used in Kuaishou's Kling training
+IFX GR,Meta,1,0,0,0,0,0,0,0,M,Infineon power management ICs manage power delivery in Meta's large AI data centers training Llama models
+IFX GR,Microsoft,1,0,0,0,0,0,0,0,M,Infineon supplies power management ICs for Azure data centers supporting Microsoft's Phi model training infrastructure
+IFX GR,Mistral AI,1,0,0,0,0,0,0,0,M,Infineon's power management ICs support data-center power delivery in cloud infrastructure used by Mistral AI
+IFX GR,OpenAI,1,0,0,0,0,0,0,0,M,Infineon power management ICs are used in data-center power delivery supporting OpenAI's GPU training clusters
+IFX GR,Runway,1,0,0,0,0,0,0,0,M,Infineon's power management ICs support data-center power delivery for infrastructure used in Runway's model training
+IFX GR,ShengShu Technology,1,0,0,0,0,0,0,0,M,Infineon power management ICs manage power delivery in data centers supporting ShengShu's Vidu training
+IFX GR,Stability AI,1,0,0,0,0,0,0,0,M,Infineon's power management ICs support data-center power delivery for infrastructure used in Stability AI's training
+IFX GR,Zhipu AI,1,0,0,0,0,0,0,0,M,Infineon power management ICs manage power delivery in data centers supporting Zhipu AI's GLM model training
+IFX GR,xAI,1,0,0,0,0,0,0,0,M,Infineon's power management ICs support data-center power delivery for xAI's massive Grok training clusters
+INTC,Alibaba,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi AI accelerators are direct AI training/inference hardware; Alibaba Cloud uses Intel CPUs and may deploy Gaudi for Qwen workloads
+INTC,Anthropic,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi AI accelerators supply direct training/inference hardware for cloud infrastructure hosting Anthropic's Claude
+INTC,DeepSeek,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi accelerators are direct AI training hardware; DeepSeek's infrastructure includes Intel-powered servers
+INTC,Google,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs power Google Cloud data centers; Gaudi accelerators offer alternative AI training hardware for Gemini workloads
+INTC,Kuaishou,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi AI accelerators supply direct training/inference hardware for Kuaishou's Kling model infrastructure
+INTC,Meta,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs power Meta's data centers; Gaudi accelerators are direct AI training hardware relevant to Llama infrastructure
+INTC,Microsoft,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi AI accelerators are deployed in Azure data centers supporting Microsoft's Phi model training
+INTC,Mistral AI,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi accelerators supply direct AI training/inference hardware in cloud infrastructure used by Mistral AI
+INTC,OpenAI,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs power Azure and other cloud data centers; Gaudi accelerators offer direct AI training hardware for OpenAI workloads
+INTC,Runway,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi accelerators supply AI training hardware in cloud infrastructure used for Runway's video models
+INTC,ShengShu Technology,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi accelerators supply AI training hardware for infrastructure supporting ShengShu's Vidu models
+INTC,Stability AI,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi accelerators are direct AI training hardware available for Stability AI's diffusion model training
+INTC,Zhipu AI,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs and Gaudi accelerators supply direct AI training hardware for Zhipu AI's GLM model infrastructure
+INTC,xAI,1,0,0,0,0,0,0,0,H,Intel Xeon CPUs power data-center servers; Gaudi accelerators are direct AI training hardware relevant to xAI's Grok infrastructure
+MRVL,Alibaba,1,0,0,0,0,0,0,0,H,"Marvell provides custom AI silicon, data-center networking, and storage controllers critical for AI training clusters serving Alibaba's Qwen models"
+MRVL,Anthropic,1,0,0,0,0,0,0,0,H,"Marvell's custom AI silicon, networking, and storage controllers supply infrastructure for cloud providers hosting Anthropic's Claude training"
+MRVL,DeepSeek,1,0,0,0,0,0,0,0,H,Marvell's data-center networking and storage controllers support AI training infrastructure used by DeepSeek
+MRVL,Google,1,0,0,0,0,0,0,0,H,Marvell designs custom AI silicon for Google (TPU interconnects) and provides networking/storage for Gemini training infrastructure
+MRVL,Kuaishou,1,0,0,0,0,0,0,0,H,Marvell's data-center networking and storage controllers support cloud AI infrastructure for Kuaishou's Kling training
+MRVL,Meta,1,0,0,0,0,0,0,0,H,Marvell supplies custom AI silicon and data-center networking for Meta's massive AI training clusters for Llama
+MRVL,Microsoft,1,0,0,0,0,0,0,0,H,Marvell provides custom AI silicon and networking for Azure AI infrastructure supporting Microsoft's Phi model training
+MRVL,Mistral AI,1,0,0,0,0,0,0,0,H,Marvell's data-center networking and storage controllers support cloud infrastructure used by Mistral AI for training
+MRVL,OpenAI,1,0,0,0,0,0,0,0,H,Marvell's custom AI silicon and networking supply Azure and cloud infrastructure powering OpenAI's GPT training
+MRVL,Runway,1,0,0,0,0,0,0,0,H,Marvell's data-center networking and storage controllers support cloud infrastructure for Runway's video model training
+MRVL,ShengShu Technology,1,0,0,0,0,0,0,0,H,Marvell's networking and storage controllers support data-center infrastructure for ShengShu's Vidu training
+MRVL,Stability AI,1,0,0,0,0,0,0,0,H,Marvell's data-center networking and storage controllers supply infrastructure for Stability AI's training workloads
+MRVL,Zhipu AI,1,0,0,0,0,0,0,0,H,Marvell's networking and storage controllers support cloud infrastructure used for Zhipu AI's GLM model training
+MRVL,xAI,1,0,0,0,0,0,0,0,H,Marvell's custom AI silicon and data-center networking supply infrastructure for xAI's large-scale Grok training
+MU,Alibaba,1,0,0,0,0,0,0,0,H,Micron supplies HBM and DRAM essential for AI accelerators; Alibaba's Qwen training relies on GPU clusters with Micron memory
+MU,Anthropic,1,0,0,0,0,0,0,0,H,Micron provides HBM and DRAM for AI training GPUs; Anthropic's Claude training infrastructure depends on high-bandwidth memory
+MU,DeepSeek,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPUs in DeepSeek's AI training infrastructure
+MU,Google,1,0,0,0,0,0,0,0,H,Micron supplies HBM for GPUs and DRAM for Google's AI data centers supporting Gemini training
+MU,Kuaishou,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPU clusters training Kuaishou's Kling video models
+MU,Meta,1,0,0,0,0,0,0,0,H,Micron is a major HBM and DRAM supplier; Meta's large-scale Llama training clusters require substantial Micron memory
+MU,Microsoft,1,0,0,0,0,0,0,0,H,Micron supplies HBM and DRAM for Azure AI infrastructure GPUs supporting Microsoft's Phi model training
+MU,Mistral AI,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPUs in cloud infrastructure used by Mistral AI for training
+MU,OpenAI,1,0,0,0,0,0,0,0,H,Micron supplies HBM and DRAM critical for NVIDIA GPUs powering OpenAI's GPT/o-series training and inference
+MU,Runway,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPU training clusters used for Runway's Gen-4 video models
+MU,ShengShu Technology,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPU clusters training ShengShu's Vidu models
+MU,Stability AI,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPU training clusters used for Stability AI's diffusion models
+MU,Zhipu AI,1,0,0,0,0,0,0,0,H,Micron HBM and DRAM supply memory for GPU clusters training Zhipu AI's GLM models
+MU,xAI,1,0,0,0,0,0,0,0,H,Micron supplies HBM and DRAM for GPUs in xAI's massive Colossus training cluster for Grok
+NVDA,Alibaba,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Alibaba's Qwen training relies overwhelmingly on NVIDIA A100/H100/B200 GPUs
+NVDA,Anthropic,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Anthropic's Claude training runs primarily on NVIDIA GPU clusters
+NVDA,DeepSeek,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; DeepSeek trains on NVIDIA A100/H800 GPUs
+NVDA,Google,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Google uses NVIDIA GPUs alongside TPUs for Gemini training and inference
+NVDA,Kuaishou,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Kuaishou's Kling video model training relies on NVIDIA GPU clusters
+NVDA,Meta,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Meta's massive Llama training clusters are primarily NVIDIA-based
+NVDA,Microsoft,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Microsoft Azure AI and Phi training infrastructure built on NVIDIA GPUs
+NVDA,Mistral AI,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Mistral AI's model training relies on NVIDIA GPU clusters
+NVDA,OpenAI,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; OpenAI's GPT/o-series training runs on massive NVIDIA GPU clusters
+NVDA,Runway,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Runway's Gen-4 video model training relies on NVIDIA GPUs
+NVDA,ShengShu Technology,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; ShengShu's Vidu video model training relies on NVIDIA GPUs
+NVDA,Stability AI,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Stability AI's Stable Diffusion training runs on NVIDIA GPU clusters
+NVDA,Zhipu AI,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; Zhipu AI's GLM model training relies on NVIDIA GPUs
+NVDA,xAI,1,0,0,0,0,0,0,0,H,NVIDIA is the dominant GPU/AI accelerator supplier; xAI's Colossus cluster for Grok is built on massive quantities of NVIDIA H100 GPUs
+NXPI,Alibaba,1,0,0,0,0,0,0,0,L,NXP makes automotive/IoT edge AI processors; weak connection to Alibaba's cloud-based LLM training infrastructure
+NXPI,Anthropic,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge AI chips are peripheral to Anthropic's cloud-based Claude training infrastructure
+NXPI,DeepSeek,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge processors have marginal connection to DeepSeek's LLM training infrastructure
+NXPI,Google,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge AI chips are peripheral to Google's cloud-based Gemini training; weak indirect connection
+NXPI,Kuaishou,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge processors have marginal connection to Kuaishou's cloud-based Kling training
+NXPI,Meta,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge AI chips are peripheral to Meta's large-scale cloud-based Llama training
+NXPI,Microsoft,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge processors have weak connection to Microsoft's cloud-based Phi training
+NXPI,Mistral AI,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge AI chips are peripheral to Mistral AI's cloud-based LLM training infrastructure
+NXPI,OpenAI,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge processors have marginal connection to OpenAI's cloud-based GPT training
+NXPI,Runway,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge chips are peripheral to Runway's cloud-based video model training
+NXPI,ShengShu Technology,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge processors have weak connection to ShengShu's cloud-based Vidu training
+NXPI,Stability AI,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge AI chips are peripheral to Stability AI's cloud-based diffusion model training
+NXPI,Zhipu AI,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge processors have marginal connection to Zhipu AI's LLM training infrastructure
+NXPI,xAI,1,0,0,0,0,0,0,0,L,NXP's automotive/IoT edge AI chips are peripheral to xAI's large-scale Grok training infrastructure
+QCOM,Alibaba,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI inference chips enable on-device deployment of Alibaba's Qwen models; meaningful for inference not training
+QCOM,Anthropic,1,0,0,0,0,0,0,0,M,Qualcomm's edge AI inference chips enable on-device deployment of Claude-derived models; meaningful for inference workloads
+QCOM,DeepSeek,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI chips enable on-device deployment of DeepSeek models; meaningful for inference not training
+QCOM,Google,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI chips enable Gemini Nano on-device deployment on Android; meaningful AI inference partnership with Google
+QCOM,Kuaishou,1,0,0,0,0,0,0,0,M,Qualcomm's mobile AI chips enable edge inference for Kuaishou's AI features on mobile devices
+QCOM,Meta,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI chips enable on-device Llama model deployment; meaningful partnership for mobile AI inference
+QCOM,Microsoft,1,0,0,0,0,0,0,0,M,Qualcomm's AI-capable Snapdragon X chips power Copilot+ PCs; meaningful connection for on-device Phi inference
+QCOM,Mistral AI,1,0,0,0,0,0,0,0,M,Qualcomm's edge AI inference chips enable on-device deployment of Mistral's smaller models
+QCOM,OpenAI,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI chips enable on-device inference of OpenAI models; meaningful for edge AI deployment
+QCOM,Runway,1,0,0,0,0,0,0,0,M,Qualcomm's edge AI chips could enable on-device inference of Runway's video models; indirect but meaningful
+QCOM,ShengShu Technology,1,0,0,0,0,0,0,0,M,Qualcomm's mobile AI chips enable potential edge deployment of ShengShu's Vidu models
+QCOM,Stability AI,1,0,0,0,0,0,0,0,M,Qualcomm's edge AI chips enable on-device deployment of Stable Diffusion models; meaningful inference partnership
+QCOM,Zhipu AI,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI chips enable on-device deployment of Zhipu AI's GLM models
+QCOM,xAI,1,0,0,0,0,0,0,0,M,Qualcomm's mobile/edge AI inference chips enable potential on-device deployment of xAI's Grok models
+TSM,Alibaba,1,0,0,0,0,0,0,0,H,"TSMC fabricates virtually all advanced AI chips (NVIDIA GPUs, AMD MI, custom accelerators); foundational supplier for Alibaba's Qwen training hardware"
+TSM,Anthropic,1,0,0,0,0,0,0,0,H,TSMC fabricates NVIDIA GPUs and other AI chips at advanced nodes; foundational supplier for Anthropic's Claude training hardware
+TSM,DeepSeek,1,0,0,0,0,0,0,0,H,TSMC fabricates the AI chips (NVIDIA GPUs) used in DeepSeek's training infrastructure; foundational supplier
+TSM,Google,1,0,0,0,0,0,0,0,H,TSMC fabricates Google TPUs and NVIDIA GPUs at advanced nodes; foundational supplier for Gemini training hardware
+TSM,Kuaishou,1,0,0,0,0,0,0,0,H,TSMC fabricates AI chips (NVIDIA GPUs) used in Kuaishou's Kling training infrastructure; foundational supplier
+TSM,Meta,1,0,0,0,0,0,0,0,H,TSMC fabricates NVIDIA GPUs and Meta's custom AI chips at advanced nodes; foundational supplier for Llama training hardware
+TSM,Microsoft,1,0,0,0,0,0,0,0,H,TSMC fabricates NVIDIA GPUs and Microsoft's custom Maia AI chips; foundational supplier for Phi training hardware
+TSM,Mistral AI,1,0,0,0,0,0,0,0,H,TSMC fabricates AI chips (NVIDIA GPUs) used in cloud infrastructure for Mistral AI's training; foundational supplier
+TSM,OpenAI,1,0,0,0,0,0,0,0,H,TSMC fabricates NVIDIA GPUs powering OpenAI's GPT/o-series training; foundational supplier of all advanced AI chips
+TSM,Runway,1,0,0,0,0,0,0,0,H,TSMC fabricates AI chips (NVIDIA GPUs) used in cloud infrastructure for Runway's video model training; foundational supplier
+TSM,ShengShu Technology,1,0,0,0,0,0,0,0,H,TSMC fabricates AI chips (NVIDIA GPUs) used in ShengShu's Vidu training infrastructure; foundational supplier
+TSM,Stability AI,1,0,0,0,0,0,0,0,H,TSMC fabricates AI chips (NVIDIA GPUs) used for Stability AI's diffusion model training; foundational supplier
+TSM,Zhipu AI,1,0,0,0,0,0,0,0,H,TSMC fabricates AI chips (NVIDIA GPUs) used in Zhipu AI's GLM training infrastructure; foundational supplier
+TSM,xAI,1,0,0,0,0,0,0,0,H,TSMC fabricates NVIDIA GPUs powering xAI's Colossus cluster for Grok; foundational supplier of all advanced AI chips
+AAPL,Alibaba,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models (Apple Intelligence) so competitor; no cloud IaaS; no hardware for AI training; no investment in Alibaba
+AAPL,Anthropic,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Anthropic
+AAPL,DeepSeek,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in DeepSeek
+AAPL,Google,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Google
+AAPL,Kuaishou,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Kuaishou
+AAPL,Meta,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Meta
+AAPL,Microsoft,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Microsoft
+AAPL,Mistral AI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Mistral
+AAPL,OpenAI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in OpenAI
+AAPL,Runway,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Runway
+AAPL,ShengShu Technology,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in ShengShu
+AAPL,Stability AI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Stability AI
+AAPL,Zhipu AI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Zhipu AI
+AAPL,xAI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in xAI
+AMZN,Alibaba,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops Titan/Nova models from scratch (competitor); not owner of Alibaba; no investment in Alibaba
+AMZN,Anthropic,0,1,0,0,0,1,1,0,0.95,AWS is major cloud IaaS hosting Anthropic models (upstream_cloud); Amazon develops own models (competitor); Amazon invested ~$4B in Anthropic (is_investor)
+AMZN,DeepSeek,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in DeepSeek
+AMZN,Google,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Google
+AMZN,Kuaishou,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Kuaishou
+AMZN,Meta,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Meta
+AMZN,Microsoft,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Microsoft
+AMZN,Mistral AI,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Mistral
+AMZN,OpenAI,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in OpenAI
+AMZN,Runway,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Runway
+AMZN,ShengShu Technology,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in ShengShu
+AMZN,Stability AI,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Stability AI
+AMZN,Zhipu AI,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Zhipu AI
+AMZN,xAI,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in xAI
+BABA,Alibaba,0,0,0,0,0,0,0,1,0.95,Alibaba Group is the listed parent of Alibaba (the creator of Qwen models); is_owner=1 so competitor=0; cloud not coded as upstream to self
+BABA,Anthropic,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models from scratch (competitor); no investment in Anthropic
+BABA,DeepSeek,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in DeepSeek
+BABA,Google,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Google
+BABA,Kuaishou,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Kuaishou
+BABA,Meta,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Meta
+BABA,Microsoft,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Microsoft
+BABA,Mistral AI,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Mistral
+BABA,OpenAI,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in OpenAI
+BABA,Runway,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Runway
+BABA,ShengShu Technology,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in ShengShu
+BABA,Stability AI,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Stability AI
+BABA,Zhipu AI,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Zhipu AI
+BABA,xAI,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in xAI
+GOOGL,Alibaba,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops Gemini/Imagen/Veo models (competitor); no investment in Alibaba
+GOOGL,Anthropic,0,1,0,0,0,1,1,0,0.95,GCP is major cloud IaaS hosting Anthropic (upstream_cloud); Google develops own models (competitor); Google invested ~$2B in Anthropic (is_investor)
+GOOGL,DeepSeek,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in DeepSeek
+GOOGL,Google,0,0,0,0,0,0,0,1,0.95,Alphabet/Google IS the creator of Gemini/Imagen/Veo; is_owner=1 so competitor=0; cloud not coded as upstream to self
+GOOGL,Kuaishou,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Kuaishou
+GOOGL,Meta,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Meta
+GOOGL,Microsoft,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Microsoft
+GOOGL,Mistral AI,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Mistral
+GOOGL,OpenAI,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in OpenAI
+GOOGL,Runway,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Runway
+GOOGL,ShengShu Technology,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in ShengShu
+GOOGL,Stability AI,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Stability AI
+GOOGL,Zhipu AI,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Zhipu AI
+GOOGL,xAI,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in xAI
+META,Alibaba,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models from scratch (competitor); no major cloud IaaS; not a downstream integrator of external AI; no investment in Alibaba
+META,Anthropic,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models from scratch (competitor); no major cloud IaaS; no investment in Anthropic
+META,DeepSeek,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in DeepSeek
+META,Google,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Google
+META,Kuaishou,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Kuaishou
+META,Meta,0,0,0,0,0,0,0,1,0.95,Meta IS the creator of Llama models; is_owner=1 so competitor=0
+META,Microsoft,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Microsoft
+META,Mistral AI,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Mistral
+META,OpenAI,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in OpenAI
+META,Runway,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor in generative AI broadly); no major cloud IaaS; no investment in Runway
+META,ShengShu Technology,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in ShengShu
+META,Stability AI,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Stability AI
+META,Zhipu AI,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Zhipu AI
+META,xAI,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in xAI
+MSFT,Alibaba,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into Office/Windows (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Alibaba
+MSFT,Anthropic,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into Office/Windows (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Anthropic
+MSFT,DeepSeek,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in DeepSeek
+MSFT,Google,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Google
+MSFT,Kuaishou,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Kuaishou
+MSFT,Meta,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Meta
+MSFT,Microsoft,0,0,0,0,0,0,0,1,0.95,Microsoft IS the creator of Phi models; is_owner=1 so competitor=0; cloud not coded as upstream to self; not downstream_integrator to own models in this coding
+MSFT,Mistral AI,0,1,1,0,0,1,1,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); Microsoft invested ~15M EUR in Mistral (is_investor)
+MSFT,OpenAI,0,1,1,0,0,1,1,0,0.95,Azure is major cloud IaaS hosting OpenAI (upstream_cloud); Copilot deeply integrates GPT (downstream_integrator); Microsoft develops Phi (competitor); ~$13B invested in OpenAI (is_investor)
+MSFT,Runway,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in Runway
+MSFT,ShengShu Technology,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in ShengShu
+MSFT,Stability AI,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in Stability AI
+MSFT,Zhipu AI,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in Zhipu AI
+MSFT,xAI,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in xAI
+ORCL,Alibaba,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud with GPU clusters (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Alibaba
+ORCL,Anthropic,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Anthropic
+ORCL,DeepSeek,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in DeepSeek
+ORCL,Google,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Google
+ORCL,Kuaishou,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Kuaishou
+ORCL,Meta,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Meta
+ORCL,Microsoft,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Microsoft
+ORCL,Mistral AI,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Mistral
+ORCL,OpenAI,0,1,0,0,0,0,0,0,0.90,OCI is growing AI cloud used by OpenAI (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in OpenAI
+ORCL,Runway,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Runway
+ORCL,ShengShu Technology,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in ShengShu
+ORCL,Stability AI,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Stability AI
+ORCL,Zhipu AI,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Zhipu AI
+ORCL,xAI,0,1,0,0,0,0,0,0,0.90,OCI is growing AI cloud used by xAI (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in xAI
+ADBE,Alibaba,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Anthropic,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,DeepSeek,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Google,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Kuaishou,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Meta,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Microsoft,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Mistral AI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,OpenAI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Runway,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,ShengShu Technology,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Stability AI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Zhipu AI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,xAI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+AI,Alibaba,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Anthropic,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,DeepSeek,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Google,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Kuaishou,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Meta,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Microsoft,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Mistral AI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,OpenAI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Runway,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,ShengShu Technology,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Stability AI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Zhipu AI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,xAI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+APP,Alibaba,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Anthropic,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,DeepSeek,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Google,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Kuaishou,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Meta,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Microsoft,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Mistral AI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,OpenAI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Runway,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,ShengShu Technology,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Stability AI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Zhipu AI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,xAI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+CCC,Alibaba,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Anthropic,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,DeepSeek,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Google,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Kuaishou,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Meta,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Microsoft,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Mistral AI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,OpenAI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Runway,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,ShengShu Technology,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Stability AI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Zhipu AI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,xAI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CDNS,Alibaba,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Anthropic,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,DeepSeek,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Google,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Kuaishou,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Meta,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Microsoft,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Mistral AI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,OpenAI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Runway,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,ShengShu Technology,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Stability AI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Zhipu AI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,xAI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CRM,Alibaba,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Anthropic,0,0,1,0,0,0,1,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; Salesforce Ventures invested in Anthropic
+CRM,DeepSeek,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Google,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Kuaishou,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Meta,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Microsoft,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Mistral AI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,OpenAI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Runway,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,ShengShu Technology,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Stability AI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Zhipu AI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,xAI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+DDOG,Alibaba,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Anthropic,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,DeepSeek,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Google,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Kuaishou,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Meta,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Microsoft,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Mistral AI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,OpenAI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Runway,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,ShengShu Technology,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Stability AI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Zhipu AI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,xAI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+NOW,Alibaba,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Anthropic,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,DeepSeek,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Google,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Kuaishou,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Meta,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Microsoft,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Mistral AI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,OpenAI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Runway,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,ShengShu Technology,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Stability AI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Zhipu AI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,xAI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+PATH,Alibaba,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Anthropic,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,DeepSeek,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Google,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Kuaishou,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Meta,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Microsoft,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Mistral AI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,OpenAI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Runway,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,ShengShu Technology,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Stability AI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Zhipu AI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,xAI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PLTR,Alibaba,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Anthropic,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,DeepSeek,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Google,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Kuaishou,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Meta,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Microsoft,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Mistral AI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,OpenAI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Runway,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,ShengShu Technology,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Stability AI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Zhipu AI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,xAI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+SNOW,Alibaba,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Anthropic,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,DeepSeek,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Google,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Kuaishou,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Meta,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Microsoft,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Mistral AI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,OpenAI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Runway,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,ShengShu Technology,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Stability AI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Zhipu AI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,xAI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNPS,Alibaba,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Anthropic,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,DeepSeek,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Google,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Kuaishou,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Meta,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Microsoft,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Mistral AI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,OpenAI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Runway,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,ShengShu Technology,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Stability AI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Zhipu AI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,xAI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SOUN,Alibaba,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Anthropic,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,DeepSeek,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Google,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Kuaishou,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Meta,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Microsoft,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Mistral AI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,OpenAI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Runway,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,ShengShu Technology,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Stability AI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Zhipu AI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,xAI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+CYBR,Alibaba,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Alibaba models could serve as upstream AI capability
+CYBR,Anthropic,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Anthropic models could serve as upstream AI capability
+CYBR,DeepSeek,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; DeepSeek models could serve as upstream AI capability
+CYBR,Google,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Google models could serve as upstream AI capability
+CYBR,Kuaishou,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Kuaishou models could serve as upstream AI capability
+CYBR,Meta,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Meta models could serve as upstream AI capability
+CYBR,Microsoft,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Microsoft models could serve as upstream AI capability
+CYBR,Mistral AI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Mistral AI models could serve as upstream AI capability
+CYBR,OpenAI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; OpenAI models could serve as upstream AI capability
+CYBR,Runway,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Runway models could serve as upstream AI capability
+CYBR,ShengShu Technology,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; ShengShu Technology models could serve as upstream AI capability
+CYBR,Stability AI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Stability AI models could serve as upstream AI capability
+CYBR,Zhipu AI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Zhipu AI models could serve as upstream AI capability
+CYBR,xAI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; xAI models could serve as upstream AI capability
+FTNT,Alibaba,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Alibaba models represent upstream AI capability advances
+FTNT,Anthropic,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Anthropic models represent upstream AI capability advances
+FTNT,DeepSeek,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; DeepSeek models represent upstream AI capability advances
+FTNT,Google,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Google models represent upstream AI capability advances
+FTNT,Kuaishou,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Kuaishou models represent upstream AI capability advances
+FTNT,Meta,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Meta models represent upstream AI capability advances
+FTNT,Microsoft,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Microsoft models represent upstream AI capability advances
+FTNT,Mistral AI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Mistral AI models represent upstream AI capability advances
+FTNT,OpenAI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; OpenAI models represent upstream AI capability advances
+FTNT,Runway,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Runway models represent upstream AI capability advances
+FTNT,ShengShu Technology,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; ShengShu Technology models represent upstream AI capability advances
+FTNT,Stability AI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Stability AI models represent upstream AI capability advances
+FTNT,Zhipu AI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Zhipu AI models represent upstream AI capability advances
+FTNT,xAI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; xAI models represent upstream AI capability advances
+NICE,Alibaba,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Alibaba affect upstream AI capabilities
+NICE,Anthropic,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Anthropic affect upstream AI capabilities
+NICE,DeepSeek,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from DeepSeek affect upstream AI capabilities
+NICE,Google,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Google affect upstream AI capabilities
+NICE,Kuaishou,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Kuaishou affect upstream AI capabilities
+NICE,Meta,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Meta affect upstream AI capabilities
+NICE,Microsoft,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Microsoft affect upstream AI capabilities
+NICE,Mistral AI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Mistral AI affect upstream AI capabilities
+NICE,OpenAI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from OpenAI affect upstream AI capabilities
+NICE,Runway,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Runway affect upstream AI capabilities
+NICE,ShengShu Technology,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from ShengShu Technology affect upstream AI capabilities
+NICE,Stability AI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Stability AI affect upstream AI capabilities
+NICE,Zhipu AI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Zhipu AI affect upstream AI capabilities
+NICE,xAI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from xAI affect upstream AI capabilities
+OKTA,Alibaba,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Alibaba LLM advances affect upstream AI capabilities
+OKTA,Anthropic,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Anthropic LLM advances affect upstream AI capabilities
+OKTA,DeepSeek,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; DeepSeek LLM advances affect upstream AI capabilities
+OKTA,Google,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Google LLM advances affect upstream AI capabilities
+OKTA,Kuaishou,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Kuaishou LLM advances affect upstream AI capabilities
+OKTA,Meta,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Meta LLM advances affect upstream AI capabilities
+OKTA,Microsoft,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Microsoft LLM advances affect upstream AI capabilities
+OKTA,Mistral AI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Mistral AI LLM advances affect upstream AI capabilities
+OKTA,OpenAI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; OpenAI LLM advances affect upstream AI capabilities
+OKTA,Runway,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Runway LLM advances affect upstream AI capabilities
+OKTA,ShengShu Technology,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; ShengShu Technology LLM advances affect upstream AI capabilities
+OKTA,Stability AI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Stability AI LLM advances affect upstream AI capabilities
+OKTA,Zhipu AI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Zhipu AI LLM advances affect upstream AI capabilities
+OKTA,xAI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; xAI LLM advances affect upstream AI capabilities
+PEGA,Alibaba,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Alibaba LLM advances affect upstream AI capabilities
+PEGA,Anthropic,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Anthropic LLM advances affect upstream AI capabilities
+PEGA,DeepSeek,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; DeepSeek LLM advances affect upstream AI capabilities
+PEGA,Google,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Google LLM advances affect upstream AI capabilities
+PEGA,Kuaishou,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Kuaishou LLM advances affect upstream AI capabilities
+PEGA,Meta,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Meta LLM advances affect upstream AI capabilities
+PEGA,Microsoft,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Microsoft LLM advances affect upstream AI capabilities
+PEGA,Mistral AI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Mistral AI LLM advances affect upstream AI capabilities
+PEGA,OpenAI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; OpenAI LLM advances affect upstream AI capabilities
+PEGA,Runway,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Runway LLM advances affect upstream AI capabilities
+PEGA,ShengShu Technology,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; ShengShu Technology LLM advances affect upstream AI capabilities
+PEGA,Stability AI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Stability AI LLM advances affect upstream AI capabilities
+PEGA,Zhipu AI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Zhipu AI LLM advances affect upstream AI capabilities
+PEGA,xAI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; xAI LLM advances affect upstream AI capabilities
+SHOP,Alibaba,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Alibaba LLM advances affect upstream AI capabilities
+SHOP,Anthropic,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Anthropic LLM advances affect upstream AI capabilities
+SHOP,DeepSeek,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; DeepSeek LLM advances affect upstream AI capabilities
+SHOP,Google,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Google LLM advances affect upstream AI capabilities
+SHOP,Kuaishou,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Kuaishou LLM advances affect upstream AI capabilities
+SHOP,Meta,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Meta LLM advances affect upstream AI capabilities
+SHOP,Microsoft,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Microsoft LLM advances affect upstream AI capabilities
+SHOP,Mistral AI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Mistral AI LLM advances affect upstream AI capabilities
+SHOP,OpenAI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; OpenAI LLM advances affect upstream AI capabilities
+SHOP,Runway,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Runway LLM advances affect upstream AI capabilities
+SHOP,ShengShu Technology,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; ShengShu Technology LLM advances affect upstream AI capabilities
+SHOP,Stability AI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Stability AI LLM advances affect upstream AI capabilities
+SHOP,Zhipu AI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Zhipu AI LLM advances affect upstream AI capabilities
+SHOP,xAI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; xAI LLM advances affect upstream AI capabilities
+TDC,Alibaba,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Alibaba LLM advances affect upstream AI capabilities
+TDC,Anthropic,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Anthropic LLM advances affect upstream AI capabilities
+TDC,DeepSeek,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; DeepSeek LLM advances affect upstream AI capabilities
+TDC,Google,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Google LLM advances affect upstream AI capabilities
+TDC,Kuaishou,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Kuaishou LLM advances affect upstream AI capabilities
+TDC,Meta,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Meta LLM advances affect upstream AI capabilities
+TDC,Microsoft,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Microsoft LLM advances affect upstream AI capabilities
+TDC,Mistral AI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Mistral AI LLM advances affect upstream AI capabilities
+TDC,OpenAI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; OpenAI LLM advances affect upstream AI capabilities
+TDC,Runway,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Runway LLM advances affect upstream AI capabilities
+TDC,ShengShu Technology,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; ShengShu Technology LLM advances affect upstream AI capabilities
+TDC,Stability AI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Stability AI LLM advances affect upstream AI capabilities
+TDC,Zhipu AI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Zhipu AI LLM advances affect upstream AI capabilities
+TDC,xAI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; xAI LLM advances affect upstream AI capabilities
+TEMN SW,Alibaba,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Alibaba LLM advances affect upstream AI capabilities
+TEMN SW,Anthropic,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Anthropic LLM advances affect upstream AI capabilities
+TEMN SW,DeepSeek,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; DeepSeek LLM advances affect upstream AI capabilities
+TEMN SW,Google,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Google LLM advances affect upstream AI capabilities
+TEMN SW,Kuaishou,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Kuaishou LLM advances affect upstream AI capabilities
+TEMN SW,Meta,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Meta LLM advances affect upstream AI capabilities
+TEMN SW,Microsoft,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Microsoft LLM advances affect upstream AI capabilities
+TEMN SW,Mistral AI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Mistral AI LLM advances affect upstream AI capabilities
+TEMN SW,OpenAI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; OpenAI LLM advances affect upstream AI capabilities
+TEMN SW,Runway,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Runway LLM advances affect upstream AI capabilities
+TEMN SW,ShengShu Technology,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; ShengShu Technology LLM advances affect upstream AI capabilities
+TEMN SW,Stability AI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Stability AI LLM advances affect upstream AI capabilities
+TEMN SW,Zhipu AI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Zhipu AI LLM advances affect upstream AI capabilities
+TEMN SW,xAI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; xAI LLM advances affect upstream AI capabilities
+TTD,Alibaba,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Alibaba LLM advances affect upstream AI capabilities
+TTD,Anthropic,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Anthropic LLM advances affect upstream AI capabilities
+TTD,DeepSeek,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; DeepSeek LLM advances affect upstream AI capabilities
+TTD,Google,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Google LLM advances affect upstream AI capabilities
+TTD,Kuaishou,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Kuaishou LLM advances affect upstream AI capabilities
+TTD,Meta,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Meta LLM advances affect upstream AI capabilities
+TTD,Microsoft,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Microsoft LLM advances affect upstream AI capabilities
+TTD,Mistral AI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Mistral AI LLM advances affect upstream AI capabilities
+TTD,OpenAI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; OpenAI LLM advances affect upstream AI capabilities
+TTD,Runway,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Runway LLM advances affect upstream AI capabilities
+TTD,ShengShu Technology,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; ShengShu Technology LLM advances affect upstream AI capabilities
+TTD,Stability AI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Stability AI LLM advances affect upstream AI capabilities
+TTD,Zhipu AI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Zhipu AI LLM advances affect upstream AI capabilities
+TTD,xAI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; xAI LLM advances affect upstream AI capabilities
+TWLO,Alibaba,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Alibaba LLM advances affect upstream AI capabilities
+TWLO,Anthropic,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Anthropic LLM advances affect upstream AI capabilities
+TWLO,DeepSeek,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; DeepSeek LLM advances affect upstream AI capabilities
+TWLO,Google,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Google LLM advances affect upstream AI capabilities
+TWLO,Kuaishou,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Kuaishou LLM advances affect upstream AI capabilities
+TWLO,Meta,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Meta LLM advances affect upstream AI capabilities
+TWLO,Microsoft,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Microsoft LLM advances affect upstream AI capabilities
+TWLO,Mistral AI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Mistral AI LLM advances affect upstream AI capabilities
+TWLO,OpenAI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; OpenAI LLM advances affect upstream AI capabilities
+TWLO,Runway,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Runway LLM advances affect upstream AI capabilities
+TWLO,ShengShu Technology,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; ShengShu Technology LLM advances affect upstream AI capabilities
+TWLO,Stability AI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Stability AI LLM advances affect upstream AI capabilities
+TWLO,Zhipu AI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Zhipu AI LLM advances affect upstream AI capabilities
+TWLO,xAI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; xAI LLM advances affect upstream AI capabilities
+WDAY,Alibaba,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Alibaba LLM advances affect upstream AI capabilities
+WDAY,Anthropic,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Anthropic LLM advances affect upstream AI capabilities
+WDAY,DeepSeek,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; DeepSeek LLM advances affect upstream AI capabilities
+WDAY,Google,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Google LLM advances affect upstream AI capabilities
+WDAY,Kuaishou,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Kuaishou LLM advances affect upstream AI capabilities
+WDAY,Meta,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Meta LLM advances affect upstream AI capabilities
+WDAY,Microsoft,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Microsoft LLM advances affect upstream AI capabilities
+WDAY,Mistral AI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Mistral AI LLM advances affect upstream AI capabilities
+WDAY,OpenAI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; OpenAI LLM advances affect upstream AI capabilities
+WDAY,Runway,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Runway LLM advances affect upstream AI capabilities
+WDAY,ShengShu Technology,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; ShengShu Technology LLM advances affect upstream AI capabilities
+WDAY,Stability AI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Stability AI LLM advances affect upstream AI capabilities
+WDAY,Zhipu AI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Zhipu AI LLM advances affect upstream AI capabilities
+WDAY,xAI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; xAI LLM advances affect upstream AI capabilities
+WIX,Alibaba,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Alibaba LLM advances affect upstream AI capabilities
+WIX,Anthropic,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Anthropic LLM advances affect upstream AI capabilities
+WIX,DeepSeek,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; DeepSeek LLM advances affect upstream AI capabilities
+WIX,Google,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Google LLM advances affect upstream AI capabilities
+WIX,Kuaishou,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Kuaishou LLM advances affect upstream AI capabilities
+WIX,Meta,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Meta LLM advances affect upstream AI capabilities
+WIX,Microsoft,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Microsoft LLM advances affect upstream AI capabilities
+WIX,Mistral AI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Mistral AI LLM advances affect upstream AI capabilities
+WIX,OpenAI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; OpenAI LLM advances affect upstream AI capabilities
+WIX,Runway,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Runway LLM advances affect upstream AI capabilities
+WIX,ShengShu Technology,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; ShengShu Technology LLM advances affect upstream AI capabilities
+WIX,Stability AI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Stability AI LLM advances affect upstream AI capabilities
+WIX,Zhipu AI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Zhipu AI LLM advances affect upstream AI capabilities
+WIX,xAI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; xAI LLM advances affect upstream AI capabilities
+WKL NA,Alibaba,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Alibaba LLM advances affect upstream AI capabilities
+WKL NA,Anthropic,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Anthropic LLM advances affect upstream AI capabilities
+WKL NA,DeepSeek,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; DeepSeek LLM advances affect upstream AI capabilities
+WKL NA,Google,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Google LLM advances affect upstream AI capabilities
+WKL NA,Kuaishou,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Kuaishou LLM advances affect upstream AI capabilities
+WKL NA,Meta,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Meta LLM advances affect upstream AI capabilities
+WKL NA,Microsoft,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Microsoft LLM advances affect upstream AI capabilities
+WKL NA,Mistral AI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Mistral AI LLM advances affect upstream AI capabilities
+WKL NA,OpenAI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; OpenAI LLM advances affect upstream AI capabilities
+WKL NA,Runway,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Runway LLM advances affect upstream AI capabilities
+WKL NA,ShengShu Technology,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; ShengShu Technology LLM advances affect upstream AI capabilities
+WKL NA,Stability AI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Stability AI LLM advances affect upstream AI capabilities
+WKL NA,Zhipu AI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Zhipu AI LLM advances affect upstream AI capabilities
+WKL NA,xAI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; xAI LLM advances affect upstream AI capabilities
+ZS,Alibaba,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Alibaba LLM advances affect upstream AI capabilities
+ZS,Anthropic,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Anthropic LLM advances affect upstream AI capabilities
+ZS,DeepSeek,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; DeepSeek LLM advances affect upstream AI capabilities
+ZS,Google,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Google LLM advances affect upstream AI capabilities
+ZS,Kuaishou,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Kuaishou LLM advances affect upstream AI capabilities
+ZS,Meta,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Meta LLM advances affect upstream AI capabilities
+ZS,Microsoft,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Microsoft LLM advances affect upstream AI capabilities
+ZS,Mistral AI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Mistral AI LLM advances affect upstream AI capabilities
+ZS,OpenAI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; OpenAI LLM advances affect upstream AI capabilities
+ZS,Runway,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Runway LLM advances affect upstream AI capabilities
+ZS,ShengShu Technology,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; ShengShu Technology LLM advances affect upstream AI capabilities
+ZS,Stability AI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Stability AI LLM advances affect upstream AI capabilities
+ZS,Zhipu AI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Zhipu AI LLM advances affect upstream AI capabilities
+ZS,xAI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; xAI LLM advances affect upstream AI capabilities
+6701 JP,Alibaba,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Anthropic,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,DeepSeek,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Google,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Kuaishou,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Meta,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Microsoft,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Mistral AI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,OpenAI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Runway,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Stability AI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,xAI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Alibaba,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Anthropic,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,DeepSeek,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Google,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Kuaishou,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Meta,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Microsoft,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Mistral AI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,OpenAI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Runway,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Stability AI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,xAI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+ACN,Alibaba,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Anthropic,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,DeepSeek,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Google,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Kuaishou,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Meta,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Microsoft,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Mistral AI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,OpenAI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Runway,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,ShengShu Technology,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Stability AI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Zhipu AI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,xAI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+DXC,Alibaba,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Anthropic,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,DeepSeek,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Google,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Kuaishou,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Meta,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Microsoft,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Mistral AI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,OpenAI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Runway,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,ShengShu Technology,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Stability AI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Zhipu AI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,xAI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+EXPN LN,Alibaba,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Anthropic,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,DeepSeek,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Google,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Kuaishou,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Meta,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Microsoft,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Mistral AI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,OpenAI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Runway,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,ShengShu Technology,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Stability AI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Zhipu AI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,xAI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+G,Alibaba,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Anthropic,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,DeepSeek,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Google,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Kuaishou,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Meta,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Microsoft,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Mistral AI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,OpenAI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Runway,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,ShengShu Technology,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Stability AI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Zhipu AI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,xAI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+HPE,Alibaba,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Anthropic,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,DeepSeek,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Google,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Kuaishou,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Meta,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Microsoft,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Mistral AI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,OpenAI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Runway,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,ShengShu Technology,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Stability AI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Zhipu AI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,xAI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+IBM,Alibaba,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Anthropic,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,DeepSeek,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Google,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Kuaishou,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Meta,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Microsoft,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Mistral AI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,OpenAI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Runway,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,ShengShu Technology,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Stability AI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Zhipu AI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,xAI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+TIETO FH,Alibaba,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Anthropic,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,DeepSeek,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Google,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Kuaishou,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Meta,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Microsoft,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Mistral AI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,OpenAI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Runway,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,ShengShu Technology,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Stability AI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Zhipu AI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,xAI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TRI,Alibaba,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Anthropic,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,DeepSeek,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Google,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Kuaishou,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Meta,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Microsoft,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Mistral AI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,OpenAI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Runway,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,ShengShu Technology,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Stability AI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Zhipu AI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,xAI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+2353 TT,Alibaba,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Anthropic,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Google,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Meta,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Microsoft,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,OpenAI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Runway,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Stability AI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2353 TT,xAI,1,0,0,0,0,0,0,0,L,Acer is a PC/hardware maker with minimal AI infrastructure role; generic hardware supply chain relationship to all LLM creators
+2395 TT,Alibaba,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Anthropic,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Google,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Meta,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Microsoft,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,OpenAI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Runway,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Stability AI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+2395 TT,xAI,1,0,0,0,0,0,0,0,L,Advantech provides industrial computing platforms for edge AI; indirect upstream hardware relationship to all LLM creators
+3443 TT,Alibaba,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Anthropic,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Google,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Meta,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Microsoft,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,OpenAI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Runway,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Stability AI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+3443 TT,xAI,1,0,0,0,0,0,0,0,L,Transcend makes memory modules; very indirect upstream hardware relationship to LLM creators via general computing supply chain
+5803 JP,Alibaba,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Anthropic,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,DeepSeek,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Google,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Kuaishou,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Meta,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Microsoft,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Mistral AI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,OpenAI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Runway,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,ShengShu Technology,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Stability AI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,Zhipu AI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+5803 JP,xAI,1,0,0,0,0,0,0,0,L,Mitsubishi Electric provides power systems and industrial equipment for data centers; indirect upstream hardware role in AI infrastructure
+CSCO,Alibaba,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Anthropic,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,DeepSeek,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Google,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Kuaishou,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Meta,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Microsoft,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Mistral AI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,OpenAI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Runway,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,ShengShu Technology,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Stability AI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,Zhipu AI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+CSCO,xAI,0,0,0,1,0,0,0,0,M,Cisco deploys AI features (AI Assist) in networking products; downstream deployer relationship uniform across all LLM creators
+ERIC,Alibaba,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Anthropic,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,DeepSeek,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Google,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Kuaishou,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Meta,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Microsoft,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Mistral AI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,OpenAI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Runway,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,ShengShu Technology,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Stability AI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,Zhipu AI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+ERIC,xAI,0,0,0,1,0,0,0,0,M,Ericsson uses AI-powered network optimization in telecom infrastructure; downstream deployer of AI capabilities across all creators
+HUT,Alibaba,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Anthropic,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,DeepSeek,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Google,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Kuaishou,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Meta,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Microsoft,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Mistral AI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,OpenAI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Runway,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,ShengShu Technology,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Stability AI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,Zhipu AI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+HUT,xAI,0,0,0,1,0,0,0,0,M,Hut 8 is transitioning from crypto mining to AI/HPC hosting; downstream deployer providing compute infrastructure for AI workloads
+QUBT,Alibaba,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Anthropic,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,DeepSeek,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Google,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Kuaishou,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Meta,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Microsoft,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Mistral AI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,OpenAI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Runway,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,ShengShu Technology,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Stability AI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,Zhipu AI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+QUBT,xAI,0,0,1,0,0,0,0,0,L,Quantum Computing claims quantum-AI optimization as core product but LLM relevance is marginal; downstream integrator with low confidence
+SMCI,Alibaba,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Anthropic,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,DeepSeek,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Google,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Kuaishou,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Meta,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Microsoft,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Mistral AI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,OpenAI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Runway,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,ShengShu Technology,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Stability AI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,Zhipu AI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+SMCI,xAI,1,0,0,0,0,0,0,0,H,Super Micro Computer builds AI-optimized GPU server systems; direct upstream hardware provider to AI infrastructure used by all LLM creators
+STX,Alibaba,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Anthropic,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,DeepSeek,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Google,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Kuaishou,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Meta,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Microsoft,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Mistral AI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,OpenAI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Runway,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,ShengShu Technology,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Stability AI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,Zhipu AI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+STX,xAI,1,0,0,0,0,0,0,0,M,Seagate provides data-center storage (HDDs/SSDs) for AI data infrastructure; upstream hardware supplier to all LLM creators
+ZBRA,Alibaba,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Anthropic,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,DeepSeek,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Google,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Kuaishou,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Meta,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Microsoft,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Mistral AI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,OpenAI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Runway,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,ShengShu Technology,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Stability AI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,Zhipu AI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+ZBRA,xAI,0,0,0,1,0,0,0,0,M,Zebra Technologies deploys AI in enterprise tracking and warehouse/supply chain operations; downstream deployer across all LLM creators
+3690 HK,Alibaba,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Anthropic,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,DeepSeek,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Google,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Kuaishou,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Meta,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Microsoft,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Mistral AI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,OpenAI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Runway,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Stability AI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,xAI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+4755 JP,Alibaba,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Anthropic,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,DeepSeek,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Google,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Kuaishou,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Meta,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Microsoft,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Mistral AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,OpenAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Runway,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Stability AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,xAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+6588 JP,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6758 JP,Alibaba,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Anthropic,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,DeepSeek,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Google,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Kuaishou,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Meta,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Microsoft,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Mistral AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,OpenAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Runway,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Stability AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,xAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6954 JP,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+700 HK,Alibaba,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Anthropic,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,DeepSeek,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Google,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Kuaishou,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Meta,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Microsoft,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Mistral AI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,OpenAI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Runway,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,ShengShu Technology,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Stability AI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Zhipu AI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,xAI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+AMP IM,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+BIDU,Alibaba,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Anthropic,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,DeepSeek,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Google,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Kuaishou,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Meta,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Microsoft,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Mistral AI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,OpenAI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Runway,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,ShengShu Technology,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Stability AI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Zhipu AI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,xAI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+CRWV,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+GEHC,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Google,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Meta,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Runway,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,xAI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+NFLX,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Google,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Meta,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Runway,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,xAI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+PONY,Alibaba,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Anthropic,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,DeepSeek,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Google,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Kuaishou,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Meta,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Microsoft,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Mistral AI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,OpenAI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Runway,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Stability AI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,xAI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+SIE GR,Alibaba,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Anthropic,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,DeepSeek,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Google,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Kuaishou,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Meta,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Microsoft,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Mistral AI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,OpenAI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Runway,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Stability AI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,xAI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SNAP,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Google,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Meta,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Runway,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,xAI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+STNE,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+TSLA,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Google,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Meta,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Runway,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,xAI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+UBER,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Google,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Meta,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Runway,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,xAI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+WRD,Alibaba,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Anthropic,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,DeepSeek,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Google,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Kuaishou,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Meta,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Microsoft,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Mistral AI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,OpenAI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Runway,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Stability AI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,xAI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment

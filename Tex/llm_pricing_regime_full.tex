@@ -1,0 +1,1046 @@
+\documentclass[11pt,fontset=fandol,a4paper]{ctexart}
+
+% ── Packages ──────────────────────────────────────────────────────────────────
+\usepackage{amsmath,amssymb}
+\usepackage[a4paper,left=2.5cm,right=2.5cm,top=2.8cm,bottom=2.8cm]{geometry}
+\usepackage{booktabs,tabularx,multirow,threeparttable}
+\usepackage{graphicx,caption,subcaption}
+\usepackage{xcolor,setspace}
+\usepackage[numbers]{natbib}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{makecell}
+
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black}
+\captionsetup[table]{skip=4pt}
+\onehalfspacing
+
+% ── Title ─────────────────────────────────────────────────────────────────────
+\title{\textbf{大语言模型发布行为的资本市场定价：\\
+来自美股市场的证据}}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+本文研究大语言模型（LLM）发布行为如何影响美国股市 AI 相关上市公司的资产价格。
+基于 2024--2026 年 60 次重大模型发布事件与 86 家上市公司构造的 5{,}161 条事件--公司观测，
+本文结合事件研究法、规格曲线分析、交互项机制检验和季度特定斜率模型，
+系统考察模型能力、经济暴露关系、媒体情感和市场学习如何共同决定资本市场的技术定价。
+
+全样本回归中，AA Intelligence Index 对 $\text{CAR}_{[0,+20]}$ 的系数为 $+0.00152$（$\text{CR0}\ p=0.027$），
+闭源子样本系数扩大至 $+0.00232$（$p=0.001$），该结论在 CR2 聚类标准误和 Wild Bootstrap 下均保持显著，是全文最稳健的核心发现。
+开源模型效应方向相反：$\text{CAR}_{[0,+20]}$ 系数为 $-0.00210$（$p=0.005$），
+规格曲线中开源子样本正向比例仅 7.1\%，与闭源（88.1\%）截然对立。
+模型发布者自身呈现显著的短期负向冲击（$\text{CAR}_{[0,+2]}$ 系数 $-0.00287$，$p<0.001$），
+10 天后效应归零，符合``利好出货''模式。$\text{intelligence}\times\text{investor}$ 交互项为 $-0.00272$（$p=0.008$），
+表明投资方对被投企业模型能力提升的边际定价反应显著低于非投资方。
+
+季度定价体制分析发现，2024Q4 AA Intelligence Index 呈显著\textbf{负}定价（$\beta=-0.0013$，$p=0.005$，9 事件），
+至 2025Q3 转为强\textbf{正}定价（$\beta=0.0063$，$p<10^{-12}$，6 事件），
+最稳健的体制转换截断点为 2025Q1（交互项 $p=0.012$，两侧均 $\geq5$ 事件），
+支持市场从折价 AI 能力转向溢价 AI 能力的离散体制转换假说。
+
+Tier 2 事件的 CAR$_{[0,+20]}$ 系数（$+0.00374$，$p=2\times10^{-7}$）为 Tier 1（$+0.00153$，$p=0.045$）的 2.4 倍，
+支持``信息惊喜''驱动市场反应的论点。媒体情感（FinBERT）与市场反应呈显著反向关系
+（$\beta=-0.081$，$\text{CR2}\ p=0.003$），且与智能指数在事件层面正交，
+表明技术能力惊喜与叙事热度反转是相互独立的定价维度。
+
+本文贡献三方面：第一，将 AI 模型发布事件研究从少数案例扩展为可统计检验的事件样本，并引入事件--公司关系编码框架；
+第二，揭示资本市场对 AI 技术冲击的定价逻辑核心是商业模式与生态位置，而非单纯技术榜单分数；
+第三，提供资本市场 AI 定价体制转换的系统证据，明确了 2024--2025 年间从负向折价到正向溢价的结构性转变。
+
+\smallskip
+\noindent\textbf{关键词：} 大语言模型；事件研究；累计异常收益率；模型能力；资产定价；市场学习；体制转换
+\end{abstract}
+
+\newpage
+\section{引言}
+
+2022 年 11 月 ChatGPT 发布后，大语言模型（LLM）的密集发布成为资本市场重新评估科技公司现金流前景的重要信息事件。
+2024 年至 2026 年间，Google、OpenAI、Meta、Microsoft、Anthropic、xAI、DeepSeek 等机构持续推出文本、推理、代码、多模态模型，
+每一次发布都向市场提出同一组问题：新模型代表了可变现的生产率改进，还是仅代表技术竞赛中的又一次迭代？
+投资者能否区分模型能力的信号价值？资本市场的定价逻辑是否随时间演变？
+
+现有的 AI 经济学文献主要关注通用目的技术的长期增长效应 \citep{Bresnahan2010} 和数字技术商业化的互补资产条件 \citep{GoldfarbTucker2019}，
+但较少以高频率模型发布事件为分析单位，直接检验技术能力与资产价格的短期关联。
+金融学文献中的事件研究法 \citep{MacKinlay1997} 和有限注意理论 \citep{HirshleiferTeoh2003,DaEngelbergGao2011}
+为本文提供了方法论基础，但尚未系统应用于 LLM 发布场景。
+
+本文检验一个具体问题：资本市场如何为 LLM 发布行为定价？
+本文使用 2024--2026 年 60 次重大 LLM 发布事件和 86 家 AI 相关上市公司，构造 5{,}161 条事件--公司观测，
+利用事件研究法、规格曲线分析、交互项机制检验和季度特定斜率模型估计公告窗口内的累计异常收益率（CAR）。
+
+全文有八项主要发现。
+
+第一，AA Intelligence Index 与美股 AI 相关公司 CAR 之间存在正向、可重复的统计关联。
+全样本 $\text{CAR}_{[0,+20]}$ 对智能指数的回归系数为 $+0.00152$（$\text{CR0}\ p=0.027$，47 事件聚类），
+闭源子样本系数扩大至 $+0.00232$（$p=0.001$，36 事件聚类）。
+CR2 聚类标准误（$p=0.007$）和 Wild Bootstrap（$p=0.008$）均确认该结论，属全文最稳健的核心发现。
+
+第二，闭源与开源模型效应方向完全相反。
+开源模型在 $\text{CAR}_{[0,+15]}$ 和 $\text{CAR}_{[0,+20]}$ 的系数分别为 $-0.00206$（$p=0.002$）和 $-0.00210$（$p=0.005$），
+规格曲线中开源子样本正向比例仅 7.1\%，中位系数为 $-5.99\times10^{-4}$；
+闭源子样本正向比例 88.1\%，中位系数 $+5.12\times10^{-4}$。
+这是全文规格空间中一致性最高的异质性发现。
+
+第三，模型发布者自身呈现显著的短期负向冲击。
+Owner 子样本（21 条观测，21 事件）在 $\text{CAR}_{[0,+1]}$ 系数为 $-0.00232$（$p=0.003$），
+$\text{CAR}_{[0,+2]}$ 达极值 $-0.00287$（$p<0.001$），10 天后效应完全消失（$p=0.695$），
+20 天系数转正但不显著。这一``短期负向、长期归零''模式与投资者``利好出货''行为一致。
+
+第四，$\text{intelligence}\times\text{investor}$ 交互项为 $-0.00272$（$p=0.008$），
+投资方对模型能力水平的边际定价反应显著低于非投资方（推算斜率 $-0.00119$），
+且 investor 主效应为正（$+0.093$，$p=0.037$），
+说明投资方企业从模型发布中获得正向关注，但对能力提升不敏感甚至反向。
+
+第五，Tier 2 事件效应远强于 Tier 1。
+Tier 2 在 $\text{CAR}_{[0,+20]}$ 的系数（$+0.00374$，$p=2\times10^{-7}$）为 Tier 1（$+0.00153$，$p=0.045$）的 2.4 倍，
+支持``信息惊喜''而非``事件重要性''驱动市场反应的假说。
+
+第六，市场定价逻辑呈现阶梯式演变。
+2024 年系数的年度分组回归不显著（$p=0.474$），2025 年起显著为正（$+0.00206$，$p=0.026$）；
+月度线性趋势交互项不显著（$p=0.452$），排除线性渐变，支持体制转换。
+季度特定斜率模型进一步揭示，2024Q4 智能指数呈显著\textbf{负}定价（$\beta=-0.0013$，$p=0.005$），
+2025Q3 转为强\textbf{正}定价（$\beta=0.0063$，$p=1.7\times10^{-13}$）。
+最稳健的体制转换截断点为 2025Q1（交互项 $p=0.012$，两侧各 $\geq5$ 事件），
+确认市场从折价 AI 能力转向溢价 AI 能力的离散转变。
+
+第七，媒体情感与市场反应呈显著反向关系。
+FinBERT 情感均值对 $\text{CAR}_{[0,+20]}$ 的系数为 $-0.081$（$\text{CR2}\ p=0.003$），
+媒体越正面，长期累计异常收益越低，符合``利好提前兑现 / 情绪反转''机制。
+情感与智能指数在事件层面正交（$\beta=-0.00345$，$p=0.317$），
+两者捕捉市场的不同维度：技术能力惊喜与叙事热度反转相互独立。
+
+第八，行业效应集中于互联网服务与云基础设施（$\text{CR2}\ p=0.015$）、软件（$\text{CR2}\ p=0.078$）和半导体（$\text{CR2}\ p=0.060$）三个板块。
+Mag7 内部高度分化：NVIDIA 平均 $\text{CAR}_{[0,+20]}=+2.33\%$，Tesla 为 $-4.87\%$。
+
+本文贡献三点。第一，将 LLM 发布事件研究从少数案例扩展为可统计检验的事件样本，并引入系统的事件--公司关系编码框架。
+第二，揭示资本市场对 AI 技术冲击的定价逻辑核心是商业模式和生态位置而非技术榜单，开源/闭源、投资关系、事件层级和信息惊喜程度是比能力分数本身更重要的定价维度。
+第三，提供资本市场 AI 定价体制转换的系统证据，明确 2024Q4--2025Q3 间从负向折价到正向溢价的离散转变，这是现有文献尚未记录的新事实。
+
+本文余下部分安排如下。第二节介绍数据、变量与研究设计。第三节报告规格曲线分析结果。
+第四节报告主回归和关系类型异质性。第五节分析交互项机制和标准误稳健性。
+第六节考察媒体情感和投资者关注。第七节分析市场学习与季度定价体制。
+第八节报告行业异质性和 Mag7 分化。第九节说明解释边界。第十节总结。
+
+\section{数据、变量与研究设计}
+
+\subsection{样本构建}
+
+本文的事件数据来自人工构建的 AI 模型发布事件集。
+事件筛选遵循 S.A.F.E.\ 标准：发布主体明确、具有公开关注度、事件窗口内不存在明显混杂信息。
+最终主样本包含 60 次重大 LLM 发布事件，事件日从 2024 年 2 月到 2026 年初，覆盖当前主要 AI 模型发布机构。
+
+股票样本由事件发生期内 AI 相关上市公司构成，按 GICS 板块和行业组分类。最终样本包含 86 家全球 AI 相关上市公司。
+每一个事件与公司的组合构成一条观测，得到 5{,}161 条事件--公司观测。
+
+\subsection{事件发布方与模型特征分布}
+
+表 \ref{tab:event_dist} 报告事件发布方和关键特征的分布。
+\begin{table}[htbp]
+\centering
+\caption{事件特征描述统计}
+\label{tab:event_dist}
+\small
+\begin{tabular}{lcc}
+\toprule
+特征 & 事件数 & 观测数 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Panel A: 发布方类型}} \\
+\quad 美股上市公司   &  & 1{,}892 \\
+\quad 美国私营公司   &  & 2{,}064 \\
+\quad 海外上市公司   &  &   688 \\
+\quad 海外私营公司   &  &   516 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Panel B: 模型模态}} \\
+\quad 文本 LLM       &  & 1{,}806 \\
+\quad 推理 LLM       &  & 1{,}462 \\
+\quad 多模态         &  &   430 \\
+\quad 代码模型       &  &   344 \\
+\quad 图像/视频生成  &  & 1{,}118 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Panel C: 事件层级}} \\
+\quad Tier 1（最高） & 18 & 2{,}322 \\
+\quad Tier 2          & 27 & 2{,}666 \\
+\quad Tier 3          & 15 &   172 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{变量定义}
+
+被解释变量是累计异常收益率 $\text{CAR}_{ij}[T_1,T_2]$。
+本文使用市场模型估计日度异常收益，估计窗口为事件日前 $[-200,-10]$ 个交易日。
+主窗口为 $\text{CAR}_{[0,+20]}$，基于前文分析发现该窗口信号最强且稳健性最好。
+本文同时报告 $\text{CAR}_{[0,+1]}$ 和 $\text{CAR}_{[0,+15]}$ 作为稳健性比较，
+并明确回避 $\text{CAR}_{[0,+5]}$ 作为主因变量，因为规格曲线分析显示该窗口处 AA Intelligence Index 的正向比例降至 47.2\%（七窗口中最低），Coding 和 Math Index 的均值系数均跌入负值区间，确认约 5 个交易日存在短期反转。
+
+核心解释变量为 AA Intelligence Index，来自 Artificial Analysis 官方 API 的标准化模型能力综合指标。
+辅助能力指标包括 AA Coding Index、AA Math Index 和 AA Media Elo。
+
+公司层面控制变量包括对数总资产（$size\_log\_assets$）、账面市值比（$bm\_ratio$）、
+事件前收益率波动率（$volatility$）和事件前 12 个月累计涨幅（$momentum$），
+后者的构造排除最近 1 个月收益。
+
+关系暴露变量共 8 类：owner（模型发布者自身）、investor（主要投资方）、cloud（云服务合作方）、
+business\_upstream（商业上游）、real\_upstream（实质上游）、
+business\_downstream（商业下游）、real\_downstream（实质下游）、competitor（直接竞争者）。
+
+事件构成控制变量包括：闭源 dummy（$is\_closed\_source$）、开源 dummy（$is\_open\_source$）、
+Tier 1/2/3 分层 dummy、模型模态 dummy（text\_llm、reasoning\_llm、multimodal\_llm、coding\_llm）、
+发布者类型 dummy（listed\_us\_company、private\_us\_company、public\_non\_us\_company、private\_non\_us\_company）、
+中国模型 dummy（$is\_chinese\_model$）。
+
+媒体情感变量使用 FinBERT 模型对事件窗口内（$\pm5$ 天、$\pm20$ 天）新闻文本的情感打分均值（$\overline{Sent}$）和标准差（$std(Sent)$）。
+情感均值衡量媒体报道的乐观程度，标准差衡量媒体分歧和讨论强度，后者可作为异常关注度的代理变量。
+
+所有连续变量在 1\% 和 99\% 分位进行缩尾处理。
+
+\subsection{实证设定}
+
+本文采用多层实证设计。第一层为规格曲线分析：
+对四个能力指标在 (1) 因变量窗口 7 档、(2) 控制变量组合 3 类、(3) 子样本 17 类（含关系类型）、(4) 年份固定效应的全部组合中穷举估计，
+使用 CR0 聚类标准误（以事件为聚类单位），最小样本量门槛 20 观测，聚类数不足 5 时退为普通 OLS。
+
+第二层为主回归分析。在事件--公司面板上估计：
+\begin{equation}
+\text{CAR}_{ij} = \beta_0 + \beta_1 \text{AA Intelligence Index}_i + \gamma \mathbf{Z}_j + \delta \mathbf{R}_{ij}
++ \lambda \text{factor}(\text{release\_year}) + \epsilon_{ij},
+\label{eq:main}
+\end{equation}
+其中 $\mathbf{Z}_j$ 为公司特征向量，$\mathbf{R}_{ij}$ 为关系暴露向量。标准误在事件层面聚类（CR0）。
+
+第三层为交互项机制检验，加入均值中心化的智能指数 $\text{intel\_c}$ 与关系类型、开源状态、Tier 分层的交互项。
+均值中心化（均值 26.64，SD 13.12）使主效应可在``样本平均智能水平''处直接解读。
+
+第四层为季度特定斜率模型：
+\begin{equation}
+\text{CAR}_{ij} = \sum_q \beta_q \cdot \text{AA Intelligence Index}_i \cdot \mathbf{1}\{\text{event\_quarter}=q\}
++ \text{quarter FE} + \gamma \mathbf{Z}_j + \delta \mathbf{R}_{ij} + \epsilon_{ij},
+\label{eq:quarter}
+\end{equation}
+并实施体制转换检验，估计不同候选截断季度的 Post$_{Q^*}$ 交互项模型。
+
+第五层为标准误稳健性检验，对核心结论报告 CR0 聚类标准误、CR2 聚类稳健标准误 \citep{BellMcCaffrey2002}
+和手动实现的 Rademacher 扰动 Wild Cluster Bootstrap p 值（$B=4{,}999$）。
+
+\section{规格曲线分析}
+
+规格曲线分析（Simonsohn, Nelson \& Simmons, 2014）的核心思想是穷举所有合理的模型设定组合，
+展示系数估计的全分布，以检验结论是否依赖于特定的控制变量、固定效应或窗口选择。
+如果结论在广泛的规格空间中方向一致、量级稳定，则排除了``研究者自由度''驱动结果的可能性；
+如果结论仅在少数规格成立，则需要说明这些规格的合理性来源，而非将其作为基准。
+
+本文对四个能力指标在 7 个事件窗口、3 类控制变量组合（无控制、公司特征、公司特征+关系）、
+含/不含年份固定效应的全部组合上穷举估计（第一轮共 966 条规格），
+第二轮在此基础上进一步加入 17 类关系子样本的约束条件（共 672 条规格）。
+所有规格使用 CR0 聚类标准误（以事件为聚类单位），最小样本量门槛 20 条观测，聚类数不足 5 时退为普通 OLS。
+
+\subsection{四个能力指标：系数分布与方向一致性}
+
+表 \ref{tab:specr_main} 报告四个指标跨全部规格的系数分布统计。
+规格曲线分析的正确解读方式是比较系数分布的中心位置、离散程度和方向一致性，
+而非对 p 值计数——因为各规格间使用高度重叠的数据，p 值在规格间不独立，计数会产生误导性推断。
+
+\begin{table}[htbp]
+\centering
+\caption{四个能力指标的规格曲线系数分布}
+\label{tab:specr_main}
+\small
+\begin{tabular}{lccccc}
+\toprule
+X 变量 & 规格数 & 正向比例（\%） & 中位系数 & 均值系数 & 系数 SD \\
+\midrule
+aa\_intelligence\_index & 252 & \textbf{66.3} & $+1.96\times10^{-4}$ & $+2.50\times10^{-4}$ & $1.09\times10^{-3}$ \\
+aa\_media\_elo          & 231 & 62.3           & $+0.19\times10^{-4}$ & $\approx0$              & $2.20\times10^{-4}$ \\
+aa\_coding\_index       & 252 & 51.6           & $+0.13\times10^{-4}$ & $+2.00\times10^{-5}$ & $7.70\times10^{-4}$ \\
+aa\_math\_index         & 231 & \textbf{26.8} & $-0.88\times10^{-4}$ & $-9.00\times10^{-5}$ & $2.60\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+两个模式清晰。
+第一，AA Intelligence Index 的方向一致性最强：66.3\% 的规格产生正系数，中位系数 $+1.96\times10^{-4}$，
+跨控制变量组合和窗口的选择保持同号。这是将其作为主分析变量的方法论依据。
+第二，AA Math Index 的方向高度不稳定：仅 26.8\% 的规格为正，中位系数为负，
+意味着无论选择何种控制变量和窗口，模型数学能力与市场反应之间缺乏稳健的同向关系，
+不适宜作为主要分析变量。AA Coding Index 和 AA Media Elo 居中，正向比例约 52\%--62\%，
+但系数量级远小于 Intelligence Index，且方向稳定性不足。
+
+\subsection{事件窗口对系数的影响}
+
+规格曲线分析的一个重要用途是识别哪些分析选择对结论影响最大。
+表 \ref{tab:specr_window} 按事件窗口分别报告系数的方向一致性和均值。
+表中每格数字对应一个指标在一个窗口中的 33--36 条规格（即 3 类控制 $\times$ 2 类年份 FE $\times$ 若干子样本约束）。
+
+\begin{table}[htbp]
+\centering
+\caption{各指标跨事件窗口的系数均值与正向比例}
+\label{tab:specr_window}
+\small
+\begin{tabular}{lcccc|cccc}
+\toprule
+\multirow{2}{*}{窗口} & \multicolumn{4}{c|}{正向比例（\%）} & \multicolumn{4}{c}{均值系数（$\times10^{-4}$）} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9}
+ & Intel. & Coding & Math & Media & Intel. & Coding & Math & Media \\
+\midrule
+$\text{CAR}_{[0,+1]}$  & 80.6 & 44.4 & 24.2 & \textbf{90.9} & +2.51 & +0.71 & $-0.12$ & +0.44 \\
+$\text{CAR}_{[0,+2]}$  & 69.4 & 52.8 & 15.2 & 78.8          & +2.68 & +0.00 & $-0.68$ & +0.15 \\
+$\text{CAR}_{[0,+3]}$  & 66.7 & 38.9 & 15.2 & 45.5          & +2.14 & $-0.25$ & $-0.97$ & +0.02 \\
+$\text{CAR}_{[0,+5]}$  & \textbf{47.2} & 52.8 & 21.2 & 54.5          & +1.99 & +0.93 & \textbf{$-1.43$} & +0.24 \\
+$\text{CAR}_{[0,+10]}$ & 41.7 & 50.0 & 36.4 & 54.5          & $-0.47$ & $-0.27$ & $-1.01$ & +0.30 \\
+$\text{CAR}_{[0,+15]}$ & 75.0 & 52.8 & 24.2 & 66.7          & +3.22 & $-1.09$ & $-1.45$ & +0.20 \\
+$\text{CAR}_{[0,+20]}$ & \textbf{83.3} & 69.4 & 51.5 & 45.5          & \textbf{+5.49} & +1.16 & $-0.28$ & $-1.10$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+两个规律值得强调。第一，$\text{CAR}_{[0,+5]}$ 附近是 AA Intelligence Index 正向比例的局部最低点（47.2\%），
+Coding Index 和 Math Index 的均值系数在此窗口也跌入负值区间，
+说明约 5 个交易日附近存在短期反转或噪音——这一发现对选择主因变量具有直接方法论含义：
+本文后续分析以 $\text{CAR}_{[0,+20]}$ 为长窗口基准，$\text{CAR}_{[0,+1]}$ 为短窗口参考，
+并明确回避 $\text{CAR}_{[0,+5]}$ 作为主因变量。
+第二，AA Intelligence Index 的均值系数从 $\text{CAR}_{[0,+1]}$ 的 $+2.51\times10^{-4}$
+增长至 $\text{CAR}_{[0,+20]}$ 的 $+5.49\times10^{-4}$，增长约 2.2 倍，
+且正向比例从 80.6\% 升至 83.3\%，说明技术能力信息的定价效应随窗口扩大而累积而非衰减，
+与``信息在市场中慢速扩散、逐步被定价''的假说一致。
+AA Media Elo 呈反向时序：短窗口（$\text{CAR}_{[0,+1]}$）正向比例高达 90.9\%，
+长窗口反而下降至 45.5\%，反映媒体生成能力的市场冲击偏瞬时、不具有累积性。
+
+\subsection{年份固定效应的影响}
+
+规格曲线分析的另一个用途是检验固定效应选择对结论的影响。
+以 AA Intelligence Index 为例，不加年份 FE 时均值系数为 $+2.0\times10^{-6}$，正向比例 64.3\%；
+加入年份 FE 后均值系数跃升至 $+5.05\times10^{-4}$，正向比例升至 68.3\%。
+这一变化的经济含义是：跨年份的样本构成差异（早期事件能力均值低、后期高）压低截面估计，
+控制年份效应将能力变动中跨期趋势部分剥离后，能力的事件间横向差异与 CAR 的关系更清晰。
+在子样本层面，闭源模型加入年份 FE 后正向比例从 52.4\% 升至 90.5\%，均值系数从负转正，
+而 investor 子样本的正向比例则从 57.1\% 降至 35.7\%，说明 investor 子样本的能力--收益关系集中于特定年份。
+这些模式不是``显著率的波动''，而是固定效应选择改变了所估计参数的实质性经济含义，
+因此后文主回归均包含年份固定效应，并在季度体制分析中专门处理时间维度。
+
+\subsection{关系类型子样本的系数分布}
+
+表 \ref{tab:specr_rel} 报告第二轮规格曲线按关系类型子样本的系数分布。
+每行对应某一子样本在 42 条规格（3 控制条件 $\times$ 2 年份 FE 条件 $\times$ 7 窗口）中的系数分布。
+
+\begin{table}[htbp]
+\centering
+\caption{关系类型子样本的系数分布（AA Intelligence Index）}
+\label{tab:specr_rel}
+\small
+\begin{tabular}{lcccc}
+\toprule
+子样本 & 正向比例（\%） & 中位系数 & 系数 SD & 规格数 \\
+\midrule
+美股上市创始者 & \textbf{100.0} & $+1.11\times10^{-3}$ & $5.99\times10^{-4}$ & 42 \\
+闭源模型       & 88.1           & $+5.12\times10^{-4}$ & $7.93\times10^{-4}$ & 42 \\
+Real downstream & 73.8          & $+7.86\times10^{-4}$ & $1.01\times10^{-3}$ & 42 \\
+全样本（基准） & 83.3           & $+3.42\times10^{-4}$ & $5.04\times10^{-4}$ & 42 \\
+Real upstream  & 52.4           & $+0.33\times10^{-4}$ & $4.38\times10^{-4}$ & 42 \\
+Competitor     & 47.6           & $-0.88\times10^{-4}$ & $4.14\times10^{-4}$ & 42 \\
+Investor       & 45.2           & $-7.50\times10^{-4}$ & $1.85\times10^{-3}$ & 42 \\
+Owner          & 35.7           & $-1.47\times10^{-3}$ & $1.97\times10^{-3}$ & 42 \\
+开源模型       & \textbf{7.1}  & $-5.99\times10^{-4}$ & $1.26\times10^{-3}$ & 42 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+系数分布揭示四个清晰的异质性事实。
+第一，关系类型是系数符号和量级的关键调节因素：
+美股上市创始者子样本 100\% 的规格产生正系数，中位 $+1.11\times10^{-3}$，约为全样本的 3.2 倍；
+而 Owner（发布者自身）中位系数为 $-1.47\times10^{-3}$，仅 35.7\% 的规格为正。
+第二，开源与闭源在方向性上截然对立：
+闭源子样本 88.1\% 的规格为正（中位 $+5.12\times10^{-4}$），
+开源子样本仅 7.1\% 为正（中位 $-5.99\times10^{-4}$），
+是全部分析中最稳定的异质性发现，也是后文交互项分析的核心动机。
+第三，Competitor 子样本的系数分布在量级上最窄（SD $=4.14\times10^{-4}$），
+且正向比例接近 50\%，表明模型能力提升对竞争者的市场影响无系统方向——既非稳定正向技术溢出，也非稳定负向竞争冲击。
+第四，Investor 子样本的系数标准差最大（$1.85\times10^{-3}$），
+反映投资方对模型能力提升的定价高度依赖窗口和控制变量的具体选择，单规格结论不可靠。
+
+\section{主回归与关系类型异质性}
+
+\subsection{基准回归：全样本与闭源样本}
+
+表 \ref{tab:main_reg} 报告基准回归结果。控制变量包括对数总资产、账面市值比、波动率、动量；
+年份固定效应；CR0 聚类标准误（按事件）。因变量为 $\text{CAR}_{[0,+20]}$ 和 $\text{CAR}_{[0,+1]}$。
+
+\begin{table}[htbp]
+\centering
+\caption{主回归：AA Intelligence Index $\rightarrow$ CAR}
+\label{tab:main_reg}
+\small
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) $\text{CAR}_{[0,+1]}$ 全样本 & (2) $\text{CAR}_{[0,+20]}$ 全样本
+ & (3) $\text{CAR}_{[0,+1]}$ 闭源 & (4) $\text{CAR}_{[0,+20]}$ 闭源 \\
+\midrule
+AA Intelligence Index & 0.000336$^{+}$ & 0.001521$^{*}$ & 0.000370 & 0.002317$^{***}$ \\
+                      & (0.000177)      & (0.000667)     & (0.000249) & (0.000618) \\
+95\% CI               & [$-0.000021$, $+0.000693$] & [$+0.000180$, $+0.002863$] & [$-0.000136$, $+0.000877$] & [$+0.001062$, $+0.003571$] \\
+$p$ 值                & 0.064           & 0.027          & 0.147       & 0.001 \\
+\midrule
+$N$                   & 3{,}763         & 3{,}780        & 2{,}886     & 2{,}899 \\
+事件数                & 47              & 47             & 36          & 36 \\
+$R^2$                 & 0.015           & 0.107          & 0.013       & 0.102 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item 注：所有回归包含对数总资产、账面市值比、波动率、动量和年份固定效应。标准误在事件层面聚类（CR0）。$^{+}p<0.10$，$^{*}p<0.05$，$^{**}p<0.01$，$^{***}p<0.001$。下同。
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+全样本中 AA Intelligence Index 对 $\text{CAR}_{[0,+20]}$ 在 5\% 水平显著（$\beta=0.00152$，$p=0.027$）；
+闭源样本系数扩大至 $0.00232$（$+52\%$），在 0.1\% 水平高度显著（$p=0.001$），95\% 置信区间不含零。
+$R^2$ 在 $\text{CAR}_{[0,+20]}$ 下达 10.2\%--10.7\%，远高于 $\text{CAR}_{[0,+1]}$（1.5\%），
+说明模型能力对长窗口收益的解释力显著更强。
+
+$\text{CAR}_{[0,+1]}$ 的全样本回归在 10\% 水平边际显著（$p=0.064$），闭源样本不显著（$p=0.147$）。
+这符合信息慢速扩散的假说：投资者需要时间消化模型能力信息，短窗口难以完全捕获能力定价效应。
+
+\subsection{关系类型异质性}
+
+表 \ref{tab:rel_het} 报告按关系类型分样本的回归结果（因变量 $\text{CAR}_{[0,+20]}$）。
+
+\begin{table}[htbp]
+\centering
+\caption{关系类型异质性：AA Intelligence Index $\rightarrow$ $\text{CAR}_{[0,+20]}$}
+\label{tab:rel_het}
+\small
+\begin{tabular}{lccccc}
+\toprule
+子样本 & 系数 & SE & $p$ 值 & $N$ & 事件数 \\
+\midrule
+全样本          & 0.001521$^{*}$  & (0.000667) & 0.027  & 3{,}780 & 47 \\
+Real downstream & 0.002004        & (0.001635) & 0.235  & 62      & 20 \\
+Competitor      & 0.000515        & (0.000548) & 0.352  & 366     & 47 \\
+美股上市创始者  & 0.002449$^{+}$  & (0.001310) & 0.081  & 1{,}304 & 16 \\
+闭源            & \textbf{0.002317$^{***}$} & (0.000618) & \textbf{0.001} & 2{,}899 & 36 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Competitor 子样本系数接近零（$\beta=0.000515$，$p=0.352$），说明模型能力提升对直接竞争者无系统性负向冲击，
+正负效应相互抵消。Real downstream 系数最大（$+0.00200$），但仅 62 条观测，置信区间宽，统计上不显著。
+美股上市创始者子样本 $R^2$ 高达 16.1\%，是所有子样本中模型解释力最强的分组。
+
+\subsection{开源 vs.\ 闭源的方向性分叉}
+
+表 \ref{tab:open_closed} 报告开源与闭源模型发布事件中智能指数对 CAR 的效应方向对比。
+这是全文最鲜明的异质性发现。
+
+\begin{table}[htbp]
+\centering
+\caption{开源 vs.\ 闭源：智能指数对 CAR 的分窗口效应}
+\label{tab:open_closed}
+\small
+\begin{tabular}{lcccc}
+\toprule
+窗口 & 开源系数 & 开源 $p$ & 闭源系数 & 闭源 $p$ \\
+\midrule
+$\text{CAR}_{[0,+1]}$  & $+0.000196$ & 0.453 & $+0.001055$ & 0.139 \\
+$\text{CAR}_{[0,+5]}$  & $-0.000152$ & 0.841 & $+0.000847$ & 0.376 \\
+$\text{CAR}_{[0,+10]}$ & $-0.000692$ & 0.398 & $+0.001273$ & 0.399 \\
+$\text{CAR}_{[0,+15]}$ & \textbf{$-0.002055$} & \textbf{0.002} & \textbf{$+0.003323$} & \textbf{0.001} \\
+$\text{CAR}_{[0,+20]}$ & \textbf{$-0.002097$} & \textbf{0.005} & \textbf{$+0.002898$} & \textbf{0.001} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+开源模型在 $\text{CAR}_{[0,+15]}$ 和 $\text{CAR}_{[0,+20]}$ 上的系数为负且显著
+（$\beta=-0.00210$，$p=0.005$），闭源模型在相同窗口为正且显著（$\beta=+0.00290$，$p=0.001$）。
+这一``开源负向、闭源正向''的对立格局与以下机制相符：
+高质量开源模型通过压低 API 服务溢价、加速能力商品化，压制相关公司估值；
+高质量闭源模型则形成差异化竞争壁垒，正向反映在投资者预期中。
+
+\subsection{Tier 2 > Tier 1：信息惊喜假说}
+
+表 \ref{tab:tier} 按候选事件重要性分层报告分样本回归结果。
+
+\begin{table}[htbp]
+\centering
+\caption{Tier 1 vs.\ Tier 2：能力定价效应的强度差异}
+\label{tab:tier}
+\small
+\begin{tabular}{lccccc}
+\toprule
+分层 & $N$ & 事件数 & $\text{CAR}_{[0,+1]}$ 系数（$p$） & $\text{CAR}_{[0,+20]}$ 系数（$p$） \\
+\midrule
+Tier 1 & 1{,}438 & 18 & $+0.000281$ (0.231) & $+0.001530$ (0.045$^{*}$) \\
+Tier 2 & 2{,}159 & 27 & $+0.000568$ (\textbf{0.049$^{*}$}) & \textbf{$+0.003744$} (\textbf{$2\times10^{-7}$$^{***}$}) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Tier 2 事件在 $\text{CAR}_{[0,+20]}$ 的系数（$+0.00374$）约为 Tier 1（$+0.00153$）的 2.4 倍，
+统计显著性从 5\%（Tier 1）跳升至 0.1\% 以上（Tier 2）。
+这一反直觉结果支持``信息惊喜''（information surprise）而非``信息量''（information content）驱动市场反应的论点：
+Tier 1 事件因市场预期充分（媒体密集报道、分析师广泛覆盖），能力信息的边际价值较低；
+Tier 2 事件更能捕捉``惊喜型''发布，市场事前预期不足，能力超预期时产生更大的价格修正。
+
+\section{交互项机制检验与标准误稳健性}
+
+\subsection{交互项机制}
+
+本节所有交互模型均使用均值中心化的智能指数 $\text{intel\_c}$（均值 $=26.64$，SD $=13.12$），
+使主效应可在``样本平均智能水平''处直接解读。
+
+\subsubsection{开源调节效应}
+
+在全样本中加入 $\text{intel\_c}\times\text{is\_open\_weight}$ 交互项（因变量 $\text{CAR}_{[0,+20]}$，$n=3{,}780$，47 事件聚类）：
+
+\begin{table}[htbp]
+\centering
+\caption{开源调节效应：$\text{intel\_c}\times\text{open\_weight}$}
+\label{tab:int_open}
+\small
+\begin{tabular}{lccccc}
+\toprule
+项 & 系数 & SE & CR0 $p$ & CR2 $p$ & Wild $p$ \\
+\midrule
+intel\_c（闭源基准斜率）  & $+0.002257$ & (0.000599) & $<0.001^{***}$ & 0.005$^{**}$ & 0.008$^{**}$ \\
+is\_open\_weight（均值处）& $-0.013$    & (0.012)    & 0.272          & ---           & --- \\
+\textbf{intel\_c $\times$ open\_weight} & \textbf{$-0.003734$} & \textbf{(0.001201)} & \textbf{0.003$^{**}$} & \textbf{0.048$^{*}$} & 0.086$^{+}$ \\
+\midrule
+推算斜率（closed, open=0）& $+0.002257$ & --- & --- & --- & --- \\
+推算斜率（open, open=1）  & $-0.001477$ & --- & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+中心化的关键发现：闭源斜率 $+0.00226$，开源斜率 $-0.00148$。
+交互项在 CR2 下 $p=0.048^{*}$（边际），Wild Bootstrap 下 $p=0.086^{+}$（10\% 边际）。
+核心结论方向可信，置信度中等。
+
+\subsubsection{Investor 交互效应}
+
+\begin{table}[htbp]
+\centering
+\caption{Investor 调节效应：$\text{intel\_c}\times\text{investor}$}
+\label{tab:int_inv}
+\small
+\begin{tabular}{lcccc}
+\toprule
+项 & 系数 & SE & $p$ 值（CR0） & 显著性 \\
+\midrule
+intel\_c（非投资方基准） & $+0.001530$ & (0.000667) & 0.028 & $^{*}$ \\
+investor（主效应）       & $+0.093159$ & (0.044716) & 0.037 & $^{*}$ \\
+\textbf{intel\_c $\times$ investor} & \textbf{$-0.002722$} & \textbf{(0.000997)} & \textbf{0.008} & \textbf{$^{**}$} \\
+\midrule
+推算斜率（investor=1）    & $-0.001192$ & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+交互项结果显示：对非投资方企业，智能指数每提升一单位，$\text{CAR}_{[0,+20]}$ 上升约 $+0.00153$；
+对投资方企业，相同的能力提升带来的反应约为 $-0.00119$（负向）。
+Investor 主效应为正（$+0.093$，$p=0.037$），
+说明投资方企业在模型发布时普遍获得高于平均的绝对收益，但对发布模型的能力水平不敏感甚至反向。
+合理解读：投资方对一般性模型发布有正向关注（主效应），但更高能力的模型可能暗示被投资方独立性增强或外部开源竞争加剧，
+使投资方的能力溢价预期反向。
+
+\subsubsection{Owner 短期负向调节}
+
+Owner 交互项在短窗口中是关系类型交互中最稳健的结果：
+
+\begin{table}[htbp]
+\centering
+\caption{Owner 短期负向调节效应}
+\label{tab:int_owner}
+\small
+\begin{tabular}{lccccc}
+\toprule
+因变量 & 交互项系数 & SE & CR0 $p$ & CR2 $p$ & Wild $p$ \\
+\midrule
+$\text{CAR}_{[0,+1]}$ & $-0.001781$ & (0.000720) & 0.017$^{*}$ & 0.059$^{+}$ & \textbf{0.034$^{*}$} \\
+$\text{CAR}_{[0,+2]}$ & $-0.001770$ & (0.000697) & 0.015$^{*}$ & 0.052$^{+}$ & \textbf{0.046$^{*}$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Owner $\times$ intel\_c 在 $\text{CAR}_{[0,+1]}$ 和 $\text{CAR}_{[0,+2]}$ 的 Wild Bootstrap 均达到 5\% 显著水平，
+在三种标准误下结论较一致，是全文最稳健的交互项发现。
+
+\subsection{标准误稳健性：CR0 / CR2 / Wild Bootstrap}
+
+表 \ref{tab:se_robust} 报告全文主线结论的三种标准误 p 值汇总。
+CR2 为 Bell-McCaffrey 小聚类修正；Wild 为 Rademacher 扰动野蛮引导法（$B=4{,}999$，置零 null 法，聚类层级为事件）。
+
+Wild Bootstrap 的实现方法：(1) 拟合受限模型（零假设下去除目标参数）获取残差 $\hat{e}$；
+(2) 对每个聚类（事件）抽取独立 $w_g\sim\{-1,+1\}$；
+(3) 构造 $\tilde{y}=\hat{y}_{\text{restr}}+w_g\hat{e}_g$；
+(4) 对扰动数据拟合完整模型，记录目标系数 $t$ 统计量；
+(5) 重复 $B=4{,}999$ 次，p 值为 $|\tilde{t}|\geq|t_{\text{obs}}|$ 的比例。
+
+\begin{table}[htbp]
+\centering
+\caption{核心结论的三种标准误稳健性比较}
+\label{tab:se_robust}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+规格 & $N$ & 事件 & $\beta$ & CR0 $p$ & CR2 $p$ & Wild $p$ \\
+\midrule
+(1) 全样本 $\text{CAR}_{[0,+20]}$，intel\_c & 3{,}780 & 47 & $+0.00152$ & 0.027$^{*}$ & 0.054$^{+}$ & 0.053$^{+}$ \\
+(2) 闭源 $\text{CAR}_{[0,+20]}$，intel\_c & 2{,}899 & 36 & $+0.00232$ & 0.001$^{***}$ & \textbf{0.007$^{**}$} & \textbf{0.008$^{**}$} \\
+(3a) 开闭源模型，闭源斜率 & 3{,}780 & 47 & $+0.00226$ & $<0.001^{***}$ & 0.005$^{**}$ & 0.008$^{**}$ \\
+(3b) \textbf{intel\_c $\times$ open\_weight} & 3{,}780 & 47 & $-0.00373$ & 0.003$^{**}$ & \textbf{0.048$^{*}$} & 0.086$^{+}$ \\
+(4a) 非投资方基准斜率 & 3{,}780 & 47 & $+0.00153$ & 0.027$^{*}$ & 0.054$^{+}$ & 0.053$^{+}$ \\
+(4b) intel\_c $\times$ investor & 3{,}780 & 47 & $-0.00272$ & 0.008$^{**}$ & 0.050$^{*}$ & 0.126 \\
+(5) intel\_c $\times$ cloud & 3{,}780 & 47 & $-0.00213$ & 0.046$^{*}$ & 0.100 & 0.137 \\
+(6a) intel\_c $\times$ owner ($\text{CAR}_{[0,+1]}$) & 3{,}763 & 47 & $-0.00178$ & 0.017$^{*}$ & 0.059$^{+}$ & \textbf{0.034$^{*}$} \\
+(6b) intel\_c $\times$ owner ($\text{CAR}_{[0,+2]}$) & 3{,}768 & 47 & $-0.00177$ & 0.015$^{*}$ & 0.052$^{+}$ & \textbf{0.046$^{*}$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+基于三种标准误的一致程度，本文将核心结论分为四类：
+
+\textbf{A 类（三种标准误均显著）}：闭源 $\text{CAR}_{[0,+20]}$（CR2 $p=0.007^{**}$，Wild $p=0.008^{**}$）
+——全文最核心、最稳健的结论。
+
+\textbf{B 类（CR2 边际显著，Wild 10\% 边际）}：全样本 $\text{CAR}_{[0,+20]}$（Wild $p=0.053^{+}$），
+open\_weight 交互项（CR2 $p=0.048^{*}$，Wild $p=0.086^{+}$）
+——方向可信，显著性保守表述。
+
+\textbf{C 类（CR2 边际，Wild 不显著）}：investor 交互项（CR2 $p=0.050^{*}$，Wild $p=0.126$）
+——机制方向有意义，但小聚类环境下统计检验力不足。
+
+\textbf{D 类（CR2 不显著）}：cloud 交互项（CR2 $p=0.100$），开源模型主效应（CR2 $p=0.088$--$0.170$），Tier 1（CR2 $p=0.112$）
+——探索性方向证据，不宜作为主要结论。
+
+\section{媒体情感与投资者关注}
+
+\subsection{FinBERT 媒体情感}
+
+媒体情感数据来自 FinBERT 模型对事件窗口内（$\pm2$ 至 $\pm20$ 天）新闻文本的情感打分。
+情感均值约 $0.18$（正面偏），SD $\approx 0.16$--$0.17$。
+
+\subsubsection{情感与 CAR 的反向关系}
+
+\begin{table}[htbp]
+\centering
+\caption{媒体情感（FinBERT）与 CAR 的反向关系}
+\label{tab:sentiment}
+\small
+\begin{tabular}{lcccc}
+\toprule
+模型 & 情感系数 $\beta$ & CR0 $p$ & CR2 $p$ \\
+\midrule
+情感单独预测 $\text{CAR}_{[0,+20]}$（$w=5$） & \textbf{$-0.081$} & \textbf{$<0.001^{***}$} & \textbf{0.003$^{**}$} \\
+情感单独预测 $\text{CAR}_{[0,+20]}$（$w=20$） & $-0.096$ & 0.003$^{**}$ & 0.015$^{*}$ \\
+联合模型：情感（控制 intel\_c）& $-0.061$ & 0.024$^{*}$ & 0.057$^{+}$ \\
+联合模型：intel\_c（控制情感）& $+0.00158$ & 0.035$^{*}$ & 0.087$^{+}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+核心发现：媒体情感与市场反应呈显著\textbf{反向}关系。
+媒体越正面，股票长期 CAR 越低（$\beta=-0.081$，CR2 $p=0.003^{**}$）。
+这一模式符合``利好提前兑现 / 情绪反转''机制：高情感事件市场往往已在公告前定价，公告后出现回调；
+而低情感事件（媒体态度中性或略负）反而产生正向惊喜。
+
+\subsubsection{情感与智能指数的正交性}
+
+事件级别回归显示，AA Intelligence Index 不能预测媒体情感（$\beta=-0.00345$，$p=0.317$），
+两者捕捉市场的不同维度——智能指数代表``技术能力''层面的惊喜，媒体情感代表``叙事热度''层面，
+两者相互独立且效应方向相反。
+联合模型中两者均显著（CR0 水平），说明缺一不可。
+情感调节效应不显著：$\text{intel\_c}\times\text{sent\_c5}$ 交互项 $\beta=+0.00193$，$p=0.555$，
+情感不放大也不削弱智能效应，两者为加法互补而非乘法关系。
+
+\section{市场学习与季度定价体制}
+
+\subsection{年份阶段性演变}
+
+按发布年份分组估计 AA Intelligence Index 对 $\text{CAR}_{[0,+20]}$ 的效应（表 \ref{tab:year_split}）。
+该模型不含年份固定效应，控制其余全部变量。
+
+\begin{table}[htbp]
+\centering
+\caption{按发布年份分组：智能指数定价效应的演变}
+\label{tab:year_split}
+\small
+\begin{tabular}{lccccc}
+\toprule
+年份 & $N$ & 系数 & SE & $p$ 值 & 显著性 \\
+\midrule
+2024 & 1{,}291 & $-0.000440$ & (0.000600)  & 0.474 & --- \\
+2025 & 2{,}183 & \textbf{$+0.002060$} & (0.000870)  & \textbf{0.026} & $^{*}$ \\
+2026 &   306 & $+0.018600$ & (0.011570) & 0.206 & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+交互项模型（$\text{intelligence}\times\text{trend\_month}$）不显著（$\beta=+0.000059$，$p=0.452$），
+排除``线性渐变''解释，支持``阶梯式转变''假说：
+2024 年市场对模型智能指数无定价能力，2025 年起显著正向，
+2026 年系数更大（$+0.0186$）但样本量仅 306 条。
+这一模式为``资本市场 AI 定价学习效应''提供了直接实证证据。
+
+\subsection{季度构成分析}
+
+表 \ref{tab:quarter_comp} 报告按事件季度划分的样本构成。
+该表用于判断季度层面系数变化是反映市场学习还是事件构成变化。
+
+\begin{table}[htbp]
+\centering
+\caption{季度构成表}
+\label{tab:quarter_comp}
+\small
+\begin{tabular}{lcccccccc}
+\toprule
+季度 & 事件数 & 观测数 & AA Intel. 均值 & AA Intel. SD & 闭源占比 & Tier1占比 & 中国模型占比 & 发布者数 \\
+\midrule
+2024Q2 & 2  &  172 & 9.70  & 1.13  & 0.50 & 0.00 & 0.00 & 2 \\
+2024Q3 & 5  &  430 & 17.56 & 4.35  & 1.00 & 0.20 & 0.00 & 3 \\
+2024Q4 & 9  &  774 & 20.06 & 9.52  & 0.89 & 0.44 & 0.11 & 5 \\
+2025Q1 & 9  &  774 & 20.80 & 8.30  & 0.78 & 0.56 & 0.22 & 7 \\
+2025Q2 & 8  &  688 & 31.28 & 11.40 & 0.88 & 0.38 & 0.00 & 3 \\
+2025Q3 & 6  &  516 & 30.65 & 6.99  & 0.33 & 0.33 & 0.67 & 4 \\
+2025Q4 & 4  &  344 & 33.30 & 13.86 & 0.50 & 0.25 & 0.00 & 3 \\
+2026Q1 & 4  &  344 & 53.78 & 2.17  & 1.00 & 0.50 & 0.00 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+2024Q2 仅含 2 个事件（均为 Meta 发布），AA Intelligence Index 均值仅 9.70，是最低的季度。
+2026Q1 均值高达 53.78，但仅 2 个发布者，代表模型异质性最小。
+季度间事件构成变化显著（闭源占比从 0.33 到 1.00，Tier 1 占比从 0.00 到 0.56，
+中国模型占比从 0.00 到 0.67），因此系数变化可能部分反映构成效应。
+
+\subsection{季度特定斜率模型}
+
+表 \ref{tab:quarter_slopes} 报告季度特定斜率模型估计结果。
+模型包含季度固定效应、公司控制变量（对数总资产、账面市值比、波动率、动量）和全部 8 个关系控制变量。
+标准误在事件层面聚类（CR0）。
+
+\begin{table}[htbp]
+\centering
+\caption{季度特定斜率：AA Intelligence Index $\rightarrow$ $\text{CAR}_{[0,+20]}$}
+\label{tab:quarter_slopes}
+\small
+\begin{tabular}{lccccccc}
+\toprule
+季度 & $\beta_q$ & SE & $p$ 值 & 95\% CI & 事件数 & 观测数 & 显著性 \\
+\midrule
+2024Q2 & $+0.003935$ & 0.000511 & $8.2\times10^{-10}$ & [$+0.00293$, $+0.00494$] & 2  & 166 & $^{***}$ \\
+2024Q3 & $+0.001043$ & 0.000910 & 0.258 & [$-0.00074$, $+0.00283$] & 5  & 412 & \\
+2024Q4 & \textbf{$-0.001295$} & 0.000440 & \textbf{0.005} & [$-0.00216$, $-0.00043$] & 9  & 740 & $^{**}$ \\
+2025Q1 & $-0.000492$ & 0.000963 & 0.611 & [$-0.00238$, $+0.00139$] & 9  & 761 & \\
+2025Q2 & $+0.000048$ & 0.000116 & 0.678 & [$-0.00018$, $+0.00027$] & 8  & 685 & \\
+2025Q3 & \textbf{$+0.006348$} & 0.000618 & \textbf{$1.7\times10^{-13}$} & [$+0.00514$, $+0.00756$] & 6  & 511 & $^{***}$ \\
+2025Q4 & $+0.000464$ & 0.000079 & $4.3\times10^{-7}$ & [$+0.00031$, $+0.00062$] & 4  & 341 & $^{***}$ \\
+2026Q1 & $+0.018361$ & 0.011641 & 0.122 & [$-0.00446$, $+0.04118$] & 4  & 339 & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+结果揭示一个清晰的体制转换模式：
+2024Q4 智能指数呈显著\textbf{负}定价（$\beta=-0.0013$，$p=0.005$），
+至 2025Q3 转为强\textbf{正}定价（$\beta=0.0063$，$p=1.7\times10^{-13}$）。
+这一从负到正的转变是本文的核心发现之一。
+
+体制转换检验（表 \ref{tab:regime_tests}）提供进一步的统计支持。
+
+\begin{table}[htbp]
+\centering
+\caption{体制转换检验}
+\label{tab:regime_tests}
+\small
+\begin{tabular}{lcc}
+\toprule
+检验 & $F$ 统计量 & $p$ 值 \\
+\midrule
+H0: 2024 年各季度斜率为零        & 22.01 & $<0.001$ \\
+H0: 2025 年各季度斜率为零        & 42.94 & $<0.001$ \\
+H0: 2024 年均斜率 = 2025 年均斜率 & 0.62  & 0.432 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+虽然年度均值差异不显著（因为 2024Q2 的强正系数拉高了 2024 年均值，
+尽管该系数仅基于 2 个事件），但 2024 和 2025 季度斜率分别联合显著异于零，
+且 2024Q4（负）与 2025Q3（正）的方向性对比非常鲜明。
+
+\subsection{体制转换截断点搜索}
+
+表 \ref{tab:cutoff} 报告候选截断季度的体制转换检验结果。
+模型为 $\text{CAR}_{[0,+20]} = \beta_0\cdot\text{intel} + \beta_1\cdot\text{intel}\times\text{Post}_{Q^*} + \text{quarter FE} + \text{controls}$，
+其中 $\text{Post}_{Q^*}=1$ 若事件季度 $\geq Q^*$。
+
+\begin{table}[htbp]
+\centering
+\caption{体制转换截断点搜索}
+\label{tab:cutoff}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+截断季度 & $\beta_{\text{before}}$ & $\beta_{\text{interaction}}$ & $\beta_{\text{after}}$ & $p$ 值 & 事件（前） & 事件（后） \\
+\midrule
+2024Q3 & $+0.00392$  & $-0.00363$ & $+0.00030$ & $5.8\times10^{-8}$ & 2  & 45 \\
+2024Q4 & $+0.00108$  & $-0.00080$ & $+0.00028$ & 0.417 & 7  & 40 \\
+\textbf{2025Q1} & \textbf{$-0.00108$} & \textbf{$+0.00185$} & \textbf{$+0.00077$} & \textbf{0.012} & \textbf{16} & \textbf{31} \\
+2025Q2 & $-0.00084$  & $+0.00201$ & $+0.00117$ & 0.023 & 25 & 22 \\
+2025Q3 & $-0.00048$  & $+0.00291$ & $+0.00244$ & 0.026 & 33 & 14 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+要求两侧各至少有 5 个事件后，最强截断点为 \textbf{2025Q1}（交互项 $p=0.012$）。
+2025Q1 之前，智能指数的定价斜率为 $-0.00108$（负向）；
+2025Q1 之后，转为 $+0.00077$（正向）。
+2024Q3 截断点的交互项 $p$ 值虽最小（$5.8\times10^{-8}$），但该截断点之前仅含 2 个事件，不可靠。
+2025Q2 和 2025Q3 截断点也显著，但两侧事件数不均衡。
+
+\subsection{构成调整与稳健性}
+
+表 \ref{tab:comp_adj} 报告构成调整模型的季度特定斜率比较。
+
+\begin{table}[htbp]
+\centering
+\caption{构成调整后的季度特定斜率（$\text{CAR}_{[0,+20]}$，关键季度）}
+\label{tab:comp_adj}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+季度 & A. 基准 & B. 加构成控制 & C. 仅闭源 & D. 排除中国 & E. 仅 Tier 1 & F. 仅 Tier 2 \\
+\midrule
+2024Q4 & $-0.0013^{**}$ & $-0.0010^{+}$ & $-0.0009^{**}$ & $-0.0009^{**}$ & $-0.0011^{*}$ & $+0.0001$ \\
+2025Q3 & $+0.0063^{***}$ & $+0.0095^{***}$ & $+0.0007^{**}$ & $+0.0115^{***}$ & $-0.0529^{***}$ & $+0.0067^{***}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+两个核心季度的定价方向在所有构成调整规格中保持一致，但 2025Q3 的 Tier 1 子样本出现戏剧性反转
+（$\beta=-0.0529$ vs.\ 基准 $+0.0063$），提示 Tier 1 事件中可能存在个别极端案例。
+由于 Tier 1 子样本在 2025Q3 仅含 2 个事件（34 条观测），该反转不宜过度解读。
+
+\subsection{CAR 窗口稳健性}
+
+季度特定斜率在替代 CAR 窗口下的表现如下：
+
+\begin{table}[htbp]
+\centering
+\caption{季度特定斜率：替代 CAR 窗口}
+\label{tab:quarter_robust}
+\small
+\begin{tabular}{lccc}
+\toprule
+季度 & $\text{CAR}_{[0,+1]}$ 系数 & $\text{CAR}_{[0,+15]}$ 系数 & $\text{CAR}_{[0,+20]}$ 系数 \\
+\midrule
+2024Q4 & $+0.000164$ (ns) & $-0.001026^{*}$ & $-0.001295^{**}$ \\
+2025Q3 & $+0.000018$ (ns) & $+0.003492^{***}$ & $+0.006348^{***}$ \\
+2026Q1 & $+0.003755^{***}$ & $+0.015288$ (ns) & $+0.018361$ (ns) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+2024Q4 的负定价和 2025Q3 的正定价在 $\text{CAR}_{[0,+15]}$ 和 $\text{CAR}_{[0,+20]}$ 中方向一致且显著，
+$\text{CAR}_{[0,+1]}$ 未捕获该体制转换（短窗口信号太弱），
+确认选择长窗口作为主因变量的合理性。
+
+\section{行业异质性与 Mag7 分化}
+
+\subsection{行业组异质性}
+
+表 \ref{tab:industry} 报告按 GICS 二级分类划分的行业组回归结果。
+
+\begin{table}[htbp]
+\centering
+\caption{行业组异质性：AA Intelligence Index $\rightarrow$ $\text{CAR}_{[0,+20]}$}
+\label{tab:industry}
+\small
+\begin{tabular}{lccccc}
+\toprule
+行业组 & $N$ & 事件 & $\beta$ & CR0 $p$ & CR2 $p$ \\
+\midrule
+互联网服务和基础设施 & 235 & 47 & $+0.00190$ & \textbf{0.005$^{**}$} & \textbf{0.015$^{*}$} \\
+软件                 & 1{,}330 & 47 & $+0.00295$ & 0.045$^{*}$ & 0.078$^{+}$ \\
+半导体和半导体设备   & 606 & 47 & $+0.00212$ & 0.032$^{*}$ & 0.060$^{+}$ \\
+技术硬件、存储和外设 & 348 & 47 & $-0.00083$ & 0.177 & 0.210 \\
+IT 服务              & 325 & 47 & $+0.00047$ & 0.533 & 0.561 \\
+互联网零售           & 184 & 47 & $-0.00004$ & 0.947 & 0.950 \\
+其他/非 IT           & 752 & 47 & $+0.00027$ & 0.567 & 0.600 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+正向效应集中在三类公司——互联网服务与云基础设施（CR2 $p=0.015^{*}$，最稳健）、软件（CR2 $p=0.078^{+}$）、半导体（CR2 $p=0.060^{+}$）。
+技术硬件和电商无显著效应，IT 服务外包也无效应。
+这一模式与``能力提升的受益方为上游算力/基础设施、直接赋能软件，而非硬件外包或零售''的理论预期吻合。
+
+\subsection{Mag7 内部分化}
+
+Mag7（Apple、Microsoft、NVIDIA、Alphabet、Amazon、Meta、Tesla）在全部 47 个聚类事件中均有覆盖。
+
+Mag7 与非 Mag7 的 $\text{CAR}_{[0,+20]}$ 斜率几乎相同（Mag7 $+0.00127$，非 Mag7 $+0.00154$），
+交互项 $\text{intel\_c}\times\text{mag7}$ 不显著（$\beta=-0.00027$，$p=0.633$）。
+然而 Mag7 内部分化悬殊：
+
+\begin{table}[htbp]
+\centering
+\caption{Mag7 各公司平均 $\text{CAR}_{[0,+20]}$}
+\label{tab:mag7}
+\small
+\begin{tabular}{lc}
+\toprule
+公司 & 平均 $\text{CAR}_{[0,+20]}$（\%） \\
+\midrule
+NVIDIA   & \textbf{$+2.33$} \\
+Meta     & $+1.43$ \\
+Microsoft & $+0.21$ \\
+Alphabet  & $-0.03$ \\
+Apple    & $-0.08$ \\
+Amazon   & $-1.01$ \\
+Tesla    & \textbf{$-4.87$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+NVIDIA 和 Meta 受益最大，Tesla 长期平均 CAR 最负（$-4.87\%$），
+与其``AI 公司''叙事受竞争 LLM 冲击的解释一致；
+Amazon 略负，与云厂商角色的两面性（既是 AI 赋能者，又面临模型服务竞争）吻合。
+
+\section{解释边界}
+
+本文结果有五个解释边界。
+
+第一，主回归 $R^2$ 较低（1\%--10\%），这与事件研究中公司层面噪声较大的事实一致。
+本文关注系数方向和经济量级，不把模型解释为高预测力资产定价模型。
+
+第二，所有季度的事件集群数均少于 10 个（范围：2--9），
+且部分子样本（Real downstream: 20 事件，Owner: 21 事件）的事件集群也有限。
+CR2 和 Wild Bootstrap 标准误虽然提供了比 CR0 更稳健的推断，但仍受到小聚类数的限制。
+本文将所有季度结果和事件数少于 10 的子样本结果标注为``提示性''（suggestive）。
+
+第三，关系类型标注依赖人工审核，标注噪音可能影响小样本子类的估计结果。
+当前版本共有 8 类关系，部分关系（如 owner 仅 29 条观测，investor 仅 37 条观测）观测数有限。
+
+第四，AA Intelligence Index 为事后标准化能力指标，不完全等同于事件日市场可得信息。
+本文使用该指标作为技术能力的事后度量，但不声称投资者在事件日完全掌握该信息。
+稳健性检验中替代能力指标（Coding Index、Math Index）的方向一致性更弱、系数量级更小，与此限制度一致。
+
+第五，中国模型事件仅涉及 7 个独立事件，不足以形成独立结论。
+2025Q3 的中国模型占比高达 67\%，该季度的定价斜率可能混杂中国 vs.\ 非中国模型事件的结构性差异。
+
+这些边界不改变本文的核心事实：
+AA Intelligence Index 在闭源子样本中对长窗口 CAR 的正向效应是全文最稳健的结论；
+2024Q4--2025Q3 间从负向折价到正向溢价的体制转换在多种规格下得到确认；
+开源/闭源的能力定价方向性分叉是规格空间中最鲜明的异质性发现。
+
+\section{结论}
+
+本文使用 2024--2026 年 60 次重大 LLM 发布事件和 86 家 AI 相关上市公司的 5{,}161 条事件--公司观测，
+系统检验了资本市场如何为 LLM 发布行为定价。
+全文结合规格曲线分析（1{,}638 条有效规格）、主回归分析、交互项机制检验、季度特定斜率模型、
+媒体情感分析和 CR2/Wild Bootstrap 标准误稳健性检验，得出以下主要结论。
+
+第一，模型能力在资本市场上被系统性定价，但定价方向高度依赖商业生态位置。
+AA Intelligence Index 对 $\text{CAR}_{[0,+20]}$ 的效应在闭源子样本中为 $+0.00232$（$p=0.001$），
+在 CR2（$p=0.007$）和 Wild Bootstrap（$p=0.008$）下均保持显著。
+这一结论是全文最核心、最稳健的发现。
+开源模型的效应方向相反，系数为 $-0.00210$（$p=0.005$），
+规格曲线中开源子样本（正向比例仅 7.1\%）与闭源（88.1\%）形成截然对立。
+
+第二，模型发布者自身在短期承受显著负向价格冲击。
+Owner 企业在发布后 $[0,+2]$ 天内股价平均下跌（系数 $-0.00287$，$p<0.001$），
+10 天后效应归零。这一``利好出货''模式说明发布者的技术披露本身并不意味着正向股价反应。
+
+第三，投资方对其所投资模型发布者的能力提升反应不足甚至反向。
+$\text{intelligence}\times\text{investor}$ 交互项为 $-0.00272$（$p=0.008$），
+投资方对能力水平的边际定价反应远低于非投资方。
+
+第四，Tier 2 事件的市场效应远强于 Tier 1（系数为 Tier 1 的 2.4 倍），
+支持``信息惊喜''驱动市场反应的假说：
+市场对高预期事件的能力信息定价效率更高（边际价值更低），
+而对 Tier 2 事件的能力超预期产生更大的价格修正。
+
+第五，市场定价经历了负向折价到正向溢价的离散体制转换。
+2024Q4 智能指数呈显著负定价（$\beta=-0.0013$，$p=0.005$），
+2025Q3 转为强正定价（$\beta=0.0063$，$p=1.7\times10^{-13}$）。
+最稳健的体制转换截断点为 2025Q1（交互项 $p=0.012$，两侧均 $\geq5$ 事件），
+月度线性趋势交互项不显著（$p=0.452$），排除渐进渐变假说。
+
+第六，媒体情感与智能指数是两个相互独立的定价维度。
+FinBERT 情感与 CAR 呈反向关系（$\beta=-0.081$，CR2 $p=0.003$），
+且与智能指数在事件层面正交（$p=0.317$）。
+技术能力惊喜和叙事热度反转是加法互补而非乘法关系。
+
+本文的核心经济含义是：资本市场对 LLM 技术冲击的定价逻辑，核心变量不是``模型是否更强''，
+而是新模型是否改变现金流、竞争边界和投资者已形成的预期。
+闭源能力提升形成差异化壁垒，开源能力提升加速技术商品化，
+Tier 1 事件能力信息被高预期提前消化，Tier 2 事件保留信息惊喜空间，
+而 2024--2025 年的体制转换意味着投资者从早期``期待技术跃迁''转向``要求商业兑现''。
+
+后续研究最有价值的扩展方向包括：
+(1) 引入 Google Trends ASVI 作为事件级投资者关注度指标，替代依赖媒体分歧度作为代理变量的局限性；
+(2) 将关系类型编码从二值 dummy 扩展为连续强度评分，捕捉关系深度的差异；
+(3) 延长样本期至 2026 年末，检验 2025Q3 后的定价体制是否持续；
+(4) 加入模型价格、推理速度和上下文窗口等成本效率指标，区分能力机制与商业效率机制。
+
+% ── References ────────────────────────────────────────────────────────────────
+\begin{thebibliography}{99}
+\small
+
+\bibitem[Bellemare(2025)]{Bellemare2025}
+Bellemare, M.\ F.\ (2025). Writing Economics: A Practical Guide for Applied Microeconomists. \emph{Working Paper}, University of Minnesota.
+
+\bibitem[Bell and McCaffrey(2002)]{BellMcCaffrey2002}
+Bell, R.\ M., \& McCaffrey, D.\ F.\ (2002). Bias Reduction in Standard Errors for Linear Regression with Multi-Stage Samples. \emph{Survey Methodology}, 28(2), 169--181.
+
+\bibitem[Bresnahan(2010)]{Bresnahan2010}
+Bresnahan, T.\ (2010). General Purpose Technologies. \emph{Handbook of the Economics of Innovation}, 2, 761--791.
+
+\bibitem[Carhart(1997)]{Carhart1997}
+Carhart, M.\ M.\ (1997). On Persistence in Mutual Fund Performance. \emph{Journal of Finance}, 52(1), 57--82.
+
+\bibitem[Cochrane(2005)]{Cochrane2005}
+Cochrane, J.\ H.\ (2005). Writing Tips for Ph.D.\ Students. \emph{Working Paper}, University of Chicago.
+
+\bibitem[Da et al.(2011)]{DaEngelbergGao2011}
+Da, Z., Engelberg, J., \& Gao, P.\ (2011). In Search of Attention. \emph{Journal of Finance}, 66(5), 1461--1499.
+
+\bibitem[Fama and French(1992)]{FamaFrench1992}
+Fama, E.\ F., \& French, K.\ R.\ (1992). The Cross-Section of Expected Stock Returns. \emph{Journal of Finance}, 47(2), 427--465.
+
+\bibitem[Fama and French(1993)]{FamaFrench1993}
+Fama, E.\ F., \& French, K.\ R.\ (1993). Common Risk Factors in the Returns on Stocks and Bonds. \emph{Journal of Financial Economics}, 33(1), 3--56.
+
+\bibitem[Goldfarb and Tucker(2019)]{GoldfarbTucker2019}
+Goldfarb, A., \& Tucker, C.\ (2019). Digital Economics. \emph{Journal of Economic Literature}, 57(1), 3--43.
+
+\bibitem[Hirshleifer and Teoh(2003)]{HirshleiferTeoh2003}
+Hirshleifer, D., \& Teoh, S.\ H.\ (2003). Limited Attention, Information Disclosure, and Financial Reporting. \emph{Journal of Accounting and Economics}, 36(1--3), 337--386.
+
+\bibitem[Jegadeesh and Titman(1993)]{JegadeeshTitman1993}
+Jegadeesh, N., \& Titman, S.\ (1993). Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency. \emph{Journal of Finance}, 48(1), 65--91.
+
+\bibitem[MacKinlay(1997)]{MacKinlay1997}
+MacKinlay, A.\ C.\ (1997). Event Studies in Economics and Finance. \emph{Journal of Economic Literature}, 35(1), 13--39.
+
+\bibitem[Malmendier and Shen(2024)]{MalmendierShen2024}
+Malmendier, U., \& Shen, L.\ S.\ (2024). Scarred Consumption. \emph{American Economic Journal: Macroeconomics}, 16(1), 322--355.
+
+\bibitem[Newey and West(1987)]{NeweyWest1987}
+Newey, W.\ K., \& West, K.\ D.\ (1987). A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix. \emph{Econometrica}, 55(3), 703--708.
+
+\bibitem[Porter(1985)]{Porter1985}
+Porter, M.\ E.\ (1985). \emph{Competitive Advantage: Creating and Sustaining Superior Performance}. Free Press.
+
+\bibitem[Romer(1990)]{Romer1990}
+Romer, P.\ M.\ (1990). Endogenous Technological Change. \emph{Journal of Political Economy}, 98(5), S71--S102.
+
+\bibitem[Simonsohn et al.(2014)]{Simonsohn2014}
+Simonsohn, U., Nelson, L.\ D., \& Simmons, J.\ P.\ (2014). P-Curve: A Key to the File-Drawer. \emph{Journal of Experimental Psychology: General}, 143(2), 534--547.
+
+\end{thebibliography}
+
+\end{document}

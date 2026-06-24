@@ -1,0 +1,43 @@
+{
+  "campaign_id": "Project_001_InfoDisclosure",
+  "workspace": "/Users/chenzhuo/Library/Mobile Documents/com~apple~CloudDocs/Documents/Manuscript/在研项目/大语言模型发布行为对金融市场的影响 - 来自美股市场的证据/Exploration/Project_001_InfoDisclosure",
+  "hypothesis": "[$theoretical-economics-research](/Users/chenzhuo/.codex/skills/pAI-Econ/SKILL.md) 读一下这个项目，然后探索一下能不能搞一个理论模型。我觉得很渺茫，但是我想看看你有没有能起死回生的地方",
+  "current_stage": 1,
+  "stage_status": "awaiting_hil",
+  "completed_stages": [
+    "Stage 0 — Research Intake",
+    "Stage 1 — Puzzle Refinement"
+  ],
+  "failed_stages": [],
+  "gate_results": {
+    "gate_1": null,
+    "gate_2": null,
+    "gate_3": null,
+    "gate_4": null,
+    "gate_5": null
+  },
+  "human_decisions": {
+    "hil_1": null,
+    "hil_2": null,
+    "hil_3": null,
+    "hil_4": null,
+    "hil_5": null,
+    "hil_6": null
+  },
+  "caveats": [],
+  "gate_retry_counts": {
+    "gate_1": 0,
+    "gate_2": 0,
+    "gate_3": 0,
+    "gate_4": 0,
+    "gate_5": 0
+  },
+  "loopback_history": [],
+  "active_propositions": [],
+  "deferred_propositions": [],
+  "equilibrium_concept": null,
+  "social_planner_benchmark": null,
+  "finished": false,
+  "started_at": "2026-06-15T21:59:16+0800",
+  "last_checkpoint": "HiL-1 — Research Puzzle Review"
+}

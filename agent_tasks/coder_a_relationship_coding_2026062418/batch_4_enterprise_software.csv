@@ -1,0 +1,197 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+CYBR,Alibaba,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Alibaba models could serve as upstream AI capability
+CYBR,Anthropic,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Anthropic models could serve as upstream AI capability
+CYBR,DeepSeek,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; DeepSeek models could serve as upstream AI capability
+CYBR,Google,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Google models could serve as upstream AI capability
+CYBR,Kuaishou,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Kuaishou models could serve as upstream AI capability
+CYBR,Meta,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Meta models could serve as upstream AI capability
+CYBR,Microsoft,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Microsoft models could serve as upstream AI capability
+CYBR,Mistral AI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Mistral AI models could serve as upstream AI capability
+CYBR,OpenAI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; OpenAI models could serve as upstream AI capability
+CYBR,Runway,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Runway models could serve as upstream AI capability
+CYBR,ShengShu Technology,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; ShengShu Technology models could serve as upstream AI capability
+CYBR,Stability AI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Stability AI models could serve as upstream AI capability
+CYBR,Zhipu AI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; Zhipu AI models could serve as upstream AI capability
+CYBR,xAI,0,0,1,0,0,0,0,0,M,CyberArk integrates AI-based threat detection into identity security products; xAI models could serve as upstream AI capability
+FTNT,Alibaba,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Alibaba models represent upstream AI capability advances
+FTNT,Anthropic,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Anthropic models represent upstream AI capability advances
+FTNT,DeepSeek,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; DeepSeek models represent upstream AI capability advances
+FTNT,Google,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Google models represent upstream AI capability advances
+FTNT,Kuaishou,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Kuaishou models represent upstream AI capability advances
+FTNT,Meta,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Meta models represent upstream AI capability advances
+FTNT,Microsoft,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Microsoft models represent upstream AI capability advances
+FTNT,Mistral AI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Mistral AI models represent upstream AI capability advances
+FTNT,OpenAI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; OpenAI models represent upstream AI capability advances
+FTNT,Runway,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Runway models represent upstream AI capability advances
+FTNT,ShengShu Technology,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; ShengShu Technology models represent upstream AI capability advances
+FTNT,Stability AI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Stability AI models represent upstream AI capability advances
+FTNT,Zhipu AI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; Zhipu AI models represent upstream AI capability advances
+FTNT,xAI,0,0,1,0,0,0,0,0,M,Fortinet embeds FortiAI into network security products; xAI models represent upstream AI capability advances
+NICE,Alibaba,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Alibaba affect upstream AI capabilities
+NICE,Anthropic,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Anthropic affect upstream AI capabilities
+NICE,DeepSeek,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from DeepSeek affect upstream AI capabilities
+NICE,Google,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Google affect upstream AI capabilities
+NICE,Kuaishou,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Kuaishou affect upstream AI capabilities
+NICE,Meta,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Meta affect upstream AI capabilities
+NICE,Microsoft,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Microsoft affect upstream AI capabilities
+NICE,Mistral AI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Mistral AI affect upstream AI capabilities
+NICE,OpenAI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from OpenAI affect upstream AI capabilities
+NICE,Runway,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Runway affect upstream AI capabilities
+NICE,ShengShu Technology,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from ShengShu Technology affect upstream AI capabilities
+NICE,Stability AI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Stability AI affect upstream AI capabilities
+NICE,Zhipu AI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from Zhipu AI affect upstream AI capabilities
+NICE,xAI,0,0,1,0,0,0,0,0,M,NICE Systems integrates CXone AI into contact center software; LLM advances from xAI affect upstream AI capabilities
+OKTA,Alibaba,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Alibaba LLM advances affect upstream AI capabilities
+OKTA,Anthropic,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Anthropic LLM advances affect upstream AI capabilities
+OKTA,DeepSeek,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; DeepSeek LLM advances affect upstream AI capabilities
+OKTA,Google,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Google LLM advances affect upstream AI capabilities
+OKTA,Kuaishou,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Kuaishou LLM advances affect upstream AI capabilities
+OKTA,Meta,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Meta LLM advances affect upstream AI capabilities
+OKTA,Microsoft,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Microsoft LLM advances affect upstream AI capabilities
+OKTA,Mistral AI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Mistral AI LLM advances affect upstream AI capabilities
+OKTA,OpenAI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; OpenAI LLM advances affect upstream AI capabilities
+OKTA,Runway,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Runway LLM advances affect upstream AI capabilities
+OKTA,ShengShu Technology,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; ShengShu Technology LLM advances affect upstream AI capabilities
+OKTA,Stability AI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Stability AI LLM advances affect upstream AI capabilities
+OKTA,Zhipu AI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; Zhipu AI LLM advances affect upstream AI capabilities
+OKTA,xAI,0,0,1,0,0,0,0,0,M,Okta integrates AI-powered identity threat detection into IAM platform; xAI LLM advances affect upstream AI capabilities
+PEGA,Alibaba,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Alibaba LLM advances affect upstream AI capabilities
+PEGA,Anthropic,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Anthropic LLM advances affect upstream AI capabilities
+PEGA,DeepSeek,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; DeepSeek LLM advances affect upstream AI capabilities
+PEGA,Google,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Google LLM advances affect upstream AI capabilities
+PEGA,Kuaishou,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Kuaishou LLM advances affect upstream AI capabilities
+PEGA,Meta,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Meta LLM advances affect upstream AI capabilities
+PEGA,Microsoft,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Microsoft LLM advances affect upstream AI capabilities
+PEGA,Mistral AI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Mistral AI LLM advances affect upstream AI capabilities
+PEGA,OpenAI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; OpenAI LLM advances affect upstream AI capabilities
+PEGA,Runway,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Runway LLM advances affect upstream AI capabilities
+PEGA,ShengShu Technology,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; ShengShu Technology LLM advances affect upstream AI capabilities
+PEGA,Stability AI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Stability AI LLM advances affect upstream AI capabilities
+PEGA,Zhipu AI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; Zhipu AI LLM advances affect upstream AI capabilities
+PEGA,xAI,0,0,1,0,0,0,0,0,M,Pegasystems integrates GenAI Blueprint into process automation; xAI LLM advances affect upstream AI capabilities
+SHOP,Alibaba,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Alibaba LLM advances affect upstream AI capabilities
+SHOP,Anthropic,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Anthropic LLM advances affect upstream AI capabilities
+SHOP,DeepSeek,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; DeepSeek LLM advances affect upstream AI capabilities
+SHOP,Google,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Google LLM advances affect upstream AI capabilities
+SHOP,Kuaishou,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Kuaishou LLM advances affect upstream AI capabilities
+SHOP,Meta,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Meta LLM advances affect upstream AI capabilities
+SHOP,Microsoft,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Microsoft LLM advances affect upstream AI capabilities
+SHOP,Mistral AI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Mistral AI LLM advances affect upstream AI capabilities
+SHOP,OpenAI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; OpenAI LLM advances affect upstream AI capabilities
+SHOP,Runway,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Runway LLM advances affect upstream AI capabilities
+SHOP,ShengShu Technology,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; ShengShu Technology LLM advances affect upstream AI capabilities
+SHOP,Stability AI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Stability AI LLM advances affect upstream AI capabilities
+SHOP,Zhipu AI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; Zhipu AI LLM advances affect upstream AI capabilities
+SHOP,xAI,0,0,1,0,0,0,0,0,M,Shopify integrates Shopify Magic AI features into e-commerce platform; xAI LLM advances affect upstream AI capabilities
+TDC,Alibaba,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Alibaba LLM advances affect upstream AI capabilities
+TDC,Anthropic,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Anthropic LLM advances affect upstream AI capabilities
+TDC,DeepSeek,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; DeepSeek LLM advances affect upstream AI capabilities
+TDC,Google,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Google LLM advances affect upstream AI capabilities
+TDC,Kuaishou,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Kuaishou LLM advances affect upstream AI capabilities
+TDC,Meta,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Meta LLM advances affect upstream AI capabilities
+TDC,Microsoft,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Microsoft LLM advances affect upstream AI capabilities
+TDC,Mistral AI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Mistral AI LLM advances affect upstream AI capabilities
+TDC,OpenAI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; OpenAI LLM advances affect upstream AI capabilities
+TDC,Runway,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Runway LLM advances affect upstream AI capabilities
+TDC,ShengShu Technology,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; ShengShu Technology LLM advances affect upstream AI capabilities
+TDC,Stability AI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Stability AI LLM advances affect upstream AI capabilities
+TDC,Zhipu AI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; Zhipu AI LLM advances affect upstream AI capabilities
+TDC,xAI,0,0,1,0,0,0,0,0,M,Teradata integrates ClearScape AI/ML into analytics platform; xAI LLM advances affect upstream AI capabilities
+TEMN SW,Alibaba,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Alibaba LLM advances affect upstream AI capabilities
+TEMN SW,Anthropic,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Anthropic LLM advances affect upstream AI capabilities
+TEMN SW,DeepSeek,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; DeepSeek LLM advances affect upstream AI capabilities
+TEMN SW,Google,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Google LLM advances affect upstream AI capabilities
+TEMN SW,Kuaishou,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Kuaishou LLM advances affect upstream AI capabilities
+TEMN SW,Meta,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Meta LLM advances affect upstream AI capabilities
+TEMN SW,Microsoft,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Microsoft LLM advances affect upstream AI capabilities
+TEMN SW,Mistral AI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Mistral AI LLM advances affect upstream AI capabilities
+TEMN SW,OpenAI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; OpenAI LLM advances affect upstream AI capabilities
+TEMN SW,Runway,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Runway LLM advances affect upstream AI capabilities
+TEMN SW,ShengShu Technology,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; ShengShu Technology LLM advances affect upstream AI capabilities
+TEMN SW,Stability AI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Stability AI LLM advances affect upstream AI capabilities
+TEMN SW,Zhipu AI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; Zhipu AI LLM advances affect upstream AI capabilities
+TEMN SW,xAI,0,0,1,0,0,0,0,0,M,Temenos integrates GenAI features into banking software; xAI LLM advances affect upstream AI capabilities
+TTD,Alibaba,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Alibaba LLM advances affect upstream AI capabilities
+TTD,Anthropic,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Anthropic LLM advances affect upstream AI capabilities
+TTD,DeepSeek,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; DeepSeek LLM advances affect upstream AI capabilities
+TTD,Google,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Google LLM advances affect upstream AI capabilities
+TTD,Kuaishou,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Kuaishou LLM advances affect upstream AI capabilities
+TTD,Meta,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Meta LLM advances affect upstream AI capabilities
+TTD,Microsoft,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Microsoft LLM advances affect upstream AI capabilities
+TTD,Mistral AI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Mistral AI LLM advances affect upstream AI capabilities
+TTD,OpenAI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; OpenAI LLM advances affect upstream AI capabilities
+TTD,Runway,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Runway LLM advances affect upstream AI capabilities
+TTD,ShengShu Technology,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; ShengShu Technology LLM advances affect upstream AI capabilities
+TTD,Stability AI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Stability AI LLM advances affect upstream AI capabilities
+TTD,Zhipu AI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; Zhipu AI LLM advances affect upstream AI capabilities
+TTD,xAI,0,0,1,0,0,0,0,0,M,The Trade Desk integrates Kokai AI bidding into programmatic ads platform; xAI LLM advances affect upstream AI capabilities
+TWLO,Alibaba,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Alibaba LLM advances affect upstream AI capabilities
+TWLO,Anthropic,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Anthropic LLM advances affect upstream AI capabilities
+TWLO,DeepSeek,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; DeepSeek LLM advances affect upstream AI capabilities
+TWLO,Google,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Google LLM advances affect upstream AI capabilities
+TWLO,Kuaishou,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Kuaishou LLM advances affect upstream AI capabilities
+TWLO,Meta,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Meta LLM advances affect upstream AI capabilities
+TWLO,Microsoft,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Microsoft LLM advances affect upstream AI capabilities
+TWLO,Mistral AI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Mistral AI LLM advances affect upstream AI capabilities
+TWLO,OpenAI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; OpenAI LLM advances affect upstream AI capabilities
+TWLO,Runway,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Runway LLM advances affect upstream AI capabilities
+TWLO,ShengShu Technology,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; ShengShu Technology LLM advances affect upstream AI capabilities
+TWLO,Stability AI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Stability AI LLM advances affect upstream AI capabilities
+TWLO,Zhipu AI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; Zhipu AI LLM advances affect upstream AI capabilities
+TWLO,xAI,0,0,1,0,0,0,0,0,M,Twilio integrates CustomerAI and LLM-powered features into communications APIs; xAI LLM advances affect upstream AI capabilities
+WDAY,Alibaba,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Alibaba LLM advances affect upstream AI capabilities
+WDAY,Anthropic,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Anthropic LLM advances affect upstream AI capabilities
+WDAY,DeepSeek,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; DeepSeek LLM advances affect upstream AI capabilities
+WDAY,Google,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Google LLM advances affect upstream AI capabilities
+WDAY,Kuaishou,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Kuaishou LLM advances affect upstream AI capabilities
+WDAY,Meta,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Meta LLM advances affect upstream AI capabilities
+WDAY,Microsoft,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Microsoft LLM advances affect upstream AI capabilities
+WDAY,Mistral AI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Mistral AI LLM advances affect upstream AI capabilities
+WDAY,OpenAI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; OpenAI LLM advances affect upstream AI capabilities
+WDAY,Runway,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Runway LLM advances affect upstream AI capabilities
+WDAY,ShengShu Technology,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; ShengShu Technology LLM advances affect upstream AI capabilities
+WDAY,Stability AI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Stability AI LLM advances affect upstream AI capabilities
+WDAY,Zhipu AI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; Zhipu AI LLM advances affect upstream AI capabilities
+WDAY,xAI,0,0,1,0,0,0,0,0,M,Workday embeds AI features into HCM/Finance software; xAI LLM advances affect upstream AI capabilities
+WIX,Alibaba,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Alibaba LLM advances affect upstream AI capabilities
+WIX,Anthropic,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Anthropic LLM advances affect upstream AI capabilities
+WIX,DeepSeek,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; DeepSeek LLM advances affect upstream AI capabilities
+WIX,Google,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Google LLM advances affect upstream AI capabilities
+WIX,Kuaishou,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Kuaishou LLM advances affect upstream AI capabilities
+WIX,Meta,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Meta LLM advances affect upstream AI capabilities
+WIX,Microsoft,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Microsoft LLM advances affect upstream AI capabilities
+WIX,Mistral AI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Mistral AI LLM advances affect upstream AI capabilities
+WIX,OpenAI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; OpenAI LLM advances affect upstream AI capabilities
+WIX,Runway,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Runway LLM advances affect upstream AI capabilities
+WIX,ShengShu Technology,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; ShengShu Technology LLM advances affect upstream AI capabilities
+WIX,Stability AI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Stability AI LLM advances affect upstream AI capabilities
+WIX,Zhipu AI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; Zhipu AI LLM advances affect upstream AI capabilities
+WIX,xAI,0,0,1,0,0,0,0,0,M,Wix integrates AI website builder and content generation into platform; xAI LLM advances affect upstream AI capabilities
+WKL NA,Alibaba,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Alibaba LLM advances affect upstream AI capabilities
+WKL NA,Anthropic,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Anthropic LLM advances affect upstream AI capabilities
+WKL NA,DeepSeek,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; DeepSeek LLM advances affect upstream AI capabilities
+WKL NA,Google,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Google LLM advances affect upstream AI capabilities
+WKL NA,Kuaishou,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Kuaishou LLM advances affect upstream AI capabilities
+WKL NA,Meta,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Meta LLM advances affect upstream AI capabilities
+WKL NA,Microsoft,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Microsoft LLM advances affect upstream AI capabilities
+WKL NA,Mistral AI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Mistral AI LLM advances affect upstream AI capabilities
+WKL NA,OpenAI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; OpenAI LLM advances affect upstream AI capabilities
+WKL NA,Runway,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Runway LLM advances affect upstream AI capabilities
+WKL NA,ShengShu Technology,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; ShengShu Technology LLM advances affect upstream AI capabilities
+WKL NA,Stability AI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Stability AI LLM advances affect upstream AI capabilities
+WKL NA,Zhipu AI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; Zhipu AI LLM advances affect upstream AI capabilities
+WKL NA,xAI,0,0,1,0,0,0,0,0,M,Wolters Kluwer integrates AI-powered tools into legal/health/tax professional services; xAI LLM advances affect upstream AI capabilities
+ZS,Alibaba,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Alibaba LLM advances affect upstream AI capabilities
+ZS,Anthropic,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Anthropic LLM advances affect upstream AI capabilities
+ZS,DeepSeek,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; DeepSeek LLM advances affect upstream AI capabilities
+ZS,Google,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Google LLM advances affect upstream AI capabilities
+ZS,Kuaishou,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Kuaishou LLM advances affect upstream AI capabilities
+ZS,Meta,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Meta LLM advances affect upstream AI capabilities
+ZS,Microsoft,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Microsoft LLM advances affect upstream AI capabilities
+ZS,Mistral AI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Mistral AI LLM advances affect upstream AI capabilities
+ZS,OpenAI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; OpenAI LLM advances affect upstream AI capabilities
+ZS,Runway,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Runway LLM advances affect upstream AI capabilities
+ZS,ShengShu Technology,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; ShengShu Technology LLM advances affect upstream AI capabilities
+ZS,Stability AI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Stability AI LLM advances affect upstream AI capabilities
+ZS,Zhipu AI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; Zhipu AI LLM advances affect upstream AI capabilities
+ZS,xAI,0,0,1,0,0,0,0,0,M,Zscaler integrates AI-powered features into zero trust security platform; xAI LLM advances affect upstream AI capabilities

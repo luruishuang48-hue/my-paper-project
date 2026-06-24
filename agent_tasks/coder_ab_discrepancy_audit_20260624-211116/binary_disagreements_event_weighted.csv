@@ -1,0 +1,149 @@
+﻿final_event_id,event_name,creator,company_id,dimension,coder_a,coder_b,confidence_a,confidence_b,audit_note
+FMR-0014,Qwen2.5 Coder 32B,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0022,Qwen2.5-Max,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0043,Qwen3-235B-A22B-Instruct-2507,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0044,Qwen3-Coder,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0048,Qwen-3-Max,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0053,Z-Image-Turbo,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0055,Qwen-Image-2512,Alibaba,AMZN,upstream_cloud,0,1,H,M,云服务宽窄口径分歧。按宽口径，AWS 是 AI cloud 基础设施，B=1。按实际托管口径，A=0。建议先固定 R2 口径。
+FMR-0002,Imagen 3,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0003,Gemini Flash 1.5,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0005,Gemini 1.5 Flash,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0007,Imagen 3,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0010,Gemini 1.5 002 family,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0011,Gemini 1.5 Pro,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0012,Gemini 1.5 Flash8B,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0017,Gemini-2.0-Flash-Thinking,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0024,Gemini 2.0 family,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0027,Gemini 2.0 Flash-Lite Preview,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0029,Gemini 2.0 Flash Experimental,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0031,Veo 2.0,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0036,Gemini 2.5 Pro,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0037,Gemma 3n,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0039,Google I/O media model family,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0041,Gemini 2.5 Flash,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0042,Gemini 2.5 Pro,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0047,Gemini 2.5 Flash Image,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0059,Nano Banana 2,Google,GOOGL,upstream_cloud,0,1,H,H,自有发布方事件是否仍标 upstream_cloud 的口径分歧。codebook 示例不完全一致，建议统一 self-cloud 规则。
+FMR-0051,Mistral 3,Mistral AI,MSFT,downstream_integrator,0,1,H,M,Microsoft 是否对所有非自有发布方保持 R3 的一致性分歧。若 Copilot 暴露按 creator 通用处理，B=1。
+FMR-0052,Devstral 2,Mistral AI,MSFT,downstream_integrator,0,1,H,M,Microsoft 是否对所有非自有发布方保持 R3 的一致性分歧。若 Copilot 暴露按 creator 通用处理，B=1。
+FMR-0014,Qwen2.5 Coder 32B,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0022,Qwen2.5-Max,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0043,Qwen3-235B-A22B-Instruct-2507,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0044,Qwen3-Coder,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0048,Qwen-3-Max,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0053,Z-Image-Turbo,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0055,Qwen-Image-2512,Alibaba,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0013,Claude 3.5 Sonnet New / Haiku family,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0026,Claude 3.7,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0038,Claude Sonnet 4,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0040,Claude 4 Opus,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0049,Claude Sonnet 4.5,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0050,Claude 4.5 Haiku,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0056,Claude Opus 4.6,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0058,Claude Sonnet 4.6,Anthropic,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0021,DeepSeek R1,DeepSeek,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0002,Imagen 3,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0003,Gemini Flash 1.5,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0005,Gemini 1.5 Flash,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0007,Imagen 3,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0010,Gemini 1.5 002 family,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0011,Gemini 1.5 Pro,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0012,Gemini 1.5 Flash8B,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0017,Gemini-2.0-Flash-Thinking,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0024,Gemini 2.0 family,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0027,Gemini 2.0 Flash-Lite Preview,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0029,Gemini 2.0 Flash Experimental,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0031,Veo 2.0,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0036,Gemini 2.5 Pro,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0037,Gemma 3n,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0039,Google I/O media model family,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0041,Gemini 2.5 Flash,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0042,Gemini 2.5 Pro,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0047,Gemini 2.5 Flash Image,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0059,Nano Banana 2,Google,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0032,Kling 2.0,Kuaishou,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0001,LLaMA 3,Meta,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0015,Llama 3.3 70B,Meta,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0028,Phi-4 mini / multimodal family,Microsoft,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0051,Mistral 3,Mistral AI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0052,Devstral 2,Mistral AI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0008,o1 preview,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0009,o1 mini,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0016,SORA,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0018,o1,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0019,o1 Pro,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0020,o3 family announcement,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0023,o3 mini,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0033,o3 full,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0034,o4 mini,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0046,gpt-oss family,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0054,GPT-5.2,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0057,GPT-5.3-Codex,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0060,GPT-5.4 family,OpenAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0030,Runway Gen-4,Runway,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0035,Vidu Q1,ShengShu Technology,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0004,Stable Diffusion 3,Stability AI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0045,GLM-4.5,Zhipu AI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0006,Grok 2,xAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0025,Grok 3 family,xAI,QUBT,downstream_integrator,0,1,L,L,低置信度 R3 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0014,Qwen2.5 Coder 32B,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0022,Qwen2.5-Max,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0043,Qwen3-235B-A22B-Instruct-2507,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0044,Qwen3-Coder,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0048,Qwen-3-Max,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0053,Z-Image-Turbo,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0055,Qwen-Image-2512,Alibaba,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0013,Claude 3.5 Sonnet New / Haiku family,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0026,Claude 3.7,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0038,Claude Sonnet 4,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0040,Claude 4 Opus,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0049,Claude Sonnet 4.5,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0050,Claude 4.5 Haiku,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0056,Claude Opus 4.6,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0058,Claude Sonnet 4.6,Anthropic,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0021,DeepSeek R1,DeepSeek,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0002,Imagen 3,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0003,Gemini Flash 1.5,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0005,Gemini 1.5 Flash,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0007,Imagen 3,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0010,Gemini 1.5 002 family,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0011,Gemini 1.5 Pro,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0012,Gemini 1.5 Flash8B,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0017,Gemini-2.0-Flash-Thinking,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0024,Gemini 2.0 family,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0027,Gemini 2.0 Flash-Lite Preview,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0029,Gemini 2.0 Flash Experimental,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0031,Veo 2.0,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0036,Gemini 2.5 Pro,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0037,Gemma 3n,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0039,Google I/O media model family,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0041,Gemini 2.5 Flash,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0042,Gemini 2.5 Pro,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0047,Gemini 2.5 Flash Image,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0059,Nano Banana 2,Google,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0032,Kling 2.0,Kuaishou,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0001,LLaMA 3,Meta,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0015,Llama 3.3 70B,Meta,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0028,Phi-4 mini / multimodal family,Microsoft,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0051,Mistral 3,Mistral AI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0052,Devstral 2,Mistral AI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0008,o1 preview,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0009,o1 mini,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0016,SORA,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0018,o1,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0019,o1 Pro,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0020,o3 family announcement,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0023,o3 mini,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0033,o3 full,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0034,o4 mini,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0046,gpt-oss family,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0054,GPT-5.2,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0057,GPT-5.3-Codex,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0060,GPT-5.4 family,OpenAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0030,Runway Gen-4,Runway,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0035,Vidu Q1,ShengShu Technology,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0004,Stable Diffusion 3,Stability AI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0045,GLM-4.5,Zhipu AI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0006,Grok 2,xAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。
+FMR-0025,Grok 3 family,xAI,WRD,downstream_deployer,0,1,L,L,低置信度 R4 边界。codebook 表中列为 L，A 按保守全 0，B 按 inclusive L=1。保守 H/M 样本中该差异消失。

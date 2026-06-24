@@ -1,0 +1,100 @@
+﻿column_index,english_or_fallback_name,chinese_header,first_record_value
+0,final_event_id,事件 ID,final_event_id
+1,release_date,日级发布日期,release_date
+2,release_year,发布年份,release_year
+3,release_month,发布月份,release_month
+4,release_quarter,发布季度,release_quarter
+5,trend_month_since_2022_11,从2022-11 起算的月度趋势变量,trend_month_since_2022_11
+6,event_name,事件名称,event_name
+7,Unnamed: 7,Unnamed: 7,
+8,true_model_creator,模型发布者,true_model_creator
+9,creator_country,模型发布者国家,creator_country
+10,creator_type,发布者类型,creator_type
+11,model_names,模型名称,model_names
+12,company,公司,company
+13,搜索代码1,搜索代码1,
+14,搜索代码2,搜索代码2,
+15,company_id,公司编码,company_id
+16,relationship,与模型发布者的关系,relationship
+17,industry,行业板块,industry
+18,industry_2,行业分组,industry_2
+19,size (log_assets),规模（亿美元）,size (log_assets)
+20,BM_Ratio,账面市值比,BM_Ratio
+21,volatility,前期波动率,volatility
+22,Momentum,累计涨幅,Momentum
+23,"异常收益[?10,?2]","异常收益[?10,?2]",
+24,car_1,异常收益时间窗口1,car_1
+25,car_2,异常收益2,car_2
+26,car_3,异常收益3,car_3
+27,car_5,异常收益5,car_5
+28,car_10,异常收益10,car_10
+29,car_15,异常收益15,car_15
+30,car_20,异常收益20,car_20
+31,"媒体态度均值(1,1)","媒体态度均值(1,1)",
+32,媒体态度标准差,媒体态度标准差,
+33,windows-2,"媒体态度均值(2,2)",windows-2
+34,windows-2.1,媒体态度标准差.1,windows-2
+35,windows-3,"媒体态度均值(3,3)",windows-3
+36,windows-3.1,媒体态度标准差.2,windows-3
+37,windows-5,"媒体态度均值(5,5)",windows-5
+38,windows-5.1,媒体态度标准差.3,windows-5
+39,windows-10,"媒体态度均值(10,10)",windows-10
+40,windows-10.1,媒体态度标准差.4,windows-10
+41,windows-15,"媒体态度均值(15,15)",windows-15
+42,windows-15.1,媒体态度标准差.5,windows-15
+43,windows-20,"媒体态度均值(20,20)",windows-20
+44,windows-20.1,媒体态度标准差.6,windows-20
+45,representative_model_name,填充代表性 AA 能力指标的模型,representative_model_name
+46,merged_model_count,合并事件包含的原始模型行数量,merged_model_count
+47,merge_rule,合并规则,merge_rule
+48,model_family,模型家族名称,model_family
+49,model_variants,模型变体信息,model_variants
+50,model_modality,模型的模态,model_modality
+51,model_modalities,该事件包含的所有模态,model_modalities
+52,is_cross_modality_release,是否跨模态发布,is_cross_modality_release
+53,is_model_family,是否为模型家族或多模型事件,is_model_family
+54,is_multimodal,是否包含多模态模型,is_multimodal
+55,is_reasoning_model,是否包含推理模型,is_reasoning_model
+56,is_coding_model,是否包含代码模型,is_coding_model
+57,is_media_generation_model,是否包含图像、视频等媒体生成模型,is_media_generation_model
+58,is_open_weight_or_open_source,是否开源或开放权重,is_open_weight_or_open_source
+59,is_chinese_model,是否为中国发布者或中国模型体系,is_chinese_model
+60,candidate_tier,候选事件重要性分层，Tier 1 最高,candidate_tier
+61,likely_us_market_relevance,对美股 AI 相关公司的潜在相关性,likely_us_market_relevance
+62,potential_us_exposure_type,潜在美股暴露类型，用于后续公司-事件关系映射,potential_us_exposure_type
+63,possible_us_exposed_tickers,显而易见的潜在美股暴露 ticker,possible_us_exposed_tickers
+64,needs_relationship_mapping,是否仍需构造公司,needs_relationship_mapping
+65,llm_capability_sample_flag,是否可进入 LLM 能力机制样本,llm_capability_sample_flag
+66,media_capability_sample_flag,是否可进入 media 模型能力补充样本,media_capability_sample_flag
+67,representative_aa_model_id,Unnamed: 67,representative_aa_model_id
+68,representative_aa_model_name,代表模型在 Artificial Analysis 中的名称,representative_aa_model_name
+69,representative_aa_creator_name,代表模型在 Artificial Analysis 中的发布者名称,representative_aa_creator_name
+70,representative_aa_source_table,模型来自 AA LLM 表还是 AA media 表,representative_aa_source_table
+71,representative_selection_rule,模型选择规则说明,representative_selection_rule
+72,aa_model_ids,该事件中所有匹配到的 AA 模型 ID,aa_model_ids
+73,aa_model_names,该事件中所有匹配到的 AA 模型名称,aa_model_names
+74,aa_intelligence_index,LLM 模型的 AA 指标,aa_intelligence_index
+75,aa_coding_index,Unnamed: 75,aa_coding_index
+76,aa_math_index,Unnamed: 76,aa_math_index
+77,mmlu_pro,Unnamed: 77,mmlu_pro
+78,gpqa,Unnamed: 78,gpqa
+79,hle,Unnamed: 79,hle
+80,livecodebench,Unnamed: 80,livecodebench
+81,scicode,Unnamed: 81,scicode
+82,math_500,Unnamed: 82,math_500
+83,aime,Unnamed: 83,aime
+84,price_1m_input_tokens,Unnamed: 84,price_1m_input_tokens
+85,price_1m_output_tokens,Unnamed: 85,price_1m_output_tokens
+86,price_1m_blended_3_to_1,Unnamed: 86,price_1m_blended_3_to_1
+87,median_output_tokens_per_second,Unnamed: 87,median_output_tokens_per_second
+88,median_time_to_first_token_seconds,Unnamed: 88,median_time_to_first_token_seconds
+89,median_time_to_first_answer_token,Unnamed: 89,median_time_to_first_answer_token
+90,aa_media_task,Unnamed: 90,aa_media_task
+91,aa_media_elo,Unnamed: 91,aa_media_elo
+92,aa_media_rank,Unnamed: 92,aa_media_rank
+93,aa_media_ci95,Unnamed: 93,aa_media_ci95
+94,aa_media_appearances,Unnamed: 94,aa_media_appearances
+95,aa_media_category_rows,Unnamed: 95,aa_media_category_rows
+96,release_date_confidence,Unnamed: 96,release_date_confidence
+97,release_source_urls,Unnamed: 97,release_source_urls
+98,release_source_titles,Unnamed: 98,release_source_titles

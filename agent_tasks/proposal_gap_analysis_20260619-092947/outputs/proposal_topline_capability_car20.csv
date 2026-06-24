@@ -1,0 +1,19 @@
+"label","outcome","sample","term","coef","se","p_value","ci_lo","ci_hi","n","n_events","r_squared"
+"Lower TTFT","mkt_car_20","all event-firm panel","z_low_ttft",-0.02988,0.00715,0.00013,-0.04427,-0.01549,3780,47,0.11598
+"Media sentiment w5","mkt_car_20","all event-firm panel","z_sent_w5",-0.01131,0.00338,0.00163,-0.0181,-0.00451,3711,47,0.08843
+"Media sentiment w20","mkt_car_20","all event-firm panel","z_sent_w20",-0.01173,0.00423,0.00758,-0.02021,-0.00326,4198,54,0.10357
+"HLE","mkt_car_20","all event-firm panel","z_hle",0.02201,0.00834,0.01153,0.00519,0.03884,3539,44,0.11265
+"LiveCodeBench","mkt_car_20","all event-firm panel","z_livecode",0.0169,0.00732,0.02636,0.00209,0.0317,3233,40,0.12128
+"AA intelligence","mkt_car_20","all event-firm panel","z_intelligence",0.02006,0.00879,0.02715,0.00237,0.03776,3780,47,0.10646
+"Creator intelligence leap","mkt_car_20","all event-firm panel","z_leap_intelligence",-0.00953,0.00601,0.12253,-0.02176,0.00271,2646,33,0.10718
+"Lower blended price","mkt_car_20","all event-firm panel","z_low_price",-0.00739,0.00506,0.15083,-0.01758,0.00279,3780,47,0.10188
+"Creator speed leap","mkt_car_20","all event-firm panel","z_leap_speed",-0.00833,0.00588,0.166,-0.02031,0.00364,2646,33,0.10652
+"AA coding","mkt_car_20","all event-firm panel","z_coding",0.01153,0.00851,0.18449,-0.00577,0.02882,2813,35,0.08447
+"GPQA","mkt_car_20","all event-firm panel","z_gpqa",0.01148,0.00885,0.20138,-0.00636,0.02932,3539,44,0.10973
+"Better media rank","mkt_car_20","all event-firm panel","z_media_rank_good",-0.01183,0.00939,0.23135,-0.03228,0.00862,1049,13,0.04471
+"Output speed","mkt_car_20","all event-firm panel","z_speed",0.00844,0.00713,0.24253,-0.00591,0.02278,3780,47,0.10209
+"Media Elo","mkt_car_20","all event-firm panel","z_media_elo",-0.01115,0.00955,0.26588,-0.03195,0.00966,1049,13,0.04389
+"Creator price-efficiency leap","mkt_car_20","all event-firm panel","z_leap_low_price",0.00516,0.00599,0.39563,-0.00704,0.01735,2646,33,0.10523
+"MMLU-Pro","mkt_car_20","all event-firm panel","z_mmlu",0.0066,0.00852,0.44354,-0.01065,0.02384,3154,39,0.10779
+"Creator coding leap","mkt_car_20","all event-firm panel","z_leap_coding",-0.00624,0.00865,0.47914,-0.02429,0.01181,1679,21,0.04166
+"AA math","mkt_car_20","all event-firm panel","z_math",0.0026,0.00709,0.71787,-0.01211,0.0173,1859,23,0.05929

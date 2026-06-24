@@ -1,0 +1,253 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+3690 HK,Alibaba,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Anthropic,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,DeepSeek,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Google,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Kuaishou,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Meta,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Microsoft,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Mistral AI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,OpenAI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Runway,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Stability AI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+3690 HK,xAI,0,0,0,1,0,0,0,0,M,R4:AI for delivery optimization and recommendations in local services platform
+4755 JP,Alibaba,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Anthropic,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,DeepSeek,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Google,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Kuaishou,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Meta,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Microsoft,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Mistral AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,OpenAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Runway,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Stability AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+4755 JP,xAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in e-commerce fintech and internet services
+6588 JP,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6588 JP,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in infrastructure and industrial electronics
+6758 JP,Alibaba,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Anthropic,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,DeepSeek,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Google,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Kuaishou,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Meta,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Microsoft,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Mistral AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,OpenAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Runway,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Stability AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6758 JP,xAI,0,0,0,1,0,0,0,0,M,R4:AI deployed in gaming imaging and entertainment products
+6954 JP,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+6954 JP,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in consumer electronics and industrial solutions
+700 HK,Alibaba,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Anthropic,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,DeepSeek,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Google,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Kuaishou,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Meta,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Microsoft,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Mistral AI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,OpenAI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Runway,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,ShengShu Technology,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Stability AI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,Zhipu AI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+700 HK,xAI,0,1,0,1,0,1,0,0,M,R2:Tencent Cloud for AI workloads; R4:AI in WeChat gaming and content; R6:Hunyuan foundation models
+AMP IM,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+AMP IM,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in hearing solutions fitting and retail
+BIDU,Alibaba,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Anthropic,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,DeepSeek,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Google,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Kuaishou,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Meta,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Microsoft,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Mistral AI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,OpenAI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Runway,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,ShengShu Technology,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Stability AI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,Zhipu AI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+BIDU,xAI,0,1,0,1,0,1,0,0,H,R2:Baidu AI Cloud; R4:AI in search autonomous driving and content; R6:ERNIE foundation models
+CRWV,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+CRWV,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in healthcare IT workflows
+GEHC,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Google,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Meta,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Runway,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+GEHC,xAI,0,0,0,1,0,0,0,0,H,R4:AI diagnostics deployed in medical imaging equipment
+NFLX,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Google,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Meta,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Runway,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+NFLX,xAI,0,0,0,1,0,0,0,0,H,R4:AI recommendation and content operations in streaming business
+PONY,Alibaba,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Anthropic,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,DeepSeek,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Google,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Kuaishou,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Meta,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Microsoft,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Mistral AI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,OpenAI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Runway,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,ShengShu Technology,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Stability AI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,Zhipu AI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+PONY,xAI,0,0,0,1,0,0,0,0,M,R4:autonomous driving AI deployed within mobility business
+SIE GR,Alibaba,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Anthropic,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,DeepSeek,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Google,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Kuaishou,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Meta,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Microsoft,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Mistral AI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,OpenAI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Runway,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Stability AI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SIE GR,xAI,0,0,0,1,0,0,0,0,H,R4:industrial AI and digital twin deployment in manufacturing
+SNAP,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Google,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Meta,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Runway,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+SNAP,xAI,0,0,0,1,0,0,0,0,H,R4:AI features including My AI chatbot in social media platform
+STNE,Alibaba,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Anthropic,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,DeepSeek,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Google,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Kuaishou,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Meta,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Microsoft,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Mistral AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,OpenAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Runway,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Stability AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+STNE,xAI,0,0,0,1,0,0,0,0,L,R4:AI deployed in payments and financial services
+TSLA,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Google,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Meta,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Runway,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+TSLA,xAI,0,0,0,1,0,0,0,0,H,R4:AI deployed in autonomous driving and manufacturing
+UBER,Alibaba,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Anthropic,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,DeepSeek,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Google,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Kuaishou,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Meta,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Microsoft,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Mistral AI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,OpenAI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Runway,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,ShengShu Technology,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Stability AI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,Zhipu AI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+UBER,xAI,0,0,0,1,0,0,0,0,H,R4:AI for routing pricing and platform operations
+WRD,Alibaba,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Anthropic,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,DeepSeek,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Google,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Kuaishou,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Meta,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Microsoft,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Mistral AI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,OpenAI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Runway,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,ShengShu Technology,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Stability AI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,Zhipu AI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment
+WRD,xAI,0,0,0,1,0,0,0,0,L,R4:rugged computing with limited AI deployment

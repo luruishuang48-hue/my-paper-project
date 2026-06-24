@@ -1,0 +1,17 @@
+﻿release_date_norm,final_event_id,event_name,true_model_creator
+2024-09-12,FMR-0008,o1 preview,OpenAI
+2024-09-12,FMR-0009,o1 mini,OpenAI
+2024-10-03,FMR-0011,Gemini 1.5 Pro,Google
+2024-10-03,FMR-0012,Gemini 1.5 Flash8B,Google
+2024-12-17,FMR-0018,o1,OpenAI
+2024-12-17,FMR-0019,o1 Pro,OpenAI
+2025-04-15,FMR-0031,Veo 2.0,Google
+2025-04-15,FMR-0032,Kling 2.0,Kuaishou
+2025-04-16,FMR-0033,o3 full,OpenAI
+2025-04-16,FMR-0034,o4 mini,OpenAI
+2025-05-21,FMR-0038,Claude Sonnet 4,Anthropic
+2025-05-21,FMR-0039,Google I/O media model family,Google
+2025-06-17,FMR-0041,Gemini 2.5 Flash,Google
+2025-06-17,FMR-0042,Gemini 2.5 Pro,Google
+2025-12-18,FMR-0053,Z-Image-Turbo,Alibaba
+2025-12-18,FMR-0054,GPT-5.2,OpenAI

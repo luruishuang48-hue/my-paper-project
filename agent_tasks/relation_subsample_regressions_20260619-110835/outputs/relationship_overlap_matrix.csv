@@ -1,0 +1,9 @@
+"","owner","investor","cloud","business_upstream","real_upstream","business_downstream","real_downstream","competitor"
+"owner",29,0,0,0,0,1,0,0
+"investor",0,37,29,0,0,21,21,29
+"cloud",0,29,29,0,0,13,13,29
+"business_upstream",0,0,0,156,126,0,0,0
+"real_upstream",0,0,0,126,126,0,0,0
+"business_downstream",1,21,13,0,0,1440,81,13
+"real_downstream",0,21,13,0,0,81,81,13
+"competitor",0,29,29,0,0,13,13,462

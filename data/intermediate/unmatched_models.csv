@@ -1,0 +1,32 @@
+﻿source_row_number,release_date,event_name,creator,event_type,aa_match_status,needs_manual_review,match_method
+3,2025-05-14,AlphaEvolve,Google,模型,unmatched,1,no_confident_candidate
+4,2024-07-25,AlphaGeometry 2,Google,模型,unmatched,1,no_confident_candidate
+5,2024-07-25,AlphaProof,Google,模型,unmatched,1,no_confident_candidate
+13,2025-01-20,ChatGPT Atlas,OpenAI,模型,unmatched,1,no_confident_candidate
+15,2023-09-20,DALL-E 3,OpenAI,模型,unmatched,1,no_confident_candidate
+16,2025-11-01,Fara-7B,Microsoft,模型,unmatched,1,no_confident_candidate
+17,2024-06-21,Florence 2,Microsoft,模型,unmatched,1,no_confident_candidate
+18,2024-01-15,Fluid,Nvidia,模型,unmatched,1,no_confident_candidate
+25,2025-11-15,Gemini 3.0,Google,模型,unmatched,1,no_confident_candidate
+26,2025-12-10,Gemini 3.0 Flash,Google,模型,unmatched,1,no_confident_candidate
+28,2025-05-20,Gemini Diffusion,Google,模型,unmatched,1,no_confident_candidate
+30,2025-01-21,Gemini Flash Thinking 0121,Google,模型,unmatched,1,no_confident_candidate
+32,2024-11-01,gemini-exp,Google,模型,unmatched,1,no_confident_candidate
+33,2024-07-30,Gemma 2 2B,Google,模型,unmatched,1,no_confident_candidate
+36,2025-08-20,Genie 3.0,Google,模型,unmatched,1,no_confident_candidate
+38,2025-01-15,Google Titans,Google,模型,unmatched,1,no_confident_candidate
+65,2024-08-01,Imagen 3,Google,模型,unmatched,1,no_confident_candidate
+66,2025-05-15,Imagen 4,Google,模型,unmatched,1,no_confident_candidate
+74,2024-12-19,Meta Apollo,Meta,模型,unmatched,1,no_confident_candidate
+75,2024-05-16,Meta Chameleon,Meta,模型,unmatched,1,no_confident_candidate
+76,2024-01-18,Meta Spirit LM,Meta,模型,unmatched,1,no_confident_candidate
+77,2024-10-04,Movie Gen,Meta,模型,unmatched,1,no_confident_candidate
+78,2025-11-20,Nano Banana Pro,Google,模型,unmatched,1,no_confident_candidate
+82,2024-04-22,OpenELM,Apple,模型,unmatched,1,creator_not_found_in_aa
+85,2024-08-20,Phi 3.5,Microsoft,模型,unmatched,1,no_confident_candidate
+89,2025-02-01,Phi4-mini,Microsoft,模型,unmatched,1,no_confident_candidate
+91,2024-02-15,Sora,OpenAI,模型,unmatched,1,no_confident_candidate
+92,2025-09-15,Sora 2,OpenAI,模型,unmatched,1,no_confident_candidate
+93,2024-12-05,Veo 2,Google,模型,unmatched,1,no_confident_candidate
+94,2025-05-25,Veo 3,Google,模型,unmatched,1,no_confident_candidate
+95,2024-12-05,xAI Aurora,xAI,模型,unmatched,1,no_confident_candidate

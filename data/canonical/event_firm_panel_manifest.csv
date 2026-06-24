@@ -1,0 +1,11 @@
+item,value
+source_file,output/data/clean_event_firm_panel.csv
+consolidated_file,data/panel/clean_event_firm_panel.csv
+observations,5160
+events,60
+companies,86
+key,final_event_id + company_id
+main_returns,mkt_car_* and ff3_car_*
+capability_metrics,"aa_intelligence_index, aa_coding_index, aa_math_index, aa_media_elo"
+media_variables,media_sent_mean_w* and media_sent_sd_w*
+relationship_variables,"owner, investor, cloud, business_upstream, real_upstream"

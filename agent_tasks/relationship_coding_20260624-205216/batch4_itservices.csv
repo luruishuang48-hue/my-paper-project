@@ -1,0 +1,267 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+5803 JP,Alibaba,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Anthropic,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,DeepSeek,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Google,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Kuaishou,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Meta,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Microsoft,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Mistral AI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,OpenAI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Runway,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,ShengShu Technology,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Stability AI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,xAI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Zhipu AI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+6588 JP,Alibaba,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Anthropic,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,DeepSeek,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Google,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Kuaishou,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Meta,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Microsoft,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Mistral AI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,OpenAI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Runway,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Stability AI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,xAI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Zhipu AI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6701 JP,Alibaba,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Anthropic,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,DeepSeek,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Google,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Kuaishou,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Meta,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Microsoft,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Mistral AI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,OpenAI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Runway,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Stability AI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,xAI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6702 JP,Alibaba,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Anthropic,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,DeepSeek,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Google,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Kuaishou,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Meta,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Microsoft,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Mistral AI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,OpenAI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Runway,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Stability AI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,xAI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6758 JP,Alibaba,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Anthropic,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,DeepSeek,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Google,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Kuaishou,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Meta,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Microsoft,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Mistral AI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,OpenAI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Runway,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Stability AI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,xAI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6954 JP,Alibaba,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Anthropic,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,DeepSeek,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Google,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Kuaishou,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Meta,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Microsoft,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Mistral AI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,OpenAI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Runway,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Stability AI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,xAI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+ACN,Alibaba,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Anthropic,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,DeepSeek,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Google,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Kuaishou,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Meta,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Microsoft,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Mistral AI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,OpenAI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Runway,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,ShengShu Technology,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Stability AI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,xAI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Zhipu AI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+AMP IM,Alibaba,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Anthropic,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,DeepSeek,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Google,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Kuaishou,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Meta,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Microsoft,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Mistral AI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,OpenAI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Runway,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Stability AI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,xAI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Zhipu AI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+CRWV,Alibaba,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Anthropic,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,DeepSeek,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Google,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Kuaishou,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Meta,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Microsoft,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Mistral AI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,OpenAI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Runway,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Stability AI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,xAI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Zhipu AI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CSCO,Alibaba,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Anthropic,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,DeepSeek,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Google,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Kuaishou,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Meta,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Microsoft,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Mistral AI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,OpenAI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Runway,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Stability AI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,xAI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Zhipu AI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+DXC,Alibaba,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Anthropic,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,DeepSeek,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Google,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Kuaishou,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Meta,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Microsoft,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Mistral AI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,OpenAI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Runway,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,ShengShu Technology,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Stability AI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,xAI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Zhipu AI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+EXPN LN,Alibaba,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Anthropic,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,DeepSeek,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Google,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Kuaishou,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Meta,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Microsoft,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Mistral AI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,OpenAI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Runway,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,ShengShu Technology,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Stability AI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,xAI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Zhipu AI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+G,Alibaba,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Anthropic,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,DeepSeek,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Google,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Kuaishou,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Meta,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Microsoft,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Mistral AI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,OpenAI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Runway,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,ShengShu Technology,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Stability AI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,xAI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Zhipu AI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+GEHC,Alibaba,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Anthropic,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,DeepSeek,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Google,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Kuaishou,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Meta,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Microsoft,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Mistral AI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,OpenAI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Runway,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,ShengShu Technology,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Stability AI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,xAI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Zhipu AI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+IBM,Alibaba,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Anthropic,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,DeepSeek,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Google,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Kuaishou,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Meta,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Microsoft,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Mistral AI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,OpenAI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Runway,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,ShengShu Technology,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Stability AI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,xAI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Zhipu AI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+SIE GR,Alibaba,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Anthropic,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,DeepSeek,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Google,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Kuaishou,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Meta,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Microsoft,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Mistral AI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,OpenAI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Runway,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,ShengShu Technology,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Stability AI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,xAI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Zhipu AI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+TIETO FH,Alibaba,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Anthropic,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,DeepSeek,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Google,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Kuaishou,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Meta,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Microsoft,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Mistral AI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,OpenAI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Runway,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,ShengShu Technology,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Stability AI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,xAI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Zhipu AI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TRI,Alibaba,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Anthropic,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,DeepSeek,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Google,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Kuaishou,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Meta,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Microsoft,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Mistral AI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,OpenAI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Runway,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Stability AI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,xAI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+WKL NA,Alibaba,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Anthropic,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,DeepSeek,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Google,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Kuaishou,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Meta,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Microsoft,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Mistral AI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,OpenAI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Runway,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Stability AI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,xAI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax

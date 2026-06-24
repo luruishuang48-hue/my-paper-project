@@ -1,0 +1,10 @@
+{
+  "raw_rows_including_english_header": 5161,
+  "observations": 5160,
+  "columns": 100,
+  "events": 60,
+  "companies": 86,
+  "creators": 14,
+  "date_min": "2024-04-18",
+  "date_max": "2026-03-17"
+}

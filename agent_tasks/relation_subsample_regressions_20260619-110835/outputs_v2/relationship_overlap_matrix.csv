@@ -1,0 +1,9 @@
+"","is_owner","is_investor","upstream_cloud","upstream_hardware","downstream_integrator","downstream_deployer","downstream_enabler","competitor"
+"is_owner",29,0,27,0,0,0,0,0
+"is_investor",0,39,31,0,21,0,0,31
+"upstream_cloud",27,31,300,0,57,0,0,213
+"upstream_hardware",0,0,0,1200,0,0,60,0
+"downstream_integrator",0,21,57,0,1797,0,0,57
+"downstream_deployer",0,0,0,0,0,1140,0,0
+"downstream_enabler",0,0,0,60,0,0,480,60
+"competitor",0,31,213,0,57,0,60,511

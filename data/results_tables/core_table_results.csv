@@ -1,0 +1,11 @@
+"spec","var","n","events","beta","se","p_cr0","p_cr2","p_wild"
+"(1) Full sample, car_20","intel_c",3780,47,0.001521,0.000667,0.0271,0.0541,0.0526
+"(2) Closed source, car_20","intel_c",2899,36,0.002317,0.000618,6e-04,0.0069,0.0082
+"(3a) intel_c × open_weight — main intel_c (closed-src slope)","intel_c",3780,47,0.002257,0.000599,5e-04,0.0051,0.0082
+"(3b) intel_c × open_weight — INTERACTION TERM","intel_c:is_open_weight",3780,47,-0.003734,0.001201,0.0032,0.0475,0.0858
+"(4a) intel_c × investor — main intel_c (non-investor slope)","intel_c",3780,47,0.00153,0.00067,0.0271,0.0541,0.0526
+"(4b) intel_c × investor — INTERACTION TERM","intel_c:investor",3780,47,-0.002722,0.000983,0.0081,0.0498,0.1256
+"(5a) intel_c × cloud — main intel_c (non-cloud slope)","intel_c",3780,47,0.001524,0.00067,0.0277,0.0548,0.053
+"(5b) intel_c × cloud — INTERACTION TERM","intel_c:cloud",3780,47,-0.00213,0.001039,0.0462,0.1003,0.1374
+"(6a) intel_c × owner — INTERACTION car_1","intel_c:owner",3763,47,-0.001781,0.00072,0.0171,0.0593,0.0338
+"(6b) intel_c × owner — INTERACTION car_2","intel_c:owner",3768,47,-0.00177,0.000697,0.0146,0.0524,0.0456

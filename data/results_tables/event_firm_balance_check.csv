@@ -1,0 +1,61 @@
+﻿final_event_id,company_count,event_name,is_typical
+FMR-0001,86,LLaMA 3,True
+FMR-0002,86,Imagen 3,True
+FMR-0003,86,Gemini Flash 1.5,True
+FMR-0004,86,Stable Diffusion 3,True
+FMR-0005,86,Gemini 1.5 Flash,True
+FMR-0006,86,Grok 2,True
+FMR-0007,86,Imagen 3,True
+FMR-0008,86,o1 preview,True
+FMR-0009,86,o1 mini,True
+FMR-0010,86,Gemini 1.5 002 family,True
+FMR-0011,86,Gemini 1.5 Pro,True
+FMR-0012,86,Gemini 1.5 Flash8B,True
+FMR-0013,86,Claude 3.5 Sonnet New / Haiku family,True
+FMR-0014,86,Qwen2.5 Coder 32B,True
+FMR-0015,86,Llama 3.3 70B,True
+FMR-0016,86,SORA,True
+FMR-0017,86,Gemini-2.0-Flash-Thinking,True
+FMR-0018,86,o1,True
+FMR-0019,86,o1 Pro,True
+FMR-0020,86,o3 family announcement,True
+FMR-0021,86,DeepSeek R1,True
+FMR-0022,86,Qwen2.5-Max,True
+FMR-0023,86,o3 mini,True
+FMR-0024,86,Gemini 2.0 family,True
+FMR-0025,86,Grok 3 family,True
+FMR-0026,86,Claude 3.7,True
+FMR-0027,86,Gemini 2.0 Flash-Lite Preview,True
+FMR-0028,86,Phi-4 mini / multimodal family,True
+FMR-0029,86,Gemini 2.0 Flash Experimental,True
+FMR-0030,86,Runway Gen-4,True
+FMR-0031,86,Veo 2.0,True
+FMR-0032,86,Kling 2.0,True
+FMR-0033,86,o3 full,True
+FMR-0034,86,o4 mini,True
+FMR-0035,86,Vidu Q1,True
+FMR-0036,86,Gemini 2.5 Pro,True
+FMR-0037,86,Gemma 3n,True
+FMR-0038,86,Claude Sonnet 4,True
+FMR-0039,86,Google I/O media model family,True
+FMR-0040,86,Claude 4 Opus,True
+FMR-0041,86,Gemini 2.5 Flash,True
+FMR-0042,86,Gemini 2.5 Pro,True
+FMR-0043,86,Qwen3-235B-A22B-Instruct-2507,True
+FMR-0044,86,Qwen3-Coder,True
+FMR-0045,86,GLM-4.5,True
+FMR-0046,86,gpt-oss family,True
+FMR-0047,86,Gemini 2.5 Flash Image,True
+FMR-0048,86,Qwen-3-Max,True
+FMR-0049,86,Claude Sonnet 4.5,True
+FMR-0050,86,Claude 4.5 Haiku,True
+FMR-0051,86,Mistral 3,True
+FMR-0052,86,Devstral 2,True
+FMR-0053,86,Z-Image-Turbo,True
+FMR-0054,86,GPT-5.2,True
+FMR-0055,86,Qwen-Image-2512,True
+FMR-0056,86,Claude Opus 4.6,True
+FMR-0057,86,GPT-5.3-Codex,True
+FMR-0058,86,Claude Sonnet 4.6,True
+FMR-0059,86,Nano Banana 2,True
+FMR-0060,86,GPT-5.4 family,True

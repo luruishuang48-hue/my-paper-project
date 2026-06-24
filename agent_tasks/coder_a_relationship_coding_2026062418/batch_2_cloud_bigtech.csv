@@ -1,0 +1,99 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+AAPL,Alibaba,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models (Apple Intelligence) so competitor; no cloud IaaS; no hardware for AI training; no investment in Alibaba
+AAPL,Anthropic,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Anthropic
+AAPL,DeepSeek,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in DeepSeek
+AAPL,Google,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Google
+AAPL,Kuaishou,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Kuaishou
+AAPL,Meta,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Meta
+AAPL,Microsoft,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Microsoft
+AAPL,Mistral AI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Mistral
+AAPL,OpenAI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in OpenAI
+AAPL,Runway,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Runway
+AAPL,ShengShu Technology,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in ShengShu
+AAPL,Stability AI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Stability AI
+AAPL,Zhipu AI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in Zhipu AI
+AAPL,xAI,0,0,0,1,0,1,0,0,0.90,Apple deploys AI in iOS/devices as tool (downstream_deployer); develops own on-device models so competitor; no cloud; no investment in xAI
+AMZN,Alibaba,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops Titan/Nova models from scratch (competitor); not owner of Alibaba; no investment in Alibaba
+AMZN,Anthropic,0,1,0,0,0,1,1,0,0.95,AWS is major cloud IaaS hosting Anthropic models (upstream_cloud); Amazon develops own models (competitor); Amazon invested ~$4B in Anthropic (is_investor)
+AMZN,DeepSeek,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in DeepSeek
+AMZN,Google,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Google
+AMZN,Kuaishou,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Kuaishou
+AMZN,Meta,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Meta
+AMZN,Microsoft,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Microsoft
+AMZN,Mistral AI,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Mistral
+AMZN,OpenAI,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in OpenAI
+AMZN,Runway,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Runway
+AMZN,ShengShu Technology,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in ShengShu
+AMZN,Stability AI,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Stability AI
+AMZN,Zhipu AI,0,1,0,0,0,1,0,0,0.85,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in Zhipu AI
+AMZN,xAI,0,1,0,0,0,1,0,0,0.90,AWS is major cloud IaaS (upstream_cloud); Amazon develops own models (competitor); no investment in xAI
+BABA,Alibaba,0,0,0,0,0,0,0,1,0.95,Alibaba Group is the listed parent of Alibaba (the creator of Qwen models); is_owner=1 so competitor=0; cloud not coded as upstream to self
+BABA,Anthropic,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models from scratch (competitor); no investment in Anthropic
+BABA,DeepSeek,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in DeepSeek
+BABA,Google,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Google
+BABA,Kuaishou,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Kuaishou
+BABA,Meta,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Meta
+BABA,Microsoft,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Microsoft
+BABA,Mistral AI,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Mistral
+BABA,OpenAI,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in OpenAI
+BABA,Runway,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Runway
+BABA,ShengShu Technology,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in ShengShu
+BABA,Stability AI,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Stability AI
+BABA,Zhipu AI,0,1,0,0,0,1,0,0,0.80,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in Zhipu AI
+BABA,xAI,0,1,0,0,0,1,0,0,0.85,Alibaba Cloud is major cloud IaaS (upstream_cloud); Alibaba develops Qwen models (competitor); no investment in xAI
+GOOGL,Alibaba,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops Gemini/Imagen/Veo models (competitor); no investment in Alibaba
+GOOGL,Anthropic,0,1,0,0,0,1,1,0,0.95,GCP is major cloud IaaS hosting Anthropic (upstream_cloud); Google develops own models (competitor); Google invested ~$2B in Anthropic (is_investor)
+GOOGL,DeepSeek,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in DeepSeek
+GOOGL,Google,0,0,0,0,0,0,0,1,0.95,Alphabet/Google IS the creator of Gemini/Imagen/Veo; is_owner=1 so competitor=0; cloud not coded as upstream to self
+GOOGL,Kuaishou,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Kuaishou
+GOOGL,Meta,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Meta
+GOOGL,Microsoft,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Microsoft
+GOOGL,Mistral AI,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Mistral
+GOOGL,OpenAI,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in OpenAI
+GOOGL,Runway,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Runway
+GOOGL,ShengShu Technology,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in ShengShu
+GOOGL,Stability AI,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Stability AI
+GOOGL,Zhipu AI,0,1,0,0,0,1,0,0,0.85,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in Zhipu AI
+GOOGL,xAI,0,1,0,0,0,1,0,0,0.90,GCP is major cloud IaaS (upstream_cloud); Google develops own models (competitor); no investment in xAI
+META,Alibaba,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models from scratch (competitor); no major cloud IaaS; not a downstream integrator of external AI; no investment in Alibaba
+META,Anthropic,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models from scratch (competitor); no major cloud IaaS; no investment in Anthropic
+META,DeepSeek,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in DeepSeek
+META,Google,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Google
+META,Kuaishou,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Kuaishou
+META,Meta,0,0,0,0,0,0,0,1,0.95,Meta IS the creator of Llama models; is_owner=1 so competitor=0
+META,Microsoft,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Microsoft
+META,Mistral AI,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Mistral
+META,OpenAI,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in OpenAI
+META,Runway,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor in generative AI broadly); no major cloud IaaS; no investment in Runway
+META,ShengShu Technology,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in ShengShu
+META,Stability AI,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Stability AI
+META,Zhipu AI,0,0,0,0,0,1,0,0,0.85,Meta develops Llama models (competitor); no major cloud IaaS; no investment in Zhipu AI
+META,xAI,0,0,0,0,0,1,0,0,0.90,Meta develops Llama models (competitor); no major cloud IaaS; no investment in xAI
+MSFT,Alibaba,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into Office/Windows (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Alibaba
+MSFT,Anthropic,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into Office/Windows (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Anthropic
+MSFT,DeepSeek,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in DeepSeek
+MSFT,Google,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Google
+MSFT,Kuaishou,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Kuaishou
+MSFT,Meta,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI into products (downstream_integrator); Microsoft develops Phi models (competitor); no investment in Meta
+MSFT,Microsoft,0,0,0,0,0,0,0,1,0.95,Microsoft IS the creator of Phi models; is_owner=1 so competitor=0; cloud not coded as upstream to self; not downstream_integrator to own models in this coding
+MSFT,Mistral AI,0,1,1,0,0,1,1,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); Microsoft invested ~15M EUR in Mistral (is_investor)
+MSFT,OpenAI,0,1,1,0,0,1,1,0,0.95,Azure is major cloud IaaS hosting OpenAI (upstream_cloud); Copilot deeply integrates GPT (downstream_integrator); Microsoft develops Phi (competitor); ~$13B invested in OpenAI (is_investor)
+MSFT,Runway,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in Runway
+MSFT,ShengShu Technology,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in ShengShu
+MSFT,Stability AI,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in Stability AI
+MSFT,Zhipu AI,0,1,1,0,0,1,0,0,0.85,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in Zhipu AI
+MSFT,xAI,0,1,1,0,0,1,0,0,0.90,Azure is major cloud IaaS (upstream_cloud); Copilot integrates AI (downstream_integrator); Microsoft develops Phi (competitor); no investment in xAI
+ORCL,Alibaba,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud with GPU clusters (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Alibaba
+ORCL,Anthropic,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Anthropic
+ORCL,DeepSeek,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in DeepSeek
+ORCL,Google,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Google
+ORCL,Kuaishou,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Kuaishou
+ORCL,Meta,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Meta
+ORCL,Microsoft,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Microsoft
+ORCL,Mistral AI,0,1,0,0,0,0,0,0,0.85,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Mistral
+ORCL,OpenAI,0,1,0,0,0,0,0,0,0.90,OCI is growing AI cloud used by OpenAI (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in OpenAI
+ORCL,Runway,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Runway
+ORCL,ShengShu Technology,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in ShengShu
+ORCL,Stability AI,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Stability AI
+ORCL,Zhipu AI,0,1,0,0,0,0,0,0,0.80,OCI is growing AI cloud (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in Zhipu AI
+ORCL,xAI,0,1,0,0,0,0,0,0,0.90,OCI is growing AI cloud used by xAI (upstream_cloud); Oracle does not develop foundation models (competitor=0); no investment in xAI

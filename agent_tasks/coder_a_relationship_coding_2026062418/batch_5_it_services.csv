@@ -1,0 +1,141 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+6701 JP,Alibaba,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Anthropic,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,DeepSeek,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Google,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Kuaishou,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Meta,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Microsoft,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Mistral AI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,OpenAI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Runway,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Stability AI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6701 JP,xAI,0,0,0,0,1,0,0,0,H,NEC provides IT services and AI/biometrics solutions; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Alibaba,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Anthropic,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,DeepSeek,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Google,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Kuaishou,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Meta,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Microsoft,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Mistral AI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,OpenAI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Runway,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Stability AI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+6702 JP,xAI,0,0,0,0,1,0,0,0,H,Fujitsu provides IT services and AI consulting; enables enterprise clients to adopt LLMs from all creators
+ACN,Alibaba,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Anthropic,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,DeepSeek,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Google,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Kuaishou,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Meta,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Microsoft,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Mistral AI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,OpenAI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Runway,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,ShengShu Technology,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Stability AI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,Zhipu AI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+ACN,xAI,0,0,0,0,1,0,0,0,H,Accenture is a global IT consulting firm with major GenAI practice; enables enterprise clients to adopt LLMs from all creators
+DXC,Alibaba,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Anthropic,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,DeepSeek,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Google,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Kuaishou,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Meta,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Microsoft,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Mistral AI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,OpenAI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Runway,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,ShengShu Technology,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Stability AI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,Zhipu AI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+DXC,xAI,0,0,0,0,1,0,0,0,H,DXC Technology provides IT outsourcing and managed AI services; enables enterprise clients to adopt LLMs from all creators
+EXPN LN,Alibaba,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Anthropic,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,DeepSeek,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Google,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Kuaishou,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Meta,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Microsoft,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Mistral AI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,OpenAI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Runway,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,ShengShu Technology,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Stability AI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,Zhipu AI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+EXPN LN,xAI,0,0,1,0,0,0,0,0,M,Experian integrates AI/ML into proprietary data and credit analytics products; information-services model is closer to AI-in-own-product than helping clients use AI
+G,Alibaba,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Anthropic,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,DeepSeek,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Google,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Kuaishou,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Meta,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Microsoft,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Mistral AI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,OpenAI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Runway,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,ShengShu Technology,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Stability AI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,Zhipu AI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+G,xAI,0,0,0,0,1,0,0,0,H,Genpact provides BPO with AI automation; enables enterprise clients to adopt LLMs from all creators
+HPE,Alibaba,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Anthropic,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,DeepSeek,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Google,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Kuaishou,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Meta,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Microsoft,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Mistral AI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,OpenAI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Runway,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,ShengShu Technology,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Stability AI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,Zhipu AI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+HPE,xAI,1,0,0,0,1,0,0,0,M,HPE provides AI-optimized servers/HPC systems (upstream_hardware) and enterprise AI solutions/consulting (downstream_enabler); dual role applies uniformly to all creators
+IBM,Alibaba,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Anthropic,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,DeepSeek,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Google,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Kuaishou,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Meta,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Microsoft,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Mistral AI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,OpenAI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Runway,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,ShengShu Technology,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Stability AI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,Zhipu AI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+IBM,xAI,0,0,0,0,1,1,0,0,H,IBM Consulting provides enterprise AI services (downstream_enabler=H); IBM Granite foundation models compete with all creators (competitor=M)
+TIETO FH,Alibaba,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Anthropic,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,DeepSeek,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Google,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Kuaishou,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Meta,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Microsoft,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Mistral AI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,OpenAI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Runway,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,ShengShu Technology,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Stability AI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,Zhipu AI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TIETO FH,xAI,0,0,0,0,1,0,0,0,H,Tietoevry provides Nordic IT services with AI practice; enables enterprise clients to adopt LLMs from all creators
+TRI,Alibaba,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Anthropic,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,DeepSeek,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Google,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Kuaishou,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Meta,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Microsoft,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Mistral AI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,OpenAI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Runway,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,ShengShu Technology,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Stability AI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,Zhipu AI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI
+TRI,xAI,0,0,1,0,0,0,0,0,M,Thomson Reuters integrates AI into proprietary legal/tax/news information products; information-services model is closer to AI-in-own-product than helping clients use AI

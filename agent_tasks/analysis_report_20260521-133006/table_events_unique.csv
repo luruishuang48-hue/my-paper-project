@@ -1,0 +1,61 @@
+﻿final_event_id,release_date_parsed,release_date,event_name,true_model_creator,creator_country,creator_type,model_names,model_modality,model_modalities,candidate_tier,is_open_weight_or_open_source,is_chinese_model,llm_capability_sample_flag,media_capability_sample_flag,aa_intelligence_index,aa_media_elo
+FMR-0001,2024-04-18,2024/4/18,LLaMA 3,Meta,United States,listed_us_company,LLaMA 3,text_llm,text_llm,Tier 2,1,0,1,0,8.9,
+FMR-0002,2024-05-14,2024/5/14,Imagen 3,Google,United States,listed_us_company,Imagen 3,image_generation,image_generation,Tier 2,0,0,0,1,,1117.0
+FMR-0003,2024-05-30,2024/5/30,Gemini Flash 1.5,Google,United States,listed_us_company,Gemini Flash 1.5,multimodal_llm,multimodal_llm,Tier 2,0,0,1,0,10.5,
+FMR-0004,2024-06-12,2024/6/12,Stable Diffusion 3,Stability AI,United Kingdom,private_non_us_company,Stable Diffusion 3,image_generation,image_generation,Tier 1,0,0,0,1,,917.0
+FMR-0005,2024-08-08,2024/8/8,Gemini 1.5 Flash,Google,United States,listed_us_company,Gemini 1.5 Flash,text_llm,text_llm,Tier 2,0,0,1,0,13.8,
+FMR-0006,2024-08-13,2024/8/13,Grok 2,xAI,United States,private_us_company,Grok 2,text_llm,text_llm,Tier 1,0,0,1,0,13.9,
+FMR-0007,2024-08-28,2024/8/28,Imagen 3,Google,United States,listed_us_company,Imagen 3,image_generation,image_generation,Tier 1,0,0,0,1,,1117.0
+FMR-0009,2024-09-12,2024/9/12,o1 mini,OpenAI,United States,private_us_company,o1 mini,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,20.4,
+FMR-0008,2024-09-12,2024/9/12,o1 preview,OpenAI,United States,private_us_company,o1 preview,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,23.7,
+FMR-0010,2024-09-24,2024/9/24,Gemini 1.5 002 family,Google,United States,listed_us_company,Gemini Pro 1.5 002; Gemini Flash 1.5 002,text_llm,text_llm,Tier 2,0,0,1,0,16.0,
+FMR-0012,2024-10-03,2024/10/3,Gemini 1.5 Flash8B,Google,United States,listed_us_company,Gemini 1.5 Flash8B,text_llm,text_llm,Tier 2,0,0,1,0,11.1,
+FMR-0011,2024-10-03,2024/10/3,Gemini 1.5 Pro,Google,United States,listed_us_company,Gemini 1.5 Pro,text_llm,text_llm,Tier 2,0,0,1,0,16.0,
+FMR-0013,2024-10-22,2024/10/22,Claude 3.5 Sonnet New / Haiku family,Anthropic,United States,private_us_company,Claude 3.5 Sonnet New; Claude 3.5 Haiku,text_llm,text_llm,Tier 2,0,0,1,0,18.7,
+FMR-0014,2024-11-12,2024/11/12,Qwen2.5 Coder 32B,Alibaba,China,public_non_us_company,Qwen2.5 Coder 32B,coding_llm,coding_llm,Tier 2,1,1,1,0,12.9,
+FMR-0015,2024-12-06,2024/12/6,Llama 3.3 70B,Meta,United States,listed_us_company,Llama 3.3 70B,text_llm,text_llm,Tier 1,0,0,1,0,14.5,
+FMR-0016,2024-12-09,2024/12/9,SORA,OpenAI,United States,private_us_company,SORA,video_generation,video_generation,Tier 1,0,0,0,1,,978.0
+FMR-0017,2024-12-11,2024/12/11,Gemini-2.0-Flash-Thinking,Google,United States,listed_us_company,Gemini-2.0-Flash-Thinking,reasoning_llm,reasoning_llm,Tier 1,0,0,1,0,12.3,
+FMR-0019,2024-12-17,2024/12/17,o1 Pro,OpenAI,United States,private_us_company,o1 Pro,reasoning_llm,reasoning_llm,Tier 1,0,0,1,0,25.8,
+FMR-0018,2024-12-17,2024/12/17,o1,OpenAI,United States,private_us_company,o1,reasoning_llm,reasoning_llm,Tier 1,0,0,1,0,30.8,
+FMR-0020,2024-12-20,2024/12/20,o3 family announcement,OpenAI,United States,private_us_company,o3; o3 Mini,reasoning_llm,reasoning_llm,Tier 3,0,0,1,0,38.4,
+FMR-0021,2025-01-22,2025/1/22,DeepSeek R1,DeepSeek,China,private_non_us_company,DeepSeek R1,reasoning_llm,reasoning_llm,Tier 1,1,1,1,0,18.8,
+FMR-0022,2025-01-28,2025/1/28,Qwen2.5-Max,Alibaba,China,public_non_us_company,Qwen2.5-Max,text_llm,text_llm,Tier 1,1,1,1,0,16.3,
+FMR-0023,2025-01-31,2025/1/31,o3 mini,OpenAI,United States,private_us_company,o3 mini,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,25.9,
+FMR-0024,2025-02-05,2025/2/5,Gemini 2.0 family,Google,United States,listed_us_company,Gemini 2.0 Pro Experimental; Gemini 2.0 Flash,text_llm,text_llm,Tier 2,0,0,1,0,18.1,
+FMR-0025,2025-02-17,2025/2/17,Grok 3 family,xAI,United States,private_us_company,Grok 3; Grok 3 Reasoning; Grok 3 mini,reasoning_llm,text_llm; reasoning_llm,Tier 1,0,0,1,0,32.1,
+FMR-0026,2025-02-18,2025/2/18,Claude 3.7,Anthropic,United States,private_us_company,Claude 3.7,reasoning_llm,reasoning_llm,Tier 1,0,0,1,0,34.7,
+FMR-0027,2025-02-25,2025/2/25,Gemini 2.0 Flash-Lite Preview,Google,United States,listed_us_company,Gemini 2.0 Flash-Lite Preview,text_llm,text_llm,Tier 2,0,0,1,0,14.5,
+FMR-0028,2025-02-26,2025/2/26,Phi-4 mini / multimodal family,Microsoft,United States,listed_us_company,Phi4 Multimodal; Phi4-mini,multimodal_llm,multimodal_llm; text_llm,Tier 2,0,0,1,0,10.0,
+FMR-0029,2025-03-12,2025/3/12,Gemini 2.0 Flash Experimental,Google,United States,listed_us_company,Gemini 2.0 Flash Experimental,multimodal_llm,multimodal_llm,Tier 1,0,0,1,0,16.8,
+FMR-0030,2025-03-31,2025/3/31,Runway Gen-4,Runway,United States,private_us_company,Runway Gen-4,video_generation,video_generation,Tier 1,0,1,0,1,,1093.0
+FMR-0032,2025-04-15,2025/4/15,Kling 2.0,Kuaishou,China,public_non_us_company,Kling 2.0,video_generation,video_generation,Tier 1,0,1,0,1,,1173.0
+FMR-0031,2025-04-15,2025/4/15,Veo 2.0,Google,United States,listed_us_company,Veo 2.0,video_generation,video_generation,Tier 1,0,1,0,1,,1092.0
+FMR-0034,2025-04-16,2025/4/16,o4 mini,OpenAI,United States,private_us_company,o4 mini,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,33.1,
+FMR-0033,2025-04-16,2025/4/16,o3 full,OpenAI,United States,private_us_company,o3 full,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,38.4,
+FMR-0035,2025-04-21,2025/4/21,Vidu Q1,ShengShu Technology,China,private_non_us_company,Vidu Q1,video_generation,video_generation,Tier 1,0,1,0,1,,1026.0
+FMR-0036,2025-05-06,2025/5/6,Gemini 2.5 Pro,Google,United States,listed_us_company,Gemini 2.5 Pro,multimodal_llm,multimodal_llm,Tier 2,0,0,1,0,34.6,
+FMR-0037,2025-05-20,2025/5/20,Gemma 3n,Google,United States,listed_us_company,Gemma 3n,text_llm,text_llm,Tier 3,1,0,1,0,4.8,
+FMR-0039,2025-05-21,2025/5/21,Google I/O media model family,Google,United States,listed_us_company,Veo 3; Imagen 4,video_generation,video_generation; image_generation,Tier 1,0,0,0,1,,1226.0
+FMR-0038,2025-05-21,2025/5/21,Claude Sonnet 4,Anthropic,United States,private_us_company,Claude Sonnet 4,text_llm,text_llm,Tier 1,0,0,1,0,38.7,
+FMR-0040,2025-05-22,2025/5/22,Claude 4 Opus,Anthropic,United States,private_us_company,Claude 4 Opus,reasoning_llm,reasoning_llm,Tier 1,0,0,1,0,39.0,
+FMR-0042,2025-06-17,2025/6/17,Gemini 2.5 Pro,Google,United States,listed_us_company,Gemini 2.5 Pro,text_llm,text_llm,Tier 1,0,0,1,0,34.6,
+FMR-0041,2025-06-17,2025/6/17,Gemini 2.5 Flash,Google,United States,listed_us_company,Gemini 2.5 Flash,multimodal_llm,multimodal_llm,Tier 2,0,0,1,0,27.0,
+FMR-0043,2025-07-21,2025/7/21,Qwen3-235B-A22B-Instruct-2507,Alibaba,China,public_non_us_company,Qwen3-235B-A22B-Instruct-2507,text_llm,text_llm,Tier 2,1,1,1,0,25.0,
+FMR-0044,2025-07-22,2025/7/22,Qwen3-Coder,Alibaba,China,public_non_us_company,Qwen3-Coder,coding_llm,coding_llm,Tier 2,1,1,1,0,24.8,
+FMR-0045,2025-07-28,2025/7/28,GLM-4.5,Zhipu AI,China,private_non_us_company,GLM-4.5,text_llm,text_llm,Tier 2,1,1,1,0,26.4,
+FMR-0046,2025-08-05,2025/8/5,gpt-oss family,OpenAI,United States,private_us_company,gpt-oss-20b; gpt-oss-120b,reasoning_llm,reasoning_llm,Tier 1,1,0,1,0,33.3,
+FMR-0047,2025-08-26,2025/8/26,Gemini 2.5 Flash Image,Google,United States,listed_us_company,Gemini 2.5 Flash Image,image_editing,image_editing,Tier 1,0,0,0,1,,1175.0
+FMR-0048,2025-09-05,2025/9/5,Qwen-3-Max,Alibaba,China,public_non_us_company,Qwen-3-Max,text_llm,text_llm,Tier 1,0,1,1,0,31.4,
+FMR-0049,2025-09-25,2025/9/25,Claude Sonnet 4.5,Anthropic,United States,private_us_company,Claude Sonnet 4.5,text_llm,text_llm,Tier 2,0,0,1,0,43.0,
+FMR-0050,2025-10-14,2025/10/14,Claude 4.5 Haiku,Anthropic,United States,private_us_company,Claude 4.5 Haiku,text_llm,text_llm,Tier 2,0,0,1,0,37.1,
+FMR-0051,2025-12-02,2025/12/2,Mistral 3,Mistral AI,France,private_non_us_company,Mistral 3,text_llm,text_llm,Tier 2,1,0,1,0,22.8,
+FMR-0052,2025-12-09,2025/12/9,Devstral 2,Mistral AI,France,private_non_us_company,Devstral 2,coding_llm,coding_llm,Tier 2,1,0,1,0,22.0,
+FMR-0054,2025-12-18,2025/12/18,GPT-5.2,OpenAI,United States,private_us_company,GPT-5.2,text_llm,text_llm,Tier 1,0,0,1,0,51.3,
+FMR-0053,2025-12-18,2025/12/18,Z-Image-Turbo,Alibaba,China,public_non_us_company,Z-Image-Turbo,image_generation,image_generation,Tier 2,1,1,0,1,,1110.0
+FMR-0055,2025-12-31,2025/12/31,Qwen-Image-2512,Alibaba,China,public_non_us_company,Qwen-Image-2512,image_generation,image_generation,Tier 2,1,1,0,1,,1161.0
+FMR-0056,2026-02-05,2026/2/5,Claude Opus 4.6,Anthropic,United States,private_us_company,Claude Opus 4.6,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,53.0,
+FMR-0057,2026-02-12,2026/2/12,GPT-5.3-Codex,OpenAI,United States,private_us_company,GPT-5.3-Codex,coding_llm,coding_llm,Tier 1,0,0,1,0,53.6,
+FMR-0058,2026-02-16,2026/2/16,Claude Sonnet 4.6,Anthropic,United States,private_us_company,Claude Sonnet 4.6,reasoning_llm,reasoning_llm,Tier 2,0,0,1,0,51.7,
+FMR-0059,2026-02-26,2026/2/26,Nano Banana 2,Google,United States,listed_us_company,Nano Banana 2,image_generation,image_generation,Tier 2,0,0,0,1,,1228.0
+FMR-0060,2026-03-17,2026/3/17,GPT-5.4 family,OpenAI,United States,private_us_company,GPT-5.4 mini; GPT-5.4; GPT-5.4 nano,reasoning_llm,reasoning_llm,Tier 1,0,0,1,0,56.8,

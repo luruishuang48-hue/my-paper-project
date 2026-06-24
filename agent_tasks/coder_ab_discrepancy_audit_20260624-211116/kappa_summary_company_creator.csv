@@ -1,0 +1,9 @@
+﻿dimension,n_pairs,coder_a_ones,coder_b_ones,agreements,disagreements,a1_b0,a0_b1,agreement_rate,cohen_kappa
+upstream_hardware,1204,280,280,1204,0,0,0,1.0,1.0
+upstream_cloud,1204,68,70,1202,2,0,2,0.998339,0.984626
+downstream_integrator,1204,418,433,1189,15,0,15,0.987542,0.972744
+downstream_deployer,1204,266,280,1190,14,0,14,0.988372,0.966847
+downstream_enabler,1204,112,112,1204,0,0,0,1.0,1.0
+competitor,1204,122,122,1204,0,0,0,1.0,1.0
+is_investor,1204,5,5,1204,0,0,0,1.0,1.0
+is_owner,1204,4,4,1204,0,0,0,1.0,1.0

@@ -1,0 +1,155 @@
+================================================================================
+DATE COLUMN AUDIT REPORT
+================================================================================
+Generated: 2026-06-02
+Input file: 事件集数据.csv
+Encoding:   gb18030
+Parsing:    header=None, skiprows=2
+Total rows: 5161 x 106 columns
+
+================================================================================
+COLUMN DEFINITIONS
+================================================================================
+Column index 1 --> release_date   (expected: full date)
+Column index 3 --> release_month  (expected: YY-Mon, e.g. "24-Apr")
+
+================================================================================
+COLUMN 1: release_date (index 1)
+================================================================================
+Total non-null values: 5160
+Total unique non-null: 53
+
+FORMAT CATEGORY                     UNIQUE   ROWS    PERCENT
+---------------------------------------------------------------------
+Slash date (YYYY/M/D)                 52     5078    98.4%
+Excel serial number (integer)          1       82     1.6%
+ISO date (YYYY-MM-DD)                  0        0     0.0%
+Mon-Year (DD-Mon)                      0        0     0.0%
+Other                                  0        0     0.0%
+---------------------------------------------------------------------
+
+Breakdown:
+
+  (A) Slash dates (YYYY/M/D) -- 52 unique values, 5078 rows
+      All values follow the pattern YYYY/M/D (year/month/day with NO leading zeros).
+      Date range: 2024/4/18 to 2026/3/17.
+      Each unique date appears either 86 or 172 times (86 = 1 event x 86 firms,
+      172 = 2 events sharing same date x 86 firms each).
+      The 4 rows with '2026/3/17' include 3 mixed rows and 1 fully clean row
+      (see cross-column analysis below).
+
+  (B) Excel serial number -- 1 unique value, 82 rows
+      Value: "46098"
+      Converts to: 2026-03-17 (using Windows Excel epoch 1899-12-30)
+      Event: FMR-0060 (GPT-5.4 family)
+      These 82 rows have release_month = "46107" (also a serial).
+
+  (C) No ISO dates, no Mon-Year formats, no unparseable values found.
+
+================================================================================
+COLUMN 3: release_month (index 3)
+================================================================================
+Total non-null values: 5160
+Total unique non-null: 22
+
+FORMAT CATEGORY                     UNIQUE   ROWS    PERCENT
+---------------------------------------------------------------------
+Mon-Year (DD-Mon, e.g. "24-Apr")      21     5075    98.4%
+Excel serial number (integer)          1       85     1.6%
+ISO date (YYYY-MM-DD)                  0        0     0.0%
+Slash date (YYYY/M/D)                  0        0     0.0%
+Other                                  0        0     0.0%
+---------------------------------------------------------------------
+
+Breakdown:
+
+  (A) Mon-Year (DD-Mon) -- 21 unique values, 5075 rows
+      All values follow the pattern YY-Mon (2-digit year + hyphen + 3-letter
+      month abbreviation with initial capital).
+      Range: "24-Apr" (2024-04) to "26-Mar" (2026-03).
+      Note: "26-Mar" appears for only 1 row (the clean row of event FMR-0060).
+
+  (B) Excel serial number -- 1 unique value, 85 rows
+      Value: "46107"
+      Converts to: 2026-03-26 (using Windows Excel epoch 1899-12-30).
+      IMPORTANT: This is a FULL DATE, not a month-only value. The day
+      component (26) happens to coincide with the year digits (26 = 2026),
+      but the serial actually encodes March 26, 2026 -- not just March 2026.
+      Event: FMR-0060 (GPT-5.4 family).
+
+  (C) No ISO dates, no slash dates, no unparseable values found.
+
+================================================================================
+SPECIFIC CHECK: "46098" in release_date
+================================================================================
+Q: Is there an event with release_date = 46098?
+A: YES -- event FMR-0060 (GPT-5.4 family). 82 rows affected.
+
+  - Excel serial 46098 = 2026-03-17 (Windows epoch)
+  - The correct slash-format equivalent is 2026/3/17.
+  - These 82 rows ALL also have release_month = 46107 (another serial).
+  - The same event has 4 other rows where release_date = "2026/3/17"
+    (correct format), but 3 of those 4 still have release_month = 46107.
+
+================================================================================
+SPECIFIC CHECK: "46107" in release_month
+================================================================================
+Q: Is there an event with release_month = 46107?
+A: YES -- event FMR-0060 (GPT-5.4 family). 85 rows affected.
+
+  - Excel serial 46107 = 2026-03-26 (Windows epoch)
+  - The correct Mon-Year equivalent is "26-Mar".
+  - 82 of these 85 rows also have release_date = 46098 (both columns corrupt).
+  - 3 of these 85 rows have the CORRECT release_date (2026/3/17) but
+    a still-corrupt release_month (46107). This is an intra-event mixed-format
+    situation.
+
+================================================================================
+CROSS-COLUMN ANALYSIS: Event FMR-0060 (GPT-5.4 family)
+================================================================================
+This event has 86 total rows. The date columns are inconsistently formatted:
+
+    Rows   release_date      release_month    Status
+    ------ ----------------- ---------------- ---------------------------
+      82   46098 (serial)    46107 (serial)   BOTH columns corrupt
+       3   2026/3/17         46107 (serial)   Only release_month corrupt
+       1   2026/3/17         26-Mar           BOTH columns clean
+
+The correct values for this event are:
+  - release_date:  2026/3/17  (or 2026-03-17)
+  - release_month: 26-Mar
+
+================================================================================
+SUMMARY OF ISSUES
+================================================================================
+
+ISSUE 1: release_date contains 1 Excel serial number (46098) instead of a
+         slash date. 82 rows affected (1.6% of data). All belong to event
+         FMR-0060.
+         Fix: Replace "46098" with "2026/3/17".
+
+ISSUE 2: release_month contains 1 Excel serial number (46107) instead of a
+         Mon-Year string. 85 rows affected (1.6% of data). All belong to
+         event FMR-0060.
+         Fix: Replace "46107" with "26-Mar".
+
+ISSUE 3: Event FMR-0060 has intra-event format inconsistency. 3 of its
+         86 rows have the correct release_date but a corrupt release_month,
+         and 1 row is fully correct. All 86 rows should have the same format.
+
+================================================================================
+DATA QUALITY ASSESSMENT (excluding FMR-0060's serials)
+================================================================================
+- release_date:  All 52 remaining unique values are consistently formatted as
+                 YYYY/M/D (slash dates with no leading zeros). No anomalies.
+                 Date range: 2024-04-18 to 2026-03-17.
+- release_month: All 21 remaining unique values are consistently formatted as
+                 YY-Mon (2-digit year + hyphen + 3-letter month). No anomalies.
+                 Range: 2024-Apr to 2026-Mar.
+- NO unparseable garbage values in either column.
+- NO mixed formats within any other event.
+- The issue is entirely localized to a single event (FMR-0060).
+
+================================================================================
+END OF REPORT
+================================================================================

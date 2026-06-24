@@ -1,0 +1,295 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+000660 KS,Alibaba,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Anthropic,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,DeepSeek,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Google,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Kuaishou,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Meta,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Microsoft,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Mistral AI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,OpenAI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Runway,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,ShengShu Technology,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Stability AI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,xAI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Zhipu AI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+005930 KS,Alibaba,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Anthropic,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,DeepSeek,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Google,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Kuaishou,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Meta,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Microsoft,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Mistral AI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,OpenAI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Runway,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,ShengShu Technology,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Stability AI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,xAI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Zhipu AI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+2353 TT,Alibaba,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Anthropic,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,DeepSeek,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Google,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Kuaishou,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Meta,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Microsoft,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Mistral AI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,OpenAI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Runway,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Stability AI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,xAI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2395 TT,Alibaba,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Anthropic,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Google,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Meta,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Microsoft,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,OpenAI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Runway,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Stability AI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,xAI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+3443 TT,Alibaba,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Anthropic,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Google,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Meta,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Microsoft,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,OpenAI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Runway,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Stability AI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,xAI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+AMBA,Alibaba,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Anthropic,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,DeepSeek,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Google,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Kuaishou,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Meta,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Microsoft,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Mistral AI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,OpenAI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Runway,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,ShengShu Technology,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Stability AI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,xAI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Zhipu AI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMD,Alibaba,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Anthropic,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,DeepSeek,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Google,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Kuaishou,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Meta,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Microsoft,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Mistral AI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,OpenAI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Runway,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,ShengShu Technology,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Stability AI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,xAI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Zhipu AI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AVGO,Alibaba,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Anthropic,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,DeepSeek,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Google,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Kuaishou,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Meta,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Microsoft,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Mistral AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,OpenAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Runway,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,ShengShu Technology,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Stability AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,xAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Zhipu AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+HPE,Alibaba,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Anthropic,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,DeepSeek,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Google,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Kuaishou,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Meta,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Microsoft,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Mistral AI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,OpenAI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Runway,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,ShengShu Technology,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Stability AI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,xAI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Zhipu AI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+IFX GR,Alibaba,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Anthropic,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,DeepSeek,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Google,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Kuaishou,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Meta,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Microsoft,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Mistral AI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,OpenAI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Runway,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,ShengShu Technology,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Stability AI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,xAI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Zhipu AI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+INTC,Alibaba,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Anthropic,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,DeepSeek,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Google,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Kuaishou,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Meta,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Microsoft,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Mistral AI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,OpenAI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Runway,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,ShengShu Technology,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Stability AI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,xAI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Zhipu AI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+MRVL,Alibaba,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Anthropic,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,DeepSeek,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Google,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Kuaishou,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Meta,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Microsoft,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Mistral AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,OpenAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Runway,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,ShengShu Technology,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Stability AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,xAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Zhipu AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MU,Alibaba,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Anthropic,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,DeepSeek,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Google,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Kuaishou,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Meta,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Microsoft,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Mistral AI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,OpenAI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Runway,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,ShengShu Technology,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Stability AI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,xAI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Zhipu AI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+NVDA,Alibaba,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Anthropic,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,DeepSeek,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Google,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Kuaishou,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Meta,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Microsoft,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Mistral AI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,OpenAI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Runway,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,ShengShu Technology,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Stability AI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,xAI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Zhipu AI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NXPI,Alibaba,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Anthropic,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,DeepSeek,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Google,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Kuaishou,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Meta,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Microsoft,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Mistral AI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,OpenAI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Runway,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,ShengShu Technology,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Stability AI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,xAI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Zhipu AI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+QCOM,Alibaba,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Anthropic,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,DeepSeek,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Google,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Kuaishou,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Meta,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Microsoft,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Mistral AI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,OpenAI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Runway,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,ShengShu Technology,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Stability AI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,xAI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Zhipu AI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+SMCI,Alibaba,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Anthropic,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,DeepSeek,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Google,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Kuaishou,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Meta,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Microsoft,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Mistral AI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,OpenAI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Runway,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,ShengShu Technology,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Stability AI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,xAI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Zhipu AI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+STX,Alibaba,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Anthropic,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,DeepSeek,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Google,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Kuaishou,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Meta,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Microsoft,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Mistral AI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,OpenAI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Runway,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,ShengShu Technology,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Stability AI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,xAI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Zhipu AI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+TSM,Alibaba,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Anthropic,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,DeepSeek,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Google,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Kuaishou,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Meta,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Microsoft,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Mistral AI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,OpenAI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Runway,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,ShengShu Technology,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Stability AI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,xAI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Zhipu AI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+WRD,Alibaba,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Anthropic,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,DeepSeek,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Google,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Kuaishou,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Meta,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Microsoft,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Mistral AI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,OpenAI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Runway,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,ShengShu Technology,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Stability AI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,xAI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Zhipu AI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+ZBRA,Alibaba,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Anthropic,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,DeepSeek,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Google,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Kuaishou,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Meta,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Microsoft,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Mistral AI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,OpenAI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Runway,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Stability AI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,xAI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Zhipu AI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking

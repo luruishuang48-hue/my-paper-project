@@ -1,0 +1,183 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+ADBE,Alibaba,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Anthropic,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,DeepSeek,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Google,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Kuaishou,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Meta,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Microsoft,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Mistral AI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,OpenAI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Runway,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,ShengShu Technology,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Stability AI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,Zhipu AI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+ADBE,xAI,0,0,1,0,0,0,0,0,H,Adobe Firefly generative AI is core to Creative Cloud; LLM/generative model improvements directly enhance product value
+AI,Alibaba,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Anthropic,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,DeepSeek,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Google,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Kuaishou,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Meta,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Microsoft,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Mistral AI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,OpenAI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Runway,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,ShengShu Technology,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Stability AI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,Zhipu AI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+AI,xAI,0,0,1,0,0,0,0,0,H,C3.ai is an AI-native enterprise platform; entire business model depends on AI model capability advances
+APP,Alibaba,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Anthropic,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,DeepSeek,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Google,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Kuaishou,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Meta,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Microsoft,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Mistral AI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,OpenAI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Runway,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,ShengShu Technology,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Stability AI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,Zhipu AI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+APP,xAI,0,0,1,0,0,0,0,0,H,AppLovin AXON AI engine is the core ad optimization product; AI capability directly drives ad performance and revenue
+CCC,Alibaba,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Anthropic,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,DeepSeek,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Google,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Kuaishou,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Meta,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Microsoft,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Mistral AI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,OpenAI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Runway,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,ShengShu Technology,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Stability AI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,Zhipu AI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CCC,xAI,0,0,1,0,0,0,0,0,H,CCC Intelligent Solutions uses AI as core of insurance claims processing; AI model advances directly improve claims accuracy and speed
+CDNS,Alibaba,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Anthropic,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,DeepSeek,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Google,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Kuaishou,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Meta,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Microsoft,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Mistral AI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,OpenAI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Runway,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,ShengShu Technology,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Stability AI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,Zhipu AI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CDNS,xAI,0,0,1,0,0,0,0,0,H,Cadence Cerebrus AI-driven EDA is core to chip design product; AI advances directly improve design optimization capability
+CRM,Alibaba,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Anthropic,0,0,1,0,0,0,1,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; Salesforce Ventures invested in Anthropic
+CRM,DeepSeek,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Google,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Kuaishou,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Meta,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Microsoft,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Mistral AI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,OpenAI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Runway,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,ShengShu Technology,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Stability AI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,Zhipu AI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+CRM,xAI,0,0,1,0,0,0,0,0,H,Salesforce Einstein GPT and Agentforce are core AI-first CRM features; AI capability advances directly enhance product
+DDOG,Alibaba,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Anthropic,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,DeepSeek,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Google,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Kuaishou,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Meta,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Microsoft,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Mistral AI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,OpenAI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Runway,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,ShengShu Technology,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Stability AI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,Zhipu AI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+DDOG,xAI,0,0,1,0,0,0,0,0,M,Datadog Bits AI and LLM monitoring are AI-integrated features but observability platform has substantial pre-AI value
+NOW,Alibaba,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Anthropic,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,DeepSeek,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Google,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Kuaishou,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Meta,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Microsoft,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Mistral AI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,OpenAI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Runway,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,ShengShu Technology,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Stability AI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,Zhipu AI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+NOW,xAI,0,0,1,0,0,0,0,0,H,ServiceNow Now Assist GenAI copilot is core across the platform; AI capability advances directly enhance workflow automation
+PATH,Alibaba,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Anthropic,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,DeepSeek,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Google,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Kuaishou,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Meta,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Microsoft,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Mistral AI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,OpenAI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Runway,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,ShengShu Technology,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Stability AI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,Zhipu AI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PATH,xAI,0,0,1,0,0,0,0,0,H,UiPath AI-powered RPA is core product; AI model advances directly improve automation capability and document understanding
+PLTR,Alibaba,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Anthropic,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,DeepSeek,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Google,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Kuaishou,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Meta,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Microsoft,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Mistral AI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,OpenAI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Runway,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,ShengShu Technology,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Stability AI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,Zhipu AI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+PLTR,xAI,0,0,1,0,0,0,0,0,H,Palantir AIP platform integrates LLMs as core capability; AI model advances directly enhance analytical platform value
+SNOW,Alibaba,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Anthropic,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,DeepSeek,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Google,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Kuaishou,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Meta,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Microsoft,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Mistral AI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,OpenAI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Runway,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,ShengShu Technology,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Stability AI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,Zhipu AI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNOW,xAI,0,0,1,0,0,0,0,0,H,Snowflake Cortex AI features are core to the data cloud platform; AI advances directly enhance data analysis capabilities
+SNPS,Alibaba,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Anthropic,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,DeepSeek,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Google,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Kuaishou,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Meta,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Microsoft,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Mistral AI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,OpenAI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Runway,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,ShengShu Technology,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Stability AI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,Zhipu AI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SNPS,xAI,0,0,1,0,0,0,0,0,H,Synopsys.ai is core AI-powered EDA platform; AI advances directly improve chip design automation and optimization
+SOUN,Alibaba,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Anthropic,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,DeepSeek,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Google,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Kuaishou,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Meta,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Microsoft,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Mistral AI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,OpenAI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Runway,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,ShengShu Technology,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Stability AI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,Zhipu AI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU
+SOUN,xAI,0,0,1,0,0,0,0,0,H,SoundHound AI is a pure-play voice AI platform; entire business depends on AI model capability for speech recognition and NLU

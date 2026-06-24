@@ -1,0 +1,386 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage{microtype}
+
+\title{\textbf{The Market Pricing of Proprietary AI Model Capability}}
+\author{\begin{tabular}{c}
+Zhuo Chen\textsuperscript{a}\quad Ruishuang Lu\textsuperscript{a}\\[0.5em]
+{\footnotesize \textsuperscript{a} Center of Economic Research, Shandong University}
+\end{tabular}}
+\date{\small This version: June 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent
+Which AI model capability measures do financial markets price? We study 60 major
+AI model releases from 2024 to early 2026 and a firm-event panel of 86
+AI-related listed firms. Across a specification curve, the broad Artificial
+Analysis Intelligence Index has the strongest long-window signal; narrower
+coding and math indexes do not. In closed-source releases, a one-standard-
+deviation increase in this index is associated with a 3.0 percentage point
+higher CAR$[0,{+}20]$ ($\hat{\beta}=0.0023$, wild bootstrap $p=0.008$). The
+slope is weaker for open-weight releases and survives firm fixed effects,
+Fama-French abnormal returns, event-level aggregation, and creator exclusions.
+Markets price broad AI capability when releases preserve proprietary rents.
+\end{abstract}
+
+\medskip
+\noindent\textit{JEL codes:} G14, O30, L86\\
+\noindent\textit{Keywords:} artificial intelligence, large language models, event study, appropriability, abnormal returns
+
+\newpage
+
+\section{Introduction}
+\label{sec:intro}
+
+AI model releases now move a large part of the technology sector's information
+environment. These releases differ from ordinary product announcements. A model
+release discloses a new capability frontier, and that frontier can matter for
+cloud demand, software margins, developer ecosystems, and competitive position.
+The financial question is which part of that capability frontier equity markets
+price.
+
+The answer should depend on appropriability. A high-capability closed-source
+model can support API revenue, customer lock-in, and ecosystem rents. A high-
+capability open-weight model diffuses similar technical performance more broadly.
+The same benchmark score can therefore imply different cash-flow news, depending
+on whether the releasing ecosystem can capture the rents from the model.
+
+This paper tests that idea using 60 major AI model release events from January
+2024 through March 2026. We match releases to 86 AI-related listed firms and
+estimate firm-event abnormal returns. The main outcome is the market-model
+cumulative abnormal return over $[0,{+}20]$ trading days. We compare four
+Artificial Analysis (AA) measures: Intelligence Index, Coding Index, Math Index,
+and Media Elo. Because capability varies at the event level, we cluster
+inference by event and report CR2 small-cluster corrections and Rademacher wild
+cluster bootstrap $p$-values.
+
+The metric comparison is itself part of the result. The broad AA Intelligence
+Index has the strongest and most economically meaningful long-window relation
+with returns. In CAR$[0,{+}20]$ specifications, 47.2 percent of AA Intelligence
+estimates are significant at 5 percent and 83.3 percent are positive. Coding and
+math indexes are much weaker. Media Elo has some significant specifications, but
+its median long-window coefficient is slightly negative and its strongest
+evidence appears in shorter windows. Thus the evidence does not say that every
+AI benchmark is priced. It says that the broad benchmark that combines text,
+reasoning, code, and multimodal performance is the relevant long-window pricing
+signal.
+
+The main result is concentrated in proprietary releases. For closed-source
+releases, a one-point increase in the AA Intelligence Index predicts a 0.23
+percentage point higher CAR$[0,{+}20]$ ($\hat{\beta}=0.0023$, CR2 $p=0.007$,
+wild $p=0.008$). The index has a standard deviation of 13.1 points, so the
+estimate implies a 3.0 percentage point higher abnormal return for a one-standard-
+deviation capability increase. The full-sample slope is positive but only
+borderline under small-cluster inference. This pattern points to a selective
+capability-pricing channel rather than a general market reward for model
+performance.
+
+Open-weight releases attenuate the capability slope. In the interaction model,
+the closed-source slope is 0.0023, while the interaction between intelligence and
+open-weight status is -0.0037. The interaction is statistically significant under
+CR2 ($p=0.048$) and weaker under the wild bootstrap ($p=0.086$). We interpret
+this result as mechanism evidence, not as a stand-alone open-source effect.
+At average capability, open-weight releases do not have a statistically different
+mean return from closed-source releases; the difference lies in the marginal
+return to additional capability.
+
+Several checks support the closed-source result. Adding firm fixed effects leaves
+the closed-source coefficient at 0.0023 and significant under event, firm, and
+two-way clustering. Replacing market-model returns with Fama-French three-factor
+abnormal returns keeps the coefficient positive and significant. Aggregating to
+the event level removes the repeated-firm panel structure; the closed-source
+event-level coefficient remains positive ($\hat{\beta}=0.0017$, $p=0.016$).
+The result is also robust to excluding Google, OpenAI, Anthropic, Alibaba, Meta,
+xAI, or Microsoft one at a time. We do not find a statistically significant
+relation between intelligence and pre-event CARs, which reduces concern that the
+main result only reflects a pre-announcement run-up.
+
+The paper relates to three literatures. Event studies show how public
+announcements reveal value-relevant information \citep{MacKinlay1997}. Work on
+innovation and market value shows that technological advances are priced when
+firms can capture rents from them \citep{Teece1986,HallJaffeTrajtenberg2005}.
+Research on media and financial markets shows that attention and sentiment can
+move prices \citep{Tetlock2007,EngelbergParsons2011}. We bring these ideas to AI
+model releases by measuring technical capability directly and by showing that the
+return relation is strongest for broad capability and when the release remains
+proprietary.
+
+\section{Data and Empirical Design}
+\label{sec:data}
+
+The unit of observation is a firm-event pair. We begin with 60 major AI model
+release events between January 2024 and March 2026. Events enter the sample when
+they are official model or model-family releases, have a confirmed public release
+date, are accessible or publicly benchmarked, and can be linked to at least one
+AI-related listed firm. The clean panel has 5,160 firm-event observations. The
+main regression sample has 3,780 observations, 47 releases with nonmissing AA
+Intelligence Index scores, and 85 listed firms with complete controls. The
+closed-source sample has 2,899 observations across 36 events. The open-weight
+sample has 881 observations across 11 events.
+
+We estimate abnormal returns using a market model fitted over a pre-event
+estimation window. The main outcome, CAR$[0,{+}20]$, sums abnormal returns from
+the release date through 20 trading days after the release. AI releases are
+clustered in calendar time, so this window should be read as medium-window
+repricing in a dense news environment. The online appendix shows that the
+results are similar with Fama-French three-factor abnormal returns and reports
+pre-event CAR tests.
+
+The main capability proxy is the AA Intelligence Index, a benchmark-based
+measure for text, reasoning, code, and multimodal models. We use it because it is
+the broadest technical capability measure in the data, not because it is the only
+available benchmark. The online appendix reports the same specification-curve
+exercise for the AA Coding Index, AA Math Index, and AA Media Elo. We center the
+AA Intelligence Index at its sample mean, 26.6, when estimating interaction
+models. Firm controls are log assets, book-to-market, prior-quarter volatility,
+and momentum. All specifications include year fixed effects. Some robustness
+checks add firm fixed effects.
+
+We estimate variants of
+\begin{equation}
+\label{eq:main}
+\text{CAR}_{ie} = \beta \textit{Capability}_{e} +
+\mathbf{X}_{ie}'\gamma + \alpha_t + \varepsilon_{ie},
+\end{equation}
+where $i$ indexes firms and $e$ indexes release events. We estimate this
+equation for each capability measure, then focus on the AA Intelligence Index
+where the long-window signal is strongest. We also interact intelligence with an
+open-weight indicator. Standard errors are clustered by event. The appendix
+reports CR2 and wild cluster bootstrap inference because the effective variation
+comes from 47 release events.
+
+\section{Results}
+\label{sec:results}
+
+Table~\ref{tab:metrics} compares the candidate capability measures. AA
+Intelligence has the largest share of significant estimates, the largest share
+of positive estimates, and the largest median coefficient. The narrower coding
+and math indexes do not show the same pattern. AA Media Elo is positive in some
+specifications, but its median CAR$[0,{+}20]$ coefficient is slightly negative.
+The rest of the paper therefore treats AA Intelligence as the primary broad-
+capability measure and treats the other metrics as comparison benchmarks.
+
+\begin{table}[htbp]
+\centering
+\caption{Which capability metric carries the pricing signal?}
+\label{tab:metrics}
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+Capability measure & Specifications & 5\% significant & Positive & Median coefficient \\
+\midrule
+AA Intelligence Index & 36 & 47.2\% & 83.3\% & 0.000848 \\
+AA Media Elo & 33 & 27.3\% & 45.5\% & -0.000085 \\
+AA Coding Index & 36 & 25.0\% & 69.4\% & 0.000334 \\
+AA Math Index & 33 & 9.1\% & 51.5\% & 0.000004 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The table summarizes CAR$[0,{+}20]$ specifications that vary the control
+set, sample split, and year fixed effects. The reported shares use the clustered
+standard error from each specification. The median coefficient is over all
+CAR$[0,{+}20]$ specifications for the stated metric.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Table~\ref{tab:main} shows the core AA Intelligence estimates. Column 1 pools all capability
+events and gives a positive but marginal slope under conservative inference.
+Column 2 restricts the sample to closed-source releases. The coefficient rises to
+0.0023 and remains significant under CR2 and wild bootstrap inference. Column 3
+shows the interaction model. The closed-source slope remains positive; the
+open-weight interaction is negative.
+
+\begin{table}[htbp]
+\centering
+\caption{AI model capability and post-release abnormal returns}
+\label{tab:main}
+\begin{threeparttable}
+\begin{tabular}{lccc}
+\toprule
+ & Full sample & Closed-source & Interaction \\
+ & (1) & (2) & (3) \\
+\midrule
+AA Intelligence Index & 0.00152 & 0.00232 & 0.00226 \\
+ & (0.00067) & (0.00062) & (0.00060) \\
+CR2 $p$-value & 0.054 & 0.007 & 0.005 \\
+Wild $p$-value & 0.053 & 0.008 & 0.008 \\
+\addlinespace
+AA Intelligence $\times$ Open-weight &  &  & -0.00373 \\
+ &  &  & (0.00120) \\
+CR2 $p$-value &  &  & 0.048 \\
+Wild $p$-value &  &  & 0.086 \\
+\addlinespace
+Year fixed effects & Yes & Yes & Yes \\
+Firm controls & Yes & Yes & Yes \\
+Observations & 3,780 & 2,899 & 3,780 \\
+Events & 47 & 36 & 47 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The dependent variable is market-model CAR$[0,{+}20]$. Column 3 uses the
+AA Intelligence Index centered at its sample mean. Standard errors in
+parentheses are clustered by release event. CR2 reports Bell-McCaffrey small-
+cluster $p$-values. Wild reports Rademacher wild cluster bootstrap $p$-values
+with 4,999 draws.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Table~\ref{tab:robust} reports the most important robustness checks. Firm fixed
+effects leave the closed-source coefficient unchanged. Two-way clustering by
+event and firm also leaves it significant. Using Fama-French abnormal returns
+reduces the coefficient but keeps it positive. The pre-event CAR coefficient is
+not statistically different from zero. At the event level, the closed-source
+mean-CAR coefficient remains positive and significant. The result also survives
+a rough restriction to US-traded tickers.
+
+\begin{table}[htbp]
+\centering
+\caption{Robustness of the closed-source capability slope}
+\label{tab:robust}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+Specification & Coefficient & SE & $p$-value & Events \\
+\midrule
+Firm fixed effects, event cluster & 0.00226 & 0.00063 & 0.001 & 36 \\
+Firm fixed effects, firm cluster & 0.00226 & 0.00070 & 0.002 & 36 \\
+Firm fixed effects, two-way cluster & 0.00226 & 0.00087 & 0.014 & 36 \\
+Fama-French CAR$[0,{+}20]$ & 0.00118 & 0.00051 & 0.027 & 36 \\
+Pre-event CAR & 0.00047 & 0.00030 & 0.119 & 36 \\
+Event-level mean CAR & 0.00172 & 0.00067 & 0.016 & 36 \\
+US-traded ticker screen & 0.00271 & 0.00072 & 0.001 & 36 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The table reports the coefficient on the AA Intelligence Index for
+closed-source releases. The pre-event CAR row uses the pre-release abnormal
+return as the dependent variable. The event-level row aggregates CAR$[0,{+}20]$
+to one equal-weighted mean return per release. The US-traded ticker screen uses a
+rule-based ticker filter and is reported as a robustness check, not as a formal
+exchange-country classification.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Media sentiment does not explain away the capability result. Table~\ref{tab:sent}
+shows that FinBERT sentiment is negatively associated with post-release returns.
+In the joint model, both sentiment and capability retain their signs, although
+both are marginal under CR2. One interpretation is that strongly positive media
+coverage captures already anticipated releases that partly reverse after the
+announcement. We treat this as a competing-information check rather than as a
+fully identified sentiment mechanism.
+
+\begin{table}[htbp]
+\centering
+\caption{Capability and media sentiment}
+\label{tab:sent}
+\begin{threeparttable}
+\begin{tabular}{lccc}
+\toprule
+ & Sentiment only & Sentiment only & Joint \\
+ & (1) & (2) & (3) \\
+\midrule
+FinBERT sentiment, $\pm 5$ days & -0.081 &  & -0.061 \\
+CR2 $p$-value & 0.003 &  & 0.057 \\
+\addlinespace
+FinBERT sentiment, $\pm 20$ days &  & -0.096 &  \\
+CR2 $p$-value &  & 0.015 &  \\
+\addlinespace
+AA Intelligence Index &  &  & 0.00158 \\
+CR2 $p$-value &  &  & 0.087 \\
+\addlinespace
+Year fixed effects & Yes & Yes & Yes \\
+Firm controls & Yes & Yes & Yes \\
+Observations & 3,780 & 3,780 & 3,780 \\
+Events & 47 & 47 & 47 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item The dependent variable is market-model CAR$[0,{+}20]$. Sentiment is the
+event-level mean FinBERT score. The joint model includes both sentiment and the
+AA Intelligence Index. Event-level sentiment and intelligence are not
+statistically related in the sample ($p=0.317$).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+AI model capability is not priced uniformly across metrics or release regimes.
+The strongest long-window signal comes from the broad AA Intelligence Index, not
+from narrower coding or math measures. Within that broad metric, the strongest
+evidence appears for closed-source releases, where a one-standard-deviation
+increase predicts a 3.0 percentage point higher 20-day abnormal return.
+Open-weight releases weaken that slope. The evidence is consistent with a simple
+finance mechanism. Broad technical capability becomes value-relevant when firms
+can capture rents from it.
+
+The result survives firm fixed effects, alternative abnormal-return models,
+event-level aggregation, and creator exclusions. It does not appear in pre-event
+CARs. These checks do not make model releases random shocks. They do show that
+the closed-source capability slope is not an artifact of firm composition, a
+single developer, or the market-model return benchmark. In this setting, markets
+appear to distinguish proprietary technical progress from AI news more broadly.
+
+\newpage
+\bibliographystyle{aer}
+\begin{thebibliography}{9}
+
+\bibitem[Artificial Analysis(2026)]{ArtificialAnalysis2026}
+Artificial Analysis. 2026.
+``Artificial Analysis Model Intelligence Index and Model Benchmark Data.''
+Dataset and documentation, accessed in 2026.
+
+\bibitem[Engelberg and Parsons(2011)]{EngelbergParsons2011}
+Engelberg, Joseph E., and Christopher A. Parsons. 2011.
+``The Causal Impact of Media in Financial Markets.''
+\textit{Journal of Finance} 66(1): 67--97.
+
+\bibitem[Fama and French(1993)]{FamaFrench1993}
+Fama, Eugene F., and Kenneth R. French. 1993.
+``Common Risk Factors in the Returns on Stocks and Bonds.''
+\textit{Journal of Financial Economics} 33(1): 3--56.
+
+\bibitem[Hall, Jaffe, and Trajtenberg(2005)]{HallJaffeTrajtenberg2005}
+Hall, Bronwyn H., Adam Jaffe, and Manuel Trajtenberg. 2005.
+``Market Value and Patent Citations.''
+\textit{RAND Journal of Economics} 36(1): 16--38.
+
+\bibitem[MacKinlay(1997)]{MacKinlay1997}
+MacKinlay, A. Craig. 1997.
+``Event Studies in Economics and Finance.''
+\textit{Journal of Economic Literature} 35(1): 13--39.
+
+\bibitem[Teece(1986)]{Teece1986}
+Teece, David J. 1986.
+``Profiting from Technological Innovation: Implications for Integration,
+Collaboration, Licensing and Public Policy.''
+\textit{Research Policy} 15(6): 285--305.
+
+\bibitem[Tetlock(2007)]{Tetlock2007}
+Tetlock, Paul C. 2007.
+``Giving Content to Investor Sentiment: The Role of Media in the Stock Market.''
+\textit{Journal of Finance} 62(3): 1139--1168.
+
+\end{thebibliography}
+
+\end{document}

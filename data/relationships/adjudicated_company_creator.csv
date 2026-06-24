@@ -1,0 +1,1205 @@
+company_id,creator,upstream_hardware,upstream_cloud,downstream_integrator,downstream_deployer,downstream_enabler,competitor,is_investor,is_owner,confidence,justification
+000660 KS,Alibaba,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Anthropic,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,DeepSeek,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Google,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Kuaishou,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Meta,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Microsoft,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Mistral AI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,OpenAI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Runway,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,ShengShu Technology,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Stability AI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,Zhipu AI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+000660 KS,xAI,1,0,0,0,0,0,0,0,H,HBM memory supplier for AI training/inference infrastructure
+005930 KS,Alibaba,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Anthropic,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,DeepSeek,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Google,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Kuaishou,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Meta,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Microsoft,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Mistral AI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,OpenAI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Runway,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,ShengShu Technology,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Stability AI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,Zhipu AI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+005930 KS,xAI,1,0,0,0,0,0,0,0,H,HBM/DRAM supplier and chip foundry for AI infrastructure
+2353 TT,Alibaba,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Anthropic,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,DeepSeek,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Google,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Kuaishou,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Meta,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Microsoft,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Mistral AI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,OpenAI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Runway,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Stability AI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2353 TT,xAI,1,0,0,0,0,0,0,0,L,PC/server hardware manufacturer; indirect link to AI compute infrastructure
+2395 TT,Alibaba,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Anthropic,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Google,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Meta,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Microsoft,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,OpenAI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Runway,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Stability AI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+2395 TT,xAI,1,0,0,0,0,0,0,0,L,Edge computing and industrial IoT hardware; indirect link to AI infrastructure
+3443 TT,Alibaba,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Anthropic,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,DeepSeek,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Google,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Kuaishou,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Meta,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Microsoft,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Mistral AI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,OpenAI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Runway,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,ShengShu Technology,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Stability AI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,Zhipu AI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3443 TT,xAI,1,0,0,0,0,0,0,0,L,Memory modules supplier; indirect link to AI infrastructure
+3690 HK,Alibaba,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Anthropic,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,DeepSeek,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Google,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Kuaishou,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Meta,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Microsoft,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Mistral AI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,OpenAI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Runway,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Stability AI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,Zhipu AI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+3690 HK,xAI,0,0,0,1,0,0,0,0,M,AI in delivery optimization; core is local services
+4755 JP,Alibaba,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Anthropic,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,DeepSeek,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Google,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Kuaishou,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Meta,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Microsoft,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Mistral AI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,OpenAI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Runway,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Stability AI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+4755 JP,xAI,0,0,0,1,0,0,0,0,M,AI in e-commerce/fintech; core is internet services
+5803 JP,Alibaba,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Anthropic,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,DeepSeek,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Google,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Kuaishou,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Meta,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Microsoft,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Mistral AI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,OpenAI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Runway,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,ShengShu Technology,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Stability AI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,Zhipu AI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+5803 JP,xAI,1,0,0,0,0,0,0,0,L,Power systems and industrial equipment for data centers — indirect
+6588 JP,Alibaba,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Anthropic,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,DeepSeek,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Google,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Kuaishou,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Meta,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Microsoft,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Mistral AI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,OpenAI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Runway,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Stability AI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,Zhipu AI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6588 JP,xAI,0,0,0,1,0,0,0,0,L,AI in infrastructure and storage systems; diversified industrial conglomerate
+6701 JP,Alibaba,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Anthropic,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,DeepSeek,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Google,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Kuaishou,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Meta,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Microsoft,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Mistral AI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,OpenAI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Runway,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Stability AI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6701 JP,xAI,0,0,0,0,1,0,0,0,H,IT services and AI/biometrics solutions for enterprise clients
+6702 JP,Alibaba,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Anthropic,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,DeepSeek,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Google,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Kuaishou,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Meta,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Microsoft,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Mistral AI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,OpenAI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Runway,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,ShengShu Technology,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Stability AI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,Zhipu AI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6702 JP,xAI,0,0,0,0,1,0,0,0,H,IT services with AI solutions for enterprise digital transformation
+6758 JP,Alibaba,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Anthropic,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,DeepSeek,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Google,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Kuaishou,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Meta,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Microsoft,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Mistral AI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,OpenAI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Runway,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Stability AI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6758 JP,xAI,0,0,0,1,0,0,0,0,M,AI deployed in gaming imaging and entertainment; diversified conglomerate
+6954 JP,Alibaba,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Anthropic,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,DeepSeek,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Google,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Kuaishou,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Meta,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Microsoft,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Mistral AI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,OpenAI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Runway,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Stability AI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,Zhipu AI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+6954 JP,xAI,0,0,0,1,0,0,0,0,M,AI in consumer electronics and industrial products; core is electronics manufacturing
+700 HK,Alibaba,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Anthropic,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,DeepSeek,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Google,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Kuaishou,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Meta,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Microsoft,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Mistral AI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,OpenAI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Runway,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,ShengShu Technology,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Stability AI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,Zhipu AI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+700 HK,xAI,0,0,0,0,0,1,0,0,M,Hunyuan models compete with all foundation model creators
+AAPL,Alibaba,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Anthropic,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,DeepSeek,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Google,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Kuaishou,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Meta,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Microsoft,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Mistral AI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,OpenAI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Runway,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,ShengShu Technology,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Stability AI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,Zhipu AI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+AAPL,xAI,0,0,0,0,0,1,0,0,M,Apple Intelligence competes with all foundation model creators
+ACN,Alibaba,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Anthropic,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,DeepSeek,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Google,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Kuaishou,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Meta,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Microsoft,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Mistral AI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,OpenAI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Runway,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,ShengShu Technology,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Stability AI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,Zhipu AI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ACN,xAI,0,0,0,0,1,0,0,0,H,Global IT consulting with major GenAI practice helping clients adopt AI
+ADBE,Alibaba,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Anthropic,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,DeepSeek,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Google,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Kuaishou,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Meta,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Microsoft,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Mistral AI,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,OpenAI,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Runway,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,ShengShu Technology,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Stability AI,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,Zhipu AI,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+ADBE,xAI,0,0,1,0,0,0,0,0,H,Firefly generative AI in Creative Cloud
+AI,Alibaba,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Anthropic,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,DeepSeek,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Google,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Kuaishou,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Meta,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Microsoft,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Mistral AI,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,OpenAI,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Runway,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,ShengShu Technology,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Stability AI,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,Zhipu AI,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AI,xAI,0,0,1,0,0,0,0,0,H,C3.ai — entire business is AI platform
+AMBA,Alibaba,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Anthropic,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,DeepSeek,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Google,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Kuaishou,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Meta,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Microsoft,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Mistral AI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,OpenAI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Runway,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,ShengShu Technology,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Stability AI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,Zhipu AI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMBA,xAI,1,0,0,0,0,0,0,0,L,Edge AI vision processors; indirect link to LLM training infrastructure
+AMD,Alibaba,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Anthropic,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,DeepSeek,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Google,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Kuaishou,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Meta,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Microsoft,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Mistral AI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,OpenAI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Runway,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,ShengShu Technology,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Stability AI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,Zhipu AI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMD,xAI,1,0,0,0,0,0,0,0,H,MI-series AI accelerators and EPYC CPUs for AI training/inference
+AMP IM,Alibaba,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Anthropic,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,DeepSeek,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Google,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Kuaishou,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Meta,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Microsoft,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Mistral AI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,OpenAI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Runway,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Stability AI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,Zhipu AI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMP IM,xAI,0,0,0,1,0,0,0,0,L,AI for hearing aid fitting optimization; core is hearing solutions retail
+AMZN,Alibaba,0,1,0,0,0,1,0,0,H,Titan/Nova competes; AWS does not host Alibaba models; R2:AWS cloud infrastructure (adjudicated)
+AMZN,Anthropic,0,1,0,0,0,1,1,0,H,AWS Bedrock hosts Anthropic; Titan/Nova competes; $4B investment
+AMZN,DeepSeek,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Google,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Kuaishou,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Meta,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Microsoft,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Mistral AI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,OpenAI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Runway,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,ShengShu Technology,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Stability AI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,Zhipu AI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+AMZN,xAI,0,1,0,0,0,1,0,0,H,AWS hosts AI workloads; Titan/Nova competes
+APP,Alibaba,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Anthropic,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,DeepSeek,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Google,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Kuaishou,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Meta,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Microsoft,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Mistral AI,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,OpenAI,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Runway,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,ShengShu Technology,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Stability AI,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,Zhipu AI,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+APP,xAI,0,0,1,0,0,0,0,0,H,AppLovin AXON engine — AI-powered ad optimization IS the product
+AVGO,Alibaba,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Anthropic,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,DeepSeek,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Google,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Kuaishou,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Meta,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Microsoft,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Mistral AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,OpenAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Runway,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,ShengShu Technology,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Stability AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,Zhipu AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+AVGO,xAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators (e.g. Google TPU) and data center networking
+BABA,Alibaba,0,1,0,0,0,0,0,1,H,Alibaba Group is the listed parent; operates Alibaba Cloud
+BABA,Anthropic,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,DeepSeek,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Google,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Kuaishou,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Meta,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Microsoft,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Mistral AI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,OpenAI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Runway,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,ShengShu Technology,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Stability AI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,Zhipu AI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BABA,xAI,0,1,0,0,0,1,0,0,H,Alibaba Cloud hosts AI workloads; Qwen competes
+BIDU,Alibaba,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Anthropic,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,DeepSeek,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Google,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Kuaishou,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Meta,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Microsoft,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Mistral AI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,OpenAI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Runway,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,ShengShu Technology,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Stability AI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,Zhipu AI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+BIDU,xAI,0,0,0,0,0,1,0,0,H,ERNIE models compete with all foundation model creators
+CCC,Alibaba,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Anthropic,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,DeepSeek,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Google,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Kuaishou,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Meta,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Microsoft,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Mistral AI,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,OpenAI,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Runway,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,ShengShu Technology,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Stability AI,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,Zhipu AI,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CCC,xAI,0,0,1,0,0,0,0,0,H,AI-powered claims processing for insurance
+CDNS,Alibaba,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Anthropic,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,DeepSeek,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Google,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Kuaishou,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Meta,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Microsoft,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Mistral AI,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,OpenAI,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Runway,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,ShengShu Technology,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Stability AI,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,Zhipu AI,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CDNS,xAI,0,0,1,0,0,0,0,0,H,Cerebrus — AI chip design automation
+CRM,Alibaba,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Anthropic,0,0,1,0,0,0,1,0,H,Einstein GPT/Agentforce; Salesforce Ventures invested in Anthropic
+CRM,DeepSeek,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Google,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Kuaishou,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Meta,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Microsoft,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Mistral AI,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,OpenAI,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Runway,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,ShengShu Technology,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Stability AI,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,Zhipu AI,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRM,xAI,0,0,1,0,0,0,0,0,H,Einstein GPT/Agentforce
+CRWV,Alibaba,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Anthropic,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,DeepSeek,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Google,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Kuaishou,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Meta,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Microsoft,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Mistral AI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,OpenAI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Runway,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Stability AI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,Zhipu AI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CRWV,xAI,0,0,0,1,0,0,0,0,L,AI features in healthcare IT platform; limited evidence of deep integration
+CSCO,Alibaba,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Anthropic,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,DeepSeek,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Google,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Kuaishou,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Meta,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Microsoft,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Mistral AI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,OpenAI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Runway,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Stability AI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,Zhipu AI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CSCO,xAI,0,0,0,1,0,0,0,0,M,AI-powered networking and security products; core business is networking equipment
+CYBR,Alibaba,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Anthropic,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,DeepSeek,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Google,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Kuaishou,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Meta,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Microsoft,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Mistral AI,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,OpenAI,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Runway,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Stability AI,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-based identity security
+CYBR,xAI,0,0,1,0,0,0,0,0,M,AI-based identity security
+DDOG,Alibaba,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Anthropic,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,DeepSeek,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Google,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Kuaishou,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Meta,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Microsoft,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Mistral AI,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,OpenAI,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Runway,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Stability AI,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DDOG,xAI,0,0,1,0,0,0,0,0,M,AI-powered observability; Bits AI
+DXC,Alibaba,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Anthropic,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,DeepSeek,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Google,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Kuaishou,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Meta,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Microsoft,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Mistral AI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,OpenAI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Runway,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,ShengShu Technology,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Stability AI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,Zhipu AI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+DXC,xAI,0,0,0,0,1,0,0,0,H,IT outsourcing with AI-augmented service offerings for enterprise clients
+ERIC,Alibaba,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Anthropic,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,DeepSeek,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Google,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Kuaishou,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Meta,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Microsoft,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Mistral AI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,OpenAI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Runway,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Stability AI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,Zhipu AI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+ERIC,xAI,0,0,0,1,0,0,0,0,M,AI-powered network optimization; core is telecom infrastructure
+EXPN LN,Alibaba,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Anthropic,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,DeepSeek,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Google,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Kuaishou,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Meta,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Microsoft,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Mistral AI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,OpenAI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Runway,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,ShengShu Technology,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Stability AI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,Zhipu AI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+EXPN LN,xAI,0,0,1,0,0,0,0,0,M,Proprietary data combined with AI-enhanced analytics as core product delivery
+FTNT,Alibaba,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Anthropic,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,DeepSeek,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Google,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Kuaishou,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Meta,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Microsoft,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Mistral AI,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,OpenAI,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Runway,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,ShengShu Technology,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Stability AI,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,Zhipu AI,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+FTNT,xAI,0,0,1,0,0,0,0,0,M,FortiAI threat detection
+G,Alibaba,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Anthropic,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,DeepSeek,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Google,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Kuaishou,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Meta,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Microsoft,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Mistral AI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,OpenAI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Runway,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,ShengShu Technology,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Stability AI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,Zhipu AI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+G,xAI,0,0,0,0,1,0,0,0,H,BPO services with AI automation helping clients transform operations
+GEHC,Alibaba,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Anthropic,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,DeepSeek,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Google,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Kuaishou,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Meta,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Microsoft,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Mistral AI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,OpenAI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Runway,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,ShengShu Technology,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Stability AI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,Zhipu AI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GEHC,xAI,0,0,0,1,0,0,0,0,H,AI medical imaging and diagnostics; core business is medical devices
+GOOGL,Alibaba,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Anthropic,0,1,0,0,0,1,1,0,H,GCP hosts AI workloads; Gemini competes; $2B investment in Anthropic
+GOOGL,DeepSeek,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Google,0,1,0,0,0,0,0,1,H,Alphabet is Google's listed parent; R2:GCP cloud infrastructure even as owner (adjudicated)
+GOOGL,Kuaishou,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Meta,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Microsoft,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Mistral AI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,OpenAI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Runway,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,ShengShu Technology,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Stability AI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,Zhipu AI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+GOOGL,xAI,0,1,0,0,0,1,0,0,H,GCP hosts AI workloads; Gemini competes
+HPE,Alibaba,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Anthropic,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,DeepSeek,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Google,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Kuaishou,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Meta,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Microsoft,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Mistral AI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,OpenAI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Runway,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,ShengShu Technology,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Stability AI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,Zhipu AI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HPE,xAI,1,0,0,0,1,0,0,0,M,AI servers and HPC systems; enterprise AI/ML solutions and consulting
+HUT,Alibaba,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Anthropic,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,DeepSeek,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Google,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Kuaishou,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Meta,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Microsoft,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Mistral AI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,OpenAI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Runway,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,ShengShu Technology,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Stability AI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,Zhipu AI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+HUT,xAI,0,0,0,1,0,0,0,0,M,Pivoting to AI/HPC hosting; transitional from crypto mining
+IBM,Alibaba,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Anthropic,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,DeepSeek,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Google,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Kuaishou,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Meta,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Microsoft,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Mistral AI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,OpenAI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Runway,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,ShengShu Technology,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Stability AI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,Zhipu AI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IBM,xAI,0,0,0,0,1,1,0,0,H,AI consulting services (watsonx) plus own Granite foundation models competing with creators
+IFX GR,Alibaba,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Anthropic,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,DeepSeek,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Google,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Kuaishou,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Meta,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Microsoft,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Mistral AI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,OpenAI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Runway,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,ShengShu Technology,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Stability AI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,Zhipu AI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+IFX GR,xAI,1,0,0,0,0,0,0,0,M,Power management semiconductors for data centers
+INTC,Alibaba,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Anthropic,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,DeepSeek,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Google,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Kuaishou,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Meta,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Microsoft,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Mistral AI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,OpenAI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Runway,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,ShengShu Technology,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Stability AI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,Zhipu AI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+INTC,xAI,1,0,0,0,0,0,0,0,H,Gaudi AI accelerators and Xeon CPUs for AI workloads
+META,Alibaba,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Anthropic,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,DeepSeek,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Google,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Kuaishou,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Meta,0,0,0,0,0,0,0,1,H,Meta Platforms is the listed entity
+META,Microsoft,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Mistral AI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,OpenAI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Runway,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,ShengShu Technology,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Stability AI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,Zhipu AI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+META,xAI,0,0,0,0,0,1,0,0,H,Llama competes with all foundation model creators
+MRVL,Alibaba,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Anthropic,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,DeepSeek,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Google,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Kuaishou,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Meta,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Microsoft,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Mistral AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,OpenAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Runway,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,ShengShu Technology,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Stability AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,Zhipu AI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MRVL,xAI,1,0,0,0,0,0,0,0,H,Custom AI accelerators and data center networking silicon
+MSFT,Alibaba,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Anthropic,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,DeepSeek,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Google,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Kuaishou,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Meta,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Microsoft,0,1,0,0,0,0,0,1,H,Microsoft is the listed entity; operates Azure
+MSFT,Mistral AI,0,1,0,0,0,1,1,0,H,Azure hosts Mistral; Phi competes; EUR15M investment
+MSFT,OpenAI,0,1,1,0,0,1,1,0,H,Azure hosts OpenAI; Copilot integrates GPT; Phi competes; $13B investment
+MSFT,Runway,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,ShengShu Technology,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Stability AI,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,Zhipu AI,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MSFT,xAI,0,1,1,0,0,1,0,0,H,Azure hosts AI workloads; Copilot integrates AI; Phi competes
+MU,Alibaba,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Anthropic,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,DeepSeek,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Google,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Kuaishou,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Meta,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Microsoft,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Mistral AI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,OpenAI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Runway,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,ShengShu Technology,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Stability AI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,Zhipu AI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+MU,xAI,1,0,0,0,0,0,0,0,H,HBM and DRAM memory for AI training/inference
+NFLX,Alibaba,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Anthropic,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,DeepSeek,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Google,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Kuaishou,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Meta,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Microsoft,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Mistral AI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,OpenAI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Runway,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Stability AI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,Zhipu AI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NFLX,xAI,0,0,0,1,0,0,0,0,M,AI recommendation engine; core business is streaming
+NICE,Alibaba,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Anthropic,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,DeepSeek,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Google,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Kuaishou,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Meta,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Microsoft,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Mistral AI,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,OpenAI,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Runway,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,ShengShu Technology,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Stability AI,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,Zhipu AI,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NICE,xAI,0,0,1,0,0,0,0,0,M,CXone AI for contact centers
+NOW,Alibaba,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Anthropic,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,DeepSeek,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Google,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Kuaishou,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Meta,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Microsoft,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Mistral AI,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,OpenAI,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Runway,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,ShengShu Technology,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Stability AI,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,Zhipu AI,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NOW,xAI,0,0,1,0,0,0,0,0,H,Now Assist GenAI copilot across all products
+NVDA,Alibaba,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Anthropic,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,DeepSeek,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Google,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Kuaishou,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Meta,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Microsoft,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Mistral AI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,OpenAI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Runway,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,ShengShu Technology,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Stability AI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,Zhipu AI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NVDA,xAI,1,0,0,0,0,0,0,0,H,GPU supplier for AI training/inference; dominant AI accelerator provider
+NXPI,Alibaba,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Anthropic,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,DeepSeek,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Google,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Kuaishou,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Meta,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Microsoft,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Mistral AI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,OpenAI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Runway,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,ShengShu Technology,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Stability AI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,Zhipu AI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+NXPI,xAI,1,0,0,0,0,0,0,0,L,Edge AI processors for automotive and IoT; weak link to LLM training
+OKTA,Alibaba,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Anthropic,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,DeepSeek,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Google,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Kuaishou,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Meta,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Microsoft,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Mistral AI,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,OpenAI,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Runway,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Stability AI,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,Zhipu AI,0,0,1,0,0,0,0,0,M,AI identity threat detection
+OKTA,xAI,0,0,1,0,0,0,0,0,M,AI identity threat detection
+ORCL,Alibaba,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Anthropic,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,DeepSeek,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Google,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Kuaishou,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Meta,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Microsoft,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Mistral AI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,OpenAI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Runway,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,ShengShu Technology,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Stability AI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,Zhipu AI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+ORCL,xAI,0,1,0,0,0,0,0,0,H,OCI used for AI training workloads
+PATH,Alibaba,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Anthropic,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,DeepSeek,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Google,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Kuaishou,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Meta,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Microsoft,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Mistral AI,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,OpenAI,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Runway,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,ShengShu Technology,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Stability AI,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,Zhipu AI,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PATH,xAI,0,0,1,0,0,0,0,0,H,AI-powered RPA; integrates LLMs
+PEGA,Alibaba,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Anthropic,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,DeepSeek,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Google,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Kuaishou,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Meta,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Microsoft,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Mistral AI,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,OpenAI,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Runway,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,ShengShu Technology,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Stability AI,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,Zhipu AI,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PEGA,xAI,0,0,1,0,0,0,0,0,M,GenAI Blueprint; AI process automation
+PLTR,Alibaba,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Anthropic,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,DeepSeek,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Google,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Kuaishou,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Meta,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Microsoft,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Mistral AI,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,OpenAI,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Runway,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,ShengShu Technology,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Stability AI,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,Zhipu AI,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PLTR,xAI,0,0,1,0,0,0,0,0,H,AIP platform directly integrates LLMs
+PONY,Alibaba,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Anthropic,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,DeepSeek,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Google,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Kuaishou,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Meta,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Microsoft,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Mistral AI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,OpenAI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Runway,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,ShengShu Technology,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Stability AI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,Zhipu AI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+PONY,xAI,0,0,0,1,0,0,0,0,M,Autonomous driving uses AI; core is mobility
+QCOM,Alibaba,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Anthropic,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,DeepSeek,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Google,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Kuaishou,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Meta,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Microsoft,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Mistral AI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,OpenAI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Runway,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,ShengShu Technology,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Stability AI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,Zhipu AI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QCOM,xAI,1,0,0,0,0,0,0,0,M,Edge/on-device AI inference chips (Snapdragon NPU)
+QUBT,Alibaba,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Anthropic,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,DeepSeek,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Google,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Kuaishou,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Meta,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Microsoft,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Mistral AI,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,OpenAI,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Runway,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,ShengShu Technology,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Stability AI,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,Zhipu AI,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+QUBT,xAI,0,0,0,0,0,0,0,0,L,No meaningful LLM relationship — quantum-AI optimization marginal
+SHOP,Alibaba,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Anthropic,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,DeepSeek,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Google,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Kuaishou,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Meta,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Microsoft,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Mistral AI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,OpenAI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Runway,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,ShengShu Technology,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Stability AI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,Zhipu AI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SHOP,xAI,0,0,1,0,0,0,0,0,M,Shopify Magic AI features core to product
+SIE GR,Alibaba,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Anthropic,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,DeepSeek,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Google,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Kuaishou,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Meta,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Microsoft,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Mistral AI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,OpenAI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Runway,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,ShengShu Technology,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Stability AI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,Zhipu AI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SIE GR,xAI,0,0,0,1,0,0,0,0,H,Industrial AI digital twin and automation; core business is industrial technology
+SMCI,Alibaba,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Anthropic,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,DeepSeek,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Google,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Kuaishou,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Meta,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Microsoft,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Mistral AI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,OpenAI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Runway,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,ShengShu Technology,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Stability AI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,Zhipu AI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SMCI,xAI,1,0,0,0,0,0,0,0,H,GPU server systems and liquid cooling for AI data centers
+SNAP,Alibaba,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Anthropic,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,DeepSeek,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Google,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Kuaishou,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Meta,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Microsoft,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Mistral AI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,OpenAI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Runway,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,ShengShu Technology,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Stability AI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,Zhipu AI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNAP,xAI,0,0,0,1,0,0,0,0,H,My AI chatbot and AR filters; core is social messaging
+SNOW,Alibaba,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Anthropic,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,DeepSeek,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Google,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Kuaishou,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Meta,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Microsoft,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Mistral AI,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,OpenAI,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Runway,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,ShengShu Technology,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Stability AI,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,Zhipu AI,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNOW,xAI,0,0,1,0,0,0,0,0,H,Cortex AI integrates LLMs into data cloud
+SNPS,Alibaba,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Anthropic,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,DeepSeek,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Google,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Kuaishou,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Meta,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Microsoft,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Mistral AI,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,OpenAI,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Runway,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,ShengShu Technology,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Stability AI,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,Zhipu AI,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SNPS,xAI,0,0,1,0,0,0,0,0,H,Synopsys.ai — AI-powered EDA chip design
+SOUN,Alibaba,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Anthropic,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,DeepSeek,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Google,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Kuaishou,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Meta,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Microsoft,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Mistral AI,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,OpenAI,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Runway,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,ShengShu Technology,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Stability AI,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,Zhipu AI,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+SOUN,xAI,0,0,1,0,0,0,0,0,H,SoundHound voice AI platform
+STNE,Alibaba,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Anthropic,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,DeepSeek,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Google,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Kuaishou,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Meta,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Microsoft,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Mistral AI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,OpenAI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Runway,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,ShengShu Technology,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Stability AI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,Zhipu AI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STNE,xAI,0,0,0,1,0,0,0,0,L,AI in payments processing; core is fintech
+STX,Alibaba,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Anthropic,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,DeepSeek,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Google,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Kuaishou,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Meta,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Microsoft,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Mistral AI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,OpenAI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Runway,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,ShengShu Technology,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Stability AI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,Zhipu AI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+STX,xAI,1,0,0,0,0,0,0,0,M,Data center storage solutions for AI workloads
+TDC,Alibaba,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Anthropic,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,DeepSeek,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Google,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Kuaishou,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Meta,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Microsoft,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Mistral AI,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,OpenAI,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Runway,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,ShengShu Technology,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Stability AI,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,Zhipu AI,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TDC,xAI,0,0,1,0,0,0,0,0,M,ClearScape AI analytics
+TEMN SW,Alibaba,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Anthropic,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,DeepSeek,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Google,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Kuaishou,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Meta,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Microsoft,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Mistral AI,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,OpenAI,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Runway,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,ShengShu Technology,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Stability AI,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,Zhipu AI,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TEMN SW,xAI,0,0,1,0,0,0,0,0,M,GenAI banking platform features
+TIETO FH,Alibaba,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Anthropic,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,DeepSeek,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Google,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Kuaishou,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Meta,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Microsoft,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Mistral AI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,OpenAI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Runway,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,ShengShu Technology,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Stability AI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,Zhipu AI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TIETO FH,xAI,0,0,0,0,1,0,0,0,H,Nordic IT services with dedicated AI practice for enterprise clients
+TRI,Alibaba,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Anthropic,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,DeepSeek,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Google,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Kuaishou,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Meta,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Microsoft,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Mistral AI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,OpenAI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Runway,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Stability AI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TRI,xAI,0,0,1,0,0,0,0,0,M,AI-powered legal tax and news information tools as core product offering
+TSLA,Alibaba,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Anthropic,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,DeepSeek,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Google,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Kuaishou,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Meta,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Microsoft,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Mistral AI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,OpenAI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Runway,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,ShengShu Technology,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Stability AI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,Zhipu AI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSLA,xAI,0,0,0,1,0,0,0,0,H,FSD uses AI; core is automotive/energy
+TSM,Alibaba,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Anthropic,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,DeepSeek,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Google,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Kuaishou,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Meta,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Microsoft,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Mistral AI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,OpenAI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Runway,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,ShengShu Technology,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Stability AI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,Zhipu AI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TSM,xAI,1,0,0,0,0,0,0,0,H,Fabricates AI chips for NVIDIA/AMD and other AI silicon designers
+TTD,Alibaba,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Anthropic,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,DeepSeek,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Google,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Kuaishou,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Meta,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Microsoft,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Mistral AI,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,OpenAI,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Runway,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,ShengShu Technology,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Stability AI,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,Zhipu AI,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TTD,xAI,0,0,1,0,0,0,0,0,M,Kokai AI-powered ad bidding
+TWLO,Alibaba,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Anthropic,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,DeepSeek,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Google,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Kuaishou,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Meta,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Microsoft,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Mistral AI,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,OpenAI,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Runway,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,ShengShu Technology,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Stability AI,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,Zhipu AI,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+TWLO,xAI,0,0,1,0,0,0,0,0,M,CustomerAI platform; LLM-powered comms
+UBER,Alibaba,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Anthropic,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,DeepSeek,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Google,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Kuaishou,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Meta,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Microsoft,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Mistral AI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,OpenAI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Runway,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,ShengShu Technology,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Stability AI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,Zhipu AI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+UBER,xAI,0,0,0,1,0,0,0,0,H,AI routing/pricing optimization; core is transportation
+WDAY,Alibaba,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Anthropic,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,DeepSeek,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Google,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Kuaishou,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Meta,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Microsoft,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Mistral AI,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,OpenAI,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Runway,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,ShengShu Technology,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Stability AI,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,Zhipu AI,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WDAY,xAI,0,0,1,0,0,0,0,0,M,Workday AI embedded in HCM/finance
+WIX,Alibaba,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Anthropic,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,DeepSeek,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Google,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Kuaishou,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Meta,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Microsoft,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Mistral AI,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,OpenAI,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Runway,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Stability AI,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,Zhipu AI,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WIX,xAI,0,0,1,0,0,0,0,0,M,AI website builder; AI text/image generation
+WKL NA,Alibaba,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Anthropic,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,DeepSeek,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Google,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Kuaishou,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Meta,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Microsoft,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Mistral AI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,OpenAI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Runway,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Stability AI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WKL NA,xAI,0,0,1,0,0,0,0,0,M,AI-enhanced professional information services for legal health and tax
+WRD,Alibaba,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Anthropic,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,DeepSeek,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Google,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Kuaishou,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Meta,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Microsoft,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Mistral AI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,OpenAI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Runway,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,ShengShu Technology,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Stability AI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,Zhipu AI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+WRD,xAI,0,0,0,0,0,0,0,0,L,Rugged computing; very limited AI relevance; conservative coding all 0
+ZBRA,Alibaba,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Anthropic,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,DeepSeek,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Google,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Kuaishou,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Meta,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Microsoft,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Mistral AI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,OpenAI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Runway,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,ShengShu Technology,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Stability AI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,Zhipu AI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZBRA,xAI,0,0,0,1,0,0,0,0,M,AI deployed in supply chain/warehouse automation; core business is enterprise tracking
+ZS,Alibaba,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Anthropic,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,DeepSeek,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Google,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Kuaishou,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Meta,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Microsoft,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Mistral AI,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,OpenAI,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Runway,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,ShengShu Technology,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Stability AI,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,Zhipu AI,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
+ZS,xAI,0,0,1,0,0,0,0,0,M,AI-powered zero trust security
