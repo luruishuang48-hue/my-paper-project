@@ -1,0 +1,41 @@
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Joint position regressions}
+\label{tab:joint_position_effects}
+\begin{tabular}{lccc}
+\toprule
+Position & CAR[0,+10] & CAR[0,+15] & CAR[0,+20]
+\\
+\midrule
+Upstream hardware & -1.35 & -0.86 & -0.83
+\\
+ & (1.19) & (1.34) & (1.38)
+\\
+Upstream cloud & 0.15 & 0.72 & 0.54
+\\
+ & (0.53) & (0.61) & (0.72)
+\\
+Downstream integrator & -1.98* & -2.49** & -3.09**
+\\
+ & (1.12) & (1.24) & (1.33)
+\\
+Downstream deployer & -2.78** & -3.41** & -4.24***
+\\
+ & (1.23) & (1.34) & (1.45)
+\\
+Downstream enabler & -2.65*** & -3.49*** & -3.25***
+\\
+ & (0.90) & (0.98) & (1.15)
+\\
+Direct competitor & -1.24 & -1.53* & -2.37***
+\\
+ & (0.79) & (0.82) & (0.87)
+\\
+\midrule
+Observations & 4829 & 4829 & 4829
+\\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\linewidth}\vspace{0.4em}\footnotesize Notes: Coefficients are percentage points. All six position indicators enter simultaneously, so estimates should be read as conditional effects net of overlapping ecosystem positions. Controls and clustered standard errors match Table \ref{tab:baseline_position_effects}. * p<0.10, ** p<0.05, *** p<0.01.\end{minipage}
+\end{table}
