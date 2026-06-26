@@ -65,7 +65,7 @@ extract <- function(mod) {
   se <- sqrt(diag(vcov(mod)))["aa_intelligence_index"]
   p  <- summary(mod)$coefficients["aa_intelligence_index", "Pr(>|t|)"]
   ci <- confint(mod)["aa_intelligence_index", ]
-  s  <- ifelse(p < 0.001, "***", ifelse(p < 0.01, "**", ifelse(p < 0.05, "*", ifelse(p < 0.10, "+", ""))))
+  s  <- ifelse(p < 0.01, "***", ifelse(p < 0.05, "**", ifelse(p < 0.10, "*", "")))
   list(b=round(b,6), se=round(se,6), p=signif(p,3), ci_lo=round(ci[1],6), ci_hi=round(ci[2],6),
        stars=s, n=mod$nobs, ncl=mod$nclusters, r2=round(summary(mod)$r.squared,4))
 }
@@ -108,7 +108,7 @@ for (i in 1:6) cat(sprintf("%13d", r[[i]]$ncl)); cat("\n")
 cat(sprintf("%-24s", "R2"))
 for (i in 1:6) cat(sprintf("%13s", r[[i]]$r2)); cat("\n")
 cat(paste(rep("=",90), collapse=""), "\n")
-cat("+ p<0.10  * p<0.05  ** p<0.01  *** p<0.001\n")
+cat("* p<0.10  ** p<0.05  *** p<0.01\n")
 cat("Controls: size_log_assets, bm_ratio, volatility, momentum\n\n")
 
 # ─── Save CSV ─────────────────────────────────────────────────────────────────

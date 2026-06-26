@@ -38,7 +38,7 @@ extr <- function(mod, var = "aa_intelligence_index") {
   se <- sqrt(diag(vcov(mod)))[[var]]
   p  <- as.numeric(summary(mod)$coefficients[var, "Pr(>|t|)"])
   ci <- confint(mod)[var, ]
-  s  <- ifelse(p<0.001,"***",ifelse(p<0.01,"**",ifelse(p<0.05,"*",ifelse(p<0.10,"+",""))))
+  s  <- ifelse(p<0.01,"***",ifelse(p<0.05,"**",ifelse(p<0.10,"*","")))
   list(coef=round(b,6), se=round(se,6), p=signif(p,3),
        ci_lo=round(ci[[1]],6), ci_hi=round(ci[[2]],6),
        stars=s, n=mod$nobs, ncl=mod$nclusters, r2=round(summary(mod)$r.squared,4))
@@ -101,7 +101,7 @@ if (!is.null(m_int)) {
     b  <- coef(m_int)[v]
     se <- sqrt(diag(vcov(m_int)))[v]
     p  <- summary(m_int)$coefficients[v,"Pr(>|t|)"]
-    s  <- ifelse(p<0.001,"***",ifelse(p<0.01,"**",ifelse(p<0.05,"*",ifelse(p<0.10,"+",""))))
+    s  <- ifelse(p<0.01,"***",ifelse(p<0.05,"**",ifelse(p<0.10,"*","")))
     cat(sprintf("  %-45s %10s %10s  p=%s %s\n", v,
       formatC(b, format="f", digits=6),
       paste0("(",formatC(se,format="f",digits=6),")"),

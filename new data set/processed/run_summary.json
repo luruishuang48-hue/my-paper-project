@@ -1,0 +1,21 @@
+{
+  "events": 235,
+  "entities": 308,
+  "aa_models": 1191,
+  "matches": 266,
+  "needs_review": 38,
+  "match_counts": {
+    "exact_or_near_exact": 207,
+    "unmatched": 3,
+    "low": 16,
+    "medium": 19,
+    "high": 21
+  },
+  "event_counts": {
+    "model": 200,
+    "product": 21,
+    "model_context_without_bold_entity": 6,
+    "mixed": 5,
+    "other": 3
+  }
+}

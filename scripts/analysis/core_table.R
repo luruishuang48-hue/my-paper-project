@@ -112,7 +112,7 @@ wild_boot_p <- function(data, fml_full, fml_restr, var, B = 4999, seed = 42) {
 
 stars <- function(p) {
   if (is.na(p)) return("n/a")
-  ifelse(p<0.001,"***", ifelse(p<0.01,"**", ifelse(p<0.05,"*", ifelse(p<0.10,"+",""))))
+  ifelse(p<0.01,"***", ifelse(p<0.05,"**", ifelse(p<0.10,"*","")))
 }
 fmt_p <- function(p) {
   if (is.na(p)) return("n/a")

@@ -1,0 +1,146 @@
+[
+  {
+    "key": "Acemoglu2012",
+    "query": "\"The network origins of aggregate fluctuations.\" Acemoglu 2012",
+    "url": "https://www.bing.com/search?q=%22The%20network%20origins%20of%20aggregate%20fluctuations.%22%20Acemoglu%202012",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22The%20network%20origins%20of%20aggregate%20fluctuations.%22%20Acemoglu%202012",
+    "title": "\"The network origins of aggregate fluctuations.\" Acemoglu 2012 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "BarrotSauvagnat2016",
+    "query": "\"Input specificity and the propagation of idiosyncratic shocks in production networks.\" Barrot 2016",
+    "url": "https://www.bing.com/search?q=%22Input%20specificity%20and%20the%20propagation%20of%20idiosyncratic%20shocks%20in%20production%20networks.%22%20Barrot%202016",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22Input%20specificity%20and%20the%20propagation%20of%20idiosyncratic%20shocks%20in%20production%20networks.%22%20Barrot%202016",
+    "title": "\"Input specificity and the propagation of idiosyncratic shocks in production networks.\" Barrot 2016 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "Herskovic2018",
+    "query": "\"Networks in production: Asset pricing implications.\" Herskovic 2018",
+    "url": "https://www.bing.com/search?q=%22Networks%20in%20production%3A%20Asset%20pricing%20implications.%22%20Herskovic%202018",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22Networks%20in%20production%3A%20Asset%20pricing%20implications.%22%20Herskovic%202018\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22Networks%20in%20production%3A%20Asset%20pricing%20implications.%22%20Herskovic%202018\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "Gofman2020",
+    "query": "\"Production networks and stock returns: The role of vertical creative destruction.\" Gofman 2020",
+    "url": "https://www.bing.com/search?q=%22Production%20networks%20and%20stock%20returns%3A%20The%20role%20of%20vertical%20creative%20destruction.%22%20Gofman%202020",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22Production%20networks%20and%20stock%20returns%3A%20The%20role%20of%20vertical%20creative%20destruction.%22%20Gofman%202020",
+    "title": "\"Production networks and stock returns: The role of vertical creative destruction.\" Gofman 2020 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "RochetTirole2003",
+    "query": "\"Platform competition in two-sided markets.\" Rochet 2003",
+    "url": "https://www.bing.com/search?q=%22Platform%20competition%20in%20two-sided%20markets.%22%20Rochet%202003",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22Platform%20competition%20in%20two-sided%20markets.%22%20Rochet%202003\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22Platform%20competition%20in%20two-sided%20markets.%22%20Rochet%202003\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "ParkerVanAlstyne2005",
+    "query": "\"Two-sided network effects: A theory of information product design.\" Parker 2005",
+    "url": "https://www.bing.com/search?q=%22Two-sided%20network%20effects%3A%20A%20theory%20of%20information%20product%20design.%22%20Parker%202005",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22Two-sided%20network%20effects%3A%20A%20theory%20of%20information%20product%20design.%22%20Parker%202005",
+    "title": "\"Two-sided network effects: A theory of information product design.\" Parker 2005 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "GawerCusumano2014",
+    "query": "\"Industry platforms and ecosystem innovation.\" Gawer 2014",
+    "url": "https://www.bing.com/search?q=%22Industry%20platforms%20and%20ecosystem%20innovation.%22%20Gawer%202014",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22Industry%20platforms%20and%20ecosystem%20innovation.%22%20Gawer%202014",
+    "title": "\"Industry platforms and ecosystem innovation.\" Gawer 2014 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "Boudreau2010",
+    "query": "\"Open platform strategies and innovation: Granting access vs. devolving control.\" Boudreau 2010",
+    "url": "https://www.bing.com/search?q=%22Open%20platform%20strategies%20and%20innovation%3A%20Granting%20access%20vs.%20devolving%20control.%22%20Boudreau%202010",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22Open%20platform%20strategies%20and%20innovation%3A%20Granting%20access%20vs.%20devolving%20control.%22%20Boudreau%202010\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22Open%20platform%20strategies%20and%20innovation%3A%20Granting%20access%20vs.%20devolving%20control.%22%20Boudreau%202010\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "GawerHenderson2007",
+    "query": "\"Platform owner entry and innovation in complementary markets: Evidence from Intel.\" Gawer 2007",
+    "url": "https://www.bing.com/search?q=%22Platform%20owner%20entry%20and%20innovation%20in%20complementary%20markets%3A%20Evidence%20from%20Intel.%22%20Gawer%202007",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22Platform%20owner%20entry%20and%20innovation%20in%20complementary%20markets%3A%20Evidence%20from%20Intel.%22%20Gawer%202007",
+    "title": "\"Platform owner entry and innovation in complementary markets: Evidence from Intel.\" Gawer 2007 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "Eisenmann2011",
+    "query": "\"Platform envelopment.\" Eisenmann 2011",
+    "url": "https://www.bing.com/search?q=%22Platform%20envelopment.%22%20Eisenmann%202011",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22Platform%20envelopment.%22%20Eisenmann%202011\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22Platform%20envelopment.%22%20Eisenmann%202011\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "ZhuLiu2018",
+    "query": "\"Competing with complementors: An empirical look at Amazon.com.\" Zhu 2018",
+    "url": "https://www.bing.com/search?q=%22Competing%20with%20complementors%3A%20An%20empirical%20look%20at%20Amazon.com.%22%20Zhu%202018",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22Competing%20with%20complementors%3A%20An%20empirical%20look%20at%20Amazon.com.%22%20Zhu%202018",
+    "title": "\"Competing with complementors: An empirical look at Amazon.com.\" Zhu 2018 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "LernerTirole2002",
+    "query": "\"Some simple economics of open source.\" Lerner 2002",
+    "url": "https://www.bing.com/search?q=%22Some%20simple%20economics%20of%20open%20source.%22%20Lerner%202002",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22Some%20simple%20economics%20of%20open%20source.%22%20Lerner%202002\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22Some%20simple%20economics%20of%20open%20source.%22%20Lerner%202002\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "LernerTirole2005",
+    "query": "\"The economics of technology sharing: Open source and beyond.\" Lerner 2005",
+    "url": "https://www.bing.com/search?q=%22The%20economics%20of%20technology%20sharing%3A%20Open%20source%20and%20beyond.%22%20Lerner%202005",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22The%20economics%20of%20technology%20sharing%3A%20Open%20source%20and%20beyond.%22%20Lerner%202005",
+    "title": "\"The economics of technology sharing: Open source and beyond.\" Lerner 2005 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "EconomidesKatsamakas2006",
+    "query": "\"Two-sided competition of proprietary vs. open source technology platforms and the implications for the software industry.\" Economides 2006",
+    "url": "https://www.bing.com/search?q=%22Two-sided%20competition%20of%20proprietary%20vs.%20open%20source%20technology%20platforms%20and%20the%20implications%20for%20the%20software%20industry.%22%20Economides%202006",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22Two-sided%20competition%20of%20proprietary%20vs.%20open%20source%20technology%20platforms%20and%20the%20implications%20for%20the%20software%20industry.%22%20Economides%202006\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22Two-sided%20competition%20of%20proprietary%20vs.%20open%20source%20technology%20platforms%20and%20the%20implications%20for%20the%20software%20industry.%22%20Economides%202006\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "key": "Solaiman2023",
+    "query": "\"The gradient of generative AI release: Methods and considerations.\" Solaiman 2023",
+    "url": "https://www.bing.com/search?q=%22The%20gradient%20of%20generative%20AI%20release%3A%20Methods%20and%20considerations.%22%20Solaiman%202023",
+    "status": "saved",
+    "finalUrl": "https://www.bing.com/search?q=%22The%20gradient%20of%20generative%20AI%20release%3A%20Methods%20and%20considerations.%22%20Solaiman%202023",
+    "title": "\"The gradient of generative AI release: Methods and considerations.\" Solaiman 2023 - 搜索",
+    "error": ""
+  },
+  {
+    "key": "Bommasani2021",
+    "query": "\"On the opportunities and risks of foundation models.\" Bommasani 2021",
+    "url": "https://www.bing.com/search?q=%22On%20the%20opportunities%20and%20risks%20of%20foundation%20models.%22%20Bommasani%202021",
+    "status": "error",
+    "finalUrl": "",
+    "title": "",
+    "error": "page.goto: net::ERR_ABORTED at https://www.bing.com/search?q=%22On%20the%20opportunities%20and%20risks%20of%20foundation%20models.%22%20Bommasani%202021\nCall log:\n\u001b[2m  - navigating to \"https://www.bing.com/search?q=%22On%20the%20opportunities%20and%20risks%20of%20foundation%20models.%22%20Bommasani%202021\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  }
+]

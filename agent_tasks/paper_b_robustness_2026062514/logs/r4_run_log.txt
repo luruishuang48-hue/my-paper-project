@@ -1,0 +1,40 @@
+Rows read: 5160 
+
+=== Table 2 (FF3) single-position regressions ===
+# A tibble: 18 × 7
+   variable              outcome        beta      se      p     n n_events
+   <chr>                 <chr>         <dbl>   <dbl>  <dbl> <int>    <int>
+ 1 competitor            ff3_car_10  0.00148 0.00473 0.755   4831       60
+ 2 competitor            ff3_car_15  0.00380 0.00513 0.462   4831       60
+ 3 competitor            ff3_car_20 -0.00183 0.00602 0.762   4831       60
+ 4 downstream_deployer   ff3_car_10 -0.00320 0.00389 0.414   4831       60
+ 5 downstream_deployer   ff3_car_15 -0.00531 0.00447 0.239   4831       60
+ 6 downstream_deployer   ff3_car_20 -0.00763 0.00501 0.133   4831       60
+ 7 downstream_enabler    ff3_car_10 -0.00718 0.00571 0.213   4831       60
+ 8 downstream_enabler    ff3_car_15 -0.0106  0.00664 0.115   4831       60
+ 9 downstream_enabler    ff3_car_20 -0.00681 0.00750 0.368   4831       60
+10 downstream_integrator ff3_car_10  0.00471 0.00626 0.455   4831       60
+11 downstream_integrator ff3_car_15  0.00199 0.00774 0.798   4831       60
+12 downstream_integrator ff3_car_20  0.00137 0.00959 0.887   4831       60
+13 upstream_cloud        ff3_car_10  0.00729 0.00518 0.165   4831       60
+14 upstream_cloud        ff3_car_15  0.0126  0.00535 0.0215  4831       60
+15 upstream_cloud        ff3_car_20  0.00770 0.00572 0.183   4831       60
+16 upstream_hardware     ff3_car_10 -0.00668 0.00584 0.257   4831       60
+17 upstream_hardware     ff3_car_15 -0.00179 0.00790 0.822   4831       60
+18 upstream_hardware     ff3_car_20  0.00145 0.00952 0.879   4831       60
+
+=== Table 3 (FF3) bundle-position regressions ===
+# A tibble: 9 × 7
+  variable            outcome         beta      se     p     n n_events
+  <chr>               <chr>          <dbl>   <dbl> <dbl> <int>    <int>
+1 downstream_any      ff3_car_10 -0.000508 0.00566 0.929  4831       60
+2 downstream_any      ff3_car_15 -0.00613  0.00755 0.420  4831       60
+3 downstream_any      ff3_car_20 -0.00693  0.00929 0.459  4831       60
+4 downstream_deployer ff3_car_10 -0.00320  0.00389 0.414  4831       60
+5 downstream_deployer ff3_car_15 -0.00531  0.00447 0.239  4831       60
+6 downstream_deployer ff3_car_20 -0.00763  0.00501 0.133  4831       60
+7 upstream_any        ff3_car_10 -0.00398  0.00530 0.456  4831       60
+8 upstream_any        ff3_car_15  0.00150  0.00715 0.835  4831       60
+9 upstream_any        ff3_car_20  0.00309  0.00870 0.724  4831       60
+
+Done. Outputs written to: agent_tasks/paper_b_robustness_2026062514/outputs 

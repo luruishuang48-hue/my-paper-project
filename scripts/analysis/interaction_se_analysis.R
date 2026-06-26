@@ -48,7 +48,7 @@ extr <- function(mod, var) {
   b  <- coef(mod)[[var]]
   se <- sqrt(diag(vcov(mod)))[[var]]
   p  <- as.numeric(summary(mod)$coefficients[var, "Pr(>|t|)"])
-  s  <- ifelse(p<0.001,"***", ifelse(p<0.01,"**", ifelse(p<0.05,"*", ifelse(p<0.10,"+",""))))
+  s  <- ifelse(p<0.01,"***", ifelse(p<0.05,"**", ifelse(p<0.10,"*","")))
   sprintf("%.6f (SE %.6f)  p = %.4f %s", b, se, p, s)
 }
 
@@ -118,8 +118,8 @@ results_1c <- lapply(rel_vars, function(rv) {
     b_int <- coef(mod)[[paste0("aa_intelligence_index:", rv)]]
     p_int <- as.numeric(summary(mod)$coefficients[paste0("aa_intelligence_index:", rv), "Pr(>|t|)"])
     p_rel <- as.numeric(summary(mod)$coefficients[rv, "Pr(>|t|)"])
-    s_int <- ifelse(p_int<0.001,"***", ifelse(p_int<0.01,"**", ifelse(p_int<0.05,"*", ifelse(p_int<0.10,"+",""))))
-    s_rel <- ifelse(p_rel<0.001,"***", ifelse(p_rel<0.01,"**", ifelse(p_rel<0.05,"*", ifelse(p_rel<0.10,"+",""))))
+    s_int <- ifelse(p_int<0.01,"***", ifelse(p_int<0.05,"**", ifelse(p_int<0.10,"*","")))
+    s_rel <- ifelse(p_rel<0.01,"***", ifelse(p_rel<0.05,"**", ifelse(p_rel<0.10,"*","")))
 
     cat(sprintf("\n  [%s]  N_rel=%d  N_total=%d  events=%d\n", rv, n_rel, nobs(mod), mod$nclusters))
     cat(sprintf("    intelligence (baseline):    %.6f\n", b0))
@@ -152,7 +152,7 @@ for (v in key3) {
     b  <- coef(mod3)[[v]]
     se <- sqrt(diag(vcov(mod3)))[[v]]
     p  <- as.numeric(summary(mod3)$coefficients[v, "Pr(>|t|)"])
-    s  <- ifelse(p<0.001,"***", ifelse(p<0.01,"**", ifelse(p<0.05,"*", ifelse(p<0.10,"+",""))))
+    s  <- ifelse(p<0.01,"***", ifelse(p<0.05,"**", ifelse(p<0.10,"*","")))
     cat(sprintf("  %-50s %.6f (%.6f)  p=%.4f %s\n", v, b, se, p, s))
   }
 }
@@ -190,7 +190,7 @@ compare_se <- function(data, y, label, var = "aa_intelligence_index") {
       b   <- coef(mod)[[var]]
       se  <- sqrt(diag(vcov(mod)))[[var]]
       p   <- as.numeric(summary(mod)$coefficients[var, "Pr(>|t|)"])
-      s   <- ifelse(p<0.001,"***", ifelse(p<0.01,"**", ifelse(p<0.05,"*", ifelse(p<0.10,"+",""))))
+      s   <- ifelse(p<0.01,"***", ifelse(p<0.05,"**", ifelse(p<0.10,"*","")))
       cat(sprintf("  %-5s  coef=%+.6f  SE=%.6f  p=%.4f %s\n", se_type, b, se, p, s))
     }, error = function(e) cat(sprintf("  %-5s  ERROR: %s\n", se_type, conditionMessage(e))))
   }
@@ -285,8 +285,8 @@ wild_boot <- function(data, y, label, var = "aa_intelligence_index",
   t_star <- t_star[!is.na(t_star)]
   p_wild <- mean(abs(t_star) >= abs(t_obs))
 
-  s_cr0  <- ifelse(p_cr0<0.001,"***", ifelse(p_cr0<0.01,"**", ifelse(p_cr0<0.05,"*", ifelse(p_cr0<0.10,"+",""))))
-  s_wild <- ifelse(p_wild<0.001,"***", ifelse(p_wild<0.01,"**", ifelse(p_wild<0.05,"*", ifelse(p_wild<0.10,"+",""))))
+  s_cr0  <- ifelse(p_cr0<0.01,"***", ifelse(p_cr0<0.05,"**", ifelse(p_cr0<0.10,"*","")))
+  s_wild <- ifelse(p_wild<0.01,"***", ifelse(p_wild<0.05,"**", ifelse(p_wild<0.10,"*","")))
   cat(sprintf("  coef = %.6f   t = %.3f\n", b_obs, t_obs))
   cat(sprintf("  CR0  p = %.4f %s\n", p_cr0, s_cr0))
   cat(sprintf("  Wild p = %.4f %s  (B=%d, Rademacher)\n", p_wild, s_wild, length(t_star)))

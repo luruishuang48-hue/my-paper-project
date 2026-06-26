@@ -1,0 +1,124 @@
+=== Group A: baseline single-position regressions (car_20) ===
+  [A] upstream_hardware ...
+     table_source          variable outcome       beta          se       p_cr0
+1 baseline_single upstream_hardware  car_20 0.02276376 0.008422595 0.008968752
+       p_cr2     p_wild    n n_events
+1 0.00953341 0.02360472 4829       61
+  [A] upstream_cloud ...
+     table_source       variable outcome       beta          se      p_cr0
+1 baseline_single upstream_cloud  car_20 0.01132299 0.006052542 0.06633734
+       p_cr2     p_wild    n n_events
+1 0.06879813 0.06481296 4829       61
+  [A] downstream_integrator ...
+     table_source              variable outcome         beta          se
+1 baseline_single downstream_integrator  car_20 -0.006875288 0.008377285
+      p_cr0     p_cr2    p_wild    n n_events
+1 0.4151175 0.4193437 0.4078816 4829       61
+  [A] downstream_deployer ...
+     table_source            variable outcome        beta          se
+1 baseline_single downstream_deployer  car_20 -0.01901562 0.005069485
+         p_cr0        p_cr2    p_wild    n n_events
+1 0.0004038395 0.0004551562 0.0020004 4829       61
+  [A] downstream_enabler ...
+     table_source           variable outcome       beta          se     p_cr0
+1 baseline_single downstream_enabler  car_20 -0.0106524 0.006673257 0.1157687
+      p_cr2   p_wild    n n_events
+1 0.1183285 0.104821 4829       61
+  [A] competitor ...
+     table_source   variable outcome          beta          se     p_cr0
+1 baseline_single competitor  car_20 -0.0005022609 0.006711935 0.9406023
+      p_cr2    p_wild    n n_events
+1 0.9412665 0.9487898 4829       61
+警告多于50个(用warnings()来显示第一个到第50个)
+=== Group B: bundle regressions (car_20) ===
+  [B] upstream_any ...
+  table_source     variable outcome       beta          se       p_cr0
+1       bundle upstream_any  car_20 0.02221993 0.007821999 0.006169083
+        p_cr2     p_wild    n n_events
+1 0.006601229 0.01420284 4829       61
+  [B] downstream_any ...
+  table_source       variable outcome       beta          se       p_cr0
+1       bundle downstream_any  car_20 -0.0249871 0.008201435 0.003457583
+        p_cr2     p_wild    n n_events
+1 0.003710875 0.00520104 4829       61
+警告多于50个(用warnings()来显示第一个到第50个)
+=== Group C: joint regression, all 6 position vars (car_20) ===
+  [C] joint, var = upstream_hardware ...
+  table_source          variable outcome         beta         se     p_cr0
+1        joint upstream_hardware  car_20 -0.008255324 0.01384753 0.5533496
+      p_cr2    p_wild    n n_events
+1 0.5571413 0.6133227 4829       61
+  [C] joint, var = upstream_cloud ...
+  table_source       variable outcome        beta          se     p_cr0
+1        joint upstream_cloud  car_20 0.005357173 0.007159595 0.4572813
+      p_cr2    p_wild    n n_events
+1 0.4608646 0.4580916 4829       61
+  [C] joint, var = downstream_integrator ...
+  table_source              variable outcome        beta         se     p_cr0
+1        joint downstream_integrator  car_20 -0.03088641 0.01330855 0.0237736
+       p_cr2     p_wild    n n_events
+1 0.02506963 0.02240448 4829       61
+  [C] joint, var = downstream_deployer ...
+  table_source            variable outcome      beta         se       p_cr0
+1        joint downstream_deployer  car_20 -0.042362 0.01445202 0.004797338
+        p_cr2     p_wild    n n_events
+1 0.005225775 0.00340068 4829       61
+  [C] joint, var = downstream_enabler ...
+  table_source           variable outcome        beta         se      p_cr0
+1        joint downstream_enabler  car_20 -0.03251482 0.01146092 0.00623187
+        p_cr2     p_wild    n n_events
+1 0.006686018 0.00520104 4829       61
+  [C] joint, var = competitor ...
+  table_source   variable outcome        beta          se       p_cr0
+1        joint competitor  car_20 -0.02369215 0.008722236 0.008648544
+        p_cr2     p_wild    n n_events
+1 0.009328123 0.00640128 4829       61
+警告多于50个(用warnings()来显示第一个到第50个)
+=== Group D: open/closed interaction (car_20) ===
+  [D] upstream_hardware x is_open_weight ...
+      table_source                         variable outcome        beta
+1 open_interaction upstream_hardware:is_open_weight  car_20 -0.03658076
+         se      p_cr0      p_cr2     p_wild    n n_events
+1 0.0150101 0.01784108 0.02836742 0.02560512 4829       61
+  [D] downstream_deployer x is_open_weight ...
+      table_source                           variable outcome       beta
+1 open_interaction downstream_deployer:is_open_weight  car_20 0.01062491
+          se   p_cr0    p_cr2    p_wild    n n_events
+1 0.01079827 0.32916 0.351959 0.3558712 4829       61
+警告多于50个(用warnings()来显示第一个到第50个)
+       table_source                           variable outcome          beta
+1   baseline_single                  upstream_hardware  car_20  0.0227637565
+2   baseline_single                     upstream_cloud  car_20  0.0113229859
+3   baseline_single              downstream_integrator  car_20 -0.0068752877
+4   baseline_single                downstream_deployer  car_20 -0.0190156168
+5   baseline_single                 downstream_enabler  car_20 -0.0106524029
+6   baseline_single                         competitor  car_20 -0.0005022609
+7            bundle                       upstream_any  car_20  0.0222199279
+8            bundle                     downstream_any  car_20 -0.0249871043
+9             joint                  upstream_hardware  car_20 -0.0082553243
+10            joint                     upstream_cloud  car_20  0.0053571735
+11            joint              downstream_integrator  car_20 -0.0308864084
+12            joint                downstream_deployer  car_20 -0.0423620047
+13            joint                 downstream_enabler  car_20 -0.0325148176
+14            joint                         competitor  car_20 -0.0236921522
+15 open_interaction   upstream_hardware:is_open_weight  car_20 -0.0365807566
+16 open_interaction downstream_deployer:is_open_weight  car_20  0.0106249132
+            se        p_cr0        p_cr2     p_wild    n n_events
+1  0.008422595 0.0089687525 0.0095334101 0.02360472 4829       61
+2  0.006052542 0.0663373411 0.0687981335 0.06481296 4829       61
+3  0.008377285 0.4151175117 0.4193436873 0.40788158 4829       61
+4  0.005069485 0.0004038395 0.0004551562 0.00200040 4829       61
+5  0.006673257 0.1157686892 0.1183284925 0.10482096 4829       61
+6  0.006711935 0.9406023109 0.9412664832 0.94878976 4829       61
+7  0.007821999 0.0061690833 0.0066012291 0.01420284 4829       61
+8  0.008201435 0.0034575829 0.0037108755 0.00520104 4829       61
+9  0.013847527 0.5533496271 0.5571413042 0.61332266 4829       61
+10 0.007159595 0.4572812647 0.4608646386 0.45809162 4829       61
+11 0.013308547 0.0237735978 0.0250696255 0.02240448 4829       61
+12 0.014452016 0.0047973383 0.0052257754 0.00340068 4829       61
+13 0.011460921 0.0062318700 0.0066860179 0.00520104 4829       61
+14 0.008722236 0.0086485436 0.0093281229 0.00640128 4829       61
+15 0.015010095 0.0178410799 0.0283674229 0.02560512 4829       61
+16 0.010798269 0.3291599523 0.3519590065 0.35587117 4829       61
+
+Saved: agent_tasks/paper_b_robustness_2026062514/outputs/r5_wild_bootstrap_table1to4.csv

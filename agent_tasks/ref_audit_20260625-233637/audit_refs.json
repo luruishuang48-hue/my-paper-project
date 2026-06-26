@@ -1,0 +1,272 @@
+[
+  {
+    "key": "Fama1969",
+    "year": "1969",
+    "title": "The adjustment of stock prices to new information.",
+    "first_author": "Fama"
+  },
+  {
+    "key": "BrownWarner1985",
+    "year": "1985",
+    "title": "Using daily stock returns: The case of event studies.",
+    "first_author": "Brown"
+  },
+  {
+    "key": "MacKinlay1997",
+    "year": "1997",
+    "title": "Event studies in economics and finance.",
+    "first_author": "MacKinlay"
+  },
+  {
+    "key": "KothariWarner2007",
+    "year": "2007",
+    "title": "Econometrics of event studies.",
+    "first_author": "Kothari"
+  },
+  {
+    "key": "Corrado2011",
+    "year": "2011",
+    "title": "Event studies: A methodology review.",
+    "first_author": "Corrado"
+  },
+  {
+    "key": "Chaney1991",
+    "year": "1991",
+    "title": "The impact of new product introductions on the market value of firms.",
+    "first_author": "Chaney"
+  },
+  {
+    "key": "HendricksSinghal1997",
+    "year": "1997",
+    "title": "Delays in new product introductions and the market value of the firm: The consequences of being late to the market.",
+    "first_author": "Hendricks"
+  },
+  {
+    "key": "ChenHoIk2005",
+    "year": "2005",
+    "title": "The wealth effect of new product introductions on industry rivals.",
+    "first_author": "Chen"
+  },
+  {
+    "key": "Sorescu2007",
+    "year": "2007",
+    "title": "New product preannouncements and shareholder value: Don't make promises you can't keep.",
+    "first_author": "Sorescu"
+  },
+  {
+    "key": "WarrenSorescu2017",
+    "year": "2017",
+    "title": "Interpreting the stock returns to new product announcements: How the past shapes investors' expectations of the future.",
+    "first_author": "Warren"
+  },
+  {
+    "key": "Chu2025",
+    "year": "2025",
+    "title": "New product announcements, innovation disclosure, and future firm performance.",
+    "first_author": "Chu"
+  },
+  {
+    "key": "DosSantos1993",
+    "year": "1993",
+    "title": "The impact of information technology investment announcements on the market value of the firm.",
+    "first_author": "Dos Santos"
+  },
+  {
+    "key": "SubramaniWalden2001",
+    "year": "2001",
+    "title": "The impact of e-commerce announcements on the market value of firms.",
+    "first_author": "Subramani"
+  },
+  {
+    "key": "Dehning2003",
+    "year": "2003",
+    "title": "The value relevance of announcements of transformational information technology investments.",
+    "first_author": "Dehning"
+  },
+  {
+    "key": "Kogan2017",
+    "year": "2017",
+    "title": "Technological innovation, resource allocation, and growth.",
+    "first_author": "Kogan"
+  },
+  {
+    "key": "Felten2021",
+    "year": "2021",
+    "title": "Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses.",
+    "first_author": "Felten"
+  },
+  {
+    "key": "Acemoglu2022",
+    "year": "2022",
+    "title": "Artificial intelligence and jobs: Evidence from online vacancies.",
+    "first_author": "Acemoglu"
+  },
+  {
+    "key": "Eloundou2024",
+    "year": "2024",
+    "title": "GPTs are GPTs: Labor market impact potential of LLMs.",
+    "first_author": "Eloundou"
+  },
+  {
+    "key": "Brynjolfsson2025",
+    "year": "2025",
+    "title": "Generative AI at work.",
+    "first_author": "Brynjolfsson"
+  },
+  {
+    "key": "Babina2024",
+    "year": "2024",
+    "title": "Artificial intelligence, firm growth, and product innovation.",
+    "first_author": "Babina"
+  },
+  {
+    "key": "Eisfeldt2023",
+    "year": "2023",
+    "title": "Generative AI and firm values.",
+    "first_author": "Eisfeldt"
+  },
+  {
+    "key": "Blomkvist2023",
+    "year": "2023",
+    "title": "Automation and stock prices: The case of ChatGPT.",
+    "first_author": "Blomkvist"
+  },
+  {
+    "key": "CaZorzi2025",
+    "year": "2025",
+    "title": "Verba volant, transcripta manent: What corporate earnings calls reveal about the AI stock rally.",
+    "first_author": "Ca' Zorzi"
+  },
+  {
+    "key": "AndrewsFarboodi2025",
+    "year": "2025",
+    "title": "Do markets believe in transformative AI?",
+    "first_author": "Andrews"
+  },
+  {
+    "key": "Bjorkegren2025",
+    "year": "2025",
+    "title": "Market beliefs about open vs. closed AI.",
+    "first_author": "Bjorkegren"
+  },
+  {
+    "key": "LangStulz1992",
+    "year": "1992",
+    "title": "Contagion and competitive intra-industry effects of bankruptcy announcements.",
+    "first_author": "Lang"
+  },
+  {
+    "key": "CohenFrazzini2008",
+    "year": "2008",
+    "title": "Economic links and predictable returns.",
+    "first_author": "Cohen"
+  },
+  {
+    "key": "Hertzel2008",
+    "year": "2008",
+    "title": "Inter-firm linkages and the wealth effects of financial distress along the supply chain.",
+    "first_author": "Hertzel"
+  },
+  {
+    "key": "Pandit2011",
+    "year": "2011",
+    "title": "Information externalities along the supply chain: The economic determinants of suppliers' stock price reaction to their customers' earnings announcements.",
+    "first_author": "Pandit"
+  },
+  {
+    "key": "Acemoglu2012",
+    "year": "2012",
+    "title": "The network origins of aggregate fluctuations.",
+    "first_author": "Acemoglu"
+  },
+  {
+    "key": "BarrotSauvagnat2016",
+    "year": "2016",
+    "title": "Input specificity and the propagation of idiosyncratic shocks in production networks.",
+    "first_author": "Barrot"
+  },
+  {
+    "key": "Herskovic2018",
+    "year": "2018",
+    "title": "Networks in production: Asset pricing implications.",
+    "first_author": "Herskovic"
+  },
+  {
+    "key": "Gofman2020",
+    "year": "2020",
+    "title": "Production networks and stock returns: The role of vertical creative destruction.",
+    "first_author": "Gofman"
+  },
+  {
+    "key": "RochetTirole2003",
+    "year": "2003",
+    "title": "Platform competition in two-sided markets.",
+    "first_author": "Rochet"
+  },
+  {
+    "key": "ParkerVanAlstyne2005",
+    "year": "2005",
+    "title": "Two-sided network effects: A theory of information product design.",
+    "first_author": "Parker"
+  },
+  {
+    "key": "GawerCusumano2014",
+    "year": "2014",
+    "title": "Industry platforms and ecosystem innovation.",
+    "first_author": "Gawer"
+  },
+  {
+    "key": "Boudreau2010",
+    "year": "2010",
+    "title": "Open platform strategies and innovation: Granting access vs. devolving control.",
+    "first_author": "Boudreau"
+  },
+  {
+    "key": "GawerHenderson2007",
+    "year": "2007",
+    "title": "Platform owner entry and innovation in complementary markets: Evidence from Intel.",
+    "first_author": "Gawer"
+  },
+  {
+    "key": "Eisenmann2011",
+    "year": "2011",
+    "title": "Platform envelopment.",
+    "first_author": "Eisenmann"
+  },
+  {
+    "key": "ZhuLiu2018",
+    "year": "2018",
+    "title": "Competing with complementors: An empirical look at Amazon.com.",
+    "first_author": "Zhu"
+  },
+  {
+    "key": "LernerTirole2002",
+    "year": "2002",
+    "title": "Some simple economics of open source.",
+    "first_author": "Lerner"
+  },
+  {
+    "key": "LernerTirole2005",
+    "year": "2005",
+    "title": "The economics of technology sharing: Open source and beyond.",
+    "first_author": "Lerner"
+  },
+  {
+    "key": "EconomidesKatsamakas2006",
+    "year": "2006",
+    "title": "Two-sided competition of proprietary vs. open source technology platforms and the implications for the software industry.",
+    "first_author": "Economides"
+  },
+  {
+    "key": "Solaiman2023",
+    "year": "2023",
+    "title": "The gradient of generative AI release: Methods and considerations.",
+    "first_author": "Solaiman"
+  },
+  {
+    "key": "Bommasani2021",
+    "year": "2021",
+    "title": "On the opportunities and risks of foundation models.",
+    "first_author": "Bommasani"
+  }
+]

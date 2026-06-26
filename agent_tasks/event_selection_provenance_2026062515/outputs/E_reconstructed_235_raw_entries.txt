@@ -1,0 +1,237 @@
+Total entries: 235
+
+1. [2022-February] **Midjourney v1**
+2. [2022-March] OpenAI releases **text-davinci-002** and **code-davinci-002** with an API approach.
+3. [2022-April] **Midjourney v2**
+4. [2022-April] **DALL-E 2** is announced for gradual release. (*special*)
+5. [2022-July] **Midjourney v3** is launched.
+6. [2022-August] **Stable Diffusion 1.4** is released.
+7. [2022-October] **Stable Diffusion 1.5** becomes available. (*special*)
+8. [2022-November] **ChatGPT**, a chatbot by OpenAI using GPT-3.5, is released to the public and quickly becomes a viral sensation. (*special*)
+9. [2022-November] **Midjourney v4** is released.
+10. [2022-November] **Stable Diffusion 2.0** is launched.
+11. [2022-December] **Stable Diffusion 2.1** is released.
+12. [2023-February] Meta releases the **LLaMA** language model as open-source for research purposes. The model is later leaked. (*special*)
+13. [2023-February] Microsoft gradually releases **Bing AI**, an AI chat based on an upgraded GPT model integrating internet search.
+14. [2023-March] **Midjourney v5** is launched.
+15. [2023-March] OpenAI's **GPT-4** model is partially released, featuring multimodal image analysis and improved multi-language support. (*special*)
+16. [2023-March] Google releases the AI chat **Bard** in a limited capacity, based on the LaMDA language model.
+17. [2023-April] Adobe releases the **Firefly** image creation model as a beta version to a waiting list. The model allowed a variety of capabilities including text formatting.
+18. [2023-May] **Midjourney v5.1** is released.
+19. [2023-May] Google announces an upgrade to Bard, moving it to the upgraded **PaLM 2** language model. It will support 180 countries and many languages.
+20. [2023-June] **Midjourney v5.2** is launched.
+21. [2023-July] **Stable Diffusion XL 1.0** is released.
+22. [2023-July] Anthropic announces a new version of their large language model - **Claude 2**.
+23. [2023-July] Meta releases the **LLaMA 2** open source language model to the general public in a variety of sizes.
+24. [2023-October] **DALL-E 3** is released.
+25. [2023-October] Adobe releases **Firefly 2**.
+26. [2023-November] **Stable Diffusion XL Turbo** is released - A fast model that allows the creation of an image in one step in real-time.
+27. [2023-December] **Midjourney v6** is launched.
+28. [2023-December] Google upgrades Bard in limited areas, moving it to be based on the upgraded **Gemini Pro** language model.
+29. [2023-December] X Corporation launches **Grok AI** chatbot for paid subscribers in English language.
+30. [2024-February] Stability AI announces **Stable Diffusion 3** (gradually released to waiting list).
+31. [2024-February] Google upgrades the artificial intelligence chat in Bard, basing it on the new **Gemini Pro** model, in all available languages. Google replaces "Bard" with "Gemini".
+32. [2024-February] Google announces the **Gemini Pro 1.5** multimodal language model capable of parsing up to a million tokens, as well as parsing video and images. The model is gradually released to developers on a waiting list. (*special*)
+33. [2024-February] OpenAI announces the **Sora** model that produces videos up to a minute long. The model is not released to the public at this time. (*special*)
+34. [2024-March] X Corporation announces the upcoming release of the **Grok 1.5** open source model.
+35. [2024-March] Anthropic announces **Claude 3**, a new version of their large language model. The version is deployed in 3 different sizes, with the largest model performing better than GPT-4.
+36. [2024-March] Suno AI, which develops a model for creating music, releases **Suno v3** to the general public.
+37. [2024-April] Stability AI releases a new update to the music creation model - **Stable Audio 2.0**.
+38. [2024-April] X Corporation releases an upgrade to its language model, **Grok-1.5V**, which integrates high-level image recognition. In the test presented by the company, the model is the best in identifying and analyzing images compared to other models.
+39. [2024-April] The Mistral company releases its new model **Mixtral 8x22B** as open source. This is the most powerful model among the open source models and it contains 141 billion parameters but uses a method that allows more economical use.
+40. [2024-April] Meta releases the **LLaMA 3** model as open source in sizes 8B and 70B parameters. The large model shows better performance than Claude 3 Sonnet and Gemini Pro 1.5 in several measures. Meta is expected to later release larger models with 400 billion parameters and more.
+41. [2024-April] Microsoft releases the **Phi-3-mini** model in open source. The model comes in a reduced version of 3.8B parameters, which allows it to run on mobile devices as well, and it presents capabilities similar to GPT-3.5. (*special*)
+42. [2024-April] Adobe announces its new image creation model **Firefly 3**.
+43. [2024-April] The startup **Reka AI** presents a series of multimodal language models in 3 sizes. The models are capable of processing video, audio and images. The large model featured similar capabilities to GPT-4.
+44. [2024-April] Apple releases as full open source a series of small language models under the name **OpenELM**. The models are available in four weights between 270 million and 3 billion parameters.
+45. [2024-May] OpenAI announces the **GPT-4o model** that presents full multimodal capabilities, including receiving and creating text, images, and audio. The model presents an impressive ability to speak with a high response speed and in natural language. The model is 2 times more efficient than the GPT-4 Turbo model, and has better capabilities for languages other than English. (*special*)
+46. [2024-May] Google announces a large number of AI features in its products. The main ones: increasing the token limit to 2 million for Gemini 1.5 to waiting list, releasing a smaller and faster **Gemini Flash 1.5 model**. Revealing the latest image creation model **Imagen 3**, music creation model **Music AI** and video creation model **Veo**. And the announcement of the **Astra model** with multimodal capabilities for realtime audio and video reception.
+47. [2024-May] Microsoft announces **Copilot+** for dedicated computers, which will allow a full search of the user's history through screenshots of the user's activity. The company also released as open source the SLMs that display impressive capabilities in a minimal size: **Phi-3 Small**, **Phi-3 Medium**, and **Phi-3 Vision** which includes image recognition capability.
+48. [2024-May] Meta introduces **Chameleon**, a new multimodal model that seamlessly renders text and images.
+49. [2024-May] Mistral AI releases a new open source version of its language model **Mistral-7B-Instruct-v0.3**.
+50. [2024-May] Google announces **AI Overviews** intended to give a summary of the relevant information in Google search. (*special*)
+51. [2024-May] Suno AI releases an updated music creation model **Suno v3.5**.
+52. [2024-May] Mistral AI releases a new language model designed for coding **Codestral** in size 22B.
+53. [2024-June] Stability AI releases its updated image creation model **Stable Diffusion 3** in a medium version in size 2B parameters.
+54. [2024-June] Apple announces **Apple Intelligence**, an AI system that will be integrated into the company's devices and will combine AI models of different sizes for different tasks.
+55. [2024-June] DeepSeekAI publishes the **DeepSeekCoderV2** open source language model which presents similar coding capabilities to models such as GPT-4, Claude 3 Opus and more.
+56. [2024-June] **Runway** introduces **Gen3 Alpha**, a new AI model for video generation.
+57. [2024-June] Anthropic releases the **Claude Sonnet 3.5** model, which presents better capabilities than other models with low resource usage. (*special*)
+58. [2024-June] Microsoft releases in open source a series of image recognition models called **Florence 2**.
+59. [2024-June] Google announces **Gemma 2** open source language models with 9B and 27B parameter sizes. Also, the company opens the context window capabilities to developers for up to 2 million tokens.
+60. [2024-July] OpenAI has released a miniaturized model called **GPT-4o mini** that presents high capabilities at a low cost
+61. [2024-July] Meta releases as open source the **llama 3.1 model** in sizes 8B, 70B and 405B. The large model features the same capabilities as the best closed source models (*special*)
+62. [2024-July] mistral ai releases three new models: **Codestral Mamba**, **Mistral NeMo** and **Mathstral** designed for mathematics
+63. [2024-July] Google DeepMind has unveiled two new AI systems that won silver medals at this year's International Mathematical Olympiad (IMO),  **AlphaProof** and **AlphaGeometry 2**. (*special*)
+64. [2024-July] OpenAI launched **SearchGPT**, an integrated web search
+65. [2024-July] Startup Udio has released **Udio v1.5**, an updated version of its music creation model
+66. [2024-July] Mistral AI has released a large language model **Mistral Large 2** in size 123B, which presents capabilities close to the closed SOTA models. (*special*)
+67. [2024-July] **Midjourney v6.1** is released
+68. [2024-July] Google releases the **Gemma 2 2B** model as open source. The model demonstrates better capabilities than much larger models.
+69. [2024-August] "Black Forest Labs" releases weights for an image creation model named **Flux**, which shows better performance than similar closedsource models.
+70. [2024-August] OpenAI released a new version of its model, **GPT-4o 0806**, achieving 100% success in generating valid JSON output.
+71. [2024-August] Google's image generation model, **Imagen 3**, has been released.
+72. [2024-August] xAI Corporation has launched the models **Grok 2** and **Grok 2 mini**, which demonstrate performance on par with leading SOTA models in the market.
+73. [2024-August] Microsoft has introduced its small language models, **Phi 3.5**, in three versions, each showcasing impressive performance relative to their size.
+74. [2024-August] Google has introduced three new experimental AI models: **Gemini 1.5 Flash8B**, **Gemini 1.5 Pro** Enhanced, and **Gemini 1.5 Flash** Updated.
+75. [2024-August] **Ideogram 2.0** has been released, offering image generation capabilities that surpass those of other leading models.
+76. [2024-August] Luma has unveiled the **Dream Machine 1.5** model for video creation.
+77. [2024-September] The French AI company Mistral has introduced **Pixtral12B**, its first multimodal model capable of processing both images and text.
+78. [2024-September] OPENAI has released two nextgeneration AI models to its subscribers: **o1 preview** and **o1 mini**. These models show a significant improvement in performance, particularly in tasks requiring reasoning, including coding, mathematics, GPQA, and more. (*special*)
+79. [2024-September] Chinese company Alibaba releases the **Qwen 2.5** model in various sizes, ranging from 0.5B to 72B. The models demonstrate capabilities comparable to much larger models.
+80. [2024-September] The video generation model **KLING 1.5** has been released.
+81. [2024-September] **OpenAI** launches the **advanced voice mode** of GPT 4o for all subscribers.
+82. [2024-September] **Meta** releases **Llama 3.2** in sizes 1B, 3B, 11B and 90B, featuring image recognition capabilities for the first time.
+83. [2024-September] **Google** has rolled out new model updates ready for deployment, **Gemini Pro 1.5 002** and **Gemini Flash 1.5 002**, showcasing significantly improved longcontext processing.
+84. [2024-September] **Kyutai** releases two opensource versions of its voicetovoice model, **Moshi**.
+85. [2024-September] Google releases an update to its AI tool **NotebookLM** that enables users to create podcasts based on their own content.
+86. [2024-September] Mistral AI launches a 22B model named **Mistral Small**.
+87. [2024-October] **Flux 1.1 Pro** is released, showcasing advanced capabilities for image creation.
+88. [2024-October] Meta unveils **Movie Gen**, a new AI model that generates videos, images, and audio from text input.
+89. [2024-October] Pika introduces **Video Model 1.5** along with "Pika Effects."
+90. [2024-October] Adobe announces its video creation model, **Firefly Video**.
+91. [2024-October] Startup Rhymes AI releases **Aria**, an opensource, multimodal model exhibiting capabilities similar to comparably sized proprietary models.
+92. [2024-October] Meta releases an opensource speechtospeech language model named **Meta Spirit LM**.
+93. [2024-October] Mistral AI introduces **Ministral**, a new model available in 3B and 8B parameter sizes.
+94. [2024-October] **Janus AI**, a multimodal language model capable of recognizing and generating both text and images, is released as open source by DeepSeekAI.
+95. [2024-October] Google DeepMind and MIT unveil **Fluid**, a texttoimage generation model with industryleading performance at a scale of 10.5B parameters.
+96. [2024-October] **Stable Diffusion 3.5** is released in three sizes as open source.
+97. [2024-October] Anthropic launches **Claude 3.5 Sonnet New**, demonstrating significant advancements in specific areas over its previous version, and announces **Claude 3.5 Haiku**.
+98. [2024-October] Anthropic announces an experimental feature for computer use with a public beta API.
+99. [2024-October] The texttoimage model **Recraft v3** has been released to the public, ranking first in benchmarks compared to similar models.
+100. [2024-October] OpenAI has launched **Search GPT**, allowing users to perform web searches directly within the platform.
+101. [2024-November] Alibaba released its new model, **QwQ 32B Preview**, which integrates reasoning capabilities before responding. The model competes with, and sometimes surpasses, OpenAI's o1-preview model.
+102. [2024-November] Alibaba opensourced the model **Qwen2.5 Coder 32B**, which offers comparable capabilities to leading proprietary language models in the coding domain.
+103. [2024-November] DeepSeek unveiled its new AI model, **DeepSeek-R1-Lite-Preview**, which incorporates reasoning capabilities and delivers impressive performance on the AIME and MATH benchmarks, matching the level of OpenAI's o1-preview.
+104. [2024-November] **Suno** upgraded its AIpowered music generator to **v4**, introducing new features and performance improvements.
+105. [2024-November] Mistral AI launched the **Pixtral Large** model, a multimodal language model excelling in image recognition and advanced performance metrics, and an update to Mistral Large, 2411.
+106. [2024-November] Google introduced two experimental models, **gemini-exp-1114** and **gemini-exp-1121**, currently leading the arena chatbot with enhanced performance.
+107. [2024-November] Anthropic launches **Claude 3.5 Haiku** and Visual PDF Analysis in Claude.
+108. [2024-December] Amazon introduced a new series of models called **NOVA**, designed for text, image, and video processing.
+109. [2024-December] OpenAI released **SORA**, a video generation model, along with the full version of **o1** and **o1 Pro** for advanced subscribers. Additionally, the company launched a live video mode for **GPT 4o**. (*special*)
+110. [2024-December] Google unveiled the experimental model **Gemini-Exp-1206**, which ranked first in the chatbot leaderboard.
+111. [2024-December] Google launched **Gemini 2.0 Flash** in beta. This model leads benchmarks and outperforms the previous version, **Gemini Pro 1.5**. Additionally, Google introduced live speech and video mode and announced built-in image generation capabilities within the model. (*special*)
+112. [2024-December] Google revealed **Gemini-2.0-Flash-Thinking**, a thinking model based on **Gemini 2.0 Flash**, which secured second place in the chatbot leaderboard. (*special*)
+113. [2024-December] Google introduced **Veo 2**, a beta version video generation model capable of producing 4K videos up to two minutes long. The model outperformed **SORA** in human evaluations. Additionally, Google updated **Imagen 3**, offering enhanced image quality and realism. (*special*)
+114. [2024-December] xAI integrated **Aurora**, a new model for generating high-quality and realistic images.
+115. [2024-December] Microsoft open-sourced the **Phi4** model, sized at 14B, showcasing impressive capabilities for its size.
+116. [2024-December] Meta released **Llama 3.3 70B**, a model offering performance comparable to **Llama 3.1 405B**.
+117. [2024-December] Google launched a multi-modal open-source model called **PaliGemma 2**, integrated with existing **Gemma** models.
+118. [2024-December] Pika Labs released **2.0**, the latest version of its AI-powered video generator.
+119. [2024-December] Meta introduced **Apollo**, a video generation model available in three different sizes.
+120. [2024-December] Deepseek open-sourced **Deepseek V3**, a model with 671B parameters that surpasses closed-source SOTA models across several benchmarks. (*special*)
+121. [2024-December] Alibaba unveiled **QVQ-72B-Preview**, a cutting-edge thinking model capable of analyzing images, featuring SOTA-level performance. (*special*)
+122. [2024-December] OpenAI announced **o3**, a groundbreaking AI model achieving 87.5% in the **ARC-AGI** benchmark, 25.2% in the **Frontier Math Benchmark** (compared to under 2% in previous models), and 87.7% in Ph.D.-level science questions. A cost-effective version, **o3 Mini**, is expected in January 2025, with performance similar to **o1**, alongside improved speed and efficiency. (*special*)
+123. [2024-December] The video generation model **Kling 1.6** was released, offering significant performance enhancements.
+124. [2025-January] OpenAI released **Operator** for Pro subscribers – an experimental AI agent capable of browsing websites and performing actions. (*special*)
+125. [2025-January] Google introduced **Gemini Flash Thinking 0121**, an enhanced reasoning model that secured the top spot in the Arena Chatbots rankings.
+126. [2025-January] DeepSeek open-sourced the reasoning models **R1** and **R1-Zero**, which demonstrated capabilities similar to **o1** across various domains at a fraction of the cost. Additionally, smaller distilled models were released, achieving high performance relative to their size. (*special*)
+127. [2025-January] Google published a research paper on a new language model architecture called **Titans**, designed to enable models to retain both short- and long-term memory. This architecture significantly improves processing for extended context windows. (*special*)
+128. [2025-January] DeepSeek open-sourced a fully multimodal model, **Janus Pro 7B**, which supports both text and image generation.
+129. [2025-January] Alibaba unveiled **Qwen2.5-Max**, a large language model that surpasses several leading models, including **DeepSeek-V3**, **GPT-4o**, and **Claude 3.5**. Additionally, the **Qwen2.5-1M** series was open-sourced, capable of processing up to one million tokens, along with the **Qwen2.5-VL** vision model series in three different sizes.
+130. [2025-January] OpenAI made the **o3 mini** reasoning model available to all users, including the free tier, featuring three reasoning levels. The model matches or comes close to o1 in several benchmarks, significantly surpasses it in coding, and remains significantly faster and more cost-efficient. (*special*)
+131. [2025-February] xAI launches **Grok 3**, **Grok 3 Reasoning** and **Grok 3 mini**, next-generation AI models trained with 10 times the computing power of Grok 2, significantly improving SOTA performance. They include "Think" and "Big Brain" modes for advanced reasoning, as well as **DeepSearch** for autonomous web searches. (*special*)
+132. [2025-February] Anthropic introduces **Claude 3.7** and **Claude 3.7 Thinking**, a new model with enhanced coding performance, support for "Extended Thinking" mode, and the ability to analyze reasoning processes. (*special*)
+133. [2025-February] OpenAI unveils **Deep Research**, a tool for autonomous research, enabling real-time web searches and comprehensive report generation. (*special*)
+134. [2025-February] Google releases **Gemini 2.0 Flash**, **Gemini 2.0 Flash-Lite Preview**, and **Gemini 2.0 Pro Experimental**.
+135. [2025-February] Alibaba launches **QwQ-Max** – a reasoning model based on Qwen2.5-Max, offering improved analytical and logical capabilities.
+136. [2025-February] Microsoft presents **Phi4-mini** and **Phi4 Multimodal**, lightweight models (3.8B and 5.6B) with enhanced performance, including support for multimodal inputs.
+137. [2025-February] OpenAI releases **GPT-4.5**, featuring advanced pattern recognition and significantly reduced hallucinations, improving accuracy and reliability. (*special*)
+138. [2025-March] Google introduced **Gemini 2.5 Pro**, an experimental "Thinking model" with advanced reasoning and planning capabilities, a 1 million token context window, achieving top rankings across several key benchmarks. (*special*)
+139. [2025-March] Google launched the Gemma 3 series, featuring open-source multimodal models in various parameter sizes, a 128K context window, multi-language support, and integrated image and video understanding capabilities.
+140. [2025-March] OpenAI integrated **GPT-4o Image Generation**, enabling high-fidelity text-to-image creation, text rendering within images, and more. (*special*)
+141. [2025-March] Google expanded experimental image generation and editing within **Gemini 2.0 Flash Experimental**, enabling image generation and editing, including enhanced text creation capabilities. (*special*)
+142. [2025-March] Alibaba released **QwQ-32B**, an open-source 32B parameter reasoning model with exceptional math and coding performance, rivaling much larger models.
+143. [2025-March] Alibaba released the **Qwen2.5-VL 32B**, open-source vision-language model with robust capabilities in visual analysis, text-in-image understanding, and visual agent tasks.
+144. [2025-March] DeepSeek updated its open-source MoE model with **DeepSeek-V3-0324**, featuring enhanced reasoning, coding, and math capabilities, positioning it as a top-tier base model.
+145. [2025-March] Sesame AI unveiled its **Conversational Speech Model (CSM)**, enabling remarkably human-like, real-time voice interaction, incorporating emotional nuances, natural pauses, laughter, and contextual memory. (*special*)
+146. [2025-April] Meta releases **Llama 4** in three sizes with a context window of 10 million tokens and medium performance.
+147. [2025-April] Google launches **Gemini 2.5 Flash**, with a dynamic reasoning mode that allows tuning the reasoning level or disabling it as needed.
+148. [2025-April] Amazon introduces **Nova Act**, a new framework for building multi-step autonomous agents.
+149. [2025-April] OpenAI releases **GPT-4.1** in three sizes, with a context window of 1 million tokens.
+150. [2025-April] OpenAI introduces **o3 full** and **o4 mini**, highly advanced models for reasoning, math, and coding.
+151. [2025-April] Midjourney launches **v7**, with higher image quality and more precise control over style.
+152. [2025-April] A series of video model updates - **Veo 2.0** (Google), **Runway Gen-4**, **Vidu Q1**, and **Kling 2.0** – a leap forward in high-quality video generation, with improvements in response times, realism, and style.
+153. [2025-April] Alibaba releases **Qwen 3** as open source, in various sizes, with very impressive capabilities for their size. (*special*)
+154. [2025-May] Microsoft launches the **Phi-4 reasoning** series as open source, small yet high-quality models that incorporate reasoning.
+155. [2025-May] Suno releases **Suno 4.5**, fixing shimmer noise and improving audio decay stability in long tracks.
+156. [2025-May] Anthropic releases **Claude 4 Opus** and **Claude Sonnet 4**: Opus 4 offers a Hybrid "Deep Thought" mode with enhanced long-term context and 7-hour autonomous operation; Sonnet 4 focuses on improved math and coding performance. (*special*)
+157. [2025-May] Google releases **Veo 3**, a video generation model for synchronized 4K video with natural audio integration, and **Imagen 4**, an advanced image model with deeper contextual understanding and artistic style support. (*special*)
+158. [2025-May] OpenAI releases **Codex**, an autonomous code agent in ChatGPT, powered by the o3 model, for writing code, debugging, testing, and creating GitHub Pull Requests.
+159. [2025-May] Google releases **Jules**, an asynchronous autonomous coding agent on Gemini 2.5 Pro, analyzing repositories and creating GitHub Pull Requests.
+160. [2025-May] Google releases **Gemini 2.5 Pro** (Deep Think Mode) and **Gemini 2.5 Flash**, featuring improved reasoning, native audio support, extended context, and high-frequency task handling.
+161. [2025-May] OpenAI updates **Operator** to use the **o3** model, achieving SOTA on OSWorld benchmarks and enhancing autonomous browser capabilities.
+162. [2025-May] DeepSeek open-sources **R1-0528**, a code-and-inference model with near–o4-mini performance and moderate computational needs.
+163. [2025-May] Google DeepMind launches **AlphaEvolve**, an autonomous code-optimizer using evolutionary strategies with LLMs, achieving SOTA on 75% of math problems and discovering enhanced algorithms 20% of the time. (*special*)
+164. [2025-May] Google releases **Gemini Diffusion**, an experimental text diffusion model achieving high-speed text generation with enhanced control and creativity via noise refinement. (*special*)
+165. [2025-May] Google introduces **Gemma 3n**, an open-source generative AI model for on-device use, with an efficient architecture and multi-modal (audio, text, visual) capabilities.
+166. [2025-June] Google releases **Gemini 2.5 Pro** (final production-ready version), which leads benchmarks across the board.
+167. [2025-June] ElevenLabs rolls out **Eleven v3 (alpha)** TTS with fine grained emotion control and support for 70+ languages.
+168. [2025-June] OpenAI debuts **o3 pro**, an enhanced reasoning model offering extended context and real-time tool integrations.
+169. [2025-July] xAI releases **Grok 4**, achieving a new SOTA of 15.9% on ARC-AGI v2 and 25.4% on Humanity’s Last Exam. (*special*)
+170. [2025-July] OpenAI unveils the **ChatGPT Agent**, embedding autonomous coding, web research and tool use directly within the chat interface. (*special*)
+171. [2025-July] An experimental OpenAI model secures a **gold medal** at IMO 2025 without any external tools. (*special*)
+172. [2025-July] Google introduces **Gemini Deep Think**, which also earns an IMO 2025 gold by solving five of six problems with parallel reasoning. (*special*)
+173. [2025-July] Alibaba open-sources two variants, **Qwen3-235B-A22B-Instruct-2507** (instruction-tuned) and **Qwen3-Coder**, for general LLM use and automated code generation.
+174. [2025-July] Moonshot AI debuts **Kimi K2**, a Chinese LLM praised for its open-research focus and robust performance.
+175. [2025-July] Chinese startup Zhipu open-sources **GLM-4.5**, a 130 B-parameter model tailored for intelligent-agent applications.
+176. [2025-August] Google introduced **Gemini 2.5 Deep Think**, a special "extended thinking" mode for solving complex problems and exploring alternatives. (*special*)
+177. [2025-August] Anthropic released **Claude Opus 4.1**, an upgrade focused on improving agentic capabilities and real-world coding.
+178. [2025-August] Google DeepMind announced **Genie 3.0**, a "world model" for creating interactive 3D environments from text, maintaining consistency for several minutes. (*special*)
+179. [2025-August] OpenAI released **gpt-oss-120b** and **gpt-oss-20b**, a family of open-source models with high reasoning capabilities, optimized to run on accessible hardware.
+180. [2025-August] OpenAI launched **GPT-5**, the company's next-generation model, with significant improvements in coding and a dynamic "thinking" mode to reduce hallucinations.
+181. [2025-August] DeepSeek released **DeepSeek V3.1**, a hybrid model combining fast and slow "thinking" modes to improve performance in agentic tasks and tool use.
+182. [2025-August] Google launched a preview of **Gemini 2.5 Flash Image** (showcased as *nano-banana*), an advanced model for precise image editing, merging, and maintaining character consistency. (*special*)
+183. [2025-September] ByteDance released **Seedream 4.0**, a next-generation image model unifying high-quality text-to-image generation and natural-language image editing.
+184. [2025-September] An advanced Gemini variant, reported as **Gemini 2.5 - Deep Think**, achieved gold-medal-level performance at the ICPC World Finals programming contest. (*special*)
+185. [2025-September] OpenAI reported a reasoning and code model achieved a perfect score (12/12) in ICPC testing. (*special*)
+186. [2025-September] Suno released **Suno v5**, an upgrade in music generation with studio-grade fidelity and more natural-sounding vocals.
+187. [2025-September] Alibaba unveiled **Qwen-3-Max**, its flagship model with over a trillion parameters, focusing on long context and agent capabilities.
+188. [2025-September] **Wan 2.5** was released, a generative video model focused on multi-shot consistency and character animation.
+189. [2025-September] Anthropic announced **Claude Sonnet 4.5**, a model optimized for coding, agent construction, and improved reasoning.
+190. [2025-September] OpenAI released **Sora 2**, a flagship video and audio generation model with improved physical modeling and synchronized sound.
+191. [2025-September] DeepSeek released **DeepSeek-V3.2-Exp**
+192. [2025-September] OpenAI and NVIDIA announced a strategic partnership for NVIDIA to supply at least **10 gigawatts** of AI systems for OpenAI's infrastructure. (*special*)
+193. [2025-October] Figure unveiled **Figure 03**, a humanoid robot designed for domestic and general-purpose tasks.
+194. [2025-October] Google released a **Gemini model for computer control**, achieving state-of-the-art (SOTA) performance in GUI automation.
+195. [2025-October] Anthropic released **Claude 4.5 Haiku**, a fast, cost-effective model for high-volume, low-latency applications.
+196. [2025-October] OpenAI announced **ChatGPT Atlas**, an AI-native web browser with a built-in "Agent Mode" for task automation.
+197. [2025-October] 1X announced **Neo**, a humanoid robot marketed as the first consumer-ready model for home use. (*special*)
+198. [2025-November] Moonshot AI released **Kimi K2 Thinking**, an open model setting new records in reasoning benchmarks.
+199. [2025-November] OpenAI launched **GPT 5.1**, featuring specialized "Thinking" and "Instant" modes with expanded context.
+200. [2025-November] xAI released **Grok 4.1**, combining high EQ with strong logic to top the LM Arena leaderboard.
+201. [2025-November] Google debuted **Gemini 3.0**, a flagship "thinking" model that claimed the top spot on major benchmarks.
+202. [2025-November] OpenAI introduced **GPT 5.1 Codex Max**, an agentic model built specifically for long-term coding tasks.
+203. [2025-November] Google released **Nano Banana Pro**, a superior image generation and editing model based on Gemini 3. (*special*)
+204. [2025-November] Anthropic announced **Claude Opus 4.5**, delivering elite coding and agentic performance at a significantly reduced price. (*special*)
+205. [2025-November] Black Forest Labs launched **FLUX 2**, a high-performance open-weight image generation model.
+206. [2025-November] DeepSeek released **DeepSeekMath-V2** as open source, achieving gold-medal performance in math olympiads. (*special*)
+207. [2025-November] Microsoft open-sourced **Fara-7B**, a small model optimized for browser agents and computer control.
+208. [2025-November] **Poetiq** shatters the **ARC-AGI-2** benchmark with a score of over 60%, surpassing the human average.
+209. [2025-December] Mistral AI launches the **Mistral 3** family (Large & Ministral) alongside **Mistral OCR 3** and the **Devstral 2** coding series, reinforcing its open-weight leadership with advanced agentic workflows and Vibe CLI integration.
+210. [2025-December] OpenAI releases **GPT-5.2**, featuring the autonomous **Codex** agent for complex engineering tasks, and **GPT-Image 1.5**, which claims the #1 spot on vision benchmarks, outperforming Nano Banana Pro.
+211. [2025-December] Google introduces **Gemini 3.0 Flash**, setting a new standard for price-performance, and deploys **Deep Research**, an autonomous agent capable of multi-step synthesis, alongside **Gemini 2.5 Flash Audio**. (*special*)
+212. [2025-December] Amazon unveils the **Nova 2** series, highlighted by **Nova 2 Sonic**, a native speech-to-speech model delivering ultra-low latency and natural conversation flow.
+213. [2025-December] Runway releases **Gen-4.5**, a video generation model that rises to the top of industry leaderboards for motion consistency and prompt adherence.
+214. [2025-December] xAI launches the **Grok Voice Agent API**, enabling native, real-time bidirectional audio streaming for developers.
+215. [2025-December] Zhipu AI releases **GLM-4.7**, an open-weights model that reaches the top of global coding and reasoning leaderboards.
+216. [2025-December] Alibaba open-sources **Z-Image-Turbo**, a highly efficient 6B model, and releases **Qwen-Image-2512**, which specializes in high-fidelity typography and complex visual compositions.
+217. [2025-December] MiniMax releases **MiniMax-M2.1**, a 200k-context MoE model that rises to the top of web development and coding leaderboards, establishing itself as a leading open model for developers.
+218. [2025-December] A specialized system by **Poetiq**, powered by GPT-5.2, reportedly solves the **ARC-2** benchmark, marking a major breakthrough in abstract reasoning. (*special*)
+219. [2026-January] **AxiomProver** solves all 12 problems from the 2025 Putnam exam using formal Lean proofs. (*special*)
+220. [2026-January] Anthropic launches **Claude Cowork**, a research preview for delegating knowledge-work tasks across documents, spreadsheets, and presentations. (*special*)
+221. [2026-January] Moonshot AI releases **Kimi K2.5**, an upgraded model focused on stronger reasoning, coding, and agentic workflows.
+222. [2026-January] xAI launches **Imagine Video**, a video generation model in Grok that quickly rises to the top of public leaderboards.
+223. [2026-January] **Moltbook**, a social platform where AI agents post and reply to each other, becomes a viral online phenomenon.
+224. [2026-February] Anthropic releases **Claude Opus 4.6** and **Claude Sonnet 4.6**, adding a 1M-token context window in beta and making the updated Sonnet model the default across Claude and Cowork. (*special*)
+225. [2026-February] OpenAI introduces **GPT-5.3-Codex** and **GPT-5.3-Codex-Spark**, upgraded coding models for long-running and real-time development work.
+226. [2026-February] Google launches **Gemini 3 Deep Think**, a specialized reasoning mode that reaches 84.6% on **ARC-AGI-2**. (*special*)
+227. [2026-February] ByteDance releases **Seedance 2.0**, an upgraded video generation model with stronger motion quality and multimodal control.
+228. [2026-February] Zhipu AI launches **GLM-5**, a new flagship model built for stronger reasoning, tool use, and agentic tasks.
+229. [2026-February] xAI releases **Grok 4.20**, an updated flagship model with improved reasoning and chat performance.
+230. [2026-February] OpenAI adds **gpt-audio-1.5**, an upgraded speech model for audio input and spoken responses.
+231. [2026-February] Google launches **Nano Banana 2**, a Gemini 3.1 Flash-based image model that matches Nano Banana Pro quality at lower latency.
+232. [2026-March] OpenAI releases **GPT-5.3 Instant**, a faster general-purpose GPT-5.3 variant for latency-sensitive tasks.
+233. [2026-March] OpenAI launches **GPT-5.4** alongside **GPT-5.4 mini** and **GPT-5.4 nano**, expanding the GPT-5.4 family across flagship and lightweight tiers.
+234. [2026-March] Mistral AI releases **Mistral Small 4**, a multimodal open model that unifies reasoning, coding, and vision capabilities.
+235. [2026-March] Suno launches **Suno v5.5**, adding Voices, Custom Models, and My Taste for more personalized music creation.

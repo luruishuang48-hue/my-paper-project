@@ -59,7 +59,7 @@ make_fml <- function(y, xterms) {
 
 stars <- function(p) {
   if (is.na(p)) return("")
-  ifelse(p < 0.001, "***", ifelse(p < 0.01, "**", ifelse(p < 0.05, "*", ifelse(p < 0.10, "+", ""))))
+  ifelse(p < 0.01, "***", ifelse(p < 0.05, "**", ifelse(p < 0.10, "*", "")))
 }
 fmt <- function(b, p) sprintf("%.5f%s", b, stars(p))
 fmt_p <- function(p) if (is.na(p)) "n/a" else sprintf("%.3f%s", p, stars(p))

@@ -1,0 +1,6 @@
+/api/v2/data/llms/models
+/api/v2/data/media/text-to-image
+/api/v2/data/media/image-editing
+/api/v2/data/media/text-to-speech
+/api/v2/data/media/text-to-video
+/api/v2/data/media/image-to-video

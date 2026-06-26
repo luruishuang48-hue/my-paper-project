@@ -158,8 +158,8 @@ extract_quarter_slopes <- function(mod, data_used, y_var) {
       ci_95_hi = round(ci_hi, 6),
       n_events = n_events,
       n_obs = n_obs,
-      stars = ifelse(pval < 0.001, "***", ifelse(pval < 0.01, "**",
-               ifelse(pval < 0.05, "*", ifelse(pval < 0.10, "+", "")))),
+      stars = ifelse(pval < 0.01, "***", ifelse(pval < 0.05, "**",
+               ifelse(pval < 0.10, "*", ""))),
       stringsAsFactors = FALSE
     )
   })

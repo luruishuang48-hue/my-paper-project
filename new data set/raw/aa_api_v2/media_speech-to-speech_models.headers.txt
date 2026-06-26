@@ -1,0 +1,17 @@
+HTTP/2 403 
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-encoding: gzip
+content-type: application/json
+date: Thu, 25 Jun 2026 11:02:56 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+x-aa-tier: free
+x-matched-path: /api/v2/media/speech-to-speech/models
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 81
+x-ratelimit-reset: 1782471733
+x-vercel-cache: MISS
+x-vercel-id: iad1::sfo1::2ntpx-1782385375830-5d10924eaa96
+

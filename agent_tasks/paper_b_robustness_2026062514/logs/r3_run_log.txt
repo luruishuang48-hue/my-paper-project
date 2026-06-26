@@ -1,0 +1,152 @@
+=== R3: Exclusion sensitivity ===
+Start time: 2026-06-25 14:21:05 
+
+Raw data dims: 5160 x 93 
+Event name(s) for final_event_id == 'FMR-0021': DeepSeek R1 
+
+--- Check 1: DeepSeek R1 (FMR-0021) exclusion ---
+Rows full sample: 5160  | rows excl. DeepSeek: 5074 
+# A tibble: 4 × 7
+  variable            spec             beta      se        p     n n_events
+  <chr>               <chr>           <dbl>   <dbl>    <dbl> <int>    <int>
+1 upstream_hardware   full_sample    0.0228 0.00842 0.00897   4829       60
+2 upstream_hardware   excl_deepseek  0.0228 0.00857 0.0101    4750       59
+3 downstream_deployer full_sample   -0.0190 0.00507 0.000404  4829       60
+4 downstream_deployer excl_deepseek -0.0186 0.00512 0.000592  4750       59
+Saved r3_deepseek_exclusion.csv
+
+--- Check 2: Leave-one-event-out ---
+Number of unique final_event_id: 60 
+Leave-one-event-out loop time: 2.3 sec
+Saved r3_leave_one_event_out.csv ( 120 rows )
+
+--- Check 3: Leave-one-firm-out (company_id) ---
+Number of unique company_id: 86 
+Leave-one-firm-out loop time: 3.7 sec
+Saved r3_leave_one_firm_out.csv ( 172 rows )
+
+--- Full-sample baseline (for reference) ---
+# A tibble: 2 × 6
+  variable               beta      se        p     n n_events
+  <chr>                 <dbl>   <dbl>    <dbl> <int>    <int>
+1 upstream_hardware    0.0228 0.00842 0.00897   4829       60
+2 downstream_deployer -0.0190 0.00507 0.000404  4829       60
+
+--- Summary stats: leave-one-event-out ---
+# A tibble: 2 × 5
+  variable            beta_min beta_max  beta_sd n_iter
+  <chr>                  <dbl>    <dbl>    <dbl>  <int>
+1 downstream_deployer  -0.0204  -0.0174 0.000673     60
+2 upstream_hardware     0.0203   0.0249 0.00111      60
+
+Most influential event per variable:
+$upstream_hardware
+# A tibble: 1 × 7
+  dropped_event_id variable            beta      se      p     n abs_diff
+  <chr>            <chr>              <dbl>   <dbl>  <dbl> <int>    <dbl>
+1 FMR-0056         upstream_hardware 0.0203 0.00816 0.0160  4752  0.00250
+
+$downstream_deployer
+# A tibble: 1 × 7
+  dropped_event_id variable               beta      se        p     n abs_diff
+  <chr>            <chr>                 <dbl>   <dbl>    <dbl> <int>    <dbl>
+1 FMR-0016         downstream_deployer -0.0174 0.00489 0.000745  4746  0.00160
+
+
+--- Summary stats: leave-one-firm-out ---
+# A tibble: 2 × 5
+  variable            beta_min beta_max  beta_sd n_iter
+  <chr>                  <dbl>    <dbl>    <dbl>  <int>
+1 downstream_deployer  -0.0208  -0.0168 0.000652     86
+2 upstream_hardware     0.0204   0.0249 0.000757     86
+
+Most influential firm per variable:
+$upstream_hardware
+# A tibble: 1 × 7
+  dropped_firm variable            beta      se       p     n abs_diff
+  <chr>        <chr>              <dbl>   <dbl>   <dbl> <int>    <dbl>
+1 SMCI         upstream_hardware 0.0204 0.00755 0.00887  4769  0.00233
+
+$downstream_deployer
+# A tibble: 1 × 7
+  dropped_firm variable               beta      se       p     n abs_diff
+  <chr>        <chr>                 <dbl>   <dbl>   <dbl> <int>    <dbl>
+1 5803 JP      downstream_deployer -0.0168 0.00506 0.00153  4769  0.00221
+
+
+--- Sign-flip / significance-loss check (event) ---
+[[1]]
+[[1]]$variable
+[1] "upstream_hardware"
+
+[[1]]$n_sign_flips
+[1] 0
+
+[[1]]$flip_ids
+character(0)
+
+[[1]]$n_lost_significance
+[1] 0
+
+[[1]]$lost_sig_ids
+character(0)
+
+
+[[2]]
+[[2]]$variable
+[1] "downstream_deployer"
+
+[[2]]$n_sign_flips
+[1] 0
+
+[[2]]$flip_ids
+character(0)
+
+[[2]]$n_lost_significance
+[1] 0
+
+[[2]]$lost_sig_ids
+character(0)
+
+
+
+--- Sign-flip / significance-loss check (firm) ---
+[[1]]
+[[1]]$variable
+[1] "upstream_hardware"
+
+[[1]]$n_sign_flips
+[1] 0
+
+[[1]]$flip_ids
+character(0)
+
+[[1]]$n_lost_significance
+[1] 0
+
+[[1]]$lost_sig_ids
+character(0)
+
+
+[[2]]
+[[2]]$variable
+[1] "downstream_deployer"
+
+[[2]]$n_sign_flips
+[1] 0
+
+[[2]]$flip_ids
+character(0)
+
+[[2]]$n_lost_significance
+[1] 0
+
+[[2]]$lost_sig_ids
+character(0)
+
+
+
+Saved r3_sensitivity_summary.md
+
+=== R3 complete ===
+End time: 2026-06-25 14:21:11 
