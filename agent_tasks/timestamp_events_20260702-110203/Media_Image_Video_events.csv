@@ -1,0 +1,26 @@
+event_id,ai_year,ai_month,model_names,aa_names,aa_release_dates,aa_creators,model_count,event_text
+AIT-2022-10-001,2022,October,Stable Diffusion 1.5,Stable Diffusion 1.5,2022-10,Stability.ai,1,Stable Diffusion 1.5 becomes available.
+AIT-2022-12-001,2022,December,Stable Diffusion 2.1,Stable Diffusion 2.1,2022-12,Stability.ai,1,Stable Diffusion 2.1 is released.
+AIT-2023-07-001,2023,July,Stable Diffusion XL 1.0,Stable Diffusion XL 1.0,2023-07,Stability.ai,1,Stable Diffusion XL 1.0 is released.
+AIT-2023-12-001,2023,December,Midjourney v6,Midjourney v6,2023-12,Midjourney,1,Midjourney v6 is launched.
+AIT-2024-02-001,2024,February,Stable Diffusion 3,Stable Diffusion 3 Large; Stable Diffusion 3 Large Turbo,2024-02; 2024-02,Stability.ai,2,Stability AI announces Stable Diffusion 3 (gradually released to waiting list).
+AIT-2024-04-001,2024,April,Stable Audio 2.0,Stable Audio 2.0,,Stability.ai,1,Stability AI releases a new update to the music creation model - Stable Audio 2.0 .
+AIT-2024-04-006,2024,April,Firefly 3,Firefly Image 3,2024-04,Adobe,1,Adobe announces its new image creation model Firefly 3 .
+AIT-2024-06-001,2024,June,Stable Diffusion 3,Stable Diffusion 3 Medium,2024-06,Stability.ai,1,Stability AI releases its updated image creation model Stable Diffusion 3 in a medium version in size 2B parameters.
+AIT-2024-06-004,2024,June,Gen3 Alpha,Runway Gen 3 Alpha,2024-06,Runway,1,"Runway introduces Gen3 Alpha , a new AI model for video generation."
+AIT-2024-07-006,2024,July,Udio v1.5,Udio v1.5 Allegro,,Udio,1,"Startup Udio has released Udio v1.5 , an updated version of its music creation model"
+AIT-2024-07-008,2024,July,Midjourney v6.1,Midjourney v6.1,2024-07,Midjourney,1,Midjourney v6.1 is released
+AIT-2024-08-001,2024,August,Flux,FLUX.1 [pro]; FLUX.1 [dev]; FLUX.1 [schnell],2024-08; 2024-08; 2024-08,Black Forest Labs,3,"""Black Forest Labs"" releases weights for an image creation model named Flux , which shows better performance than similar closedsource models."
+AIT-2024-09-004,2024,September,KLING 1.5,Kling 1.5 Pro,2024-09,KlingAI,1,The video generation model KLING 1.5 has been released.
+AIT-2024-10-001,2024,October,Flux 1.1 Pro,FLUX1.1 [pro],2024-10,Black Forest Labs,1,"Flux 1.1 Pro is released, showcasing advanced capabilities for image creation."
+AIT-2024-10-003,2024,October,Video Model 1.5,Pika 1.5,2024-10,Pika Art,1,"Pika introduces Video Model 1.5 along with ""Pika Effects."""
+AIT-2024-10-010,2024,October,Stable Diffusion 3.5,Stable Diffusion 3.5 Large; Stable Diffusion 3.5 Large Turbo; Stable Diffusion 3.5 Medium,2024-10; 2024-10; 2024-10,Stability.ai,3,Stable Diffusion 3.5 is released in three sizes as open source.
+AIT-2024-10-013,2024,October,Recraft v3,Recraft V3,2024-10,Recraft,1,"The texttoimage model Recraft v3 has been released to the public, ranking first in benchmarks compared to similar models."
+AIT-2024-12-011,2024,December,2.0,Pika 2.0,2024-12,Pika Art,1,"Pika Labs released 2.0 , the latest version of its AI-powered video generator."
+AIT-2024-12-016,2024,December,Kling 1.6,Kling 1.6 Standard,2024-12,KlingAI,1,"The video generation model Kling 1.6 was released, offering significant performance enhancements."
+AIT-2025-04-006,2025,April 2025,v7,Midjourney v7 Alpha,2025-04,Midjourney,1,"Midjourney launches v7 , with higher image quality and more precise control over style."
+AIT-2025-04-007,2025,April 2025,Runway Gen-4; Vidu Q1; Kling 2.0,Runway Gen 4; Vidu Q1; Kling 2.0,2025-03; 2025-04; 2025-04,KlingAI; Runway; Vidu,3,"A series of video model updates - Veo 2.0 (Google), Runway Gen-4 , Vidu Q1 , and Kling 2.0 – a leap forward in high-quality video generation, with improvements in response times, realism, and style."
+AIT-2025-09-001,2025,September 2025,Seedream 4.0,Seedream 4.0,2025-09,ByteDance Seed,1,"ByteDance released Seedream 4.0 , a next-generation image model unifying high-quality text-to-image generation and natural-language image editing."
+AIT-2025-11-008,2025,November 2025,FLUX 2,FLUX.2 [pro]; FLUX.2 [flex]; FLUX.2 [dev],2025-11; 2025-11; 2025-11,Black Forest Labs,3,"Black Forest Labs launched FLUX 2 , a high-performance open-weight image generation model."
+AIT-2025-12-005,2025,December 2025,Gen-4.5,Runway Gen-4.5,2025-12,Runway,1,"Runway releases Gen-4.5 , a video generation model that rises to the top of industry leaderboards for motion consistency and prompt adherence."
+AIT-2026-02-004,2026,February 2026,Seedance 2.0,Dreamina Seedance 2.0 720p,2026-03,ByteDance Seed,1,"ByteDance releases Seedance 2.0 , an upgraded video generation model with stronger motion quality and multimodal control."

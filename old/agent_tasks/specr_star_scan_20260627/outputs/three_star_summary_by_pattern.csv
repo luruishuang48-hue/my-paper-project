@@ -1,0 +1,32 @@
+spec_type,x,x_label,moderator,outcome_family,sign,n_specs,n_three_star,share_three_star,n_bh_5pct,median_est_pp,min_p
+main_effect,downstream_deployer,Downstream deployer,NA,market,negative,336,56,0.16666666666666666,3,-0.7496504163383597,1.652206867671945e-5
+main_effect,upstream_any,Any upstream,NA,market,positive,228,39,0.17105263157894737,0,0.6156776502915621,4.798787453504761e-4
+main_effect,strategic_any,Strategic/upstream,NA,market,positive,222,37,0.16666666666666666,0,0.6229320832281942,5.671869539966541e-4
+main_effect,downstream_any,Any downstream,NA,market,negative,263,34,0.12927756653992395,0,-0.7635197824135292,1.1181489631833589e-4
+main_effect,upstream_hardware,Upstream hardware,NA,market,positive,217,28,0.12903225806451613,0,0.6125720926410941,5.746592883619255e-4
+main_effect,upstream_cloud,Upstream cloud,NA,market,positive,265,28,0.10566037735849057,0,0.6765682566613137,0.0011877225310145537
+interaction,upstream_hardware,Upstream hardware,is_open_weight,market,negative,30,22,0.7333333333333333,1,-3.4341283978713424,3.396657511498811e-5
+interaction,upstream_any,Any upstream,is_open_weight,market,negative,30,15,0.5,1,-3.312250393451789,2.7341484972541758e-5
+main_effect,z_intelligence,AA Intelligence Index (z),NA,ff3,positive,136,14,0.10294117647058823,3,0.43882240862753463,4.948587276539559e-5
+main_effect,downstream_deployer,Downstream deployer,NA,ff3,negative,290,14,0.04827586206896552,0,-0.4064737218325609,0.0010841221495629055
+main_effect,z_intelligence,AA Intelligence Index (z),NA,market,positive,173,13,0.07514450867052024,0,0.5537983755365744,1.2189822487400393e-4
+main_effect,upstream_cloud,Upstream cloud,NA,ff3,positive,269,13,0.048327137546468404,0,0.6404522310467603,4.4266794982184487e-4
+interaction,upstream_cloud,Upstream cloud,z_media_sentiment,market,positive,30,11,0.36666666666666664,4,1.0060798651752227,7.682423194568216e-6
+main_effect,downstream_enabler,Downstream enabler,NA,market,negative,197,10,0.050761421319796954,0,-0.48747397689638217,0.003103322980268679
+main_effect,z_intelligence,AA Intelligence Index (z),NA,market,negative,107,7,0.06542056074766354,0,-0.390516167309836,0.0016173234426948792
+interaction,upstream_hardware,Upstream hardware,is_chinese_model,market,negative,20,6,0.3,2,-2.747018106926723,2.985935425922613e-5
+main_effect,competitor,Direct competitor,NA,ff3,positive,160,5,0.03125,0,0.41919890909581614,2.2011043660270132e-4
+main_effect,competitor,Direct competitor,NA,market,positive,167,5,0.029940119760479042,0,0.4756102368329014,3.4358264550501917e-4
+main_effect,upstream_hardware,Upstream hardware,NA,ff3,negative,241,5,0.02074688796680498,0,-0.5732253395685232,0.0022435683736060853
+main_effect,downstream_integrator,Downstream integrator,NA,market,positive,170,4,0.023529411764705882,0,0.4700046415708553,0.0011292653657499268
+main_effect,z_intelligence,AA Intelligence Index (z),NA,ff3,negative,144,4,0.027777777777777776,0,-0.5063565834710151,0.0034403808315516273
+interaction,downstream_deployer,Downstream deployer,is_chinese_model,market,negative,19,3,0.15789473684210525,0,-1.017681003700915,0.0013583477978315413
+main_effect,downstream_integrator,Downstream integrator,NA,ff3,positive,221,3,0.013574660633484163,0,0.49764879105580734,0.0014035838219123872
+main_effect,upstream_any,Any upstream,NA,ff3,negative,222,3,0.013513513513513514,0,-0.44092124473395905,0.005716155275462417
+main_effect,strategic_any,Strategic/upstream,NA,ff3,negative,221,3,0.013574660633484163,0,-0.4684758008262863,0.00620469757000416
+interaction,upstream_any,Any upstream,is_chinese_model,market,negative,19,2,0.10526315789473684,0,-2.0812284871343403,9.674639025917499e-4
+main_effect,upstream_hardware,Upstream hardware,NA,market,negative,119,2,0.01680672268907563,0,-0.6341729057817758,0.005438935994258795
+main_effect,downstream_any,Any downstream,NA,ff3,positive,142,1,0.007042253521126761,0,0.42290626767021233,0.0058687556143669625
+interaction,downstream_any,Any downstream,is_open_weight,market,positive,29,1,0.034482758620689655,0,1.653011214191092,0.007677147231543602
+interaction,downstream_any,Any downstream,is_reasoning_model,market,negative,30,1,0.03333333333333333,0,-1.604976160952801,0.0080613924784458
+main_effect,competitor,Direct competitor,NA,ff3,negative,176,1,0.005681818181818182,0,-0.3126820654431089,0.008416246883043862

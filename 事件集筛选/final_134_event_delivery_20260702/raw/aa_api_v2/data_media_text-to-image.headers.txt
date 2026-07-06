@@ -1,0 +1,13 @@
+HTTP/2 200 
+age: 0
+cache-control: public, max-age=0, must-revalidate
+content-encoding: gzip
+content-type: application/json
+date: Thu, 25 Jun 2026 11:03:37 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+x-matched-path: /api/v2/data/media/text-to-image
+x-vercel-cache: MISS
+x-vercel-id: iad1::sfo1::ftltz-1782385417405-a0f87e5bde9d
+

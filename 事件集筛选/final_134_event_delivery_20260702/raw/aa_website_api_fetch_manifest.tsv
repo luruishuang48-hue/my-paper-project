@@ -1,0 +1,10 @@
+200	23948690	medium	1	new data set/raw/aa_website_api/host_models_performance_medium_p1.json
+200	22354496	medium	10	new data set/raw/aa_website_api/host_models_performance_medium_p10.json
+200	23550119	long	1	new data set/raw/aa_website_api/host_models_performance_long_p1.json
+200	93	long	10	new data set/raw/aa_website_api/host_models_performance_long_p10.json
+200	22550263	100k	1	new data set/raw/aa_website_api/host_models_performance_100k_p1.json
+200	94	100k	10	new data set/raw/aa_website_api/host_models_performance_100k_p10.json
+200	11115851	vision_single_image	1	new data set/raw/aa_website_api/host_models_performance_vision_single_image_p1.json
+200	92	vision_single_image	10	new data set/raw/aa_website_api/host_models_performance_vision_single_image_p10.json
+200	23959548	medium_coding	1	new data set/raw/aa_website_api/host_models_performance_medium_coding_p1.json
+200	92	medium_coding	10	new data set/raw/aa_website_api/host_models_performance_medium_coding_p10.json

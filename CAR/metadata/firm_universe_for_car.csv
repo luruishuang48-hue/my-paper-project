@@ -1,0 +1,109 @@
+ticker,company,gics_sector,source_index,index_tag,decision,reason,is_main_nasdaq100,is_sox_robustness,download_symbol
+AAPL,Apple Inc.,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AAPL
+ABNB,Airbnb,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ABNB
+ADBE,Adobe Inc.,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ADBE
+ADI,Analog Devices,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,ADI
+ADP,Automatic Data Processing,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ADP
+ADSK,Autodesk,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ADSK
+AEP,American Electric Power,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AEP
+ALAB,Astera Labs,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,ALAB
+ALNY,Alnylam Pharmaceuticals,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ALNY
+AMAT,Applied Materials,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,AMAT
+AMD,Advanced Micro Devices,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,AMD
+AMGN,Amgen,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AMGN
+AMZN,Amazon,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AMZN
+APP,AppLovin,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,APP
+ARM,Arm Holdings,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ARM
+ASML,ASML Holding,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,ASML
+ASX,"ASE Technology Holding Co., Ltd.",Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,ASX
+AVGO,Broadcom,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,AVGO
+AXON,Axon Enterprise,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AXON
+BKNG,Booking Holdings,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,BKNG
+BKR,Baker Hughes,Energy,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,BKR
+CCEP,Coca-Cola Europacific Partners,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CCEP
+CDNS,Cadence Design Systems,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CDNS
+CEG,Constellation Energy,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CEG
+CMCSA,Comcast,Telecommunications,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CMCSA
+COST,Costco,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,COST
+CPRT,Copart,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CPRT
+CRDO,Credo Technology Group Holding Ltd,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,CRDO
+CRWD,CrowdStrike,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CRWD
+CRWV,CoreWeave,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CRWV
+CSCO,Cisco,Telecommunications,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CSCO
+CSX,CSX Corporation,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CSX
+CTAS,Cintas,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CTAS
+DASH,DoorDash,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,DASH
+DDOG,Datadog,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,DDOG
+DXCM,DexCom,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,DXCM
+EA,Electronic Arts,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,EA
+ENTG,"Entegris, Inc.",Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,ENTG
+EXC,Exelon,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,EXC
+FANG,Diamondback Energy,Energy,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FANG
+FAST,Fastenal,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FAST
+FER,Ferrovial,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FER
+FTNT,Fortinet,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FTNT
+GEHC,GE HealthCare,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GEHC
+GILD,Gilead Sciences,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GILD
+GOOG,Alphabet Inc. (Class C),Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GOOG
+GOOGL,Alphabet Inc. (Class A),Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GOOGL
+HON,Honeywell Technologies,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,HON
+IDXX,Idexx Laboratories,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,IDXX
+INTC,Intel,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,INTC
+INTU,Intuit,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,INTU
+ISRG,Intuitive Surgical,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ISRG
+KDP,Keurig Dr Pepper,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,KDP
+KHC,Kraft Heinz,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,KHC
+KLAC,KLA Corporation,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,KLAC
+LIN,Linde plc,Basic Materials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,LIN
+LITE,Lumentum,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,LITE
+LRCX,Lam Research,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,LRCX
+MAR,Marriott International,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MAR
+MCHP,Microchip Technology,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MCHP
+MDLZ,Mondelez International,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MDLZ
+MELI,Mercado Libre,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MELI
+META,Meta Platforms,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,META
+MNST,Monster Beverage,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MNST
+MPWR,Monolithic Power Systems,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MPWR
+MRVL,Marvell Technology,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MRVL
+MSFT,Microsoft,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MSFT
+MSTR,MicroStrategy,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MSTR
+MTSI,"MACOM Technology Solutions Holdings, Inc.",Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,MTSI
+MU,Micron Technology,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MU
+NBIS,Nebius Group,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,NBIS
+NFLX,"Netflix, Inc.",Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,NFLX
+NVDA,Nvidia,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,NVDA
+NXPI,NXP Semiconductors,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,NXPI
+ODFL,Old Dominion Freight Line,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ODFL
+ON,ON Semiconductor Corporation,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,ON
+ORLY,O'Reilly Automotive,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ORLY
+PANW,Palo Alto Networks,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PANW
+PAYX,Paychex,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PAYX
+PCAR,Paccar,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PCAR
+PDD,PDD Holdings,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PDD
+PEP,PepsiCo,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PEP
+PLTR,Palantir Technologies,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PLTR
+PYPL,PayPal,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PYPL
+QCOM,Qualcomm,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,QCOM
+REGN,Regeneron Pharmaceuticals,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,REGN
+RKLB,Rocket Lab,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,RKLB
+ROP,Roper Technologies,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ROP
+ROST,Ross Stores,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ROST
+SBUX,Starbucks,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SBUX
+SHOP,Shopify,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SHOP
+SNDK,Sandisk,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SNDK
+SNPS,Synopsys,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SNPS
+STX,Seagate Technology,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,STX
+TER,Teradyne,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,TER
+TMUS,T-Mobile US,Telecommunications,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TMUS
+TRI,Thomson Reuters,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TRI
+TSLA,"Tesla, Inc.",Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TSLA
+TSM,Taiwan Semiconductor Manufacturing Company Limited,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,TSM
+TTWO,Take-Two Interactive,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TTWO
+TXN,Texas Instruments,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,TXN
+UMC,United Microelectronics Corporation,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,UMC
+VRTX,Vertex Pharmaceuticals,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,VRTX
+WBD,Warner Bros. Discovery,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WBD
+WDAY,"Workday, Inc.",Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WDAY
+WDC,Western Digital,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WDC
+WMT,Walmart,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WMT
+XEL,Xcel Energy,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,XEL

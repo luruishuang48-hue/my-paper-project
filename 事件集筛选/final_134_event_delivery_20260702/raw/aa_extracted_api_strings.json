@@ -1,0 +1,126 @@
+[
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/text-to-image/arena/images/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/text-to-video/arena/videos/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/text-to-speech/arena/audios/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/music/arena/audios/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/prolific/image/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/prolific/video/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/prolific/speech/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/prolific/music/refresh"
+  },
+  {
+    "file": "_next__static__chunks__main-app-2c750bcd3a5d2601.js",
+    "endpoint": "/api/article-alerts/subscribe"
+  },
+  {
+    "file": "_next__static__chunks__63357a60-db3ff5f2cbb31bf3.js",
+    "endpoint": "/api/early_access_features/?token="
+  },
+  {
+    "file": "_next__static__chunks__63357a60-db3ff5f2cbb31bf3.js",
+    "endpoint": "/api/product_tours/?token="
+  },
+  {
+    "file": "_next__static__chunks__63357a60-db3ff5f2cbb31bf3.js",
+    "endpoint": "/api/surveys/?token="
+  },
+  {
+    "file": "_next__static__chunks__63357a60-db3ff5f2cbb31bf3.js",
+    "endpoint": "/api/web_experiments/?token="
+  },
+  {
+    "file": "_next__static__chunks__25065-70ddf9e2c4540dca.js",
+    "endpoint": "/api/organizations/"
+  },
+  {
+    "file": "_next__static__chunks__25065-70ddf9e2c4540dca.js",
+    "endpoint": "/api/me/plan"
+  },
+  {
+    "file": "_next__static__chunks__92435-88825d41dfabc9c5.js",
+    "endpoint": "/api/article-alerts/subscribe"
+  },
+  {
+    "file": "_next__static__chunks__92435-88825d41dfabc9c5.js",
+    "endpoint": "/api/geo"
+  },
+  {
+    "file": "_next__static__chunks__79026-95bab59f6f69b5c8.js",
+    "endpoint": "/api/auth"
+  },
+  {
+    "file": "_next__static__chunks__25774-bbe971bddd00f1e4.js",
+    "endpoint": "/api/data/website/host-models/performance-over-time"
+  },
+  {
+    "file": "_next__static__chunks__25774-bbe971bddd00f1e4.js",
+    "endpoint": "/api/me/article-alerts"
+  },
+  {
+    "file": "_next__static__chunks__83367-dcfe9286a9ebf228.js",
+    "endpoint": "/api/data/website/host-models/performance?prompt_length="
+  },
+  {
+    "file": "_next__static__chunks__83367-dcfe9286a9ebf228.js",
+    "endpoint": "/api/saved-model-sets"
+  },
+  {
+    "file": "_next__static__chunks__83367-dcfe9286a9ebf228.js",
+    "endpoint": "/api/fetch-host-models-selector?queryOptions="
+  },
+  {
+    "file": "_next__static__chunks__25065-70ddf9e2c4540dca.js",
+    "endpoint": "FETCH_SNIPPET \"/api/organizations/\".concat(e,\"/org-subscription\""
+  },
+  {
+    "file": "_next__static__chunks__25065-70ddf9e2c4540dca.js",
+    "endpoint": "FETCH_SNIPPET \"/api/organizations/\".concat(e,\"/org-subscription/setup\""
+  },
+  {
+    "file": "_next__static__chunks__25065-70ddf9e2c4540dca.js",
+    "endpoint": "FETCH_SNIPPET \"/api/organizations/\".concat(t,\"/org-subscription/checkout\""
+  },
+  {
+    "file": "_next__static__chunks__25065-70ddf9e2c4540dca.js",
+    "endpoint": "FETCH_SNIPPET \"/api/organizations/\".concat(e,\"/org-subscription/seats\""
+  },
+  {
+    "file": "_next__static__chunks__92435-88825d41dfabc9c5.js",
+    "endpoint": "FETCH_SNIPPET \"/api/article-alerts/subscribe\",{method:\"POST\",headers:{\"Content-Type\":\"application/json\"},body:JSON.stringify({email:d}"
+  },
+  {
+    "file": "_next__static__chunks__25774-bbe971bddd00f1e4.js",
+    "endpoint": "FETCH_SNIPPET e,{method:\"POST\",headers:{\"Content-Type\":\"application/json\"},body:JSON.stringify(t)});return await o.json()},d=\"/api/data/website/host-models/performance-over-time\";function c(e"
+  },
+  {
+    "file": "_next__static__chunks__25774-bbe971bddd00f1e4.js",
+    "endpoint": "FETCH_SNIPPET \"/api/me/article-alerts\",{method:\"POST\"}"
+  },
+  {
+    "file": "_next__static__chunks__83367-dcfe9286a9ebf228.js",
+    "endpoint": "FETCH_SNIPPET \"/api/data/website/host-models/performance?prompt_length=\".concat(t.prompt_length,\"&parallel_queries=\""
+  }
+]
