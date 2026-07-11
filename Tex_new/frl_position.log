@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.9)  11 JUL 2026 06:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.9)  11 JUL 2026 06:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,56 +267,67 @@ al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 [3]
 
 [4]
-Overfull \hbox (69.70766pt too wide) in paragraph at lines 159--185
- [] 
- []
-
-
 
 [5]
-Overfull \hbox (29.79173pt too wide) in paragraph at lines 204--235
- [] 
- []
-
-<figures/fig1_car_profile.pdf, id=35, 722.7pt x 332.24126pt>
-File: figures/fig1_car_profile.pdf Graphic file (type pdf)
-<use figures/fig1_car_profile.pdf>
-Package pdftex.def Info: figures/fig1_car_profile.pdf  used on input line 246.
-(pdftex.def)             Requested size: 390.0pt x 179.291pt.
-
 
 [6]
-Overfull \hbox (3.9204pt too wide) in paragraph at lines 299--308
-\T1/cmr/m/n/12 tion, date-confidence sub-sam-ples, multi-component-event ex-clu
--sion, and event
+Overfull \hbox (69.70766pt too wide) in paragraph at lines 230--256
+ [] 
  []
 
 
 
 [7]
 
-[8 <./figures/fig1_car_profile.pdf>]
+[8]
+Overfull \hbox (29.79173pt too wide) in paragraph at lines 299--331
+ [] 
+ []
+
+
+Overfull \hbox (22.12093pt too wide) in paragraph at lines 333--346
+\T1/cmr/m/n/12 is not an un-der-pow-ered non-result: the 95% con-fi-dence in-te
+r-val, $\OT1/cmr/m/n/12 [\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 
+:\OT1/cmr/m/n/12 56\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +0\OML/cmm/m/it/12 :\OT1/
+cmr/m/n/12 42]$\T1/cmr/m/n/12 pp,
+ []
+
+
 
 [9]
 
-[10] (./frl_position.aux)
+[10]
+<figures/fig1_car_profile.pdf, id=53, 722.7pt x 332.24126pt>
+File: figures/fig1_car_profile.pdf Graphic file (type pdf)
+<use figures/fig1_car_profile.pdf>
+Package pdftex.def Info: figures/fig1_car_profile.pdf  used on input line 375.
+(pdftex.def)             Requested size: 390.0pt x 179.291pt.
+
+
+[11]
+
+[12 <./figures/fig1_car_profile.pdf>]
+
+[13]
+
+[14]
+
+[15]
+
+[16] (./frl_position.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4114 strings out of 467800
- 58333 string characters out of 5431883
- 465674 words of memory out of 5000000
- 32715 multiletter control sequences out of 15000+600000
+ 4118 strings out of 467800
+ 58384 string characters out of 5431883
+ 463771 words of memory out of 5000000
+ 32719 multiletter control sequences out of 15000+600000
  642459 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,79p,338b,373s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,510b,373s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -336,10 +347,10 @@ exmf-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2025/tex
 mf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-d
 ist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on frl_position.pdf (10 pages, 295067 bytes).
+Output written on frl_position.pdf (16 pages, 306462 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 163 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
