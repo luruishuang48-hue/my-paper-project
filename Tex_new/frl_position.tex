@@ -1,0 +1,362 @@
+%% Finance Research Letters submission draft
+%% Compile: pdflatex frl_position (twice)
+%% Numbers from Analysis/scripts/{t9_main_regressions,frl_capability_pricing}.R
+%% Companion full-length paper: gfj_main.tex (formation + measurement audit)
+%%
+%% HIGHLIGHTS (submit as separate file):
+%% - We study 124 day-verified LLM releases and 101 index-member firms, 2022-2026
+%% - Model capability scores carry no positive price; closed-source slope is negative
+%% - Upstream hardware and rival developers earn 1.6-1.7pp abnormal returns
+%% - Firms deploying AI in conventional businesses show precisely zero response
+%% - Capability matters only as an amplifier of supply-chain position
+
+\documentclass[review,12pt,authoryear]{elsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\graphicspath{{figures/}}
+
+\newcommand{\pp}{\,pp}
+\journal{Finance Research Letters}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Position, Not Capability:\\How Stock Markets Price Large Language Model Releases}
+
+\author[sdu]{Zhuo Chen\corref{cor1}}
+\ead{zhuochen@sdu.edu.cn}
+\author[sdu]{Ruishuang Lu}
+\cortext[cor1]{Corresponding author.}
+\affiliation[sdu]{organization={Center for Economic Research, Shandong University},
+city={Jinan}, country={China}}
+
+\begin{abstract}
+Do stock markets price the capability of large language models, or the
+economic position of firms around a release? Using 124 day-verified model
+releases (2022--2026), benchmark capability scores, and double-blind-coded
+ecosystem positions for Nasdaq-100 firms, we find capability is not
+positively priced: the slope is zero pooled, significantly negative among
+closed-source flagships, and zero among unrelated firms. Position is priced:
+hardware suppliers and rival developers earn 1.6--1.7 percentage points over
+twenty days, with immediate abnormal volume, while firms deploying AI in
+conventional businesses show precisely zero price and volume response.
+Capability matters only as an amplifier of the hardware premium.
+\end{abstract}
+
+\begin{keyword}
+Large language models \sep Event study \sep Capability pricing \sep
+AI supply chain
+\\ \textit{JEL codes}: G14 \sep O33
+\end{keyword}
+
+\end{frontmatter}
+
+%% ============================================================
+\section{Introduction}
+%% ============================================================
+
+Large language model (LLM) releases have become routine, salient information
+events---124 benchmark-qualified releases in our 2022--2026 sample. A natural
+reading, implicit in exposure-based studies of AI and asset prices
+\citep{eisfeldt2023,babina2024}, is that markets reward technological
+capability: the more capable the model, the larger the revaluation of exposed
+firms. This letter tests that reading directly and rejects it. Markets price
+\emph{where a firm sits} in the AI production chain, not \emph{how capable}
+the released model is.
+
+We combine three measurement inputs that are, to our knowledge, new in
+combination. First, release dates verified to the day against first-party
+sources (vendor blogs, release notes, archived first captures) for every
+event. Second, a direct measure of model capability---Artificial Analysis
+benchmark scores---rather than a proxy. Third, ecosystem positions
+(hardware supplier, cloud platform, integrator, deployer, competitor,
+investor, owner) assigned to each (firm, developer) pair by two independent
+coders under a fixed codebook (agreement 99.0\%, Cohen's $\kappa$
+0.84--1.00). The firm universe is the Nasdaq-100, so selection is exogenous
+to AI exposure and the thirty-one constituents with no AI relationship
+provide a within-event control group.
+
+Three results follow. First, capability is not positively priced. The pooled
+slope of twenty-day cumulative abnormal returns (CARs) on capability is zero;
+among closed-source releases---where capability rents would be most
+appropriable \citep{teece1986}---it is significantly \emph{negative}
+($-0.8$\pp{} per standard deviation of capability, $p=0.02$); among firms
+with no ecosystem relationship it is an exact zero, as a placebo requires.
+The negative flagship slope is an anticipation gradient: the most capable
+releases are the most rumored, so their information reaches prices before the
+event window. Second, position is priced. Hardware suppliers earn
+1.66\pp{} and rival model developers 1.61\pp{} over $[0,+20]$
+($p\approx0.01$), with abnormal trading volume on the announcement day
+itself; deployers---firms using AI inside conventional businesses---show a
+CAR of $-0.07$\pp{} (SE 0.25\pp{}) and no abnormal volume: a genuine zero,
+not offsetting disagreement. Third, the two dimensions interact: capability
+carries no average price but amplifies the hardware premium (interaction
+$p=0.088$), exactly as derived-demand logic implies---a more capable model is
+bigger news for compute suppliers, not for the average ``exposed'' firm.
+
+The letter's contribution is to unbundle ``AI exposure.'' Exposure rankings
+conflate firms on opposite sides of the same shock; once positions are
+separated, the pricing loads on the compute-complementarity channel and on
+industry information spillovers to rivals \citep{lang1992}, while the
+displacement channel that dominates public commentary is priced at zero. A
+companion full-length paper documents when this pricing rule formed
+(2025, with the reasoning paradigm) and shows that two opposite headline
+results in an earlier hand-collected vintage of the data were artifacts of
+compound measurement error; here we hold the reproducible pipeline fixed and
+focus on the cross-sectional question.
+
+%% ============================================================
+\section{Data}
+%% ============================================================
+
+Events intersect the AI Timeline chronology with Artificial Analysis (AA)
+benchmark coverage, which screens out releases too minor to be benchmarked;
+identity matches and all manual decisions are recorded in auditable decision
+tables. Of 134 candidate events, 125 have day-verified dates and 124 enter
+the main sample (3 events from 2022, 8 from 2023, 45 from 2024, 59 from
+2025, 9 from 2026); 87 are language-model releases with AA intelligence
+scores, 47 are open-weight. Capability is the AA intelligence index of the
+event's flagship model (SD 12.7 in the estimation sample).
+
+For each of the 124 events and 101 Nasdaq-100 firms we compute market-model
+CARs (S\&P~500 proxy, estimation window $[-200,-10]$, minimum 120
+observations) over $[0,+w]$, $w\le20$, and standardized abnormal log volume;
+three-factor CARs serve as robustness. Firm controls (log assets,
+book-to-market with a negative-equity flag, momentum, volatility) are matched
+under a strict 45-day as-of rule. Positions at the (firm, developer) level
+are aggregated to the event level by union over the event's developers.
+Standard errors are clustered by event (CR2) throughout; specifications with
+event fixed effects identify from within-event variation only.
+
+%% ============================================================
+\section{Results}
+%% ============================================================
+
+\subsection{Capability is not priced}
+
+Table~\ref{tab:capability} regresses CAR$[0,+20]$ on the capability score
+with firm controls and year fixed effects. The pooled slope is $-0.0001$ per
+index point ($p=0.51$). Among the 50 closed-source releases the slope is
+$-0.0006$ ($p=0.024$; $-1.3$\pp{} per SD under the three-factor benchmark,
+$p<0.001$); among the 37 open-weight releases it is 0.0000 ($p=0.93$). Among
+unrelated firms the slope is zero ($p=0.80$)---capability scores do not
+predict returns where no economic channel exists, so the closed-source
+negative is not a mechanical artifact. Replacing the level with a surprise
+measure (the score's distance above the pre-event frontier maximum) yields
+the same pattern, because benchmark surprise still correlates with flagship
+status: the releases that move benchmarks most are the ones markets see
+coming. Column (5) shows the interaction that survives: capability
+amplifies the hardware premium ($+0.0010$ per index point, $p=0.088$; the
+hardware main effect at mean capability is $+2.07$\pp{}, $p=0.010$).
+
+\begin{table}[t!]
+\centering
+\begin{threeparttable}
+\caption{Model capability and abnormal returns}\label{tab:capability}
+\small
+\begin{tabular}{lccccc}
+\toprule
+ & (1) All & (2) Closed & (3) Open & (4) Placebo & (5) Interaction \\
+ &  &  &  & (unrelated firms) &  \\
+\midrule
+AA intelligence     & $-$0.0001 & $-$0.0006** & 0.0000 & $-$0.0001 & $-$0.0003 \\
+                    & (0.0002) & (0.0002) & (0.0003) & (0.0004) & (0.0002) \\
+$\times$ Upstream hardware & & & & & 0.0010* \\
+                    & & & & & (0.0006) \\
+Upstream hardware   & & & & & 0.0207*** \\
+                    & & & & & (0.0078) \\
+\midrule
+Events              & 87 & 50 & 37 & 87 & 87 \\
+Observations        & 8{,}562 & 4{,}917 & 3{,}645 & 2{,}784 & 8{,}562 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Dependent variable is the market-model CAR$[0,+20]$. All columns
+include firm controls (log assets, book-to-market with negative-equity flag,
+volatility, momentum) and year fixed effects; capability is centered in
+column (5). Standard errors clustered by event (CR2). *, **, *** denote
+10\%, 5\%, 1\%.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection{Position is priced}
+
+Table~\ref{tab:position} regresses the same outcome on the seven position
+indicators. Hardware suppliers earn 1.66\pp{} over unrelated constituents
+($p=0.012$; 1.79\pp{} under three factors; 1.54\pp{} with event fixed
+effects), and rival developers earn 1.61\pp{}---a positive competitor
+spillover indicating that releases convey industry-level growth information
+that dominates competitive displacement \citep{lang1992,chen2005}. The
+deployer coefficient is $-0.07$\pp{} with a 95\% confidence interval of
+$[-0.56,+0.42]$\pp{}: the market does not price LLM releases as bad news for
+firms that merely use AI. The premium is not a single-stock artifact---
+dropping any one hardware firm leaves it between 1.2 and 1.6\pp{}, and
+excluding NVIDIA gives 1.5\pp{} ($p=0.023$).
+
+\begin{table}[t!]
+\centering
+\begin{threeparttable}
+\caption{Ecosystem position and abnormal returns}\label{tab:position}
+\small
+\begin{tabular}{lccc}
+\toprule
+Dependent variable: & (1) CAR$^{MM}[0,20]$ & (2) CAR$^{FF3}[0,20]$ & (3) CAR$^{MM}[0,20]$ \\
+\midrule
+Upstream hardware      & 0.0166** & 0.0179*** & 0.0154** \\
+                       & (0.0065) & (0.0065)  & (0.0066) \\
+Upstream cloud         & $-$0.0011 & 0.0020   & $-$0.0018 \\
+                       & (0.0078) & (0.0074)  & (0.0076) \\
+Downstream integrator  & $-$0.0051 & $-$0.0041 & $-$0.0053 \\
+                       & (0.0049) & (0.0048)  & (0.0050) \\
+Downstream deployer    & $-$0.0007 & 0.0002   & $-$0.0011 \\
+                       & (0.0025) & (0.0024)  & (0.0025) \\
+Competitor             & 0.0161** & 0.0159*** & 0.0158** \\
+                       & (0.0064) & (0.0058)  & (0.0064) \\
+\midrule
+Investor, owner        & Yes & Yes & Yes \\
+Firm controls          & Yes & Yes & Yes \\
+Year fixed effects     & Yes & Yes & --- \\
+Event fixed effects    & --- & --- & Yes \\
+Observations           & 12{,}112 & 12{,}112 & 12{,}112 \\
+Events                 & 124 & 124 & 124 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Investor and owner/publisher indicators included (positive,
+insignificant; few clusters). Standard errors clustered by event (CR2).
+*, **, *** denote 10\%, 5\%, 1\%.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Figure~\ref{fig:profile} traces the accumulation. The hardware premium is
+absent at the announcement close, significant from $[0,+10]$ in the full
+sample---and from $[0,+2]$ in the 2025--2026 subsample, where it reaches
+4.3\pp{} by day twenty---while the deployer line never leaves zero.
+Controlling for each firm's pre-event CAR leaves the estimates unchanged,
+so the accumulation is not pre-existing drift.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=\textwidth]{fig1_car_profile}
+\caption{Cumulative abnormal returns by ecosystem position and accumulation
+window. Shading is the 95\% band for the hardware coefficient (CR2, by
+event). Left panel: full sample; right panel: 2025--2026.}
+\label{fig:profile}
+\end{figure}
+
+\subsection{Volume separates attention from irrelevance}
+
+Abnormal volume completes the taxonomy (Table~\ref{tab:volume}). Hardware
+suppliers trade 0.12 standard deviations above normal on the announcement
+day ($p<0.001$)---attention is immediate even where same-day price response
+is nil, and directional consensus forms over the following weeks. Deployers
+show no abnormal volume at any horizon ($p=0.74$ at $[0,+1]$): their zero
+price response reflects irrelevance, not offsetting disagreement. Cloud
+platforms are the third fate: the largest abnormal volume in the panel
+(0.29 SD at $[0,+1]$, and already 0.20 SD in the pre-event window) with no
+directional price response---the signature of investors interpreting the
+same signal with opposite priors \citep{kandel1995}, natural for firms for
+which a frontier release is simultaneously compute-rental good news and
+own-model bad news.
+
+\begin{table}[t!]
+\centering
+\begin{threeparttable}
+\caption{Abnormal trading volume}\label{tab:volume}
+\small
+\begin{tabular}{lcc}
+\toprule
+Window: & $[-10,-2]$ & $[0,+1]$ \\
+\midrule
+Upstream hardware   & 0.033 & 0.121*** \\
+                    & (0.026) & (0.036) \\
+Upstream cloud      & 0.204*** & 0.292*** \\
+                    & (0.041) & (0.049) \\
+Downstream deployer & $-$0.019 & 0.006 \\
+                    & (0.015) & (0.019) \\
+Competitor          & $-$0.037 & $-$0.017 \\
+                    & (0.029) & (0.043) \\
+\midrule
+Event fixed effects & Yes & Yes \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Standardized abnormal log volume (deviation from the
+$[-200,-10]$ mean in estimation-window SDs, averaged over the window).
+Firm controls included; SEs clustered by event (CR2).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection{Robustness}
+
+The position premia are significant in 16--17 of 20 specifications spanning
+benchmarks (S\&P~500, Nasdaq-100, SOX, three-factor), windows, winsorization,
+date-confidence subsamples, multi-component-event exclusion, and event fixed
+effects; the deployer zero and a null hardware~$\times$~open-weight
+interaction ($p=0.90$) hold in all twenty. Announcement timestamps recovered
+for 55 events show only two after-hours releases; shifting all events by one
+trading day leaves the results unchanged. The capability results are
+insensitive to using capability surprise, to three-factor benchmarks, and to
+restricting to firms with any AI relationship.
+
+%% ============================================================
+\section{Conclusion}
+%% ============================================================
+
+Around LLM releases, equity markets do not pay for capability---they pay for
+position. Benchmark scores carry no positive premium and a negative one among
+anticipated flagships; hardware suppliers and rival developers revalue by
+1.6--1.7\pp{} while AI-deploying firms show precisely zero price and volume
+response; and capability matters only by scaling the hardware premium. For
+research that ranks firms by AI exposure, the lesson is that exposure
+conflates positions with opposite pricing; for the public debate, four years
+of releases contain no evidence that markets price AI displacement on
+announcement.
+
+%% ============================================================
+\section*{Data availability}
+The event pipeline, coding decision tables, and estimation code are
+available from the authors.
+
+%% ============================================================
+\begin{thebibliography}{00}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Babina et al.(2024)]{babina2024}
+Babina, T., Fedyk, A., He, A., Hodson, J., 2024. Artificial intelligence,
+firm growth, and product innovation. Journal of Financial Economics 151,
+103745.
+
+\bibitem[Chen et al.(2005)]{chen2005}
+Chen, S.-S., Ho, K.~W., Ik, K.~H., 2005. The wealth effect of new product
+introductions on industry rivals. Journal of Business 78, 969--996.
+
+\bibitem[Eisfeldt et al.(2023)]{eisfeldt2023}
+Eisfeldt, A.~L., Schubert, G., Zhang, M.~B., 2023. Generative AI and firm
+values. NBER Working Paper 31222.
+
+\bibitem[Kandel and Pearson(1995)]{kandel1995}
+Kandel, E., Pearson, N.~D., 1995. Differential interpretation of public
+signals and trade in speculative markets. Journal of Political Economy 103,
+831--872.
+
+\bibitem[Lang and Stulz(1992)]{lang1992}
+Lang, L.~H.~P., Stulz, R.~M., 1992. Contagion and competitive intra-industry
+effects of bankruptcy announcements. Journal of Financial Economics 32,
+45--60.
+
+\bibitem[Teece(1986)]{teece1986}
+Teece, D.~J., 1986. Profiting from technological innovation: Implications
+for integration, collaboration, licensing and public policy. Research Policy
+15, 285--305.
+
+\end{thebibliography}
+
+\end{document}
