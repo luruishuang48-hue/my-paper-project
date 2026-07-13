@@ -1,6 +1,6 @@
 # Event-firm panel report
 
-Generated at 2026-07-03T14:31:18.
+Generated at 2026-07-13T16:02:57.
 
 ## Scope
 
@@ -37,16 +37,16 @@ Generated at 2026-07-03T14:31:18.
 ## Control variables
 
 - `momentum`: cumulative simple return over trading days [-252,-21] before the event (12-month momentum, min 120 obs).
-- `volatility`: annualized std of daily returns over the estimation window [-200,-10].
+- `volatility`: annualized std of daily returns over the estimation window [-200,-11].
 - `negative_equity`: stockholders' equity < 0 (buyback-driven). For these rows `bm_ratio` is set to missing; the raw value is kept in `bm_ratio_raw`.
 
 ## Coverage
 
-- `car_mm_qqq_0_20` nonmissing: 13173
-- `car_ff3_0_20` nonmissing: 13173
+- `car_mm_qqq_0_20` nonmissing: 13171
+- `car_ff3_0_20` nonmissing: 13171
 - `total_assets_usd` nonmissing: 13399
 - `bm_ratio` nonmissing: 12473
 - `momentum` nonmissing: 13165
-- `volatility` nonmissing: 13173
+- `volatility` nonmissing: 13171
 
 See `Analysis/reports/event_firm_panel_coverage.csv` for sample-level details.

@@ -6,7 +6,7 @@ ADI,Analog Devices,True,True,125,125,125,125,125
 ADP,Automatic Data Processing,True,False,125,125,125,124,124
 ADSK,Autodesk,True,False,125,125,125,125,125
 AEP,American Electric Power,True,False,125,125,125,124,124
-ALAB,Astera Labs,True,True,125,86,86,123,105
+ALAB,Astera Labs,True,True,125,85,85,123,105
 ALNY,Alnylam Pharmaceuticals,True,False,125,125,125,124,80
 AMAT,Applied Materials,True,True,125,125,125,125,125
 AMD,Advanced Micro Devices,True,True,125,125,125,124,124
@@ -90,7 +90,7 @@ ROP,Roper Technologies,True,False,125,125,125,124,124
 ROST,Ross Stores,True,False,125,125,125,125,125
 SBUX,Starbucks,True,False,125,125,125,124,0
 SHOP,Shopify,True,False,125,125,125,124,124
-SNDK,Sandisk,True,False,125,34,34,124,47
+SNDK,Sandisk,True,False,125,33,33,124,47
 SNPS,Synopsys,True,False,125,125,125,125,125
 STX,Seagate Technology,True,False,125,125,125,124,6
 TER,Teradyne,True,True,125,125,125,124,124

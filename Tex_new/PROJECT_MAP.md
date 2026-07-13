@@ -15,9 +15,12 @@
 | 5. 主回归 | `Analysis/scripts/t9_main_regressions.R` | → `Analysis/reports/t9_main_regressions.csv` |
 | 6. 稳健性 | `Analysis/scripts/t9_robustness_matrix.R` | 20 设定 → `Analysis/reports/t9_robustness_matrix.csv` |
 | 7. 能力定价 | `Analysis/scripts/frl_capability_pricing.R` | FRL 复刻 + 新角度网格 |
-| 8. 图 1 | `Analysis/scripts/fig1_car_profile.R` | → `Tex_new/figures/fig1_car_profile.pdf` |
+| 8. 异常量 | `Analysis/scripts/build_abnormal_volume.py` | → `Analysis/processed/event_firm_abnormal_volume.csv` |
+| 9. 论文数字 | `Analysis/scripts/paper_numbers.R` | **论文全部表格数字的唯一来源** → `Analysis/reports/paper_numbers.csv` |
+| 10. 图 1 | `Analysis/scripts/fig1_car_profile.R` | 读 paper_numbers.csv → `Tex_new/figures/fig1_car_profile.pdf` |
 
 改了任何 decisions 表 → 从对应步骤起往下重跑即可。
+注意：估计窗为 **[-200,-11]**（2026-07-06 修订，右端点避开前窗 [-10,-2]）。
 
 ## 二、决策表（唯一真值，全在 `new data set/decisions/`）
 
