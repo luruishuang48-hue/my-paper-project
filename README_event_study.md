@@ -6,8 +6,8 @@
 FF3 两套 CAR。
 
 ```bash
-python3 tools/event_study.py --data-dir /path/to/公司xlsx文件夹
-python3 tools/event_study.py --data-file GOOGL.xlsx --events 自定义事件.csv
+python3 event_study.py --data-dir /path/to/公司xlsx文件夹
+python3 event_study.py --data-file GOOGL.xlsx --events 自定义事件.csv
 ```
 
 数据列要求：`date, share_earn, market_earn`（必需）+ `smb, hml, rf`

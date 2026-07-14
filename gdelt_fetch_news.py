@@ -34,7 +34,7 @@ import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parent
 EVENTS_FILE = ROOT / "CAR/metadata/event_dates_with_trading_day.csv"
 MAIN_FILE = ROOT / "new data set/processed/final_event_sample_main.csv"
 OVERRIDE_FILE = ROOT / "Media/metadata/event_keywords_override.csv"

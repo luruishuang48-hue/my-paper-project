@@ -24,7 +24,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parent
 DEFAULT_INPUT = ROOT / "Media/processed/gdelt_articles_all.csv"
 OUT_DETAIL = ROOT / "Media/processed/article_sentiment.csv"
 OUT_EVENT = ROOT / "Media/processed/event_sentiment.csv"

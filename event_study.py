@@ -20,9 +20,9 @@ Mkt-RF, smb, hml, rf），但修正旧版全部已诊断问题：
      列 event_id,date），重复日期去重并警告。
 
 用法：
-  python3 tools/event_study.py --data-dir /path/to/xlsx_folder
-  python3 tools/event_study.py --data-file GOOGL.xlsx --events my_events.csv
-  python3 tools/event_study.py --data-file GOOGL.xlsx --est-window -200 -11
+  python3 event_study.py --data-dir /path/to/xlsx_folder
+  python3 event_study.py --data-file GOOGL.xlsx --events my_events.csv
+  python3 event_study.py --data-file GOOGL.xlsx --est-window -200 -11
 输出：event_study_results.csv（长表：公司 × 事件 × 模型 × 窗口）
 """
 import argparse
@@ -32,7 +32,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 DEFAULT_EVENTS = ROOT / "CAR/metadata/event_dates_with_trading_day.csv"
 
 POST_WINDOWS = {"car_0_1": (0, 1), "car_0_5": (0, 5),

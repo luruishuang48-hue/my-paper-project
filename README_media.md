@@ -5,12 +5,12 @@
 
 ```bash
 # 第 1 步：抓取（可断点续跑；每事件一个 CSV，已存在自动跳过）
-python3 Media/scripts/gdelt_fetch_news.py                 # 全部 124 个主样本事件
-python3 Media/scripts/gdelt_fetch_news.py --events AIT-2025-01-003   # 指定事件
+python3 gdelt_fetch_news.py                 # 全部 124 个主样本事件
+python3 gdelt_fetch_news.py --events AIT-2025-01-003   # 指定事件
 
 # 第 2 步：情感（需 torch + transformers；首次运行自动下载 ProsusAI/finbert）
-python3 Media/scripts/finbert_sentiment.py --self-test    # 先自检（无需 torch）
-python3 Media/scripts/finbert_sentiment.py                # 正式运行
+python3 finbert_sentiment.py --self-test    # 先自检（无需 torch）
+python3 finbert_sentiment.py                # 正式运行
 ```
 
 ## 设计要点

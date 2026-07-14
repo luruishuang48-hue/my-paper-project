@@ -19,9 +19,9 @@
 | 9. 论文数字 | `Analysis/scripts/paper_numbers.R` | **论文全部表格数字的唯一来源** → `Analysis/reports/paper_numbers.csv` |
 | 10. 图 1 | `Analysis/scripts/fig1_car_profile.R` | 读 paper_numbers.csv → `Tex_new/figures/fig1_car_profile.pdf` |
 
-| 11. 媒体抓取 | `Media/scripts/gdelt_fetch_news.py` | 事件±7日 GDELT 标题+语调 → `Media/raw/gdelt/`、`Media/processed/` |
-| 12. 媒体情感 | `Media/scripts/finbert_sentiment.py` | 需 torch；先 `--self-test` → `Media/processed/event_sentiment.csv` |
-| 工具 | `tools/event_study.py` | 旧逐公司 Excel 工作流的修正版（MM+FF3；与面板 MM CAR 机器精度一致） |
+| 11. 媒体抓取 | `gdelt_fetch_news.py`（根目录） | 事件±7日 GDELT 标题+语调 → `Media/raw/gdelt/`、`Media/processed/` |
+| 12. 媒体情感 | `finbert_sentiment.py`（根目录） | 需 torch；先 `--self-test` → `Media/processed/event_sentiment.csv` |
+| 工具 | `event_study.py`（根目录） | 旧逐公司 Excel 工作流的修正版（MM+FF3；与面板 MM CAR 机器精度一致） |
 
 改了任何 decisions 表 → 从对应步骤起往下重跑即可。
 注意：估计窗为 **[-200,-11]**（2026-07-06 修订，右端点避开前窗 [-10,-2]）。
