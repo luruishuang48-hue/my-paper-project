@@ -31,8 +31,8 @@ PROCESSED = CAR / "processed"
 REPORTS = CAR / "reports"
 METADATA = CAR / "metadata"
 
-EVENT_FILE = ROOT / "new data set" / "processed" / "final_event_sample_main.csv"
-FIRM_FILE = ROOT / "new data set" / "decisions" / "firm_universe_decisions.csv"
+EVENT_FILE = ROOT / "事件集筛选" / "processed" / "final_event_sample_main.csv"
+FIRM_FILE = ROOT / "事件集筛选" / "decisions" / "firm_universe_decisions.csv"
 
 START_DATE = date(2021, 1, 1)
 END_DATE = date(2026, 4, 30)
@@ -144,6 +144,22 @@ def parse_yahoo_chart(symbol: str, payload: bytes) -> tuple[pd.DataFrame, str]:
 def fetch_yahoo_symbol(symbol: str, start: date, end: date, pause: float = 0.25) -> tuple[pd.DataFrame, DownloadStatus]:
     url = yahoo_url(symbol, start, end)
     target = RAW_JSON / f"{symbol.replace('^', '_caret_').replace('/', '_')}.json"
+    if target.exists():
+        payload = target.read_bytes()
+        frame, message = parse_yahoo_chart(symbol, payload)
+        if not frame.empty:
+            return (
+                frame,
+                DownloadStatus(
+                    symbol=symbol,
+                    ok=True,
+                    rows=len(frame),
+                    first_date=str(frame["date"].min()),
+                    last_date=str(frame["date"].max()),
+                    source="yahoo_chart_cache",
+                    message=message,
+                ),
+            )
     last_message = ""
     for attempt in range(1, 4):
         try:
@@ -183,11 +199,11 @@ def fetch_yahoo_symbol(symbol: str, start: date, end: date, pause: float = 0.25)
 def load_universe() -> pd.DataFrame:
     firms = pd.read_csv(FIRM_FILE)
     firms["ticker"] = firms["ticker"].astype(str).str.strip()
-    firms["is_main_nasdaq100"] = firms["source_index"].str.contains("NASDAQ-100", na=False)
+    firms["is_main_ndxt"] = firms["source_index"].str.contains("NDXT", na=False)
     firms["is_sox_robustness"] = firms["source_index"].str.contains("SOX", na=False)
     firms["download_symbol"] = firms["ticker"]
     firms.to_csv(METADATA / "firm_universe_for_car.csv", index=False)
-    firms[firms["is_main_nasdaq100"]].to_csv(METADATA / "main_nasdaq100_tickers.csv", index=False)
+    firms[firms["is_main_ndxt"]].to_csv(METADATA / "ndxt45_tickers.csv", index=False)
     firms[firms["is_sox_robustness"]].to_csv(METADATA / "robustness_sox_tickers.csv", index=False)
     return firms
 
@@ -215,9 +231,12 @@ def load_events() -> pd.DataFrame:
 
 
 def fetch_ff3_daily() -> pd.DataFrame:
-    payload = http_get(FF3_URL)
     zip_path = RAW_FACTORS / "F-F_Research_Data_Factors_daily_CSV.zip"
-    zip_path.write_bytes(payload)
+    if zip_path.exists():
+        payload = zip_path.read_bytes()
+    else:
+        payload = http_get(FF3_URL)
+        zip_path.write_bytes(payload)
     with zipfile.ZipFile(io.BytesIO(payload)) as zf:
         names = zf.namelist()
         csv_name = [name for name in names if name.lower().endswith(".csv")][0]
@@ -252,9 +271,15 @@ def fetch_ff3_daily() -> pd.DataFrame:
 
 
 def add_sample_flags(prices: pd.DataFrame, firms: pd.DataFrame) -> pd.DataFrame:
-    flags = firms[["ticker", "company", "index_tag", "is_main_nasdaq100", "is_sox_robustness"]].rename(
-        columns={"ticker": "symbol"}
-    )
+    flags = firms[
+        [
+            "ticker",
+            "company",
+            "index_tag",
+            "is_main_ndxt",
+            "is_sox_robustness",
+        ]
+    ].rename(columns={"ticker": "symbol"})
     out = prices.merge(flags, on="symbol", how="left")
     out["is_benchmark"] = out["symbol"].isin(BENCHMARKS)
     out["benchmark_name"] = out["symbol"].map(BENCHMARKS)
@@ -410,7 +435,7 @@ def write_report(
 - 事件数：{len(events)}
 - 事件日期范围：{min(events['official_date'])} 至 {max(events['official_date'])}
 - 公司池总数：{len(firms)}
-- Nasdaq-100 主样本：{int(firms['is_main_nasdaq100'].sum())}
+- NDXT 主样本证券数：{int(firms['is_main_ndxt'].sum())}
 - SOX/SOXX 稳健性样本：{int(firms['is_sox_robustness'].sum())}
 - 合并去重下载股票数：{firms['ticker'].nunique()}
 - 市场基准：{', '.join(BENCHMARKS)}
@@ -424,7 +449,7 @@ def write_report(
 - `CAR/metadata/event_dates_for_car.csv`
 - `CAR/metadata/event_dates_with_trading_day.csv`
 - `CAR/metadata/event_window_requirements.csv`
-- `CAR/metadata/main_nasdaq100_tickers.csv`
+- `CAR/metadata/ndxt45_tickers.csv`
 - `CAR/metadata/robustness_sox_tickers.csv`
 - `CAR/processed/prices_daily_long.csv`
 - `CAR/processed/returns_daily_long.csv`

@@ -1,0 +1,473 @@
+%% Online appendix for frl_three_results.tex
+%% Compile with: latexmk -pdf frl_three_results_online_appendix.tex
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{xurl}
+\graphicspath{{figures/}}
+
+\newcommand{\pp}{\,pp}
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+\title{Online Appendix to\\
+\textit{Who Gains from Generative AI Model Releases?}}
+\author{Zhuo Chen \and Ruishuang Lu}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Sample Construction and Position Coding}
+
+The event universe combines public model chronologies with Artificial
+Analysis benchmark records. Same-day releases from the same model family
+are consolidated. Announcement dates are verified against vendor blogs,
+release notes, repositories, page metadata, and archived first captures.
+The pipeline retains 125 day-verified events and excludes one event whose
+identity is inconsistent across the two source systems. The return analysis
+uses 124 events. The annual counts are 3, 8, 45, 59, and 9 from 2022 through
+2026.
+
+The firm universe is the May 1, 2026 constituent list of the Nasdaq-100
+Technology Sector Index. It contains 45 securities and 44 issuers. GOOG and
+GOOGL are retained as distinct traded securities and are combined at the
+issuer level in a robustness check. The balanced event-firm panel has 5,625
+rows before the identity exclusion and regression-data requirements. The
+main position regression contains 5,441 observations, 124 events, and 45
+securities.
+
+Two coders independently evaluate 45 securities against 25 model
+developers. The resulting 1,125 firm--developer pairs contain eight binary
+position indicators. Table~\ref{tab:a1} reports agreement before
+adjudication. Overall agreement is 98.5\% across 9,000 binary cells.
+Disagreements are resolved under the written codebook and retained in the
+decision files.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Independent coding agreement}\label{tab:a1}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Position & Agreement (\%) & Cohen's $\kappa$ &
+Disagreements & Cells \\
+\midrule
+Hardware supplier      & 100.0 & 1.000 & 0  & 1,125 \\
+Cloud platform         & 100.0 & 1.000 & 0  & 1,125 \\
+Downstream integrator  & 95.6  & 0.902 & 49 & 1,125 \\
+Downstream deployer    & 97.6  & 0.835 & 27 & 1,125 \\
+Downstream enabler     & 98.2  & 0.328 & 20 & 1,125 \\
+Competitor             & 96.7  & 0.823 & 37 & 1,125 \\
+Investor               & 100.0 & 1.000 & 0  & 1,125 \\
+Listed owner           & 100.0 & 1.000 & 0  & 1,125 \\
+\midrule
+All binary cells       & 98.5  &       & 133 & 9,000 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Agreement is computed on the 45-security universe before
+adjudication. The enabler indicator is sparse, so its high raw agreement
+coexists with a lower prevalence-adjusted $\kappa$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+The capability sample contains 87 language-model events with comparable
+Artificial Analysis intelligence scores. The index has a standard
+deviation of 12.7 points. The remaining 37 events lack a comparable
+intelligence score. A separate media-generation flag identifies 41 events;
+four multi-component releases contain both a scored language model and a
+media model.
+
+\section{Position Results Across Benchmarks and Fixed Effects}
+
+Table~\ref{tab:a2} reports the two positive positions across the full set of
+return benchmarks. QQQ removes broad Nasdaq returns. SOXX absorbs the
+performance of the semiconductor sector. Event fixed effects compare firms
+inside the same release. Hardware and competitor coefficients remain close
+to their baseline magnitudes in each specification.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Hardware and competitor coefficients across return models}
+\label{tab:a2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrr}
+\toprule
+Specification & Position & Coef. (pp) & Event CR2 $p$ &
+Event $\times$ firm $p$ \\
+\midrule
+S\&P 500 market model
+ & Hardware   & 3.476\sym{***} & 0.0017 & 0.0145 \\
+ & Competitor & 3.385\sym{***} & 0.0003 & 0.0222 \\
+\addlinespace
+Fama--French three-factor
+ & Hardware   & 3.428\sym{***} & 0.0021 & 0.0159 \\
+ & Competitor & 3.371\sym{***} & 0.0003 & 0.0368 \\
+\addlinespace
+QQQ market model
+ & Hardware   & 3.459\sym{***} & 0.0016 & 0.0143 \\
+ & Competitor & 3.372\sym{***} & 0.0003 & 0.0253 \\
+\addlinespace
+SOXX market model
+ & Hardware   & 2.898\sym{***} & 0.0027 & 0.0200 \\
+ & Competitor & 3.182\sym{***} & 0.0007 & 0.0282 \\
+\addlinespace
+S\&P 500 with event fixed effects
+ & Hardware   & 3.364\sym{***} & 0.0023 & 0.0282 \\
+ & Competitor & 3.259\sym{***} & 0.0004 & 0.0408 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: All regressions contain the eight position indicators and firm
+controls. The first four specifications include year fixed effects. The
+last includes event fixed effects.
+Stars use event-level CR2 $p$-values:
+\sym{*} $p<0.10$, \sym{**} $p<0.05$, and \sym{***} $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Dropping one of the 20 hardware securities at a time produces coefficients
+between 2.59 and 3.69\pp{}. All 20 estimates are positive and significant
+under event-level CR2 inference. Dropping NVIDIA yields 3.32\pp{}
+($p=0.0028$). Dropping Sandisk produces the smallest coefficient,
+2.59\pp{} ($p=0.0117$).
+
+\section{Pairwise Position Contrasts}
+
+Table~\ref{tab:a3} tests equality between the hardware coefficient and the
+other ecosystem positions. The hardware--competitor difference is close to
+zero. The hardware coefficient exceeds the average downstream and average
+nonhardware coefficients under both return benchmarks and both inference
+methods.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Pairwise contrasts with the hardware coefficient}
+\label{tab:a3}
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{3}{c}{Market model}
+& \multicolumn{3}{c}{Three-factor model} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Hardware minus & Difference & Event $p$ & Two-way $p$ &
+Difference & Event $p$ & Two-way $p$ \\
+\midrule
+Cloud platform        & 2.426\sym{**} & 0.046 & 0.072 & 2.257\sym{*} & 0.063 & 0.103 \\
+Integrator            & 2.160\sym{**} & 0.025 & 0.051 & 2.243\sym{**} & 0.020 & 0.048 \\
+Deployer              & 2.214\sym{**} & 0.013 & 0.004 & 2.162\sym{**} & 0.014 & 0.007 \\
+Enabler               & 3.224\sym{***} & 0.004 & 0.014 & 3.561\sym{***} & 0.002 & 0.008 \\
+Competitor            & 0.090 & 0.917 & 0.924 & 0.057 & 0.946 & 0.957 \\
+Downstream average    & 2.533\sym{***} & 0.004 & 0.009 & 2.655\sym{***} & 0.002 & 0.007 \\
+Nonhardware average   & 2.023\sym{**} & 0.012 & 0.022 & 2.056\sym{***} & 0.010 & 0.019 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Differences are percentage points. The downstream average
+combines cloud, integrator, deployer, and enabler coefficients. The
+nonhardware average combines the other seven position coefficients.
+Stars use event-level CR2 $p$-values:
+\sym{*} $p<0.10$, \sym{**} $p<0.05$, and \sym{***} $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+Holm adjustment treats the eight position coefficients as one testing
+family. The adjusted $p$-values are 0.0119 for hardware and 0.0021 for
+competitor. The remaining six adjusted $p$-values exceed 0.41.
+
+\section{Time Interactions}
+
+The time specification includes each of the eight position indicators, all
+eight interactions with a 2025--2026 indicator, firm controls, and year
+fixed effects. The eight post-2025 interactions are jointly significant
+under every return-and-inference combination. Market-model $p$-values are
+0.0048 with event CR2 and 0.0148 with event-and-firm clustering.
+Three-factor $p$-values are 0.0017 and 0.00002.
+
+Table~\ref{tab:a4} reports the formal difference between the hardware and
+competitor changes. The estimate is approximately 5\pp{} under both return
+models. All confidence intervals exclude zero.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Hardware change minus competitor change after 2025}
+\label{tab:a4}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrr}
+\toprule
+Return model & Inference & Difference & SE & 95\% CI & $p$ \\
+\midrule
+Market model
+ & Event CR2 & 4.863\sym{***} & 1.468 & [1.954,\ 7.773] & 0.0013 \\
+ & Event $\times$ firm & 4.863\sym{**} & 2.039 & [0.755,\ 8.972] & 0.0214 \\
+\addlinespace
+Three-factor model
+ & Event CR2 & 5.032\sym{***} & 1.519 & [2.022,\ 8.043] & 0.0013 \\
+ & Event $\times$ firm & 5.032\sym{**} & 2.117 & [0.766,\ 9.299] & 0.0219 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Difference and standard error are in percentage points. The
+contrast is
+$\Delta\beta_{\mathrm{hardware}}-\Delta\beta_{\mathrm{competitor}}$,
+where each $\Delta$ is the coefficient on the position's interaction with
+the 2025--2026 indicator.
+Stars use the $p$-value in each row:
+\sym{*} $p<0.10$, \sym{**} $p<0.05$, and \sym{***} $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Capability Specifications}
+
+Table~\ref{tab:a5} reports the capability regressions. The pooled slope is
+negative under both return models. The market-model slope is more negative
+among closed-source events. The capability--hardware interaction is positive
+under both return models and both inference methods.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Capability slopes and hardware interactions}\label{tab:a5}
+\scriptsize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{llrrrrr}
+\toprule
+Return model & Sample or term & Coef. & Event $p$ & Two-way $p$ &
+Observations & Events \\
+\midrule
+Market model
+ & Capability, all events        & $-$0.0588\sym{*} & 0.071 & 0.082 & 3,842 & 87 \\
+ & Capability, closed source     & $-$0.1305\sym{***} & 0.005 & 0.017 & 2,207 & 50 \\
+ & Capability, open weight       & $-$0.0670 & 0.247 & 0.215 & 1,635 & 37 \\
+ & Capability, unrelated firms   & $-$0.0814 & 0.623 & 0.507 & 174 & 87 \\
+ & Hardware at mean capability   & 1.8527\sym{**} & 0.046 & 0.068 & 3,842 & 87 \\
+ & Capability $\times$ hardware  & 0.1536\sym{**} & 0.045 & 0.051 & 3,842 & 87 \\
+\addlinespace
+Three-factor model
+ & Capability, all events        & $-$0.0802\sym{**} & 0.030 & 0.030 & 3,842 & 87 \\
+ & Hardware at mean capability   & 1.9497\sym{**} & 0.038 & 0.056 & 3,842 & 87 \\
+ & Capability $\times$ hardware  & 0.1623\sym{**} & 0.034 & 0.039 & 3,842 & 87 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Coefficients are percentage points per intelligence-index
+point, except for the hardware indicator. Capability has a standard
+deviation of 12.7 points. Interaction regressions center capability before
+forming the product term.
+Stars use event-level CR2 $p$-values:
+\sym{*} $p<0.10$, \sym{**} $p<0.05$, and \sym{***} $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Competitor Composition Tests}
+
+Competitor observations cover AAPL, ADBE, GOOG, GOOGL, META, and MSFT.
+Table~\ref{tab:a6} checks share classes, overlapping labels, and fixed
+effects. Combining GOOG and GOOGL into one issuer cluster leaves the
+two-way $p$-value at 0.022. Dropping either share class or the entire
+Alphabet issuer produces the same coefficient.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Competitor composition and specification checks}\label{tab:a6}
+\scriptsize
+\setlength{\tabcolsep}{3.4pt}
+\begin{tabular}{lrrr}
+\toprule
+Specification & Coef. (pp) & Event CR2 $p$ & Two-way $p$ \\
+\midrule
+Baseline market model                    & 3.385\sym{***} & 0.0003 & 0.022 \\
+Cluster GOOG and GOOGL as one issuer     & 3.385\sym{***} & 0.0003 & 0.022 \\
+Drop GOOG                                & 3.396\sym{***} & 0.0003 & 0.022 \\
+Drop GOOGL                               & 3.396\sym{***} & 0.0003 & 0.022 \\
+Drop Alphabet issuer                     & 3.468\sym{***} & 0.0003 & 0.023 \\
+Exclude competitor--cloud overlaps       & 3.478\sym{***} & 0.0003 & 0.023 \\
+Exclude competitor--integrator overlaps  & 4.632\sym{***} & $<0.001$ & 0.007 \\
+Exclude competitor--deployer overlaps    & 3.005\sym{***} & 0.007 & 0.074 \\
+Event and firm fixed effects             & 1.320 & 0.414 & 0.032 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: The final specification absorbs time-invariant firm-level
+positions and has a rank-deficient design matrix for four coefficients.
+The competitor coefficient remains estimable.
+Stars use event-level CR2 $p$-values:
+\sym{*} $p<0.10$, \sym{**} $p<0.05$, and \sym{***} $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+In six leave-one-competitor-security regressions, coefficients range from
+3.00 to 4.28\pp{}. All six are significant under event CR2; five are
+significant under two-way clustering. Dropping AAPL produces the largest
+two-way $p$-value, 0.074. Issuer-level deletion gives the same pattern.
+
+Deleting one event creator at a time produces 25 additional regressions.
+Competitor coefficients range from 3.11 to 3.85\pp{}. Every estimate is
+significant under event CR2 and two-way clustering. The two-way $p$-values
+range from 0.011 to 0.034.
+
+\section{Dependence and Overlapping Events}
+
+Table~\ref{tab:a7} applies calendar-HAC adjustments to release-level
+coefficients. Each release receives equal weight. Hardware estimates retain
+their sign and magnitude as the bandwidth increases. Competitor estimates
+also remain positive, with wider confidence intervals at longer
+bandwidths.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Event-level calendar-HAC inference}\label{tab:a7}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Position & Coef. (pp) & Lag 0 & Lag 5 & Lag 10 & Lag 20 & Lag 40 \\
+\midrule
+Hardware   & 3.283 & 0.002 & 0.025 & 0.044 & 0.071 & 0.102 \\
+Competitor & 2.118 & 0.019 & 0.072 & 0.100 & 0.124 & 0.142 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Entries after the coefficient are two-sided $p$-values.
+Bandwidths are trading days.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+A maximal set of non-overlapping twenty-day windows contains 29 events.
+Across 250 random maximal sets, the median hardware coefficient is
+4.22\pp{} and the median competitor coefficient is 3.78\pp{}. Every
+draw produces positive coefficients for both positions. With event-and-firm
+clustering, 49.6\% of hardware draws and 64.0\% of competitor draws have
+$p<0.05$; the corresponding shares with $p<0.10$ are 82.0\% and 86.0\%.
+
+Calendar-time portfolios give each trading day one observation. The
+hardware post-minus-pre daily alpha is 7.50 basis points, with Newey--West
+$p$-values of 0.039, 0.039, 0.056, and 0.092 at lags 5, 10, 20, and 40.
+The competitor post-minus-pre alpha is 4.66 basis points, with $p$-values
+from 0.218 to 0.308. These portfolio results complement the firm-event
+regressions by changing both event and calendar-day weights.
+
+\section{Abnormal Trading Volume}
+
+Table~\ref{tab:a8} reports abnormal trading volume around model releases.
+The dependent variable is log volume relative to its
+$[-200,-11]$ estimation-window mean, scaled by the estimation-window
+standard deviation. Hardware and competitor announcement-volume
+coefficients are statistically insignificant in the NDXT45 sample.
+
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Abnormal volume before and after releases}\label{tab:a8}
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{3}{c}{Pre-event $[-10,-2]$}
+& \multicolumn{3}{c}{Announcement $[0,+1]$} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Position & Coef. & Event $p$ & Two-way $p$ &
+Coef. & Event $p$ & Two-way $p$ \\
+\midrule
+Hardware supplier      & $-$0.077\sym{*} & 0.051 & 0.353 & $-$0.007 & 0.882 & 0.943 \\
+Cloud platform         & 0.074 & 0.148 & 0.299 & 0.095 & 0.161 & 0.400 \\
+Downstream integrator  & $-$0.041 & 0.291 & 0.584 & $-$0.052 & 0.340 & 0.605 \\
+Downstream deployer    & $-$0.112\sym{***} & 0.008 & 0.075 & $-$0.170\sym{***} & 0.004 & 0.054 \\
+Downstream enabler     & $-$0.333\sym{***} & $<0.001$ & $<0.001$ & $-$0.457\sym{***} & $<0.001$ & $<0.001$ \\
+Competitor             & 0.012 & 0.792 & 0.914 & 0.103 & 0.108 & 0.432 \\
+Investor               & $-$0.097 & 0.232 & 0.436 & $-$0.063 & 0.603 & 0.757 \\
+Listed owner           & $-$0.058 & 0.646 & 0.690 & 0.563\sym{***} & 0.007 & 0.032 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item Notes: Regressions include all position indicators, firm controls,
+and event fixed effects. Coefficients are in estimation-window standard
+deviations.
+Stars use event-level CR2 $p$-values:
+\sym{*} $p<0.10$, \sym{**} $p<0.05$, and \sym{***} $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Relationship Codebook}
+
+The coding unit is a firm--model-developer pair. Event indicators take the
+union across developers represented in the event. Multiple indicators can
+equal one for the same pair.
+
+\paragraph{Hardware supplier.}
+The firm earns material revenue from physical inputs used in model training
+or inference, including accelerators, CPUs, memory, networking equipment,
+servers, storage, semiconductor design tools, and fabrication equipment.
+
+\paragraph{Cloud platform.}
+The firm operates hyperscale computing infrastructure that rents training
+or inference capacity and hosts third-party foundation models.
+
+\paragraph{Downstream integrator.}
+The firm embeds third-party foundation models into its own software product
+or platform. The model is an input into a product sold under the listed
+firm's brand.
+
+\paragraph{Downstream deployer.}
+The firm uses generative AI inside a broader operating business. The
+firm's primary product is outside the foundation-model and AI-infrastructure
+markets.
+
+\paragraph{Downstream enabler.}
+The firm advises, implements, integrates, or operates AI systems for
+enterprise clients as a service.
+
+\paragraph{Competitor.}
+The firm develops foundation models in the same modality as the releasing
+developer. Modality matching distinguishes language, image, video, audio,
+and multimodal competition.
+
+\paragraph{Investor and listed owner.}
+The investor indicator records a financial stake in the releasing entity.
+The owner indicator marks a listed parent or publisher responsible for the
+released model.
+
+\section{Reproducibility Map}
+
+The canonical event-firm panel is
+\path{Analysis/processed/event_firm_panel.csv}. Main position and
+capability estimates are generated by
+\path{Analysis/scripts/frl_two_way_cluster_and_equivalence.R}.
+Pairwise contrasts are generated by
+\path{Analysis/scripts/frl_position_contrasts.R}.
+Time interactions and competitor checks are generated by
+\path{Analysis/scripts/frl_time_and_competitor_robustness.R}.
+Non-overlapping samples and calendar-time portfolios are generated by
+\path{Analysis/scripts/frl_nonoverlap_calendar_portfolio.R}.
+The root entry point \path{run_reproduction.sh} rebuilds the source-derived
+data, the event-firm panel, every reported result, both coding validations,
+the figure, and both PDFs.
+
+\end{document}

@@ -1,109 +1,46 @@
-ticker,company,gics_sector,source_index,index_tag,decision,reason,is_main_nasdaq100,is_sox_robustness,download_symbol,sec_cik,sec_title
-AAPL,Apple Inc.,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AAPL,0000320193,Apple Inc.
-ABNB,Airbnb,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ABNB,0001559720,"Airbnb, Inc."
-ADBE,Adobe Inc.,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ADBE,0000796343,ADOBE INC.
-ADI,Analog Devices,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,ADI,0000006281,ANALOG DEVICES INC
-ADP,Automatic Data Processing,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ADP,0000008670,AUTOMATIC DATA PROCESSING INC
-ADSK,Autodesk,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ADSK,0000769397,"Autodesk, Inc."
-AEP,American Electric Power,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AEP,0000004904,AMERICAN ELECTRIC POWER CO INC
-ALAB,Astera Labs,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,ALAB,0001736297,"Astera Labs, Inc."
-ALNY,Alnylam Pharmaceuticals,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ALNY,0001178670,"ALNYLAM PHARMACEUTICALS, INC."
-AMAT,Applied Materials,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,AMAT,0000006951,APPLIED MATERIALS INC /DE
-AMD,Advanced Micro Devices,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,AMD,0000002488,ADVANCED MICRO DEVICES INC
-AMGN,Amgen,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AMGN,0000318154,AMGEN INC
-AMZN,Amazon,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AMZN,0001018724,AMAZON COM INC
-APP,AppLovin,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,APP,0001751008,AppLovin Corp
-ARM,Arm Holdings,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ARM,0001973239,ARM HOLDINGS PLC /UK
-ASML,ASML Holding,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,ASML,0000937966,ASML HOLDING NV
-ASX,"ASE Technology Holding Co., Ltd.",Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,ASX,0001122411,"ASE Technology Holding Co., Ltd."
-AVGO,Broadcom,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,AVGO,0001730168,Broadcom Inc.
-AXON,Axon Enterprise,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,AXON,0001069183,"AXON ENTERPRISE, INC."
-BKNG,Booking Holdings,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,BKNG,0001075531,Booking Holdings Inc.
-BKR,Baker Hughes,Energy,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,BKR,0001701605,Baker Hughes Co
-CCEP,Coca-Cola Europacific Partners,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CCEP,0001650107,COCA-COLA EUROPACIFIC PARTNERS plc
-CDNS,Cadence Design Systems,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CDNS,0000813672,CADENCE DESIGN SYSTEMS INC
-CEG,Constellation Energy,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CEG,0001868275,Constellation Energy Corp
-CMCSA,Comcast,Telecommunications,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CMCSA,0001166691,COMCAST CORP
-COST,Costco,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,COST,0000909832,COSTCO WHOLESALE CORP /NEW
-CPRT,Copart,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CPRT,0000900075,COPART INC
-CRDO,Credo Technology Group Holding Ltd,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,CRDO,0001807794,Credo Technology Group Holding Ltd
-CRWD,CrowdStrike,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CRWD,0001535527,"CrowdStrike Holdings, Inc."
-CRWV,CoreWeave,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CRWV,0001769628,"CoreWeave, Inc."
-CSCO,Cisco,Telecommunications,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CSCO,0000858877,"CISCO SYSTEMS, INC."
-CSX,CSX Corporation,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CSX,0000277948,CSX CORP
-CTAS,Cintas,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,CTAS,0000723254,CINTAS CORP
-DASH,DoorDash,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,DASH,0001792789,"DoorDash, Inc."
-DDOG,Datadog,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,DDOG,0001561550,"Datadog, Inc."
-DXCM,DexCom,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,DXCM,0001093557,DEXCOM INC
-EA,Electronic Arts,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,EA,0000712515,ELECTRONIC ARTS INC.
-ENTG,"Entegris, Inc.",Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,ENTG,0001101302,ENTEGRIS INC
-EXC,Exelon,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,EXC,0001109357,EXELON CORP
-FANG,Diamondback Energy,Energy,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FANG,0001539838,"Diamondback Energy, Inc."
-FAST,Fastenal,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FAST,0000815556,FASTENAL CO
-FER,Ferrovial,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FER,0001468522,Ferrovial N.V.
-FTNT,Fortinet,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,FTNT,0001262039,"Fortinet, Inc."
-GEHC,GE HealthCare,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GEHC,0001932393,GE HealthCare Technologies Inc.
-GILD,Gilead Sciences,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GILD,0000882095,"GILEAD SCIENCES, INC."
-GOOG,Alphabet Inc. (Class C),Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GOOG,0001652044,Alphabet Inc.
-GOOGL,Alphabet Inc. (Class A),Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,GOOGL,0001652044,Alphabet Inc.
-HON,Honeywell Technologies,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,HON,0000773840,HONEYWELL INTERNATIONAL INC
-IDXX,Idexx Laboratories,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,IDXX,0000874716,IDEXX LABORATORIES INC /DE
-INTC,Intel,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,INTC,0000050863,INTEL CORP
-INTU,Intuit,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,INTU,0000896878,INTUIT INC.
-ISRG,Intuitive Surgical,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ISRG,0001035267,INTUITIVE SURGICAL INC
-KDP,Keurig Dr Pepper,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,KDP,0001418135,Keurig Dr Pepper Inc.
-KHC,Kraft Heinz,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,KHC,0001637459,Kraft Heinz Co
-KLAC,KLA Corporation,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,KLAC,0000319201,KLA CORP
-LIN,Linde plc,Basic Materials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,LIN,0001707925,LINDE PLC
-LITE,Lumentum,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,LITE,0001633978,Lumentum Holdings Inc.
-LRCX,Lam Research,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,LRCX,0000707549,LAM RESEARCH CORP
-MAR,Marriott International,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MAR,0001048286,MARRIOTT INTERNATIONAL INC /MD/
-MCHP,Microchip Technology,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MCHP,0000827054,MICROCHIP TECHNOLOGY INC
-MDLZ,Mondelez International,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MDLZ,0001103982,"Mondelez International, Inc."
-MELI,Mercado Libre,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MELI,0001099590,MERCADOLIBRE INC
-META,Meta Platforms,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,META,0001326801,"Meta Platforms, Inc."
-MNST,Monster Beverage,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MNST,0000865752,Monster Beverage Corp
-MPWR,Monolithic Power Systems,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MPWR,0001280452,MONOLITHIC POWER SYSTEMS INC
-MRVL,Marvell Technology,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MRVL,0001835632,"Marvell Technology, Inc."
-MSFT,Microsoft,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MSFT,0000789019,MICROSOFT CORP
-MSTR,MicroStrategy,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,MSTR,0001050446,Strategy Inc
-MTSI,"MACOM Technology Solutions Holdings, Inc.",Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,MTSI,0001493594,"MACOM Technology Solutions Holdings, Inc."
-MU,Micron Technology,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,MU,0000723125,MICRON TECHNOLOGY INC
-NBIS,Nebius Group,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,NBIS,0001513845,Nebius Group N.V.
-NFLX,"Netflix, Inc.",Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,NFLX,0001065280,NETFLIX INC
-NVDA,Nvidia,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,NVDA,0001045810,NVIDIA CORP
-NXPI,NXP Semiconductors,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,NXPI,0001413447,NXP Semiconductors N.V.
-ODFL,Old Dominion Freight Line,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ODFL,0000878927,"OLD DOMINION FREIGHT LINE, INC."
-ON,ON Semiconductor Corporation,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,ON,0001097864,ON SEMICONDUCTOR CORP
-ORLY,O'Reilly Automotive,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ORLY,0000898173,O REILLY AUTOMOTIVE INC
-PANW,Palo Alto Networks,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PANW,0001327567,Palo Alto Networks Inc
-PAYX,Paychex,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PAYX,0000723531,PAYCHEX INC
-PCAR,Paccar,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PCAR,0000075362,PACCAR INC
-PDD,PDD Holdings,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PDD,0001737806,PDD Holdings Inc.
-PEP,PepsiCo,Consumer Staples,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PEP,0000077476,PEPSICO INC
-PLTR,Palantir Technologies,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PLTR,0001321655,Palantir Technologies Inc.
-PYPL,PayPal,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,PYPL,0001633917,"PayPal Holdings, Inc."
-QCOM,Qualcomm,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,QCOM,0000804328,QUALCOMM INC/DE
-REGN,Regeneron Pharmaceuticals,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,REGN,0000872589,"REGENERON PHARMACEUTICALS, INC."
-RKLB,Rocket Lab,Industrials,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,RKLB,0001819994,Rocket Lab Corp
-ROP,Roper Technologies,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ROP,0000882835,ROPER TECHNOLOGIES INC
-ROST,Ross Stores,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,ROST,0000745732,"ROSS STORES, INC."
-SBUX,Starbucks,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SBUX,0000829224,STARBUCKS CORP
-SHOP,Shopify,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SHOP,0001594805,SHOPIFY INC.
-SNDK,Sandisk,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SNDK,0002023554,Sandisk Corp
-SNPS,Synopsys,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,SNPS,0000883241,SYNOPSYS INC
-STX,Seagate Technology,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,STX,0001137789,Seagate Technology Holdings plc
-TER,Teradyne,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,TER,0000097210,"TERADYNE, INC"
-TMUS,T-Mobile US,Telecommunications,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TMUS,0001283699,"T-Mobile US, Inc."
-TRI,Thomson Reuters,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TRI,0001075124,THOMSON REUTERS CORP /CAN/
-TSLA,"Tesla, Inc.",Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TSLA,0001318605,"Tesla, Inc."
-TSM,Taiwan Semiconductor Manufacturing Company Limited,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,TSM,0001046179,TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD
-TTWO,Take-Two Interactive,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,TTWO,0000946581,TAKE TWO INTERACTIVE SOFTWARE INC
-TXN,Texas Instruments,Technology,NASDAQ-100 + SOX (via SOXX ETF holdings),both,include,同时是纳斯达克100与费城半导体（SOX/SOXX）成分股，核心上游硬件,True,True,TXN,0000097476,TEXAS INSTRUMENTS INC
-UMC,United Microelectronics Corporation,Semiconductors,SOX (via SOXX ETF holdings),sox_only,include,费城半导体指数（经SOXX持仓代理）成分股，上游硬件,False,True,UMC,0001033767,UNITED MICROELECTRONICS CORP
-VRTX,Vertex Pharmaceuticals,Health Care,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,VRTX,0000875320,VERTEX PHARMACEUTICALS INC / MA
-WBD,Warner Bros. Discovery,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WBD,0001437107,"Warner Bros. Discovery, Inc."
-WDAY,"Workday, Inc.",Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WDAY,0001327811,"Workday, Inc."
-WDC,Western Digital,Technology,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WDC,0000106040,WESTERN DIGITAL CORP
-WMT,Walmart,Consumer Discretionary,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,WMT,0000104169,Walmart Inc.
-XEL,Xcel Energy,Utilities,NASDAQ-100,ndx_only,include,纳斯达克100成分股（外生指数选样，不区分是否AI相关）,True,False,XEL,0000072903,XCEL ENERGY INC
+ticker,company,gics_sector,source_index,index_tag,decision,reason,is_main_ndxt,is_sox_robustness,download_symbol,sec_cik,sec_title
+ADBE,Adobe Inc.,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,ADBE,0000796343,ADOBE INC.
+AMD,Advanced Micro Devices,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,AMD,0000002488,ADVANCED MICRO DEVICES INC
+GOOGL,Alphabet Inc. (Class A),Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,GOOGL,0001652044,Alphabet Inc.
+GOOG,Alphabet Inc. (Class C),Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,GOOG,0001652044,Alphabet Inc.
+ADI,Analog Devices,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,ADI,0000006281,ANALOG DEVICES INC
+AAPL,Apple Inc.,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,AAPL,0000320193,Apple Inc.
+AMAT,Applied Materials,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,AMAT,0000006951,APPLIED MATERIALS INC /DE
+APP,AppLovin,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,APP,0001751008,AppLovin Corp
+ARM,Arm Holdings,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,ARM,0001973239,ARM HOLDINGS PLC /UK
+ASML,ASML Holding,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,ASML,0000937966,ASML HOLDING NV
+ADSK,Autodesk,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,ADSK,0000769397,"Autodesk, Inc."
+AVGO,Broadcom,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,AVGO,0001730168,Broadcom Inc.
+CDNS,Cadence Design Systems,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,CDNS,0000813672,CADENCE DESIGN SYSTEMS INC
+CTSH,Cognizant Technology Solutions Corporation,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,CTSH,0001058290,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+CRWD,CrowdStrike,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,CRWD,0001535527,"CrowdStrike Holdings, Inc."
+DDOG,Datadog,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,DDOG,0001561550,"Datadog, Inc."
+DASH,DoorDash,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,DASH,0001792789,"DoorDash, Inc."
+FTNT,Fortinet,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,FTNT,0001262039,"Fortinet, Inc."
+INTC,Intel,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,INTC,0000050863,INTEL CORP
+INTU,Intuit,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,INTU,0000896878,INTUIT INC.
+KLAC,KLA Corporation,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,KLAC,0000319201,KLA CORP
+LRCX,Lam Research,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,LRCX,0000707549,LAM RESEARCH CORP
+MRVL,Marvell Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,MRVL,0001835632,"Marvell Technology, Inc."
+META,Meta Platforms,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,META,0001326801,"Meta Platforms, Inc."
+MCHP,Microchip Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,MCHP,0000827054,MICROCHIP TECHNOLOGY INC
+MU,Micron Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,MU,0000723125,MICRON TECHNOLOGY INC
+MSFT,Microsoft,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,MSFT,0000789019,MICROSOFT CORP
+MPWR,Monolithic Power Systems,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,MPWR,0001280452,MONOLITHIC POWER SYSTEMS INC
+NVDA,Nvidia,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,NVDA,0001045810,NVIDIA CORP
+NXPI,NXP Semiconductors,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,NXPI,0001413447,NXP Semiconductors N.V.
+PLTR,Palantir Technologies,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,PLTR,0001321655,Palantir Technologies Inc.
+PANW,Palo Alto Networks,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,PANW,0001327567,Palo Alto Networks Inc
+PDD,PDD Holdings,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,PDD,0001737806,PDD Holdings Inc.
+QCOM,Qualcomm,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,QCOM,0000804328,QUALCOMM INC/DE
+ROP,Roper Technologies,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,ROP,0000882835,ROPER TECHNOLOGIES INC
+SNDK,Sandisk,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,SNDK,0002023554,Sandisk Corp
+STX,Seagate Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,STX,0001137789,Seagate Technology Holdings plc
+SHOP,Shopify,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,SHOP,0001594805,SHOPIFY INC.
+MSTR,MicroStrategy,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,MSTR,0001050446,Strategy Inc
+SNPS,Synopsys,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,SNPS,0000883241,SYNOPSYS INC
+TXN,Texas Instruments,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample,True,True,TXN,0000097476,TEXAS INSTRUMENTS INC
+TRI,Thomson Reuters,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,TRI,0001075124,THOMSON REUTERS CORP /CAN/
+WDC,Western Digital,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,WDC,0000106040,WESTERN DIGITAL CORP
+WDAY,"Workday, Inc.",Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,WDAY,0001327811,"Workday, Inc."
+ZS,"Zscaler, Inc.",Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01,True,False,ZS,0001713683,"Zscaler, Inc."

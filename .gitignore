@@ -1,5 +1,16 @@
 .DS_Store
 .claude/
+.obsidian/
+/history/
+__pycache__/
+*.pyc
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.spl
 
 # iCloud duplicate copies, e.g. "file 2.csv".
 * 2.*

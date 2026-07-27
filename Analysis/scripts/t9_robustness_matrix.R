@@ -8,26 +8,42 @@ suppressPackageStartupMessages(library(estimatr))
 
 args <- commandArgs(trailingOnly = FALSE)
 script_dir <- dirname(sub("--file=", "", args[grep("--file=", args)]))
-root <- normalizePath(file.path(script_dir, "..", ".."))
-df <- read.csv(file.path(root, "Analysis", "processed", "event_firm_panel.csv"),
+root_env <- Sys.getenv("FRL_PROJECT_ROOT")
+root <- if (nzchar(root_env)) {
+  normalizePath(root_env)
+} else {
+  normalizePath(file.path(script_dir, "..", ".."))
+}
+panel_path <- Sys.getenv(
+  "FRL_PANEL_PATH",
+  unset = file.path(root, "Analysis", "processed", "event_firm_panel.csv")
+)
+report_dir <- Sys.getenv(
+  "FRL_REPORT_DIR",
+  unset = file.path(root, "Analysis", "reports")
+)
+dir.create(report_dir, recursive = TRUE, showWarnings = FALSE)
+df <- read.csv(panel_path,
                stringsAsFactors = FALSE, check.names = FALSE)
 
 num <- c("car_mm_spy_0_20","car_mm_qqq_0_20","car_mm_soxx_0_20","car_ff3_0_20",
          "car_mm_spy_0_10","car_mm_spy_0_15","car_mm_spy_pre_m10_m2",
          "size_log_assets","bm_ratio","volatility","momentum",
          "rel_upstream_hardware","rel_upstream_cloud","rel_downstream_integrator",
-         "rel_downstream_deployer","rel_competitor","rel_is_investor","rel_is_owner",
+         "rel_downstream_deployer","rel_downstream_enabler","rel_competitor",
+         "rel_is_investor","rel_is_owner",
          "is_open_weight_or_open_source","aa_intelligence_index")
 for (c in num) df[[c]] <- suppressWarnings(as.numeric(df[[c]]))
 df$release_year <- substr(df$event_trading_date, 1, 4)
 
-base <- df[df$is_main_nasdaq100 == "True" & df$event_excluded_identity == "False" &
+base <- df[df$is_main_ndxt == "True" & df$event_excluded_identity == "False" &
            !is.na(df$size_log_assets) & !is.na(df$volatility) & !is.na(df$momentum), ]
 base$bm_missing <- as.numeric(is.na(base$bm_ratio))
 base$bm_ratio[is.na(base$bm_ratio)] <- 0
 
 POS <- c("rel_upstream_hardware","rel_upstream_cloud","rel_downstream_integrator",
-         "rel_downstream_deployer","rel_competitor","rel_is_investor","rel_is_owner")
+         "rel_downstream_deployer","rel_downstream_enabler","rel_competitor",
+         "rel_is_investor","rel_is_owner")
 CTRL <- "size_log_assets + bm_ratio + bm_missing + volatility + momentum"
 
 run_spec <- function(dat, ycol, label, extra_rhs = "", fe = "factor(release_year)",
@@ -67,7 +83,7 @@ add(run_spec(base[base$multi_component_date_flag == "False", ], "car_mm_spy_0_20
 add(run_spec(base[base$date_confidence == "high", ], "car_mm_spy_0_20",
              "S10_仅高置信度日期"))
 add(run_spec(base[base$event_trading_date >= "2024-04-01", ], "car_mm_spy_0_20",
-             "S11_旧论文窗口 2024-04 后"))
+             "S11_2024-04 后事件"))
 add(run_spec(base[base$event_trading_date < "2025-01-01", ], "car_mm_spy_0_20",
              "S12_仅 2022-2024"))
 add(run_spec(base[base$event_trading_date >= "2025-01-01", ], "car_mm_spy_0_20",
@@ -84,7 +100,7 @@ w$car_mm_spy_0_20 <- pmin(pmax(w$car_mm_spy_0_20, q[1]), q[2])
 add(run_spec(w, "car_mm_spy_0_20", "S20_CAR winsorize 1/99"))
 
 out <- do.call(rbind, res)
-write.csv(out, file.path(root, "Analysis", "reports", "t9_robustness_matrix.csv"), row.names = FALSE)
+write.csv(out, file.path(report_dir, "t9_robustness_matrix.csv"), row.names = FALSE)
 star <- function(p) ifelse(is.na(p), "", ifelse(p < .01, "***", ifelse(p < .05, "**", ifelse(p < .1, "*", ""))))
 cat(sprintf("%-28s %6s %4s | %9s %-3s | %9s %-3s | %9s %-3s | %9s %-3s\n",
             "spec", "n", "ev", "硬件", "", "部署", "", "竞争", "", "开源交互", ""))

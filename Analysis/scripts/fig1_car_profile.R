@@ -2,15 +2,29 @@
 # 图1：事件时间累计异常收益剖面（读 paper_numbers.csv，输出 Tex_new/figures/）
 args <- commandArgs(trailingOnly = FALSE)
 sd <- dirname(sub("--file=", "", args[grep("--file=", args)]))
-root <- normalizePath(file.path(sd, "..", ".."))
-pn <- read.csv(file.path(root, "Analysis/reports/paper_numbers.csv"), stringsAsFactors = FALSE)
+root_env <- Sys.getenv("FRL_PROJECT_ROOT")
+root <- if (nzchar(root_env)) {
+  normalizePath(root_env)
+} else {
+  normalizePath(file.path(sd, "..", ".."))
+}
+report_dir <- Sys.getenv(
+  "FRL_REPORT_DIR",
+  unset = file.path(root, "Analysis/reports")
+)
+figure_dir <- Sys.getenv(
+  "FRL_FIGURE_DIR",
+  unset = file.path(root, "Tex_new/figures")
+)
+dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
+pn <- read.csv(file.path(report_dir, "paper_numbers.csv"), stringsAsFactors = FALSE)
 wins <- c("car_mm_spy_pre_m10_m2","car_mm_spy_0_0","car_mm_spy_0_1","car_mm_spy_0_2",
           "car_mm_spy_0_3","car_mm_spy_0_5","car_mm_spy_0_10","car_mm_spy_0_15","car_mm_spy_0_20")
 xs <- c(-6, 0, 1, 2, 3, 5, 10, 15, 20)   # 前窗画在 -6（[-10,-2] 中点）
 labs <- c("pre","0","1","2","3","5","10","15","20")
 get <- function(blk, term) sapply(wins, function(w) pn$coef[pn$block==blk & pn$y==w & pn$term==term])
 gse <- function(blk, term) sapply(wins, function(w) pn$se[pn$block==blk & pn$y==w & pn$term==term])
-pdf(file.path(root, "Tex_new/figures/fig1_car_profile.pdf"), width = 10, height = 4.6)
+pdf(file.path(figure_dir, "fig1_car_profile.pdf"), width = 10, height = 4.6)
 par(mfrow = c(1, 2), mar = c(4, 4, 2.2, 0.8), mgp = c(2.4, 0.7, 0))
 panel <- function(blk, title) {
   hw <- get(blk, "rel_upstream_hardware") * 100

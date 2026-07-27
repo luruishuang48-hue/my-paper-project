@@ -1,35 +1,19 @@
-# 企业列表
+# 企业样本
 
-公司池重建的工作目录（对应 `to_do_rebuild_regression_20260702.md` T1）。正式产物落在
-`new data set/decisions/`，本文件夹是拉取过程的暂存区。
+主样本采用 Nasdaq-100 Technology Sector Index 在 2026-05-01 的官方快照。
+样本包含 45 只证券和 44 家发行人。GOOGL 与 GOOG 是两类独立证券，均按指数
+成分保留。
 
-## 拉取方法（2026-07-02）
+## 文件
 
-- **纳斯达克 100**：维基百科 `Nasdaq-100` 词条的 `id="constituents"` 表格，101 家。
-- **费城半导体指数（SOX）**：Wikipedia 的 PHLX Semiconductor Sector 词条本身不维护成分股
-  表格，改用 iShares SOXX ETF（该 ETF 明确以追踪 PHLX 半导体指数为目标）持仓数据，
-  经 stockanalysis.com 抓取，25 只，累计权重 96.1%（SOX 官方约 30 只，页面未展示的
-  是几只权重低于 1% 的尾部成分股，对上游硬件覆盖影响可忽略）。
-- 两个列表按 ticker 去重合并，重复的 18 只（NVDA、AMD、INTC、AVGO、MU、QCOM 等核心
-  半导体股）在两个指数中都出现，保留一行、`index` 字段标注双重来源。
+- `ndxt45_constituents_20260501.csv` 保存官方顺序、公司名、来源日期和
+  SOX/SOXX 子样本标记。
+- `build_firm_universe.py` 校验快照并生成
+  `事件集筛选/decisions/firm_universe_decisions.csv`。
+- `firm_universe_manifest.json` 记录输入和输出的 SHA-256、样本规模及来源。
 
-## 产物
+运行方式如下。
 
-- `nasdaq100_sox_raw.csv`：108 家去重后的名单（ticker、公司名、GICS 行业、来源指数）。
-- 正式版本（决策表格式，供下游脚本读取）：
-  `new data set/decisions/firm_universe_decisions.csv`
-- 原始拉取快照留档：`new data set/decisions/firm_universe_raw_source.csv`
-
-## 已知局限，需要你决定
-
-1. **样本快照日期未定版**：当前抓的是维基百科/ETF 持仓的"现在"这一刻的名单，不是
-   某个历史基准日（比如 2024-01-01）的成分股。如果要严格外生，应该用事件窗口开始前
-   某个基准日的历史成分股名单，而不是当前名单（当前名单会有幸存者偏差——比如
-   已被踢出指数的公司不会出现）。这是 T1 终审时需要你拍板的点。
-2. **不含中国大陆/港股/欧日公司**：纯美股指数选样的代价，上次讨论过。如果要保留
-   对深度求索类事件的中国产业链反应，需要单独定义一个中概/港股稳健性子样本，
-   本文件夹未处理这块。
-3. 只做了名单去重，还没有做「T1 剩余步骤」——即用 125 事件的厂商清单反查这 108 家
-   是否已覆盖你关心的核心 AI 玩家（例如 Palantir、CoreWeave 都已在内，但如
-   Snowflake、C3.ai 这类旧样本里的公司不在纳指 100/SOX，需要你决定是否用规则外
-   补充名单，还是接受"就用这两个指数、不额外补"的最简方案）。
+```sh
+python3 企业列表/build_firm_universe.py
+```

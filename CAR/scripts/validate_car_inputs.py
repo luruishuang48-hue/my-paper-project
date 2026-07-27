@@ -50,7 +50,7 @@ def main() -> None:
                 "event_trading_date": event["event_trading_date"],
                 "ticker": symbol,
                 "company": firm["company"],
-                "is_main_nasdaq100": bool(firm["is_main_nasdaq100"]),
+                "is_main_ndxt": bool(firm["is_main_ndxt"]),
                 "is_sox_robustness": bool(firm["is_sox_robustness"]),
                 "price_first_date": available_dates.loc[symbol, "first_date"] if symbol in available_dates.index else "",
                 "price_last_date": available_dates.loc[symbol, "last_date"] if symbol in available_dates.index else "",
@@ -76,7 +76,7 @@ def main() -> None:
     audit.to_csv(REPORTS / "event_ticker_car_readiness.csv", index=False)
 
     by_ticker = (
-        audit.groupby(["ticker", "company", "is_main_nasdaq100", "is_sox_robustness", "price_first_date", "price_last_date"])
+        audit.groupby(["ticker", "company", "is_main_ndxt", "is_sox_robustness", "price_first_date", "price_last_date"])
         .agg(
             events_total=("event_id", "size"),
             events_car_ready=("car_ready_max_window", "sum"),
@@ -116,7 +116,7 @@ def main() -> None:
 
 ## 不可计算组合的主要来源
 
-以下公司上市或可用价格起点较晚，无法覆盖早期事件的 `[-200,-10]` 估计窗。
+以下公司上市或可用价格起点较晚，无法覆盖早期事件的 `[-200,-11]` 估计窗。
 
 {by_ticker[by_ticker['events_missing'] > 0][['ticker','company','price_first_date','price_last_date','events_total','events_car_ready','events_missing','first_unready_event']].to_markdown(index=False)}
 

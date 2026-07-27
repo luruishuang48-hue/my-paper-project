@@ -1,13 +1,13 @@
 # 财务数据收集报告
 
-生成时间：2026-07-02T23:02:39
+生成时间：2026-07-27T17:06:56
 
 ## 范围
 
-- 公司数：108
+- 公司数：45
 - 目标季度：2022Q1 至 2026Q1，共 17 个季度
-- 理论 ticker × quarter 行数：1836
-- 实际标准化行数：1799
+- 理论 ticker × quarter 行数：765
+- 实际标准化行数：760
 
 ## 主要来源
 
@@ -17,13 +17,13 @@
 
 ## 覆盖率
 
-- `total_assets` 非缺失数：1799
-- `stockholders_equity` 非缺失数：1798
-- `shares_for_market_cap` 非缺失数：1792
-- `quarter_end_market_cap_usd` 非缺失数：1765
-- `total_assets_usd` 非缺失数：1799
-- `stockholders_equity_usd` 非缺失数：1798
-- `bm_ratio` 非缺失数：1764
+- `total_assets` 非缺失数：760
+- `stockholders_equity` 非缺失数：759
+- `shares_for_market_cap` 非缺失数：754
+- `quarter_end_market_cap_usd` 非缺失数：746
+- `total_assets_usd` 非缺失数：760
+- `stockholders_equity_usd` 非缺失数：759
+- `bm_ratio` 非缺失数：745
 
 ## 重要口径
 
@@ -33,14 +33,9 @@
 
 ## 覆盖不足或字段缺失公司
 
-| ticker   | company                        |   rows | first_quarter   | last_quarter   |   total_assets_nonmissing |   equity_nonmissing |   shares_nonmissing |   market_cap_nonmissing |   total_assets_usd_nonmissing |   equity_usd_nonmissing |   bm_ratio_nonmissing | financial_currency   |   expected_quarters |   missing_quarters |
-|:---------|:-------------------------------|-------:|:----------------|:---------------|--------------------------:|--------------------:|--------------------:|------------------------:|------------------------------:|------------------------:|----------------------:|:---------------------|--------------------:|-------------------:|
-| ALAB     | Astera Labs                    |     13 | 2022Q3          | 2026Q1         |                        13 |                  13 |                  12 |                       9 |                            13 |                      13 |                     9 | USD                  |                  17 |                  4 |
-| ARM      | Arm Holdings                   |     15 | 2022Q1          | 2026Q1         |                        15 |                  15 |                  15 |                      11 |                            15 |                      15 |                    11 | USD                  |                  17 |                  2 |
-| CCEP     | Coca-Cola Europacific Partners |      8 | 2022Q2          | 2025Q4         |                         8 |                   8 |                   8 |                       8 |                             8 |                       8 |                     8 | EUR                  |                  17 |                  9 |
-| CRWV     | CoreWeave                      |      9 | 2023Q3          | 2026Q1         |                         9 |                   9 |                   9 |                       5 |                             9 |                       9 |                     5 | USD                  |                  17 |                  8 |
-| FER      | Ferrovial                      |      8 | 2022Q2          | 2025Q4         |                         8 |                   8 |                   8 |                       8 |                             8 |                       8 |                     8 | EUR                  |                  17 |                  9 |
-| GEHC     | GE HealthCare                  |     15 | 2022Q3          | 2026Q1         |                        15 |                  15 |                  15 |                      14 |                            15 |                      15 |                    14 | USD                  |                  17 |                  2 |
-| KLAC     | KLA Corporation                |     17 | 2022Q1          | 2026Q1         |                        17 |                  16 |                  17 |                      17 |                            17 |                      16 |                    16 | USD                  |                  17 |                  0 |
-| MSTR     | MicroStrategy                  |     16 | 2022Q1          | 2026Q1         |                        16 |                  16 |                  16 |                      16 |                            16 |                      16 |                    16 | USD                  |                  17 |                  1 |
-| SNDK     | Sandisk                        |     15 | 2022Q1          | 2026Q1         |                        15 |                  15 |                   9 |                       5 |                            15 |                      15 |                     5 | USD                  |                  17 |                  2 |
+| ticker   | company         |   rows | first_quarter   | last_quarter   |   total_assets_nonmissing |   equity_nonmissing |   shares_nonmissing |   market_cap_nonmissing |   total_assets_usd_nonmissing |   equity_usd_nonmissing |   bm_ratio_nonmissing | financial_currency   |   expected_quarters |   missing_quarters |
+|:---------|:----------------|-------:|:----------------|:---------------|--------------------------:|--------------------:|--------------------:|------------------------:|------------------------------:|------------------------:|----------------------:|:---------------------|--------------------:|-------------------:|
+| ARM      | Arm Holdings    |     15 | 2022Q1          | 2026Q1         |                        15 |                  15 |                  15 |                      11 |                            15 |                      15 |                    11 | USD                  |                  17 |                  2 |
+| KLAC     | KLA Corporation |     17 | 2022Q1          | 2026Q1         |                        17 |                  16 |                  17 |                      17 |                            17 |                      16 |                    16 | USD                  |                  17 |                  0 |
+| MSTR     | MicroStrategy   |     16 | 2022Q1          | 2026Q1         |                        16 |                  16 |                  16 |                      16 |                            16 |                      16 |                    16 | USD                  |                  17 |                  1 |
+| SNDK     | Sandisk         |     15 | 2022Q1          | 2026Q1         |                        15 |                  15 |                   9 |                       5 |                            15 |                      15 |                     5 | USD                  |                  17 |                  2 |

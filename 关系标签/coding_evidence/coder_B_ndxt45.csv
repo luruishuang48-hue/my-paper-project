@@ -1,0 +1,1126 @@
+ticker,company,creator,r1_upstream_hardware,r1_upstream_hardware_conf,r2_upstream_cloud,r2_upstream_cloud_conf,r3_downstream_integrator,r3_downstream_integrator_conf,r4_downstream_deployer,r4_downstream_deployer_conf,r5_downstream_enabler,r5_downstream_enabler_conf,r6_competitor,r6_competitor_conf,f2_is_owner,f2_is_owner_conf,f1_is_investor,f1_is_investor_conf,justification,coder,coded_at
+ADBE,Adobe Inc.,OpenAI,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Google,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Anthropic,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,DeepSeek,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Alibaba,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,xAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Meta,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Mistral,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Microsoft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Kimi,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Z AI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Amazon,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,MiniMax,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Stability.ai,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Midjourney,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Runway,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Black Forest Labs,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Suno,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Udio,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Kyutai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Recraft,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,KlingAI,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,Vidu,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,ElevenLabs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+ADBE,Adobe Inc.,ByteDance Seed,0,,0,,1,M,0,,0,,1,M,0,,0,,R6:Firefly competes with image and video generation model creators; R3:Firefly and generative AI are embedded in creative software products,B,2026-07-27
+AMD,Advanced Micro Devices,OpenAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Google,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Anthropic,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,DeepSeek,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Alibaba,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,xAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Meta,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Mistral,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Microsoft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Kimi,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Z AI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Amazon,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,MiniMax,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Stability.ai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Midjourney,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Runway,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Black Forest Labs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Suno,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Udio,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Kyutai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Recraft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,KlingAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,Vidu,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,ElevenLabs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+AMD,Advanced Micro Devices,ByteDance Seed,1,H,0,,0,,0,,0,,0,,0,,0,,R1:GPU accelerators and data-center CPUs for AI workloads,B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),OpenAI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Google,0,,1,H,0,,0,,0,,0,,1,H,0,,F2:Alphabet share class is listed parent of Google releases; R2:Google Cloud provides AI infrastructure,B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Anthropic,0,,1,H,0,,0,,0,,1,H,0,,1,H,"F1:Alphabet has a documented equity investment in Anthropic; R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),DeepSeek,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Alibaba,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),xAI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Meta,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Mistral,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Microsoft,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Kimi,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Z AI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Amazon,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),MiniMax,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Stability.ai,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Midjourney,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Runway,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Black Forest Labs,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Suno,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Udio,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Kyutai,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Recraft,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),KlingAI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),Vidu,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),ElevenLabs,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOGL,Alphabet Inc. (Class A),ByteDance Seed,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),OpenAI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Google,0,,1,H,0,,0,,0,,0,,1,H,0,,F2:Alphabet share class is listed parent of Google releases; R2:Google Cloud provides AI infrastructure,B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Anthropic,0,,1,H,0,,0,,0,,1,H,0,,1,H,"F1:Alphabet has a documented equity investment in Anthropic; R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),DeepSeek,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Alibaba,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),xAI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Meta,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Mistral,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Microsoft,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Kimi,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Z AI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Amazon,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),MiniMax,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Stability.ai,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Midjourney,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Runway,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Black Forest Labs,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Suno,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Udio,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Kyutai,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Recraft,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),KlingAI,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),Vidu,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),ElevenLabs,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+GOOG,Alphabet Inc. (Class C),ByteDance Seed,0,,1,H,0,,0,,0,,1,H,0,,0,,"R2:Google Cloud provides AI infrastructure; R6:Gemini, Imagen and Veo compete across AI model markets",B,2026-07-27
+ADI,Analog Devices,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+ADI,Analog Devices,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power semiconductors used in AI data-center hardware,B,2026-07-27
+AAPL,Apple Inc.,OpenAI,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Google,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Anthropic,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,DeepSeek,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Alibaba,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,xAI,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Meta,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Mistral,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Microsoft,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Kimi,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Z AI,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Amazon,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,MiniMax,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Stability.ai,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Midjourney,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Runway,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Black Forest Labs,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Suno,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Udio,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Kyutai,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Recraft,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,KlingAI,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,Vidu,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,ElevenLabs,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AAPL,Apple Inc.,ByteDance Seed,0,,0,,0,,1,M,0,,1,M,0,,0,,R6:Apple Intelligence and Apple foundation models compete in consumer AI; R4:Apple Intelligence and on-device AI augment a hardware and services business,B,2026-07-27
+AMAT,Applied Materials,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+AMAT,Applied Materials,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip fabrication,B,2026-07-27
+APP,AppLovin,OpenAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Google,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Anthropic,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,DeepSeek,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Alibaba,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,xAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Meta,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Mistral,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Microsoft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Kimi,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Z AI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Amazon,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,MiniMax,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Stability.ai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Midjourney,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Runway,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Black Forest Labs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Suno,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Udio,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Kyutai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Recraft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,KlingAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,Vidu,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,ElevenLabs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+APP,AppLovin,ByteDance Seed,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI ad optimization is central to the platform,B,2026-07-27
+ARM,Arm Holdings,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ARM,Arm Holdings,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:CPU and accelerator IP used across data-center and edge AI chips,B,2026-07-27
+ASML,ASML Holding,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ASML,ASML Holding,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:lithography equipment enabling advanced AI chip production,B,2026-07-27
+ADSK,Autodesk,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+ADSK,Autodesk,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI design features are embedded in Autodesk software,B,2026-07-27
+AVGO,Broadcom,OpenAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Google,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Anthropic,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,DeepSeek,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Alibaba,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,xAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Meta,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Mistral,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Microsoft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Kimi,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Z AI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Amazon,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,MiniMax,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Stability.ai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Midjourney,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Runway,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Black Forest Labs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Suno,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Udio,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Kyutai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Recraft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,KlingAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,Vidu,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,ElevenLabs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+AVGO,Broadcom,ByteDance Seed,1,H,0,,0,,0,,0,,0,,0,,0,,R1:custom AI accelerators and data-center networking chips,B,2026-07-27
+CDNS,Cadence Design Systems,OpenAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Google,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Anthropic,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,DeepSeek,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Alibaba,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,xAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Meta,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Mistral,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Microsoft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Kimi,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Z AI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Amazon,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,MiniMax,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Stability.ai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Midjourney,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Runway,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Black Forest Labs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Suno,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Udio,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Kyutai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Recraft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,KlingAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,Vidu,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,ElevenLabs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CDNS,Cadence Design Systems,ByteDance Seed,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,OpenAI,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Google,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Anthropic,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,DeepSeek,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Alibaba,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,xAI,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Meta,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Mistral,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Microsoft,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Kimi,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Z AI,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Amazon,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,MiniMax,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Stability.ai,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Midjourney,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Runway,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Black Forest Labs,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Suno,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Udio,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Kyutai,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Recraft,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,KlingAI,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,Vidu,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,ElevenLabs,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CTSH,Cognizant Technology Solutions Corporation,ByteDance Seed,0,,0,,0,,0,,1,H,0,,0,,0,,"r5_downstream_enabler: Cognizant is an IT services and consulting firm that advises, builds, implements, and operates enterprise generative-AI solutions for clients",B,2026-07-27
+CRWD,CrowdStrike,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+CRWD,CrowdStrike,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security assistants and detection features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DDOG,Datadog,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI observability and LLM-monitoring features are embedded in the platform,B,2026-07-27
+DASH,DoorDash,OpenAI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Google,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Anthropic,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,DeepSeek,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Alibaba,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,xAI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Meta,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Mistral,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Microsoft,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Kimi,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Z AI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Amazon,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,MiniMax,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Stability.ai,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Midjourney,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Runway,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Black Forest Labs,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Suno,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Udio,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Kyutai,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Recraft,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,KlingAI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,Vidu,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,ElevenLabs,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+DASH,DoorDash,ByteDance Seed,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves delivery logistics and marketplace operations,B,2026-07-27
+FTNT,Fortinet,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+FTNT,Fortinet,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security features are embedded in cybersecurity products,B,2026-07-27
+INTC,Intel,OpenAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Google,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Anthropic,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,DeepSeek,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Alibaba,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,xAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Meta,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Mistral,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Microsoft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Kimi,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Z AI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Amazon,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,MiniMax,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Stability.ai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Midjourney,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Runway,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Black Forest Labs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Suno,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Udio,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Kyutai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Recraft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,KlingAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,Vidu,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,ElevenLabs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTC,Intel,ByteDance Seed,1,H,0,,0,,0,,0,,0,,0,,0,,R1:data-center CPUs and AI accelerators,B,2026-07-27
+INTU,Intuit,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+INTU,Intuit,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI assistants are embedded in tax and small-business software,B,2026-07-27
+KLAC,KLA Corporation,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+KLAC,KLA Corporation,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:process-control equipment enabling advanced chip manufacturing,B,2026-07-27
+LRCX,Lam Research,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+LRCX,Lam Research,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:semiconductor equipment enabling AI chip production,B,2026-07-27
+MRVL,Marvell Technology,OpenAI,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Google,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Anthropic,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,DeepSeek,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Alibaba,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,xAI,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Meta,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Mistral,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Microsoft,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Kimi,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Z AI,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Amazon,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,MiniMax,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Stability.ai,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Midjourney,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Runway,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Black Forest Labs,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Suno,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Udio,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Kyutai,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Recraft,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,KlingAI,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,Vidu,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,ElevenLabs,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+MRVL,Marvell Technology,ByteDance Seed,1,H,0,,0,,0,,0,,0,,0,,0,,"R1:custom AI silicon, interconnect, storage and networking chips",B,2026-07-27
+META,Meta Platforms,OpenAI,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Google,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Anthropic,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,DeepSeek,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Alibaba,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,xAI,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Meta,0,,0,,0,,0,,0,,0,,1,H,0,,F2:listed parent of Meta model releases,B,2026-07-27
+META,Meta Platforms,Mistral,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Microsoft,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Kimi,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Z AI,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Amazon,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,MiniMax,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Stability.ai,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Midjourney,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Runway,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Black Forest Labs,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Suno,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Udio,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Kyutai,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Recraft,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,KlingAI,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,Vidu,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,ElevenLabs,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+META,Meta Platforms,ByteDance Seed,0,,0,,0,,0,,0,,1,H,0,,0,,R6:Llama and Meta foundation models compete across AI model markets,B,2026-07-27
+MCHP,Microchip Technology,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MCHP,Microchip Technology,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:embedded and data-center semiconductor components,B,2026-07-27
+MU,Micron Technology,OpenAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Google,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Anthropic,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,DeepSeek,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Alibaba,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,xAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Meta,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Mistral,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Microsoft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Kimi,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Z AI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Amazon,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,MiniMax,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Stability.ai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Midjourney,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Runway,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Black Forest Labs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Suno,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Udio,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Kyutai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Recraft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,KlingAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,Vidu,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,ElevenLabs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MU,Micron Technology,ByteDance Seed,1,H,0,,0,,0,,0,,0,,0,,0,,R1:HBM and DRAM used in AI accelerators and servers,B,2026-07-27
+MSFT,Microsoft,OpenAI,0,,1,H,1,H,0,,0,,1,H,0,,1,H,F1:Microsoft has a documented investment and profit interest in OpenAI; R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Google,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Anthropic,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,DeepSeek,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Alibaba,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,xAI,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Meta,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Mistral,0,,1,H,1,H,0,,0,,1,H,0,,1,H,F1:Microsoft has a documented investment in Mistral AI; R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Microsoft,0,,1,H,0,,0,,0,,0,,1,H,0,,F2:listed parent of Microsoft model releases; R2:Azure provides cloud and AI infrastructure,B,2026-07-27
+MSFT,Microsoft,Kimi,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Z AI,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Amazon,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,MiniMax,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Stability.ai,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Midjourney,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Runway,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Black Forest Labs,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Suno,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Udio,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Kyutai,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Recraft,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,KlingAI,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,Vidu,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,ElevenLabs,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MSFT,Microsoft,ByteDance Seed,0,,1,H,1,H,0,,0,,1,H,0,,0,,R2:Azure provides cloud and AI infrastructure; R6:Phi models and OpenAI partnership give Microsoft competing model exposure; R3:Copilot and Microsoft software directly integrate foundation-model capabilities,B,2026-07-27
+MPWR,Monolithic Power Systems,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+MPWR,Monolithic Power Systems,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:power-management chips for AI servers and accelerators,B,2026-07-27
+NVDA,Nvidia,OpenAI,1,L,0,,0,,0,,0,,0,,0,,1,L,F1:NVIDIA investment is time-varying and applies only after the 2025-09 announcement; R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Google,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Anthropic,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,DeepSeek,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Alibaba,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,xAI,1,L,0,,0,,0,,0,,0,,0,,1,L,F1:NVIDIA investment is time-varying and applies only after the 2025-12 announcement; R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Meta,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Mistral,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Microsoft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Kimi,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Z AI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Amazon,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,MiniMax,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Stability.ai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Midjourney,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Runway,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Black Forest Labs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Suno,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Udio,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Kyutai,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Recraft,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,KlingAI,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,Vidu,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,ElevenLabs,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NVDA,Nvidia,ByteDance Seed,1,H,0,,0,,0,,0,,0,,0,,0,,R1:dominant GPU and AI accelerator supplier,B,2026-07-27
+NXPI,NXP Semiconductors,OpenAI,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Google,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Anthropic,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,DeepSeek,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Alibaba,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,xAI,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Meta,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Mistral,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Microsoft,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Kimi,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Z AI,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Amazon,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,MiniMax,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Stability.ai,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Midjourney,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Runway,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Black Forest Labs,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Suno,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Udio,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Kyutai,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Recraft,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,KlingAI,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,Vidu,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,ElevenLabs,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+NXPI,NXP Semiconductors,ByteDance Seed,1,L,0,,0,,0,,0,,0,,0,,0,,R1:edge AI processors with weaker LLM infrastructure exposure,B,2026-07-27
+PLTR,Palantir Technologies,OpenAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Google,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Anthropic,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,DeepSeek,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Alibaba,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,xAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Meta,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Mistral,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Microsoft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Kimi,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Z AI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Amazon,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,MiniMax,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Stability.ai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Midjourney,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Runway,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Black Forest Labs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Suno,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Udio,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Kyutai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Recraft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,KlingAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,Vidu,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,ElevenLabs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PLTR,Palantir Technologies,ByteDance Seed,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AIP directly integrates foundation models into Palantir products,B,2026-07-27
+PANW,Palo Alto Networks,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PANW,Palo Alto Networks,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI security operations are embedded in the platform,B,2026-07-27
+PDD,PDD Holdings,OpenAI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Google,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Anthropic,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,DeepSeek,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Alibaba,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,xAI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Meta,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Mistral,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Microsoft,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Kimi,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Z AI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Amazon,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,MiniMax,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Stability.ai,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Midjourney,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Runway,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Black Forest Labs,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Suno,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Udio,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Kyutai,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Recraft,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,KlingAI,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,Vidu,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,ElevenLabs,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+PDD,PDD Holdings,ByteDance Seed,0,,0,,0,,1,M,0,,0,,0,,0,,R4:AI improves e-commerce recommendation and operations,B,2026-07-27
+QCOM,Qualcomm,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+QCOM,Qualcomm,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:on-device AI inference chips and edge AI processors,B,2026-07-27
+ROP,Roper Technologies,OpenAI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Google,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Anthropic,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,DeepSeek,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Alibaba,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,xAI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Meta,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Mistral,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Microsoft,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Kimi,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Z AI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Amazon,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,MiniMax,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Stability.ai,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Midjourney,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Runway,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Black Forest Labs,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Suno,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Udio,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Kyutai,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Recraft,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,KlingAI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,Vidu,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,ElevenLabs,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+ROP,Roper Technologies,ByteDance Seed,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+SNDK,Sandisk,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+SNDK,Sandisk,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center flash storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+STX,Seagate Technology,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+SHOP,Shopify,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+SHOP,Shopify,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI commerce tools are embedded in Shopify products,B,2026-07-27
+MSTR,MicroStrategy,OpenAI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Google,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Anthropic,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,DeepSeek,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Alibaba,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,xAI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Meta,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Mistral,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Microsoft,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Kimi,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Z AI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Amazon,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,MiniMax,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Stability.ai,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Midjourney,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Runway,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Black Forest Labs,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Suno,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Udio,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Kyutai,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Recraft,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,KlingAI,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,Vidu,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,ElevenLabs,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+MSTR,MicroStrategy,ByteDance Seed,0,,0,,0,,0,,0,,0,,0,,0,,,B,2026-07-27
+SNPS,Synopsys,OpenAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Google,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Anthropic,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,DeepSeek,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Alibaba,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,xAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Meta,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Mistral,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Microsoft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Kimi,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Z AI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Amazon,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,MiniMax,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Stability.ai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Midjourney,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Runway,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Black Forest Labs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Suno,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Udio,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Kyutai,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Recraft,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,KlingAI,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,Vidu,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,ElevenLabs,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+SNPS,Synopsys,ByteDance Seed,0,,0,,1,H,0,,0,,0,,0,,0,,R3:AI-powered EDA tools are core design software inputs,B,2026-07-27
+TXN,Texas Instruments,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TXN,Texas Instruments,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:analog and power chips used across data-center hardware,B,2026-07-27
+TRI,Thomson Reuters,OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Google,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,xAI,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Meta,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Runway,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Suno,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Udio,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+TRI,Thomson Reuters,ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,"R3:AI is embedded in legal, tax and professional information products",B,2026-07-27
+WDC,Western Digital,OpenAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Google,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Anthropic,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,DeepSeek,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Alibaba,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,xAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Meta,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Mistral,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Microsoft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Kimi,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Z AI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Amazon,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,MiniMax,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Stability.ai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Midjourney,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Runway,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Black Forest Labs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Suno,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Udio,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Kyutai,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Recraft,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,KlingAI,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,Vidu,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,ElevenLabs,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDC,Western Digital,ByteDance Seed,1,M,0,,0,,0,,0,,0,,0,,0,,R1:data-center storage for AI data pipelines,B,2026-07-27
+WDAY,"Workday, Inc.",OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Google,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",xAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Meta,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Runway,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Suno,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Udio,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+WDAY,"Workday, Inc.",ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,R3:AI is embedded in HCM and finance software,B,2026-07-27
+ZS,"Zscaler, Inc.",OpenAI,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Google,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Anthropic,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",DeepSeek,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Alibaba,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",xAI,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Meta,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Mistral,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Microsoft,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Kimi,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Z AI,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Amazon,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",MiniMax,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Stability.ai,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Midjourney,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Runway,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Black Forest Labs,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Suno,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Udio,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Kyutai,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Recraft,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",KlingAI,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",Vidu,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",ElevenLabs,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27
+ZS,"Zscaler, Inc.",ByteDance Seed,0,,0,,1,M,0,,0,,0,,0,,0,,"r3_downstream_integrator: Zscaler embeds AI/ML, LLM classification, Copilot, and AI-security capabilities in its zero-trust security platform",B,2026-07-27

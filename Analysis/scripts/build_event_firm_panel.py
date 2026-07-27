@@ -22,9 +22,9 @@ RETURNS_FILE = CAR / "processed" / "returns_daily_long.csv"
 FF3_FILE = CAR / "processed" / "ff3_daily.csv"
 FUNDAMENTALS_FILE = FUND / "processed" / "fundamentals_quarterly_wide.csv"
 READINESS_FILE = CAR / "reports" / "event_ticker_car_readiness.csv"
-AA_METRICS_FILE = ROOT / "new data set" / "processed" / "event_aa_metrics.csv"
-LABELS_FILE = ROOT / "new data set" / "decisions" / "event_label_decisions.csv"
-RELATIONSHIP_FILE = ROOT / "new data set" / "decisions" / "relationship_decisions.csv"
+AA_METRICS_FILE = ROOT / "事件集筛选" / "processed" / "event_aa_metrics.csv"
+LABELS_FILE = ROOT / "事件集筛选" / "decisions" / "event_label_decisions.csv"
+RELATIONSHIP_FILE = ROOT / "事件集筛选" / "decisions" / "relationship_decisions.csv"
 
 REL_DIMS = [
     ("r1_upstream_hardware", "rel_upstream_hardware"),
@@ -43,12 +43,12 @@ IDENTITY_EXCLUDED_EVENTS = {"AIT-2026-02-006"}
 BENCHMARKS = ["QQQ", "SPY", "SOXX"]
 MIN_ESTIMATION_OBS = 120
 ESTIMATION_WINDOW = (-200, -11)
-# 动量与波动率控制变量（沿用旧面板定义：事件前12个月动量、事件前波动率）
+# 动量与波动率控制变量使用事件前 12 个月信息。
 MOMENTUM_WINDOW = (-252, -21)
 MIN_MOMENTUM_OBS = 120
 # 财务合并：只允许使用事件日之前已公开的报表。
 # 可用日 = 财政期末 + FILING_LAG（10-Q 法定披露期约 40-45 天）；
-# 过旧报表截断于 MAX_STALENESS（400 天，容纳 CCEP/FER 半年报公司）。
+# 财务报表超过 MAX_STALENESS 后不再使用。
 FUND_FILING_LAG_DAYS = 45
 FUND_MAX_STALENESS_DAYS = 400
 WINDOWS = {
@@ -543,7 +543,7 @@ def build_panel() -> pd.DataFrame:
     panel["bm_ratio_raw"] = panel["bm_ratio"]
     panel.loc[panel["negative_equity"] == True, "bm_ratio"] = np.nan
 
-    # 事件级 AA 能力指标（旗舰代表模型，见 new data set/scripts/build_event_aa_metrics.py）
+    # 事件级 AA 能力指标（旗舰代表模型，见 事件集筛选/scripts/build_event_aa_metrics.py）
     aa_metrics = pd.read_csv(AA_METRICS_FILE, low_memory=False)
     panel = panel.merge(aa_metrics, on="event_id", how="left")
 
@@ -578,7 +578,7 @@ def build_panel() -> pd.DataFrame:
         "company",
         "gics_sector",
         "index_tag",
-        "is_main_nasdaq100",
+        "is_main_ndxt",
         "is_sox_robustness",
         "official_date",
         "event_trading_date",
@@ -619,7 +619,7 @@ def build_panel() -> pd.DataFrame:
 
 def write_reports(panel: pd.DataFrame) -> None:
     panel.to_csv(PROCESSED / "event_firm_panel.csv", index=False)
-    panel.loc[panel["is_main_nasdaq100"] == True].to_csv(PROCESSED / "event_firm_panel_main_nasdaq100.csv", index=False)
+    panel.loc[panel["is_main_ndxt"] == True].to_csv(PROCESSED / "event_firm_panel_ndxt45.csv", index=False)
     panel.loc[panel["is_sox_robustness"] == True].to_csv(PROCESSED / "event_firm_panel_sox_robustness.csv", index=False)
 
     coverage_rows = []
@@ -640,7 +640,7 @@ def write_reports(panel: pd.DataFrame) -> None:
     ]
     for sample_name, sample in [
         ("all", panel),
-        ("main_nasdaq100", panel.loc[panel["is_main_nasdaq100"] == True]),
+        ("ndxt45", panel.loc[panel["is_main_ndxt"] == True]),
         ("sox_robustness", panel.loc[panel["is_sox_robustness"] == True]),
     ]:
         row = {
@@ -656,7 +656,7 @@ def write_reports(panel: pd.DataFrame) -> None:
     coverage.to_csv(REPORTS / "event_firm_panel_coverage.csv", index=False)
 
     ticker_coverage = (
-        panel.groupby(["ticker", "company", "is_main_nasdaq100", "is_sox_robustness"], dropna=False)
+        panel.groupby(["ticker", "company", "is_main_ndxt", "is_sox_robustness"], dropna=False)
         .agg(
             rows=("event_id", "size"),
             car_mm_qqq_0_20_nonmissing=("car_mm_qqq_0_20", lambda s: int(s.notna().sum())),
@@ -690,23 +690,23 @@ Generated at {datetime.now().isoformat(timespec="seconds")}.
 - Rows: {int(main["rows"])}
 - Events: {int(main["events"])}
 - Tickers: {int(main["tickers"])}
-- Main Nasdaq-100 rows: {int(coverage.loc[coverage["sample"] == "main_nasdaq100", "rows"].iloc[0])}
+- NDXT45 rows: {int(coverage.loc[coverage["sample"] == "ndxt45", "rows"].iloc[0])}
 - SOX robustness rows: {int(coverage.loc[coverage["sample"] == "sox_robustness", "rows"].iloc[0])}
 
 ## Main outputs
 
 - `Analysis/processed/event_firm_panel.csv`
-- `Analysis/processed/event_firm_panel_main_nasdaq100.csv`
+- `Analysis/processed/event_firm_panel_ndxt45.csv`
 - `Analysis/processed/event_firm_panel_sox_robustness.csv`
 
 ## CAR construction
 
 - Return input uses adjusted-close simple returns from `CAR/processed/returns_daily_long.csv`.
-- Market-model estimation window is [-200,-10].
+- Market-model estimation window is [{ESTIMATION_WINDOW[0]},{ESTIMATION_WINDOW[1]}].
 - Minimum estimation observations are {MIN_ESTIMATION_OBS}.
-- Main benchmark is SPY (decision P4, 2026-07-03: the sample is Nasdaq-100 constituents, so QQQ self-benchmarks). QQQ, SOXX and FF3 are robustness.
+- Main benchmark is SPY. The firm sample is the official NDXT constituent basket; QQQ, SOXX and FF3 provide alternative benchmarks.
 - Event AIT-2026-02-006 carries `event_excluded_identity=True` (decision D1); exclude it from the main regression sample.
-- Event-level AA capability metrics are merged from `new data set/processed/event_aa_metrics.csv` (flagship representative per event).
+- Event-level AA capability metrics are merged from `事件集筛选/processed/event_aa_metrics.csv` (flagship representative per event).
 - FF3 CAR uses Mkt-RF, SMB, HML and RF from `CAR/processed/ff3_daily.csv`.
 - CAR windows include pre [-10,-2], symmetric windows [-1,+1], [-3,+3], [-5,+5], and forward windows [0,+0], [0,+1], [0,+2], [0,+3], [0,+5], [0,+10], [0,+15], [0,+20].
 

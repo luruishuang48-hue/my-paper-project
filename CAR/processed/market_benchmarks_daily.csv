@@ -1,4 +1,4 @@
-date,symbol,open,high,low,close,adj_close,volume,currency,exchange,instrument_type,source,company,index_tag,is_main_nasdaq100,is_sox_robustness,is_benchmark,benchmark_name
+date,symbol,open,high,low,close,adj_close,volume,currency,exchange,instrument_type,source,company,index_tag,is_main_ndxt,is_sox_robustness,is_benchmark,benchmark_name
 2021-01-04,SPY,375.30999755859375,375.45001220703125,364.82000732421875,368.7900085449219,342.43695068359375,110210800,USD,PCX,ETF,yahoo_chart,,,,,True,SPDR S&P 500 ETF Trust
 2021-01-05,SPY,368.1000061035156,372.5,368.04998779296875,371.3299865722656,344.79534912109375,66426200,USD,PCX,ETF,yahoo_chart,,,,,True,SPDR S&P 500 ETF Trust
 2021-01-06,SPY,369.7099914550781,376.9800109863281,369.1199951171875,373.54998779296875,346.85675048828125,107997700,USD,PCX,ETF,yahoo_chart,,,,,True,SPDR S&P 500 ETF Trust

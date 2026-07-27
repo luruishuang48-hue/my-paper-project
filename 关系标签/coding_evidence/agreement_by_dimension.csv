@@ -1,0 +1,10 @@
+position,agreement_percent,cohen_kappa,disagreements,cells
+Hardware supplier,100.0,1.000,0,1125
+Cloud platform,100.0,1.000,0,1125
+Downstream integrator,95.6,0.902,49,1125
+Downstream deployer,97.6,0.835,27,1125
+Downstream enabler,98.2,0.328,20,1125
+Competitor,96.7,0.823,37,1125
+Investor,100.0,1.000,0,1125
+Listed owner,100.0,1.000,0,1125
+All binary cells,98.5,,133,9000

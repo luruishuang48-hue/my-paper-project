@@ -1,0 +1,5 @@
+"benchmark","outcome","test","method","numerator_df","denominator_df","f","p","observations","events","firms"
+"market_model","car_mm_spy_0_20","all_position_changes_after_2025_equal_zero","event_CR2",8,39.0666319370631,3.38870505510222,0.00478641342673058,5441,124,45
+"market_model","car_mm_spy_0_20","all_position_changes_after_2025_equal_zero","event_x_firm_HC1",8,44,2.75335401748484,0.0147889177956552,5441,124,45
+"fama_french_3factor","car_ff3_0_20","all_position_changes_after_2025_equal_zero","event_CR2",8,39.0666319370631,3.93808105408868,0.0017109263668633,5441,124,45
+"fama_french_3factor","car_ff3_0_20","all_position_changes_after_2025_equal_zero","event_x_firm_HC1",8,44,6.40537234000657,1.67917174579241e-05,5441,124,45

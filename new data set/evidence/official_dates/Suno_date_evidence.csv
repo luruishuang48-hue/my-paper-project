@@ -1,4 +1,0 @@
-event_id,vendor,model_names,aa_names,official_date,source_url,source_title,source_type,confidence,notes
-AIT-2025-05-002,Suno,Suno 4.5,Suno V4.5,2025-05-01,https://suno.com/blog/introducing-v4-5,Introducing v4.5,official product blog,high,"Suno blog and release notes list Introducing v4.5 on May 1, 2025."
-AIT-2025-09-004,Suno,Suno v5,Suno V5,2025-09-23,https://suno.com/release-notes,Introducing v5 - the world's best music model,official release notes,high,"Suno release notes list v5 launch on Sep 23, 2025."
-AIT-2026-03-004,Suno,Suno v5.5,Suno V5.5,2026-03-26,https://suno.com/blog/v5-5,Suno v5.5: More Expressive. More You.,official product blog,high,"Suno blog and release notes list v5.5 launch on Mar 26, 2026."

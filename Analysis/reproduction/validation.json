@@ -1,0 +1,80 @@
+{
+  "firm_universe_rows": 45,
+  "firm_universe_order_exact": true,
+  "firm_universe_unique": true,
+  "relationship_rows": 1125,
+  "relationship_tickers_exact": true,
+  "relationship_creators_each": [
+    25
+  ],
+  "relationship_key_unique": true,
+  "event_label_rows": 125,
+  "event_label_unique": true,
+  "car_firms_exact": true,
+  "car_ndxt_flag_all_true": true,
+  "price_stock_tickers_exact": true,
+  "ctsh_price_rows": 1337,
+  "zs_price_rows": 1337,
+  "fundamental_tickers_exact": true,
+  "ctsh_fundamental_rows": 17,
+  "zs_fundamental_rows": 17,
+  "panel_rows": 5625,
+  "panel_events": 125,
+  "panel_tickers": 45,
+  "panel_tickers_exact": true,
+  "panel_balanced": true,
+  "panel_key_unique": true,
+  "panel_ndxt_flag_all_true": true,
+  "r5_only_ctsh": true,
+  "ctsh_r5_all_events": true,
+  "zs_r3_all_events": true,
+  "event_firm_abnormal_volume.csv_tickers_exact": true,
+  "event_firm_abnormal_volume.csv_outside_ndxt": [],
+  "event_firm_car_shifted.csv_tickers_exact": true,
+  "event_firm_car_shifted.csv_outside_ndxt": [],
+  "event_firm_car_sym14.csv_tickers_exact": true,
+  "event_firm_car_sym14.csv_outside_ndxt": [],
+  "position_report_firm_counts": [
+    45
+  ],
+  "position_report_includes_r5": true,
+  "pairwise_firm_counts": [
+    45
+  ],
+  "pairwise_includes_hardware_enabler": true,
+  "time_heterogeneity_rows": 96,
+  "time_heterogeneity_firm_counts": [
+    45
+  ],
+  "time_heterogeneity_methods": [
+    "event_CR2",
+    "event_x_firm_HC1"
+  ],
+  "time_heterogeneity_has_competitor_change": true,
+  "time_joint_rows": 4,
+  "time_joint_methods": [
+    "event_CR2",
+    "event_x_firm_HC1"
+  ],
+  "time_contrast_rows": 4,
+  "time_contrast_methods": [
+    "event_CR2",
+    "event_x_firm_HC1"
+  ],
+  "time_contrast_test_exact": true,
+  "time_contrast_firm_counts": [
+    45
+  ],
+  "competitor_robustness_specs_complete": true,
+  "competitor_robustness_baseline_firms": [
+    45
+  ],
+  "competitor_leave_one_ticker_count": 6,
+  "competitor_leave_one_creator_count": 25,
+  "competitor_leave_one_creator_rows": 50,
+  "competitor_multiple_testing_row": true,
+  "competitor_holm_p_below_01": true,
+  "canonical_csv_out_of_scope_values": {},
+  "analysis_log_errors": {},
+  "passed": true
+}

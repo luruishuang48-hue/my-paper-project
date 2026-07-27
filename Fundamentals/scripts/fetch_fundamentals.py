@@ -86,8 +86,12 @@ def load_universe() -> pd.DataFrame:
 
 def sec_ticker_map() -> pd.DataFrame:
     url = "https://www.sec.gov/files/company_tickers.json"
-    payload = http_get(url, user_agent=SEC_USER_AGENT)
-    (RAW_SEC / "company_tickers.json").write_bytes(payload)
+    target = RAW_SEC / "company_tickers.json"
+    if target.exists():
+        payload = target.read_bytes()
+    else:
+        payload = http_get(url, user_agent=SEC_USER_AGENT)
+        target.write_bytes(payload)
     data = json.loads(payload.decode("utf-8"))
     rows = []
     for item in data.values():
@@ -391,7 +395,7 @@ def standardize(fundamentals: pd.DataFrame, universe: pd.DataFrame) -> pd.DataFr
         "company",
         "gics_sector",
         "index_tag",
-        "is_main_nasdaq100",
+        "is_main_ndxt",
         "is_sox_robustness",
         "sec_cik",
         "sec_title",
@@ -404,7 +408,7 @@ def standardize(fundamentals: pd.DataFrame, universe: pd.DataFrame) -> pd.DataFr
         "sec_title",
         "gics_sector",
         "index_tag",
-        "is_main_nasdaq100",
+        "is_main_ndxt",
         "is_sox_robustness",
         "calendar_quarter",
         "period_end_date",

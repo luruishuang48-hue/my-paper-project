@@ -1,8 +1,8 @@
 #!/usr/bin/env Rscript
 # =============================================================================
 # T9 主回归（新样本首跑，2026-07-03）
-# 面板：Analysis/processed/event_firm_panel.csv（125 事件 × 108 公司）
-# 设计决策（new data set/decisions/analysis_design_decisions.md）：
+# 面板：Analysis/processed/event_firm_panel.csv（125 事件 × 45 只 NDXT 证券）
+# Design decisions are recorded in 事件集筛选/decisions/analysis_design_decisions.md.
 #   主基准 SPY（P4）；剔除 event_excluded_identity（D1）；聚类 SE 按事件（D6）
 # 三组规格：
 #   A. 生态位置 → CAR[0,20]（假说1/2）
@@ -15,9 +15,21 @@ suppressPackageStartupMessages({
 
 args <- commandArgs(trailingOnly = FALSE)
 script_dir <- dirname(sub("--file=", "", args[grep("--file=", args)]))
-root <- normalizePath(file.path(script_dir, "..", ".."))
-panel_path <- file.path(root, "Analysis", "processed", "event_firm_panel.csv")
-out_dir <- file.path(root, "Analysis", "reports")
+root_env <- Sys.getenv("FRL_PROJECT_ROOT")
+root <- if (nzchar(root_env)) {
+  normalizePath(root_env)
+} else {
+  normalizePath(file.path(script_dir, "..", ".."))
+}
+panel_path <- Sys.getenv(
+  "FRL_PANEL_PATH",
+  unset = file.path(root, "Analysis", "processed", "event_firm_panel.csv")
+)
+out_dir <- Sys.getenv(
+  "FRL_REPORT_DIR",
+  unset = file.path(root, "Analysis", "reports")
+)
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 df <- read.csv(panel_path, stringsAsFactors = FALSE, check.names = FALSE)
 
@@ -26,6 +38,7 @@ num_cols <- c("car_mm_spy_0_20", "car_mm_spy_0_1", "car_ff3_0_20",
               "volatility", "momentum",
               "rel_upstream_hardware", "rel_upstream_cloud",
               "rel_downstream_integrator", "rel_downstream_deployer",
+              "rel_downstream_enabler",
               "rel_competitor", "rel_is_investor", "rel_is_owner",
               "is_open_weight_or_open_source")
 for (col in num_cols) df[[col]] <- suppressWarnings(as.numeric(df[[col]]))
@@ -33,7 +46,7 @@ df$release_year <- substr(df$event_trading_date, 1, 4)
 df$negative_equity <- df$negative_equity == "True"
 
 # 主样本：纳指100 + 剔除 D1 事件 + CAR 与控制变量齐全
-base <- df[df$is_main_nasdaq100 == "True" &
+base <- df[df$is_main_ndxt == "True" &
            df$event_excluded_identity == "False" &
            !is.na(df$car_mm_spy_0_20) &
            !is.na(df$size_log_assets) & !is.na(df$volatility) &
@@ -62,7 +75,8 @@ res <- list()
 
 # --- A. 生态位置 → CAR[0,20] 与 CAR[0,1] ---
 fA <- paste("~ rel_upstream_hardware + rel_upstream_cloud + rel_downstream_integrator +",
-            "rel_downstream_deployer + rel_competitor + rel_is_investor + rel_is_owner +", controls)
+            "rel_downstream_deployer + rel_downstream_enabler + rel_competitor +",
+            "rel_is_investor + rel_is_owner +", controls)
 res[[1]] <- run(paste("car_mm_spy_0_20", fA), base, "A1_position_car0_20")
 res[[2]] <- run(paste("car_mm_spy_0_1", fA), base, "A2_position_car0_1")
 res[[3]] <- run(paste("car_ff3_0_20", fA), base, "A3_position_ff3_0_20")
@@ -70,7 +84,7 @@ res[[3]] <- run(paste("car_ff3_0_20", fA), base, "A3_position_ff3_0_20")
 # --- B. 上游硬件 × 开源（假说3） ---
 fB <- paste("car_mm_spy_0_20 ~ rel_upstream_hardware * is_open_weight_or_open_source +",
             "rel_upstream_cloud + rel_downstream_integrator + rel_downstream_deployer +",
-            "rel_competitor + rel_is_investor + rel_is_owner +", controls)
+            "rel_downstream_enabler + rel_competitor + rel_is_investor + rel_is_owner +", controls)
 res[[4]] <- run(fB, base, "B_hardware_x_open")
 
 # --- C. AA 智能指数（LLM 事件子样本） ---

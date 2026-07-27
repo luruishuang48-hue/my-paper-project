@@ -1,15 +1,15 @@
 # CAR 数据收集报告
 
-生成时间：2026-07-02T18:31:30
+生成时间：2026-07-27T17:06:50
 
 ## 输入范围
 
 - 事件数：125
 - 事件日期范围：2022-04-06 至 2026-03-26
-- 公司池总数：108
-- Nasdaq-100 主样本：101
-- SOX/SOXX 稳健性样本：25
-- 合并去重下载股票数：108
+- 公司池总数：45
+- NDXT 主样本证券数：45
+- SOX/SOXX 稳健性样本：16
+- 合并去重下载股票数：45
 - 市场基准：SPY, QQQ, SOXX, ^NDX, ^IXIC, ^GSPC, ^SOX
 - 下载日期范围：2021-01-01 至 2026-04-30
 - CAR 最低价格覆盖起点：2021-06-21
@@ -21,7 +21,7 @@
 - `CAR/metadata/event_dates_for_car.csv`
 - `CAR/metadata/event_dates_with_trading_day.csv`
 - `CAR/metadata/event_window_requirements.csv`
-- `CAR/metadata/main_nasdaq100_tickers.csv`
+- `CAR/metadata/ndxt45_tickers.csv`
 - `CAR/metadata/robustness_sox_tickers.csv`
 - `CAR/processed/prices_daily_long.csv`
 - `CAR/processed/returns_daily_long.csv`
@@ -37,10 +37,10 @@
 
 ## 下载结果
 
-- 成功下载 symbol 数：115
+- 成功下载 symbol 数：52
 - 下载失败 symbol 数：0
 - FF3 日度记录数：1337
-- 价格长表记录数：148125
+- 价格长表记录数：67743
 - 非交易日顺延事件数：4
 - 日期复核标记事件数：8
 
@@ -80,13 +80,7 @@
 
 | symbol   | first_date   | last_date   |   rows |
 |:---------|:-------------|:------------|-------:|
-| ALAB     | 2024-03-20   | 2026-04-30  |    530 |
 | ARM      | 2023-09-14   | 2026-04-30  |    659 |
-| CEG      | 2022-01-19   | 2026-04-30  |   1074 |
-| CRDO     | 2022-01-27   | 2026-04-30  |   1068 |
-| CRWV     | 2025-03-28   | 2026-04-30  |    274 |
-| GEHC     | 2022-12-15   | 2026-04-30  |    845 |
-| NBIS     | 2024-10-21   | 2026-04-30  |    382 |
 | SNDK     | 2025-02-13   | 2026-04-30  |    304 |
 
 ## 末端覆盖不足

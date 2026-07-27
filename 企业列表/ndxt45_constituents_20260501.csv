@@ -1,0 +1,46 @@
+official_order,ticker,company,official_as_of,official_source,is_sox_robustness
+1,ADBE,Adobe Inc.,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+2,AMD,Advanced Micro Devices,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+3,GOOGL,Alphabet Inc. (Class A),2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+4,GOOG,Alphabet Inc. (Class C),2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+5,ADI,Analog Devices,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+6,AAPL,Apple Inc.,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+7,AMAT,Applied Materials,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+8,APP,AppLovin,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+9,ARM,Arm Holdings,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+10,ASML,ASML Holding,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+11,ADSK,Autodesk,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+12,AVGO,Broadcom,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+13,CDNS,Cadence Design Systems,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+14,CTSH,Cognizant Technology Solutions Corporation,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+15,CRWD,CrowdStrike,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+16,DDOG,Datadog,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+17,DASH,DoorDash,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+18,FTNT,Fortinet,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+19,INTC,Intel,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+20,INTU,Intuit,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+21,KLAC,KLA Corporation,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+22,LRCX,Lam Research,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+23,MRVL,Marvell Technology,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+24,META,Meta Platforms,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+25,MCHP,Microchip Technology,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+26,MU,Micron Technology,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+27,MSFT,Microsoft,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+28,MPWR,Monolithic Power Systems,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+29,NVDA,Nvidia,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+30,NXPI,NXP Semiconductors,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+31,PLTR,Palantir Technologies,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+32,PANW,Palo Alto Networks,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+33,PDD,PDD Holdings,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+34,QCOM,Qualcomm,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+35,ROP,Roper Technologies,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+36,SNDK,Sandisk,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+37,STX,Seagate Technology,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+38,SHOP,Shopify,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+39,MSTR,MicroStrategy,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+40,SNPS,Synopsys,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+41,TXN,Texas Instruments,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,True
+42,TRI,Thomson Reuters,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+43,WDC,Western Digital,2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+44,WDAY,"Workday, Inc.",2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False
+45,ZS,"Zscaler, Inc.",2026-05-01,https://www.nasdaq.com/docs/index/ndxt,False

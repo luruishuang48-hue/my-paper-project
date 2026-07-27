@@ -1,27 +1,32 @@
 #!/usr/bin/env Rscript
-# =============================================================================
-# FRL 复核：AA 能力指标 → CAR（新面板）
-# 旧 FRL 结论：闭源事件能力被定价（β=0.0023，1SD≈+3.0pp），开源衰减。
-# 本脚本在新面板上重估 FRL 原规格，并加：能力惊喜（相对前沿）、
-# 相关公司子样本、能力 × 上游硬件交互。
-# =============================================================================
+# Capability metrics, abnormal returns, and the hardware interaction.
 suppressPackageStartupMessages(library(estimatr))
 
 args <- commandArgs(trailingOnly = FALSE)
 script_dir <- dirname(sub("--file=", "", args[grep("--file=", args)]))
-root <- normalizePath(file.path(script_dir, "..", ".."))
-df <- read.csv(file.path(root, "Analysis", "processed", "event_firm_panel.csv"),
+root_env <- Sys.getenv("FRL_PROJECT_ROOT")
+root <- if (nzchar(root_env)) {
+  normalizePath(root_env)
+} else {
+  normalizePath(file.path(script_dir, "..", ".."))
+}
+panel_path <- Sys.getenv(
+  "FRL_PANEL_PATH",
+  unset = file.path(root, "Analysis", "processed", "event_firm_panel.csv")
+)
+df <- read.csv(panel_path,
                stringsAsFactors = FALSE, check.names = FALSE)
 
 num <- c("car_mm_spy_0_20","car_mm_spy_0_10","car_ff3_0_20","aa_intelligence_index",
          "size_log_assets","bm_ratio","volatility","momentum",
          "rel_upstream_hardware","rel_upstream_cloud","rel_downstream_integrator",
-         "rel_downstream_deployer","rel_competitor","rel_is_investor","rel_is_owner",
+         "rel_downstream_deployer","rel_downstream_enabler","rel_competitor",
+         "rel_is_investor","rel_is_owner",
          "is_open_weight_or_open_source")
 for (c in num) df[[c]] <- suppressWarnings(as.numeric(df[[c]]))
 df$release_year <- substr(df$event_trading_date, 1, 4)
 
-base <- df[df$is_main_nasdaq100 == "True" & df$event_excluded_identity == "False" &
+base <- df[df$is_main_ndxt == "True" & df$event_excluded_identity == "False" &
            !is.na(df$car_mm_spy_0_20) & !is.na(df$size_log_assets) &
            !is.na(df$volatility) & !is.na(df$momentum) &
            !is.na(df$aa_intelligence_index), ]
@@ -40,6 +45,7 @@ base$intel_c <- base$aa_intelligence_index - mean(base$aa_intelligence_index)
 base$open <- base$is_open_weight_or_open_source
 base$related <- as.numeric(base$rel_upstream_hardware == 1 | base$rel_upstream_cloud == 1 |
                            base$rel_downstream_integrator == 1 | base$rel_downstream_deployer == 1 |
+                           base$rel_downstream_enabler == 1 |
                            base$rel_competitor == 1 | base$rel_is_investor == 1 | base$rel_is_owner == 1)
 
 sd_intel <- sd(base$aa_intelligence_index)
@@ -64,9 +70,9 @@ run <- function(dat, rhs_key, label, y = "car_mm_spy_0_20") {
   invisible(m)
 }
 
-cat("== FRL 原规格复刻 ==\n")
+cat("== Capability specifications ==\n")
 run(base,                       "aa_intelligence_index", "F1_全样本能力水平")
-run(base[base$open == 0, ],     "aa_intelligence_index", "F2_仅闭源(FRL 主结果)")
+run(base[base$open == 0, ],     "aa_intelligence_index", "F2_仅闭源")
 run(base[base$open == 1, ],     "aa_intelligence_index", "F3_仅开源")
 run(base,                       "intel_c*open",          "F4_能力×开源交互")
 

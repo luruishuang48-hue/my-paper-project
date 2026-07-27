@@ -1,0 +1,9 @@
+"benchmark","outcome","test","method","restrictions","wald_chisq","f_stat","df_num","df_den","p","stars","df_rule","observations","events","firms"
+"market_model","car_mm_spy_0_20","core_positions_equal","event_CR2",5,14.4909350106784,2.89818700213567,5,116.944975996261,0.0167011438597896,"**","minimum Satterthwaite df across component CR2 contrasts",5441,124,45
+"market_model","car_mm_spy_0_20","core_positions_equal","event_x_firm_HC1",5,18.3465683443797,3.66931366887593,5,44,0.00732899048405994,"***","minimum cluster count minus one",5441,124,45
+"market_model","car_mm_spy_0_20","hardware_equals_cloud_integrator_deployer","event_CR2",3,7.38062351758707,2.46020783919569,3,116.944975996261,0.0661581811537967,"*","minimum Satterthwaite df across component CR2 contrasts",5441,124,45
+"market_model","car_mm_spy_0_20","hardware_equals_cloud_integrator_deployer","event_x_firm_HC1",3,10.0398299718374,3.34660999061247,3,44,0.0274433138377609,"**","minimum cluster count minus one",5441,124,45
+"fama_french_3factor","car_ff3_0_20","core_positions_equal","event_CR2",5,15.8304440465587,3.16608880931174,5,116.944975996261,0.010216778614837,"**","minimum Satterthwaite df across component CR2 contrasts",5441,124,45
+"fama_french_3factor","car_ff3_0_20","core_positions_equal","event_x_firm_HC1",5,15.5789196454913,3.11578392909825,5,44,0.0171084388348957,"**","minimum cluster count minus one",5441,124,45
+"fama_french_3factor","car_ff3_0_20","hardware_equals_cloud_integrator_deployer","event_CR2",3,7.2171258689101,2.40570862297003,3,116.944975996261,0.0708573675370177,"*","minimum Satterthwaite df across component CR2 contrasts",5441,124,45
+"fama_french_3factor","car_ff3_0_20","hardware_equals_cloud_integrator_deployer","event_x_firm_HC1",3,8.16157251431003,2.72052417143668,3,44,0.0557878902527897,"*","minimum cluster count minus one",5441,124,45

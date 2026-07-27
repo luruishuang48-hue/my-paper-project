@@ -1,0 +1,2 @@
+"method","deployer_estimate","deployer_se","equivalence_margin","ci90_low","ci90_high","p_lower_bound","p_upper_bound","p_tost","equivalent_at_5pct","events","unique_event_dates"
+"event_level_calendar_HAC_20_trading_days",0.0124434815147802,0.0141022856459163,0.011585862464864,-0.0109553031705875,0.0358422662001479,0.0456480943659681,0.52418968190933,0.52418968190933,FALSE,123,108

@@ -32,7 +32,7 @@ didx = {d: i for i, d in enumerate(cal)}
 arr = {s: [dd.get(d) for d in cal] for s, dd in vol.items()}
 
 events = list(csv.DictReader(open(ROOT / 'CAR/metadata/event_dates_with_trading_day.csv')))
-firms = [r['ticker'] for r in csv.DictReader(open(ROOT / 'new data set/decisions/firm_universe_decisions.csv'))]
+firms = [r['ticker'] for r in csv.DictReader(open(ROOT / '事件集筛选/decisions/firm_universe_decisions.csv'))]
 
 out = []
 for ev in events:

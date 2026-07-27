@@ -1,0 +1,13 @@
+{
+  "official_index": "Nasdaq-100 Technology Sector Index",
+  "official_ticker": "NDXT",
+  "official_as_of": "2026-05-01",
+  "official_source": "https://www.nasdaq.com/docs/index/ndxt",
+  "securities": 45,
+  "issuers": 44,
+  "sox_robustness_securities": 16,
+  "source": "企业列表/ndxt45_constituents_20260501.csv",
+  "source_sha256": "b3fae76b96222be272482b147d167171451a3f014decb07b9588b58fcc3d8eaf",
+  "target": "事件集筛选/decisions/firm_universe_decisions.csv",
+  "target_sha256": "e408c5164cc6917e44bf010908a66285608ee794d4733492fd6b97088ad81c7f"
+}

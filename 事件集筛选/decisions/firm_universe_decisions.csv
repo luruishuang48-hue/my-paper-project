@@ -1,0 +1,46 @@
+ticker,company,gics_sector,source_index,index_tag,decision,reason
+ADBE,Adobe Inc.,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+AMD,Advanced Micro Devices,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+GOOGL,Alphabet Inc. (Class A),Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+GOOG,Alphabet Inc. (Class C),Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+ADI,Analog Devices,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+AAPL,Apple Inc.,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+AMAT,Applied Materials,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+APP,AppLovin,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+ARM,Arm Holdings,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+ASML,ASML Holding,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+ADSK,Autodesk,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+AVGO,Broadcom,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+CDNS,Cadence Design Systems,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+CTSH,Cognizant Technology Solutions Corporation,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+CRWD,CrowdStrike,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+DDOG,Datadog,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+DASH,DoorDash,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+FTNT,Fortinet,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+INTC,Intel,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+INTU,Intuit,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+KLAC,KLA Corporation,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+LRCX,Lam Research,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+MRVL,Marvell Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+META,Meta Platforms,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+MCHP,Microchip Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+MU,Micron Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+MSFT,Microsoft,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+MPWR,Monolithic Power Systems,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+NVDA,Nvidia,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+NXPI,NXP Semiconductors,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+PLTR,Palantir Technologies,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+PANW,Palo Alto Networks,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+PDD,PDD Holdings,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+QCOM,Qualcomm,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+ROP,Roper Technologies,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+SNDK,Sandisk,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+STX,Seagate Technology,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+SHOP,Shopify,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+MSTR,MicroStrategy,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+SNPS,Synopsys,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+TXN,Texas Instruments,Technology,NASDAQ-100 Technology Sector Index (NDXT) + SOX (via SOXX ETF holdings),ndxt_sox,include,NDXT constituent as of 2026-05-01; also included in the SOX/SOXX robustness sample
+TRI,Thomson Reuters,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+WDC,Western Digital,Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+WDAY,"Workday, Inc.",Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
+ZS,"Zscaler, Inc.",Technology,NASDAQ-100 Technology Sector Index (NDXT),ndxt_only,include,NDXT constituent as of 2026-05-01
